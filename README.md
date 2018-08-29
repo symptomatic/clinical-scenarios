@@ -7,7 +7,7 @@ http://wiki.hl7.org/index.php?title=Clinicians_on_FHIR_-_Jan_2018,_New_Orleans._
 http://wiki.hl7.org/index.php?title=201801_Care_Plan  
 
 
-#### Clone the Example Plugin      
+#### Installation  
 
 ```bash
 cd webapp/packages
