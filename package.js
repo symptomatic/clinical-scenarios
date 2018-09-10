@@ -17,6 +17,8 @@ Package.onUse(function(api) {
 
     api.addFiles('server/methods.js', 'server');
 
+    api.addFiles('data/example.scenario.json', ["server", "client"], {isAsset: true});   
+
     // api.mainModule('index.jsx', 'client');
 });
 
