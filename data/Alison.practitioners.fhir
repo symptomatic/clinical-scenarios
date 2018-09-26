@@ -1,0 +1,68 @@
+{
+  "resourceType": "Bundle",
+  "entry": [
+    {
+      "fullUrl": "/Practitioner/undefined",
+      "resource": {
+        "resourceType": "Practitioner",
+        "name": {
+          "resourceType": "HumanName",
+          "text": "Alison Camron"
+        },
+        "telecom": [
+          {
+            "resourceType": "ContactPoint",
+            "system": "phone",
+            "value": "773-555-1010",
+            "use": "",
+            "rank": 1
+          },
+          {
+            "resourceType": "ContactPoint",
+            "system": "email",
+            "value": "alison.camron@symptomatic.io",
+            "use": "",
+            "rank": 1
+          }
+        ],
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "use": "certficate",
+                "value": "",
+                "period": {
+                  "start": null,
+                  "end": null
+                }
+              }
+            ],
+            "issuer": {
+              "display": "American College of Emergency Physicians",
+              "reference": ""
+            },
+            "code": {
+              "coding": [
+                {
+                  "code": "ACEP-1019873"
+                }
+              ]
+            },
+            "period": {
+              "start": "2018-01-01T06:00:00.000Z",
+              "end": "2020-01-01T06:00:00.000Z"
+            }
+          }
+        ],
+        "address": [
+          {
+            "text": "5311 S. Ellis Ave",
+            "city": "Chicago",
+            "state": "IL",
+            "postalCode": "60618"
+          }
+        ]
+      }
+    }
+  ]
+}
