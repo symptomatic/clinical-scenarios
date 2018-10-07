@@ -1,0 +1,265 @@
+{
+  "resourceType": "Bundle",
+  "entry": [
+    {
+      "fullUrl": "/Observation/TvuX2kXom6hSvYhMs",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "preliminary",
+        "category": {
+          "text": "Complaint"
+        },
+        "effectiveDateTime": "2018-10-05T16:03:02.351Z",
+        "subject": {
+          "display": "Bob Anyman",
+          "reference": "/Patient/Anyman/Bob"
+        },
+        "performer": [],
+        "device": {
+          "display": "",
+          "reference": ""
+        },
+        "valueQuantity": {
+          "value": "",
+          "unit": "",
+          "system": "http://unitsofmeasure.org"
+        },
+        "valueString": "General fatigue"
+      }
+    },
+    {
+      "fullUrl": "/Observation/x7JRtwiGcxpFA7Psb",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "preliminary",
+        "category": {
+          "text": "Complaint"
+        },
+        "effectiveDateTime": "2018-10-05T16:03:35.687Z",
+        "subject": {
+          "display": "Bob Anyman",
+          "reference": "/Patient/Anyman/Bob"
+        },
+        "performer": [],
+        "device": {
+          "display": "",
+          "reference": ""
+        },
+        "valueQuantity": {
+          "value": "",
+          "unit": "",
+          "system": "http://unitsofmeasure.org"
+        },
+        "valueString": "Constant thirst"
+      }
+    },
+    {
+      "fullUrl": "/Observation/8y7MPgGCmx5CeZHqS",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "preliminary",
+        "category": {
+          "text": "Complaint"
+        },
+        "effectiveDateTime": "2018-10-05T16:04:17.589Z",
+        "subject": {
+          "display": "Bob Anyman",
+          "reference": "/Patient/Anyman/Bob"
+        },
+        "performer": [],
+        "device": {
+          "display": "",
+          "reference": ""
+        },
+        "valueQuantity": {
+          "value": "",
+          "unit": "",
+          "system": "http://unitsofmeasure.org"
+        },
+        "valueString": "Frequent urination"
+      }
+    },
+    {
+      "fullUrl": "/Observation/Z3WQTCWsnRMHwzygK",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "preliminary",
+        "category": {
+          "text": "Complaint"
+        },
+        "effectiveDateTime": "2018-10-05T16:05:02.753Z",
+        "subject": {
+          "display": "Bob Anyman",
+          "reference": "/Patient/Anyman/Bob"
+        },
+        "performer": [],
+        "device": {
+          "display": "",
+          "reference": ""
+        },
+        "valueQuantity": {
+          "value": "",
+          "unit": "",
+          "system": "http://unitsofmeasure.org"
+        },
+        "valueString": "Cold feet"
+      }
+    },
+    {
+      "fullUrl": "/Observation/ym9B2bdDJbHAKpyhF",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "category": {
+          "text": "Fasting Blood Glucose"
+        },
+        "effectiveDateTime": "2018-10-05T16:08:07.465Z",
+        "subject": {
+          "display": "Bob Anyman",
+          "reference": "/Patient/Anyman/Bob"
+        },
+        "performer": [],
+        "device": {
+          "display": "",
+          "reference": ""
+        },
+        "valueQuantity": {
+          "value": "163",
+          "unit": "mg/dl",
+          "system": "http://unitsofmeasure.org"
+        },
+        "valueString": ""
+      }
+    },
+    {
+      "fullUrl": "/Observation/WZoW2sj73yy7D7pnd",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "category": {
+          "text": "HbA1c"
+        },
+        "effectiveDateTime": "2018-10-05T16:09:33.924Z",
+        "subject": {
+          "display": "Bob Anyman",
+          "reference": "/Patient/Anyman/Bob"
+        },
+        "performer": [],
+        "device": {
+          "display": "",
+          "reference": ""
+        },
+        "valueQuantity": {
+          "value": "7.8",
+          "unit": "%",
+          "system": "http://unitsofmeasure.org"
+        },
+        "valueString": ""
+      }
+    },
+    {
+      "fullUrl": "/Observation/n6SyqiHGT8xwvYJLZ",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "category": {
+          "text": "Height"
+        },
+        "effectiveDateTime": "2018-10-05T16:10:14.868Z",
+        "subject": {
+          "display": "Bob Anyman",
+          "reference": "/Patient/Anyman/Bob"
+        },
+        "performer": [],
+        "device": {
+          "display": "",
+          "reference": ""
+        },
+        "valueQuantity": {
+          "value": "67",
+          "unit": "inches",
+          "system": "http://unitsofmeasure.org"
+        },
+        "valueString": ""
+      }
+    },
+    {
+      "fullUrl": "/Observation/hXcf7dFjizx8MxMqD",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "category": {
+          "text": "Weight"
+        },
+        "effectiveDateTime": "2018-10-05T16:11:03.223Z",
+        "subject": {
+          "display": "Bob Anyman",
+          "reference": "/Patient/Anyman/Bob"
+        },
+        "performer": [],
+        "device": {
+          "display": "",
+          "reference": ""
+        },
+        "valueQuantity": {
+          "value": "216",
+          "unit": "lbs",
+          "system": "http://unitsofmeasure.org"
+        },
+        "valueString": ""
+      }
+    },
+    {
+      "fullUrl": "/Observation/Gz6nXg5JFY33hQEX9",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "category": {
+          "text": "Blood Pressure"
+        },
+        "effectiveDateTime": "2018-10-05T16:11:48.290Z",
+        "subject": {
+          "display": "Bob Anyman",
+          "reference": "/Patient/Anyman/Bob"
+        },
+        "performer": [],
+        "device": {
+          "display": "",
+          "reference": ""
+        },
+        "valueQuantity": {
+          "value": "164/108",
+          "unit": "mm Hg",
+          "system": "http://unitsofmeasure.org"
+        },
+        "valueString": ""
+      }
+    },
+    {
+      "fullUrl": "/Observation/AEsJJuTPw657P6LEj",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "category": {
+          "text": "BMI"
+        },
+        "effectiveDateTime": "2018-10-05T16:12:26.875Z",
+        "subject": {
+          "display": "Bob Anyman",
+          "reference": "/Patient/Anyman/Bob"
+        },
+        "performer": [],
+        "device": {
+          "display": "",
+          "reference": ""
+        },
+        "valueQuantity": {
+          "value": "33",
+          "unit": "",
+          "system": "http://unitsofmeasure.org"
+        },
+        "valueString": ""
+      }
+    }
+  ]
+}

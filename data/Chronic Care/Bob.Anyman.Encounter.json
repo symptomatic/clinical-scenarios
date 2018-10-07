@@ -1,0 +1,60 @@
+
+
+
+
+
+      {
+        "resourceType": "Encounter",
+        "id": "Encounter/for/diabetes",
+        "identifier": [
+          {
+            "use": "temp",
+            "value": "Encounter/for/diabetes"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://hl7.org/fhir/v3/ActCode",
+          "code": "AMB",
+          "display": "ambulatory"
+        },
+        "subject": {
+          "reference": "Patient/Anyman/Bob",
+          "display": "Bob Anyman"
+        },
+        "participant": [
+          {
+            "individual": {
+              "reference": "Provider/Primary/Patricia"
+            }
+          }
+        ],
+        "length": {
+          "value": 20,
+          "unit": "minutes",
+          "system": "http://unitsofmeasure.org",
+          "code": "min"
+        },
+        "reason": [
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/encounter-primaryDiagnosis",
+                "valuePositiveInt": 2
+              }
+            ],
+            "text": "The patient has new onset diabetes type 2."
+          }
+        ],
+        "diagnosis": [
+          {
+            "condition": {
+                "reference": "Snomed-CT/44054006",
+              "display": "Diabetes Type 2"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "Organization/f201"
+        }
+      }

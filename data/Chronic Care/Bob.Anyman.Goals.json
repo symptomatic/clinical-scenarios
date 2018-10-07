@@ -1,0 +1,188 @@
+{
+  "resourceType": "Bundle",
+  "entry": [
+    {
+      "fullUrl": "/Composition/qE2cKcaPMtqGata3p",
+      "resource": {
+        "resourceType": "Composition",
+        "identifier": {},
+        "status": "preliminary",
+        "type": {},
+        "class": {},
+        "subject": {
+          "display": "Allison Camron",
+          "reference": "gkneWsGuDW5vE8Ryi"
+        },
+        "encounter": {
+          "display": "",
+          "reference": ""
+        },
+        "date": "<dateTime>",
+        "author": [
+          {
+            "display": "Allison Camron",
+            "reference": "gkneWsGuDW5vE8Ryi"
+          }
+        ],
+        "title": "Continuity of Care Document",
+        "confidentiality": "0",
+        "attester": [],
+        "custodian": {
+          "display": "",
+          "reference": ""
+        },
+        "relatesTo": [],
+        "event": [],
+        "section": [
+          {
+            "reference": "/Goal/7afmbB8HYhcNt2R4e"
+          },
+          {
+            "reference": "/Goal/cFiofX3mEeq9sCDpq"
+          },
+          {
+            "reference": "/Goal/4LzDoMCNzPhw6xncJ"
+          },
+          {
+            "reference": "/Goal/uLYQAaSNcyA353HtH"
+          },
+          {
+            "reference": "/Goal/QMp5ew6uTSbu5pQ4C"
+          },
+          {
+            "reference": "/Goal/Z8bznDhkG7g9dZ29Y"
+          },
+          {
+            "reference": "/Goal/zHDYtrFC5drLRnMEm"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "/Goal/7afmbB8HYhcNt2R4e",
+      "resource": {
+        "resourceType": "Goal",
+        "description": "Achieve blood glucose control – aiming at fasting blood glucose level below 108 mg/dl; HbA1c below 7%",
+        "priority": "medium",
+        "status": "planned",
+        "_id": "7afmbB8HYhcNt2R4e",
+        "_document": {
+          "resourceType": "Goal",
+          "description": "Achieve blood glucose control – aiming at fasting blood glucose level below 108 mg/dl; HbA1c below 7%",
+          "priority": "medium",
+          "status": "planned",
+          "_id": "7afmbB8HYhcNt2R4e"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Goal/cFiofX3mEeq9sCDpq",
+      "resource": {
+        "resourceType": "Goal",
+        "description": "Fasting blood glucose level below 108 mg/dl",
+        "priority": "medium",
+        "status": "planned",
+        "_id": "cFiofX3mEeq9sCDpq",
+        "_document": {
+          "resourceType": "Goal",
+          "description": "Fasting blood glucose level below 108 mg/dl",
+          "priority": "medium",
+          "status": "planned",
+          "_id": "cFiofX3mEeq9sCDpq"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Goal/4LzDoMCNzPhw6xncJ",
+      "resource": {
+        "resourceType": "Goal",
+        "description": "Conformance to optimized diabetic diet",
+        "priority": "medium",
+        "status": "planned",
+        "_id": "4LzDoMCNzPhw6xncJ",
+        "_document": {
+          "resourceType": "Goal",
+          "description": "Conformance to optimized diabetic diet",
+          "priority": "medium",
+          "status": "planned",
+          "_id": "4LzDoMCNzPhw6xncJ"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Goal/uLYQAaSNcyA353HtH",
+      "resource": {
+        "resourceType": "Goal",
+        "description": "Achieve 0.5% body weight reduction (on current weight of 204 lb) per week to 160-175lb (BMI 24-25))",
+        "priority": "medium",
+        "status": "planned",
+        "_id": "uLYQAaSNcyA353HtH",
+        "_document": {
+          "resourceType": "Goal",
+          "description": "Achieve 0.5% body weight reduction (on current weight of 204 lb) per week to 160-175lb (BMI 24-25))",
+          "priority": "medium",
+          "status": "planned",
+          "_id": "uLYQAaSNcyA353HtH"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Goal/QMp5ew6uTSbu5pQ4C",
+      "resource": {
+        "_id": "QMp5ew6uTSbu5pQ4C",
+        "resourceType": "Goal",
+        "description": "Improve and maintenance of optimal foot health; Prevention of diabetic foot ulcer, gangrene",
+        "priority": "medium",
+        "status": "planned",
+        "_document": {
+          "_id": "QMp5ew6uTSbu5pQ4C",
+          "resourceType": "Goal",
+          "description": "Improve and maintenance of optimal foot health; Prevention of diabetic foot ulcer, gangrene",
+          "priority": "medium",
+          "status": "planned",
+          "_document": {
+            "resourceType": "Goal",
+            "description": "Improve and maintenance of optimal foot health",
+            "priority": "medium",
+            "status": "planned",
+            "_id": "QMp5ew6uTSbu5pQ4C"
+          }
+        }
+      }
+    },
+    {
+      "fullUrl": "/Goal/Z8bznDhkG7g9dZ29Y",
+      "resource": {
+        "resourceType": "Goal",
+        "description": "Maintain blood pressure control with blood pressure readings below 140/90 mm Hg",
+        "priority": "medium",
+        "status": "planned",
+        "_id": "Z8bznDhkG7g9dZ29Y",
+        "_document": {
+          "resourceType": "Goal",
+          "description": "Maintain blood pressure control with blood pressure readings below 140/90 mm Hg",
+          "priority": "medium",
+          "status": "planned",
+          "_id": "Z8bznDhkG7g9dZ29Y"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Goal/zHDYtrFC5drLRnMEm",
+      "resource": {
+        "resourceType": "Goal",
+        "description": "Address patient knowledge deficit on diabetic self-care.",
+        "priority": "medium",
+        "status": "planned",
+        "_id": "zHDYtrFC5drLRnMEm",
+        "_document": {
+          "resourceType": "Goal",
+          "description": "Address patient knowledge deficit on diabetic self-care.",
+          "priority": "medium",
+          "status": "planned",
+          "_id": "zHDYtrFC5drLRnMEm"
+        }
+      }
+    }
+  ]
+}

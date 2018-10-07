@@ -1,0 +1,58 @@
+    {
+        "resourceType": "Condition",
+        "id": "Condition/Anyman/Bob/diabetes",
+        "clinicalStatus": "active",
+        "verificationStatus": "differential",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "55607006",
+                "display": "Problem"
+              },
+              {
+                "system": "http://hl7.org/fhir/condition-category",
+                "code": "problem-list-item"
+              }
+            ]
+          }
+        ],
+        "severity": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "24484000",
+              "display": "Severe"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes Type 2"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/Anyman/Bob",
+          "display": "Bob Anyman"
+        },
+        "context": {
+          "reference": "Encounter/for/diabetes",
+          "display": "Bob Anyman's encounter with Dr. Patricia Primary"
+        },
+        "onsetDateTime": "2018-09-16",
+        "abatementDateTime": "2018-09-16",
+        "assertedDate": "2018-09-16",
+        "asserter": {
+          "reference": "Provider/Primary/Patricia"
+        },
+        "note": [
+          {
+            "text": "The patient is now diagnosed with type 2 diabetes."
+          }]
+}
+       

@@ -1,0 +1,56 @@
+{
+  "resourceType": "Bundle",
+  "entry": [
+    {
+      "fullUrl": "/Medication/68382-185",
+      "resource": {
+        "resourceType": "Medication",
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/ndc",
+              "code": "68382-185",
+              "display": "Glipizide and Metformin Hydrochloride"
+            }
+          ]
+        },
+        "isBrand": true,
+        "manufacturer": {
+          "display": "Zydus Pharmaceuticals (USA) Inc.",
+          "reference": ""
+        },
+        "product": {
+          "form": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/ndc",
+                "code": "",
+                "display": "TABLET, FILM COATED"
+              }
+            ]
+          },
+          "ingredient": [
+            {
+              "item": {
+                "display": "GLIPIZIDE; METFORMIN HYDROCHLORIDE"
+              }
+            }
+          ]
+        },
+        "package": {
+          "container": {
+            "text": "bottle"
+          },
+          "content": [
+            {
+              "amount": {
+                "value": "5 mg/1, 500 mg/1",
+                "unit": "tablet"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,383 @@
+{
+  "resourceType": "Bundle",
+  "entry": [
+    {
+      "fullUrl": "/Practitioner/Feoc5kxiuXNrNThLy",
+      "resource": {
+        "resourceType": "Practitioner",
+        "name": {
+          "resourceType": "HumanName",
+          "text": "Dr. Patricia Primary"
+        },
+        "telecom": [
+          {
+            "resourceType": "ContactPoint",
+            "system": "phone",
+            "value": "773-555-8800",
+            "use": "",
+            "rank": 1
+          },
+          {
+            "resourceType": "ContactPoint",
+            "system": "email",
+            "value": "patricia@stjamesinfirmiry.com",
+            "use": "",
+            "rank": 1
+          }
+        ],
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "use": "certficate",
+                "value": "",
+                "period": {
+                  "start": null,
+                  "end": null
+                }
+              }
+            ],
+            "issuer": {
+              "display": "American College of Physicians",
+              "reference": ""
+            },
+            "code": {
+              "coding": [
+                {
+                  "code": "ACP-129333"
+                }
+              ]
+            },
+            "period": {
+              "start": "2012-01-01T05:00:00.000Z",
+              "end": "2022-01-01T05:00:00.000Z"
+            }
+          }
+        ],
+        "address": [
+          {
+            "text": "South Side",
+            "city": "Chicago",
+            "state": "IL",
+            "postalCode": "60637"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "/Practitioner/C29fChZwgftebDTN5",
+      "resource": {
+        "resourceType": "Practitioner",
+        "name": {
+          "resourceType": "HumanName",
+          "text": "Ms. Leanne Wells"
+        },
+        "telecom": [
+          {
+            "resourceType": "ContactPoint",
+            "system": "phone",
+            "value": "773-555-8805",
+            "use": "",
+            "rank": 1
+          },
+          {
+            "resourceType": "ContactPoint",
+            "system": "email",
+            "value": "leanne.wells@stjamesinfirmiry.com",
+            "use": "",
+            "rank": 1
+          }
+        ],
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "use": "certficate",
+                "value": "",
+                "period": {
+                  "start": null,
+                  "end": null
+                }
+              }
+            ],
+            "issuer": {
+              "display": "American Nurses Association",
+              "reference": ""
+            },
+            "code": {
+              "coding": [
+                {
+                  "code": "ANA-88402"
+                }
+              ]
+            },
+            "period": {
+              "start": "2015-01-01T05:00:00.000Z",
+              "end": "2020-01-01T05:00:00.000Z"
+            }
+          }
+        ],
+        "address": [
+          {
+            "text": "South Side",
+            "city": "Chicago",
+            "state": "IL",
+            "postalCode": "60637"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "/Practitioner/xjLK8JBF2jDk9XtnS",
+      "resource": {
+        "resourceType": "Practitioner",
+        "name": {
+          "resourceType": "HumanName",
+          "text": "Ms. Nutrish Foods"
+        },
+        "telecom": [
+          {
+            "resourceType": "ContactPoint",
+            "system": "phone",
+            "value": "773-555-8810",
+            "use": "",
+            "rank": 1
+          },
+          {
+            "resourceType": "ContactPoint",
+            "system": "email",
+            "value": "foods@stjamesinfirmary.com",
+            "use": "",
+            "rank": 1
+          }
+        ],
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "use": "certficate",
+                "value": "",
+                "period": {
+                  "start": null,
+                  "end": null
+                }
+              }
+            ],
+            "issuer": {
+              "display": "Academy of Nutrition and Dietetics",
+              "reference": ""
+            },
+            "code": {
+              "coding": [
+                {
+                  "code": "AND-1910902"
+                }
+              ]
+            },
+            "period": {
+              "start": "2015-01-01T05:00:00.000Z",
+              "end": "2020-01-01T05:00:00.000Z"
+            }
+          }
+        ],
+        "address": [
+          {
+            "text": "South Side",
+            "city": "Chicago",
+            "state": "IL",
+            "postalCode": "60637"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "/Practitioner/wiukuaKxikHdGsA9x",
+      "resource": {
+        "resourceType": "Practitioner",
+        "name": {
+          "resourceType": "HumanName",
+          "text": "Mr. Health Pills"
+        },
+        "telecom": [
+          {
+            "resourceType": "ContactPoint",
+            "system": "phone",
+            "value": "773-555-8230",
+            "use": "",
+            "rank": 1
+          },
+          {
+            "resourceType": "ContactPoint",
+            "system": "email",
+            "value": "pills@stjamesinfirmary.com",
+            "use": "",
+            "rank": 1
+          }
+        ],
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "use": "certficate",
+                "value": "",
+                "period": {
+                  "start": null,
+                  "end": null
+                }
+              }
+            ],
+            "issuer": {
+              "display": "College of Pharmacy",
+              "reference": ""
+            },
+            "code": {
+              "coding": [
+                {
+                  "code": "CP-292921"
+                }
+              ]
+            },
+            "period": {
+              "start": "2014-01-01T05:00:00.000Z",
+              "end": "2024-01-01T05:00:00.000Z"
+            }
+          }
+        ],
+        "address": [
+          {
+            "text": "South Side",
+            "city": "Chicago",
+            "state": "IL",
+            "postalCode": "60637"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "/Practitioner/Cxu5S5zkk7F8dyWMg",
+      "resource": {
+        "resourceType": "Practitioner",
+        "name": {
+          "resourceType": "HumanName",
+          "text": "Mr. Nat Foote"
+        },
+        "telecom": [
+          {
+            "resourceType": "ContactPoint",
+            "system": "phone",
+            "value": "773-555-8840",
+            "use": "",
+            "rank": 1
+          },
+          {
+            "resourceType": "ContactPoint",
+            "system": "email",
+            "value": "foote@stjamesinfirmary.com",
+            "use": "",
+            "rank": 1
+          }
+        ],
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "use": "certficate",
+                "value": "",
+                "period": {
+                  "start": null,
+                  "end": null
+                }
+              }
+            ],
+            "issuer": {
+              "display": "College of Podiatry",
+              "reference": ""
+            },
+            "code": {
+              "coding": [
+                {
+                  "code": "CPO-3448181"
+                }
+              ]
+            },
+            "period": {
+              "start": "2014-01-01T05:00:00.000Z",
+              "end": "2019-01-01T05:00:00.000Z"
+            }
+          }
+        ],
+        "address": [
+          {
+            "text": "South Side",
+            "city": "Chicago",
+            "state": "IL",
+            "postalCode": "60637"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "/Practitioner/mxXTRt5prAvZ638Ra",
+      "resource": {
+        "resourceType": "Practitioner",
+        "name": {
+          "resourceType": "HumanName",
+          "text": "Mr. Active Works"
+        },
+        "telecom": [
+          {
+            "resourceType": "ContactPoint",
+            "system": "phone",
+            "value": "773-555-8850",
+            "use": "",
+            "rank": 1
+          },
+          {
+            "resourceType": "ContactPoint",
+            "system": "email",
+            "value": "works@stjamesinfirmary.com",
+            "use": "",
+            "rank": 1
+          }
+        ],
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "use": "certficate",
+                "value": "",
+                "period": {
+                  "start": null,
+                  "end": null
+                }
+              }
+            ],
+            "issuer": {
+              "display": "American Physical Therapy Association",
+              "reference": ""
+            },
+            "code": {
+              "coding": [
+                {
+                  "code": "APTA-1292392"
+                }
+              ]
+            },
+            "period": {
+              "start": "2014-01-01T05:00:00.000Z",
+              "end": "2017-01-01T05:00:00.000Z"
+            }
+          }
+        ],
+        "address": [
+          {
+            "text": "South Side",
+            "city": "Chicago",
+            "state": "IL",
+            "postalCode": "60637"
+          }
+        ]
+      }
+    }
+  ]
+}

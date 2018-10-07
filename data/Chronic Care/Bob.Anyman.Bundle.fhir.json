@@ -1,0 +1,1264 @@
+{
+  "resourceType": "Bundle",
+  "entry": [
+    {
+      "fullUrl": "/Composition/12345",
+      "resource": {
+        "resourceType": "Composition",
+        "identifier": {},
+        "status": "preliminary",
+        "type": {},
+        "class": {},
+        "subject": {
+          "display": "Bob Anyman",
+          "reference": "12345"
+        },
+        "encounter": {
+          "display": "",
+          "reference": ""
+        },
+        "date": "<dateTime>",
+        "author": [
+          {
+            "display": "Bob Anyman",
+            "reference": "12345"
+          }
+        ],
+        "title": "Continuity of Care Document",
+        "confidentiality": "0",
+        "attester": [],
+        "custodian": {
+          "display": "",
+          "reference": ""
+        },
+        "relatesTo": [],
+        "event": [],
+        "section": [{
+      		"reference": "/Patient/Anyman/Bob"
+    	   },{
+          "reference": "/Condition/38341003"
+         },{
+          "reference": "/Condition/44054006"
+         },{
+          "reference": "/Condition/13644009"
+         },{
+          "reference": "/Goal/7afmbB8HYhcNt2R4e"
+         },{
+          "reference": "/Goal/cFiofX3mEeq9sCDpq"
+         },{
+          "reference": "/Goal/4LzDoMCNzPhw6xncJ"
+         },{
+          "reference": "/Goal/uLYQAaSNcyA353HtH"
+         },{
+          "reference": "/Goal/QMp5ew6uTSbu5pQ4C"
+         },{
+          "reference": "/Goal/Z8bznDhkG7g9dZ29Y"
+         },{
+          "reference": "/Goal/zHDYtrFC5drLRnMEm"
+        },{
+          "reference": "/Practitioner/Feoc5kxiuXNrNThLy"
+        },{
+          "reference": "/Practitioner/C29fChZwgftebDTN5"
+        },{
+          "reference": "/Practitioner/xjLK8JBF2jDk9XtnS"
+        },{
+          "reference": "/Practitioner/wiukuaKxikHdGsA9x"
+        },{
+          "reference": "/Practitioner/Cxu5S5zkk7F8dyWMg"
+        },{
+          "reference": "/Practitioner/mxXTRt5prAvZ638Ra"
+        },{
+          "reference": "/Medication/68382-185"
+        },{
+          "reference": "/Observation/TvuX2kXom6hSvYhMs"
+        },{
+          "reference": "/Observation/x7JRtwiGcxpFA7Psb"
+        },{
+          "reference": "/Observation/8y7MPgGCmx5CeZHqS"
+        },{
+          "reference": "/Observation/Z3WQTCWsnRMHwzygK"
+        },{
+          "reference": "/Observation/ym9B2bdDJbHAKpyhF"
+        },{
+          "reference": "/Observation/WZoW2sj73yy7D7pnd"
+        },{
+          "reference": "/Observation/n6SyqiHGT8xwvYJLZ"
+        },{
+          "reference": "/Observation/hXcf7dFjizx8MxMqD"
+        },{
+          "reference": "/Observation/Gz6nXg5JFY33hQEX9"
+        },{
+          "reference": "/Observation/AEsJJuTPw657P6LEj"
+        }]
+      }
+    },
+    {
+      "fullUrl":"/Patient/Anyman/Bob",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "/Patient/Anyman/Bob",
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Anyman",
+            "given": [
+              "Robert"
+            ]
+          },
+          {
+            "use": "usual",
+            "given": [
+              "Bob"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "use": "home"
+          },
+          {
+            "system": "phone",
+            "value": "(+1) 555 6473",
+            "use": "work",
+            "rank": 1
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1954-09-17",
+        "deceasedBoolean": false
+      }
+    },
+    {
+      "fullUrl": "/Condition/13644009",
+      "resource": {
+        "resourceType": "Condition",
+        "patient": {
+          "reference": "",
+          "display": "Bob Anyman"
+        },
+        "asserter": {
+          "reference": "",
+          "display": "Patricia Primary"
+        },
+        "dateRecorded": null,
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "13644009",
+              "display": "Hypercholesterolemia"
+            }
+          ]
+        },
+        "clinicalStatus": "active",
+        "verificationStatus": "provisional",
+        "evidence": [],
+        "onsetDateTime": "2015-01-01"
+      }
+    },
+    {
+      "fullUrl": "/Condition/44054006",
+      "resource": {
+        "resourceType": "Condition",
+        "patient": {
+          "reference": "",
+          "display": "Bob Anyman"
+        },
+        "asserter": {
+          "reference": "",
+          "display": "Patricia Primary"
+        },
+        "dateRecorded": null,
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Type II Diabetes Mellitus"
+            }
+          ]
+        },
+        "clinicalStatus": "active",
+        "verificationStatus": "confirmed",
+        "evidence": [],
+        "onsetDateTime": "2015-09-09"
+      }
+    },
+    {
+      "fullUrl": "/Condition/38341003",
+      "resource": {
+        "resourceType": "Condition",
+        "patient": {
+          "reference": "",
+          "display": "Bob Anyman"
+        },
+        "asserter": {
+          "reference": "",
+          "display": "Patricia Primary"
+        },
+        "dateRecorded": null,
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "38341003",
+              "display": "Hypertension"
+            }
+          ]
+        },
+        "clinicalStatus": "active",
+        "verificationStatus": "provisional",
+        "evidence": [],
+        "onsetDateTime": "2015-04-01"
+      }
+    },
+    {
+  	  "fullUrl":"/Encounter/12345",
+	    "resource": {
+        "resourceType": "Encounter",
+        "id": "Encounter/for/diabetes",
+        "identifier": [
+          {
+            "use": "temp",
+            "value": "Encounter/for/diabetes"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://hl7.org/fhir/v3/ActCode",
+          "code": "AMB",
+          "display": "ambulatory"
+        },
+        "subject": {
+          "reference": "Patient/Anyman/Bob",
+          "display": "Bob Anyman"
+        },
+        "participant": [
+          {
+            "individual": {
+              "reference": "Provider/Primary/Patricia"
+            }
+          }
+        ],
+        "length": {
+          "value": 20,
+          "unit": "minutes",
+          "system": "http://unitsofmeasure.org",
+          "code": "min"
+        },
+        "reason": [
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/encounter-primaryDiagnosis",
+                "valuePositiveInt": 2
+              }
+            ],
+            "text": "The patient has new onset diabetes type 2."
+          }
+        ],
+        "diagnosis": [
+          {
+            "condition": {
+                "reference": "Snomed-CT/44054006",
+              "display": "Diabetes Type 2"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "Organization/f201"
+        }
+      }  
+    },
+    {
+    	"fullUrl":"/CarePlan/12345",
+	    "resource": {
+        "resourceType": "CarePlan",
+        "id": "CarePlan/Anyman/Bob/diabetes",
+        "contained": [
+          {
+            "resourceType": "Condition",
+            "id": "Condition/Anyman/Bob/diabetes",
+            "clinicalStatus": "active",
+            "verificationStatus": "confirmed",
+            "code": {
+              "text": "Obesity"
+            },
+            "subject": {
+              "reference": "Patient/Anyman/Bob",
+              "display": "Bob Anyman"
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "value": "12345"
+          }
+        ],
+        "definition": [
+          {
+            "display": "A PlanDefinition protocol for obesity"
+          }
+        ],
+        "basedOn": [
+          {
+            "display": "Management of Type 2 Diabetes"
+          }
+        ],
+        "partOf": [
+          {
+            "display": "Overall wellness plan"
+          }
+        ],
+        "status": "active",
+        "intent": "plan",
+        "category": [
+          {
+            "text": "Weight management plan"
+          }
+        ],
+        "description": "Reverse diabetes through dietary change",
+        "subject": {
+          "reference": "Patient/Anyman/Bob",
+          "display": "Bob Anyman"
+        },
+        "context": {
+          "reference": "Encounter/Anyman/Bob/diabetes"
+        },
+        "period": {
+          "start": "2015-09-14",
+          "end": "2018-12-31"
+        },
+        "author": [
+          {
+            "reference": "Practitioner/Primary/Patricia",
+            "display": "Dr Patricia Primary"
+          }
+        ],
+        "careTeam": [
+          {
+            "reference": "CareTeam/Primary"
+          }
+        ],
+        "goal": [
+          {
+            "reference": "Goal/Anyman/Bob/diet/plant-based"
+          }
+        ],
+        "activity": [
+          {
+            "outcomeCodeableConcept": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "161832001",
+                    "display": "Progressive weight loss"
+                  }
+                ]
+              }
+            ],
+            "outcomeReference": [
+              {
+                "reference": "Observation/example",
+                "display": "Weight Measured"
+              }
+            ],
+            "detail": {
+              "category": {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/care-plan-activity-category",
+                    "code": "observation"
+                  }
+                ]
+              },
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "3141-9",
+                    "display": "Weight Measured"
+                  },
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "27113001",
+                    "display": "Body weight"
+                  }
+                ]
+              },
+              "status": "completed",
+              "statusReason": "Achieved weight loss to mitigate diabetes risk.",
+              "prohibited": false,
+              "scheduledTiming": {
+                "repeat": {
+                  "frequency": 1,
+                  "period": 1,
+                  "periodUnit": "d"
+                }
+              },
+              "location": {
+                "display": "Patient's home"
+              },
+              "performer": [
+                {
+                  "reference": "Patient/Anyman/Bob",
+                  "display": "Bob Anyman"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "/Goal/7afmbB8HYhcNt2R4e",
+      "resource": {
+        "resourceType": "Goal",
+        "description": "Achieve blood glucose control – aiming at fasting blood glucose level below 108 mg/dl; HbA1c below 7%",
+        "priority": "medium",
+        "status": "planned",
+        "_id": "7afmbB8HYhcNt2R4e",
+        "_document": {
+          "resourceType": "Goal",
+          "description": "Achieve blood glucose control – aiming at fasting blood glucose level below 108 mg/dl; HbA1c below 7%",
+          "priority": "medium",
+          "status": "planned",
+          "_id": "7afmbB8HYhcNt2R4e"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Goal/cFiofX3mEeq9sCDpq",
+      "resource": {
+        "resourceType": "Goal",
+        "description": "Fasting blood glucose level below 108 mg/dl",
+        "priority": "medium",
+        "status": "planned",
+        "_id": "cFiofX3mEeq9sCDpq",
+        "_document": {
+          "resourceType": "Goal",
+          "description": "Fasting blood glucose level below 108 mg/dl",
+          "priority": "medium",
+          "status": "planned",
+          "_id": "cFiofX3mEeq9sCDpq"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Goal/4LzDoMCNzPhw6xncJ",
+      "resource": {
+        "resourceType": "Goal",
+        "description": "Conformance to optimized diabetic diet",
+        "priority": "medium",
+        "status": "planned",
+        "_id": "4LzDoMCNzPhw6xncJ",
+        "_document": {
+          "resourceType": "Goal",
+          "description": "Conformance to optimized diabetic diet",
+          "priority": "medium",
+          "status": "planned",
+          "_id": "4LzDoMCNzPhw6xncJ"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Goal/uLYQAaSNcyA353HtH",
+      "resource": {
+        "resourceType": "Goal",
+        "description": "Achieve 0.5% body weight reduction (on current weight of 204 lb) per week to 160-175lb (BMI 24-25))",
+        "priority": "medium",
+        "status": "planned",
+        "_id": "uLYQAaSNcyA353HtH",
+        "_document": {
+          "resourceType": "Goal",
+          "description": "Achieve 0.5% body weight reduction (on current weight of 204 lb) per week to 160-175lb (BMI 24-25))",
+          "priority": "medium",
+          "status": "planned",
+          "_id": "uLYQAaSNcyA353HtH"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Goal/QMp5ew6uTSbu5pQ4C",
+      "resource": {
+        "_id": "QMp5ew6uTSbu5pQ4C",
+        "resourceType": "Goal",
+        "description": "Improve and maintenance of optimal foot health; Prevention of diabetic foot ulcer, gangrene",
+        "priority": "medium",
+        "status": "planned",
+        "_document": {
+          "_id": "QMp5ew6uTSbu5pQ4C",
+          "resourceType": "Goal",
+          "description": "Improve and maintenance of optimal foot health; Prevention of diabetic foot ulcer, gangrene",
+          "priority": "medium",
+          "status": "planned",
+          "_document": {
+            "resourceType": "Goal",
+            "description": "Improve and maintenance of optimal foot health",
+            "priority": "medium",
+            "status": "planned",
+            "_id": "QMp5ew6uTSbu5pQ4C"
+          }
+        }
+      }
+    },
+    {
+      "fullUrl": "/Goal/Z8bznDhkG7g9dZ29Y",
+      "resource": {
+        "resourceType": "Goal",
+        "description": "Maintain blood pressure control with blood pressure readings below 140/90 mm Hg",
+        "priority": "medium",
+        "status": "planned",
+        "_id": "Z8bznDhkG7g9dZ29Y",
+        "_document": {
+          "resourceType": "Goal",
+          "description": "Maintain blood pressure control with blood pressure readings below 140/90 mm Hg",
+          "priority": "medium",
+          "status": "planned",
+          "_id": "Z8bznDhkG7g9dZ29Y"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Goal/zHDYtrFC5drLRnMEm",
+      "resource": {
+        "resourceType": "Goal",
+        "description": "Address patient knowledge deficit on diabetic self-care.",
+        "priority": "medium",
+        "status": "planned",
+        "_id": "zHDYtrFC5drLRnMEm",
+        "_document": {
+          "resourceType": "Goal",
+          "description": "Address patient knowledge deficit on diabetic self-care.",
+          "priority": "medium",
+          "status": "planned",
+          "_id": "zHDYtrFC5drLRnMEm"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Practitioner/Feoc5kxiuXNrNThLy",
+      "resource": {
+        "resourceType": "Practitioner",
+        "name": {
+          "resourceType": "HumanName",
+          "text": "Dr. Patricia Primary"
+        },
+        "telecom": [
+          {
+            "resourceType": "ContactPoint",
+            "system": "phone",
+            "value": "773-555-8800",
+            "use": "",
+            "rank": 1
+          },
+          {
+            "resourceType": "ContactPoint",
+            "system": "email",
+            "value": "patricia@stjamesinfirmiry.com",
+            "use": "",
+            "rank": 1
+          }
+        ],
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "use": "certficate",
+                "value": "",
+                "period": {
+                  "start": null,
+                  "end": null
+                }
+              }
+            ],
+            "issuer": {
+              "display": "American College of Physicians",
+              "reference": ""
+            },
+            "code": {
+              "coding": [
+                {
+                  "code": "ACP-129333"
+                }
+              ]
+            },
+            "period": {
+              "start": "2012-01-01T05:00:00.000Z",
+              "end": "2022-01-01T05:00:00.000Z"
+            }
+          }
+        ],
+        "address": [
+          {
+            "text": "South Side",
+            "city": "Chicago",
+            "state": "IL",
+            "postalCode": "60637"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "/Practitioner/C29fChZwgftebDTN5",
+      "resource": {
+        "resourceType": "Practitioner",
+        "name": {
+          "resourceType": "HumanName",
+          "text": "Ms. Leanne Wells"
+        },
+        "telecom": [
+          {
+            "resourceType": "ContactPoint",
+            "system": "phone",
+            "value": "773-555-8805",
+            "use": "",
+            "rank": 1
+          },
+          {
+            "resourceType": "ContactPoint",
+            "system": "email",
+            "value": "leanne.wells@stjamesinfirmiry.com",
+            "use": "",
+            "rank": 1
+          }
+        ],
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "use": "certficate",
+                "value": "",
+                "period": {
+                  "start": null,
+                  "end": null
+                }
+              }
+            ],
+            "issuer": {
+              "display": "American Nurses Association",
+              "reference": ""
+            },
+            "code": {
+              "coding": [
+                {
+                  "code": "ANA-88402"
+                }
+              ]
+            },
+            "period": {
+              "start": "2015-01-01T05:00:00.000Z",
+              "end": "2020-01-01T05:00:00.000Z"
+            }
+          }
+        ],
+        "address": [
+          {
+            "text": "South Side",
+            "city": "Chicago",
+            "state": "IL",
+            "postalCode": "60637"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "/Practitioner/xjLK8JBF2jDk9XtnS",
+      "resource": {
+        "resourceType": "Practitioner",
+        "name": {
+          "resourceType": "HumanName",
+          "text": "Ms. Nutrish Foods"
+        },
+        "telecom": [
+          {
+            "resourceType": "ContactPoint",
+            "system": "phone",
+            "value": "773-555-8810",
+            "use": "",
+            "rank": 1
+          },
+          {
+            "resourceType": "ContactPoint",
+            "system": "email",
+            "value": "foods@stjamesinfirmary.com",
+            "use": "",
+            "rank": 1
+          }
+        ],
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "use": "certficate",
+                "value": "",
+                "period": {
+                  "start": null,
+                  "end": null
+                }
+              }
+            ],
+            "issuer": {
+              "display": "Academy of Nutrition and Dietetics",
+              "reference": ""
+            },
+            "code": {
+              "coding": [
+                {
+                  "code": "AND-1910902"
+                }
+              ]
+            },
+            "period": {
+              "start": "2015-01-01T05:00:00.000Z",
+              "end": "2020-01-01T05:00:00.000Z"
+            }
+          }
+        ],
+        "address": [
+          {
+            "text": "South Side",
+            "city": "Chicago",
+            "state": "IL",
+            "postalCode": "60637"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "/Practitioner/wiukuaKxikHdGsA9x",
+      "resource": {
+        "resourceType": "Practitioner",
+        "name": {
+          "resourceType": "HumanName",
+          "text": "Mr. Health Pills"
+        },
+        "telecom": [
+          {
+            "resourceType": "ContactPoint",
+            "system": "phone",
+            "value": "773-555-8230",
+            "use": "",
+            "rank": 1
+          },
+          {
+            "resourceType": "ContactPoint",
+            "system": "email",
+            "value": "pills@stjamesinfirmary.com",
+            "use": "",
+            "rank": 1
+          }
+        ],
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "use": "certficate",
+                "value": "",
+                "period": {
+                  "start": null,
+                  "end": null
+                }
+              }
+            ],
+            "issuer": {
+              "display": "College of Pharmacy",
+              "reference": ""
+            },
+            "code": {
+              "coding": [
+                {
+                  "code": "CP-292921"
+                }
+              ]
+            },
+            "period": {
+              "start": "2014-01-01T05:00:00.000Z",
+              "end": "2024-01-01T05:00:00.000Z"
+            }
+          }
+        ],
+        "address": [
+          {
+            "text": "South Side",
+            "city": "Chicago",
+            "state": "IL",
+            "postalCode": "60637"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "/Practitioner/Cxu5S5zkk7F8dyWMg",
+      "resource": {
+        "resourceType": "Practitioner",
+        "name": {
+          "resourceType": "HumanName",
+          "text": "Mr. Nat Foote"
+        },
+        "telecom": [
+          {
+            "resourceType": "ContactPoint",
+            "system": "phone",
+            "value": "773-555-8840",
+            "use": "",
+            "rank": 1
+          },
+          {
+            "resourceType": "ContactPoint",
+            "system": "email",
+            "value": "foote@stjamesinfirmary.com",
+            "use": "",
+            "rank": 1
+          }
+        ],
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "use": "certficate",
+                "value": "",
+                "period": {
+                  "start": null,
+                  "end": null
+                }
+              }
+            ],
+            "issuer": {
+              "display": "College of Podiatry",
+              "reference": ""
+            },
+            "code": {
+              "coding": [
+                {
+                  "code": "CPO-3448181"
+                }
+              ]
+            },
+            "period": {
+              "start": "2014-01-01T05:00:00.000Z",
+              "end": "2019-01-01T05:00:00.000Z"
+            }
+          }
+        ],
+        "address": [
+          {
+            "text": "South Side",
+            "city": "Chicago",
+            "state": "IL",
+            "postalCode": "60637"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "/Practitioner/mxXTRt5prAvZ638Ra",
+      "resource": {
+        "resourceType": "Practitioner",
+        "name": {
+          "resourceType": "HumanName",
+          "text": "Mr. Active Works"
+        },
+        "telecom": [
+          {
+            "resourceType": "ContactPoint",
+            "system": "phone",
+            "value": "773-555-8850",
+            "use": "",
+            "rank": 1
+          },
+          {
+            "resourceType": "ContactPoint",
+            "system": "email",
+            "value": "works@stjamesinfirmary.com",
+            "use": "",
+            "rank": 1
+          }
+        ],
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "use": "certficate",
+                "value": "",
+                "period": {
+                  "start": null,
+                  "end": null
+                }
+              }
+            ],
+            "issuer": {
+              "display": "American Physical Therapy Association",
+              "reference": ""
+            },
+            "code": {
+              "coding": [
+                {
+                  "code": "APTA-1292392"
+                }
+              ]
+            },
+            "period": {
+              "start": "2014-01-01T05:00:00.000Z",
+              "end": "2017-01-01T05:00:00.000Z"
+            }
+          }
+        ],
+        "address": [
+          {
+            "text": "South Side",
+            "city": "Chicago",
+            "state": "IL",
+            "postalCode": "60637"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "/Medication/68382-185",
+      "resource": {
+        "resourceType": "Medication",
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/ndc",
+              "code": "68382-185",
+              "display": "Glipizide and Metformin Hydrochloride"
+            }
+          ]
+        },
+        "isBrand": true,
+        "manufacturer": {
+          "display": "Zydus Pharmaceuticals (USA) Inc.",
+          "reference": ""
+        },
+        "product": {
+          "form": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/ndc",
+                "code": "",
+                "display": "TABLET, FILM COATED"
+              }
+            ]
+          },
+          "ingredient": [
+            {
+              "item": {
+                "display": "GLIPIZIDE; METFORMIN HYDROCHLORIDE"
+              }
+            }
+          ]
+        },
+        "package": {
+          "container": {
+            "text": "bottle"
+          },
+          "content": [
+            {
+              "amount": {
+                "value": "5 mg/1, 500 mg/1",
+                "unit": "tablet"
+              }
+            }
+          ]
+        }
+      }
+    }, 
+    {
+      "fullUrl": "/Observation/TvuX2kXom6hSvYhMs",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "preliminary",
+        "category": {
+          "text": "Complaint"
+        },
+        "effectiveDateTime": "2015-03-01T16:03:02.351Z",
+        "subject": {
+          "display": "Bob Anyman",
+          "reference": "/Patient/Anyman/Bob"
+        },
+        "performer": [],
+        "device": {
+          "display": "",
+          "reference": ""
+        },
+        "valueQuantity": {
+          "value": "",
+          "unit": "",
+          "system": "http://unitsofmeasure.org"
+        },
+        "valueString": "",
+        "code": {
+          "text": "General fatigue"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Observation/x7JRtwiGcxpFA7Psb",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "preliminary",
+        "category": {
+          "text": "Complaint"
+        },
+        "effectiveDateTime": "2015-04-01T16:03:35.687Z",
+        "subject": {
+          "display": "Bob Anyman",
+          "reference": "/Patient/Anyman/Bob"
+        },
+        "performer": [],
+        "device": {
+          "display": "",
+          "reference": ""
+        },
+        "valueQuantity": {
+          "value": "",
+          "unit": "",
+          "system": "http://unitsofmeasure.org"
+        },
+        "valueString": "",
+        "code": {
+          "text": "Constant thirst"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Observation/8y7MPgGCmx5CeZHqS",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "preliminary",
+        "category": {
+          "text": "Complaint"
+        },
+        "effectiveDateTime": "2015-05-01T16:04:17.589Z",
+        "subject": {
+          "display": "Bob Anyman",
+          "reference": "/Patient/Anyman/Bob"
+        },
+        "performer": [],
+        "device": {
+          "display": "",
+          "reference": ""
+        },
+        "valueQuantity": {
+          "value": "",
+          "unit": "",
+          "system": "http://unitsofmeasure.org"
+        },
+        "valueString": "",
+        "code": {
+          "text": "Frequent urination"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Observation/Z3WQTCWsnRMHwzygK",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "preliminary",
+        "category": {
+          "text": "Complaint"
+        },
+        "effectiveDateTime": "2015-06-01T16:05:02.753Z",
+        "subject": {
+          "display": "Bob Anyman",
+          "reference": "/Patient/Anyman/Bob"
+        },
+        "performer": [],
+        "device": {
+          "display": "",
+          "reference": ""
+        },
+        "valueQuantity": {
+          "value": "",
+          "unit": "",
+          "system": "http://unitsofmeasure.org"
+        },
+        "valueString": "",
+        "code": {
+          "text": "Cold feet"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Observation/ym9B2bdDJbHAKpyhF",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "category": {
+          "text": "Biomarkers"
+        },
+        "effectiveDateTime": "2015-09-14T16:08:07.465Z",
+        "subject": {
+          "display": "Bob Anyman",
+          "reference": "/Patient/Anyman/Bob"
+        },
+        "performer": [],
+        "device": {
+          "display": "",
+          "reference": ""
+        },
+        "valueQuantity": {
+          "value": "163",
+          "unit": "mg/dl",
+          "system": "http://unitsofmeasure.org"
+        },
+        "valueString": "",
+        "code": {
+          "text": "Fasting Blood Glucose"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Observation/WZoW2sj73yy7D7pnd",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "category": {
+          "text": "Biomarkers"
+        },
+        "effectiveDateTime": "2015-09-14T16:09:33.924Z",
+        "subject": {
+          "display": "Bob Anyman",
+          "reference": "/Patient/Anyman/Bob"
+        },
+        "performer": [],
+        "device": {
+          "display": "",
+          "reference": ""
+        },
+        "valueQuantity": {
+          "value": "7.8",
+          "unit": "%",
+          "system": "http://unitsofmeasure.org"
+        },
+        "valueString": "",
+        "code": {
+          "text": "HbA1c"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Observation/n6SyqiHGT8xwvYJLZ",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "category": {
+          "text": "Biomarkers"
+        },
+        "effectiveDateTime": "2015-09-09T16:10:14.868Z",
+        "subject": {
+          "display": "Bob Anyman",
+          "reference": "/Patient/Anyman/Bob"
+        },
+        "performer": [],
+        "device": {
+          "display": "",
+          "reference": ""
+        },
+        "valueQuantity": {
+          "value": "67",
+          "unit": "inches",
+          "system": "http://unitsofmeasure.org"
+        },
+        "valueString": "",
+        "code": {
+          "text": "Height"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Observation/hXcf7dFjizx8MxMqD",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "category": {
+          "text": "Biomarkers"
+        },
+        "effectiveDateTime": "2015-09-09T16:11:03.223Z",
+        "subject": {
+          "display": "Bob Anyman",
+          "reference": "/Patient/Anyman/Bob"
+        },
+        "performer": [],
+        "device": {
+          "display": "",
+          "reference": ""
+        },
+        "valueQuantity": {
+          "value": "216",
+          "unit": "lbs",
+          "system": "http://unitsofmeasure.org"
+        },
+        "valueString": "",
+        "code": {
+          "text": "Weight"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Observation/Gz6nXg5JFY33hQEX9",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "category": {
+          "text": "Vital Signs"
+        },
+        "effectiveDateTime": "2015-09-09T16:11:48.290Z",
+        "subject": {
+          "display": "Bob Anyman",
+          "reference": "/Patient/Anyman/Bob"
+        },
+        "performer": [],
+        "device": {
+          "display": "",
+          "reference": ""
+        },
+        "valueQuantity": {
+          "value": "164/108",
+          "unit": "mm Hg",
+          "system": "http://unitsofmeasure.org"
+        },
+        "valueString": "",
+        "code": {
+          "text": "Blood Pressure"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Observation/AEsJJuTPw657P6LEj",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "category": {
+          "text": "Biomarkers"
+        },
+        "effectiveDateTime": "2015-09-09T16:12:26.875Z",
+        "subject": {
+          "display": "Bob Anyman",
+          "reference": "/Patient/Anyman/Bob"
+        },
+        "performer": [],
+        "device": {
+          "display": "",
+          "reference": ""
+        },
+        "valueQuantity": {
+          "value": "33",
+          "unit": "",
+          "system": "http://unitsofmeasure.org"
+        },
+        "valueString": "",
+        "code": {
+          "text": "BMI"
+        }
+
+      }
+    }
+
+
+  ]
+}

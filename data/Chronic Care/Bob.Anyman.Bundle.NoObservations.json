@@ -1,0 +1,480 @@
+{
+  "resourceType": "Bundle",
+  "entry": [
+    {
+      "fullUrl": "/Composition/12345",
+      "resource": {
+        "resourceType": "Composition",
+        "identifier": {},
+        "status": "preliminary",
+        "type": {},
+        "class": {},
+        "subject": {
+          "display": "Bob Anyman",
+          "reference": "12345"
+        },
+        "encounter": {
+          "display": "",
+          "reference": ""
+        },
+        "date": "<dateTime>",
+        "author": [
+          {
+            "display": "Bob Anyman",
+            "reference": "12345"
+          }
+        ],
+        "title": "Continuity of Care Document",
+        "confidentiality": "0",
+        "attester": [],
+        "custodian": {
+          "display": "",
+          "reference": ""
+        },
+        "relatesTo": [],
+        "event": [],
+        "section": [{
+      		"reference": "/Patient/Anyman/Bob"
+    	   },{
+          "reference": "/Condition/38341003"
+         },{
+          "reference": "/Condition/44054006"
+         },{
+          "reference": "/Condition/13644009"
+         },{
+          "reference": "/Goal/7afmbB8HYhcNt2R4e"
+         },{
+          "reference": "/Goal/cFiofX3mEeq9sCDpq"
+         },{
+          "reference": "/Goal/4LzDoMCNzPhw6xncJ"
+         },{
+          "reference": "/Goal/uLYQAaSNcyA353HtH"
+         },{
+          "reference": "/Goal/QMp5ew6uTSbu5pQ4C"
+         },{
+          "reference": "/Goal/Z8bznDhkG7g9dZ29Y"
+         },{
+          "reference": "/Goal/zHDYtrFC5drLRnMEm"
+        },{
+          "reference": "/Practitioner/Feoc5kxiuXNrNThLy"
+        },{
+          "reference": "/Practitioner/C29fChZwgftebDTN5"
+        },{
+          "reference": "/Practitioner/xjLK8JBF2jDk9XtnS"
+        },{
+          "reference": "/Practitioner/wiukuaKxikHdGsA9x"
+        },{
+          "reference": "/Practitioner/Cxu5S5zkk7F8dyWMg"
+        },{
+          "reference": "/Practitioner/mxXTRt5prAvZ638Ra"
+        },{
+          "reference": "/Medication/68382-185"
+        },{
+          "reference": "/Observation/TvuX2kXom6hSvYhMs"
+        },{
+          "reference": "/Observation/x7JRtwiGcxpFA7Psb"
+        },{
+          "reference": "/Observation/8y7MPgGCmx5CeZHqS"
+        },{
+          "reference": "/Observation/Z3WQTCWsnRMHwzygK"
+        },{
+          "reference": "/Observation/ym9B2bdDJbHAKpyhF"
+        },{
+          "reference": "/Observation/WZoW2sj73yy7D7pnd"
+        },{
+          "reference": "/Observation/n6SyqiHGT8xwvYJLZ"
+        },{
+          "reference": "/Observation/hXcf7dFjizx8MxMqD"
+        },{
+          "reference": "/Observation/Gz6nXg5JFY33hQEX9"
+        },{
+          "reference": "/Observation/AEsJJuTPw657P6LEj"
+        }]
+      }
+    },
+    {
+      "fullUrl":"/Patient/Anyman/Bob",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "/Patient/Anyman/Bob",
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Anyman",
+            "given": [
+              "Robert"
+            ]
+          },
+          {
+            "use": "usual",
+            "given": [
+              "Bob"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "use": "home"
+          },
+          {
+            "system": "phone",
+            "value": "(+1) 555 6473",
+            "use": "work",
+            "rank": 1
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1954-09-17",
+        "deceasedBoolean": false
+      }
+    },
+    {
+      "fullUrl": "/Condition/13644009",
+      "resource": {
+        "resourceType": "Condition",
+        "patient": {
+          "reference": "",
+          "display": "Bob Anyman"
+        },
+        "asserter": {
+          "reference": "",
+          "display": "Patricia Primary"
+        },
+        "dateRecorded": null,
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "13644009",
+              "display": "Hypercholesterolemia"
+            }
+          ]
+        },
+        "clinicalStatus": "active",
+        "verificationStatus": "provisional",
+        "evidence": [],
+        "onsetDateTime": null
+      }
+    },
+    {
+      "fullUrl": "/Condition/44054006",
+      "resource": {
+        "resourceType": "Condition",
+        "patient": {
+          "reference": "",
+          "display": "Bob Anyman"
+        },
+        "asserter": {
+          "reference": "",
+          "display": "Patricia Primary"
+        },
+        "dateRecorded": null,
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Type II Diabetes Mellitus"
+            }
+          ]
+        },
+        "clinicalStatus": "active",
+        "verificationStatus": "confirmed",
+        "evidence": [],
+        "onsetDateTime": null
+      }
+    },
+    {
+      "fullUrl": "/Condition/38341003",
+      "resource": {
+        "resourceType": "Condition",
+        "patient": {
+          "reference": "",
+          "display": "Bob Anyman"
+        },
+        "asserter": {
+          "reference": "",
+          "display": "Patricia Primary"
+        },
+        "dateRecorded": null,
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "38341003",
+              "display": "Hypertension"
+            }
+          ]
+        },
+        "clinicalStatus": "active",
+        "verificationStatus": "provisional",
+        "evidence": [],
+        "onsetDateTime": null
+      }
+    },
+    {
+  	  "fullUrl":"/Encounter/12345",
+	    "resource": {
+        "resourceType": "Encounter",
+        "id": "Encounter/for/diabetes",
+        "identifier": [
+          {
+            "use": "temp",
+            "value": "Encounter/for/diabetes"
+          }
+        ],
+        "status": "finished",
+        "class": {
+          "system": "http://hl7.org/fhir/v3/ActCode",
+          "code": "AMB",
+          "display": "ambulatory"
+        },
+        "subject": {
+          "reference": "Patient/Anyman/Bob",
+          "display": "Bob Anyman"
+        },
+        "participant": [
+          {
+            "individual": {
+              "reference": "Provider/Primary/Patricia"
+            }
+          }
+        ],
+        "length": {
+          "value": 20,
+          "unit": "minutes",
+          "system": "http://unitsofmeasure.org",
+          "code": "min"
+        },
+        "reason": [
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/encounter-primaryDiagnosis",
+                "valuePositiveInt": 2
+              }
+            ],
+            "text": "The patient has new onset diabetes type 2."
+          }
+        ],
+        "diagnosis": [
+          {
+            "condition": {
+                "reference": "Snomed-CT/44054006",
+              "display": "Diabetes Type 2"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "Organization/f201"
+        }
+      }  
+    },
+    {
+    	"fullUrl":"/CarePlan/12345",
+	    "resource": {
+        "resourceType": "CarePlan",
+        "id": "CarePlan/Anyman/Bob/diabetes",
+        "contained": [
+          {
+            "resourceType": "Condition",
+            "id": "Condition/Anyman/Bob/diabetes",
+            "clinicalStatus": "active",
+            "verificationStatus": "confirmed",
+            "code": {
+              "text": "Obesity"
+            },
+            "subject": {
+              "reference": "Patient/Anyman/Bob",
+              "display": "Bob Anyman"
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "value": "12345"
+          }
+        ],
+        "definition": [
+          {
+            "display": "A PlanDefinition protocol for obesity"
+          }
+        ],
+        "basedOn": [
+          {
+            "display": "Management of Type 2 Diabetes"
+          }
+        ],
+        "partOf": [
+          {
+            "display": "Overall wellness plan"
+          }
+        ],
+        "status": "active",
+        "intent": "plan",
+        "category": [
+          {
+            "text": "Weight management plan"
+          }
+        ],
+        "description": "Reverse diabetes through dietary change",
+        "subject": {
+          "reference": "Patient/Anyman/Bob",
+          "display": "Bob Anyman"
+        },
+        "context": {
+          "reference": "Encounter/Anyman/Bob/diabetes"
+        },
+        "period": {
+          "start": "2015-09-14",
+          "end": "2018-12-31"
+        },
+        "author": [
+          {
+            "reference": "Practitioner/Primary/Patricia",
+            "display": "Dr Patricia Primary"
+          }
+        ],
+        "careTeam": [
+          {
+            "reference": "CareTeam/Primary"
+          }
+        ],
+        "goal": [
+          {
+            "reference": "Goal/Anyman/Bob/diet/plant-based"
+          }
+        ],
+        "activity": [
+          {
+            "outcomeCodeableConcept": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "161832001",
+                    "display": "Progressive weight loss"
+                  }
+                ]
+              }
+            ],
+            "outcomeReference": [
+              {
+                "reference": "Observation/example",
+                "display": "Weight Measured"
+              }
+            ],
+            "detail": {
+              "category": {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/care-plan-activity-category",
+                    "code": "observation"
+                  }
+                ]
+              },
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://loinc.org",
+                    "code": "3141-9",
+                    "display": "Weight Measured"
+                  },
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "27113001",
+                    "display": "Body weight"
+                  }
+                ]
+              },
+              "status": "completed",
+              "statusReason": "Achieved weight loss to mitigate diabetes risk.",
+              "prohibited": false,
+              "scheduledTiming": {
+                "repeat": {
+                  "frequency": 1,
+                  "period": 1,
+                  "periodUnit": "d"
+                }
+              },
+              "location": {
+                "display": "Patient's home"
+              },
+              "performer": [
+                {
+                  "reference": "Patient/Anyman/Bob",
+                  "display": "Bob Anyman"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "/Goal/7afmbB8HYhcNt2R4e",
+      "resource": {
+        "resourceType": "Goal",
+        "description": "Achieve blood glucose control – aiming at fasting blood glucose level below 108 mg/dl; HbA1c below 7%",
+        "priority": "medium",
+        "status": "planned"
+      }
+    },
+    {
+      "fullUrl": "/Goal/cFiofX3mEeq9sCDpq",
+      "resource": {
+        "resourceType": "Goal",
+        "description": "Fasting blood glucose level below 108 mg/dl",
+        "priority": "medium",
+        "status": "planned"
+      }
+    },
+    {
+      "fullUrl": "/Goal/4LzDoMCNzPhw6xncJ",
+      "resource": {
+        "resourceType": "Goal",
+        "description": "Conformance to optimized diabetic diet",
+        "priority": "medium",
+        "status": "planned"
+      }
+    },
+    {
+      "fullUrl": "/Goal/uLYQAaSNcyA353HtH",
+      "resource": {
+        "resourceType": "Goal",
+        "description": "Achieve 0.5% body weight reduction (on current weight of 204 lb) per week to 160-175lb (BMI 24-25))",
+        "priority": "medium",
+        "status": "planned"
+      }
+    },
+    {
+      "fullUrl": "/Goal/QMp5ew6uTSbu5pQ4C",
+      "resource": {
+        "_id": "QMp5ew6uTSbu5pQ4C",
+        "resourceType": "Goal",
+        "description": "Improve and maintenance of optimal foot health; Prevention of diabetic foot ulcer, gangrene",
+        "priority": "medium",
+        "status": "planned",
+      }
+    },
+    {
+      "fullUrl": "/Goal/Z8bznDhkG7g9dZ29Y",
+      "resource": {
+        "resourceType": "Goal",
+        "description": "Maintain blood pressure control with blood pressure readings below 140/90 mm Hg",
+        "priority": "medium",
+        "status": "planned"
+      }
+    },
+    {
+      "fullUrl": "/Goal/zHDYtrFC5drLRnMEm",
+      "resource": {
+        "resourceType": "Goal",
+        "description": "Address patient knowledge deficit on diabetic self-care.",
+        "priority": "medium",
+        "status": "planned"
+      }
+    }
+  ]
+}

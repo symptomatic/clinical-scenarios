@@ -1,0 +1,89 @@
+{
+  "resourceType": "Bundle",
+  "entry": [
+    {
+      "fullUrl": "/Condition/undefined",
+      "resource": {
+        "resourceType": "Condition",
+        "patient": {
+          "reference": "",
+          "display": "Bob Anyman"
+        },
+        "asserter": {
+          "reference": "",
+          "display": "Patricia Primary"
+        },
+        "dateRecorded": null,
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "13644009",
+              "display": "Hypercholesterolemia"
+            }
+          ]
+        },
+        "clinicalStatus": "active",
+        "verificationStatus": "provisional",
+        "evidence": [],
+        "onsetDateTime": null
+      }
+    },
+    {
+      "fullUrl": "/Condition/undefined",
+      "resource": {
+        "resourceType": "Condition",
+        "patient": {
+          "reference": "",
+          "display": "Bob Anyman"
+        },
+        "asserter": {
+          "reference": "",
+          "display": "Patricia Primary"
+        },
+        "dateRecorded": null,
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Type II Diabetes Mellitus"
+            }
+          ]
+        },
+        "clinicalStatus": "active",
+        "verificationStatus": "confirmed",
+        "evidence": [],
+        "onsetDateTime": null
+      }
+    },
+    {
+      "fullUrl": "/Condition/undefined",
+      "resource": {
+        "resourceType": "Condition",
+        "patient": {
+          "reference": "",
+          "display": "Bob Anyman"
+        },
+        "asserter": {
+          "reference": "",
+          "display": "Patricia Primary"
+        },
+        "dateRecorded": null,
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "38341003",
+              "display": "Hypertension"
+            }
+          ]
+        },
+        "clinicalStatus": "active",
+        "verificationStatus": "provisional",
+        "evidence": [],
+        "onsetDateTime": null
+      }
+    }
+  ]
+}
