@@ -1,0 +1,30 @@
+{
+  "onset" : "2003-04-12",
+  "id" : "2",
+  "patient" : {
+    "reference" : "Patient/100"
+  },
+  "reaction" : [
+    {
+      "onset" : "2017-03-17T15:23:00+05:00",
+      "manifestation" : [
+        {
+          "text" : "Rash"
+        }
+      ],
+      "severity" : "mild"
+    }
+  ],
+  "substance" : {
+    "text" : "Penicillin",
+    "coding" : [
+      {
+        "display" : "Penicillin -class of antibiotic- (substance)",
+        "system" : "http://snomed.info/sct",
+        "code" : "373270004"
+      }
+    ]
+  },
+  "recordedDate" : "2017-03-18",
+  "resourceType" : "AllergyIntolerance"
+}

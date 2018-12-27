@@ -1,0 +1,47 @@
+{
+  "category" : {
+    "text" : "Laboratory",
+    "coding" : [
+      {
+        "system" : "http://hl7.org/fhir/observation-category",
+        "code" : "laboratory"
+      }
+    ]
+  },
+  "issued" : "2007-09-04T14:15:00+06:00",
+  "status" : "final",
+  "id" : "6",
+  "code" : {
+    "text" : "Thyroxine (T4)",
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "code" : "3026-2"
+      }
+    ]
+  },
+  "referenceRange" : [
+    {
+      "low" : {
+        "code" : "µg/dL",
+        "system" : "http://unitsofmeasure.org",
+        "value" : 4.5,
+        "unit" : "µg/dL"
+      },
+      "high" : {
+        "code" : "µg/dL",
+        "system" : "http://unitsofmeasure.org",
+        "value" : 12,
+        "unit" : "µg/dL"
+      },
+      "text" : "4.5 - 12 µg/dL"
+    }
+  ],
+  "valueQuantity" : {
+    "code" : "µg/dL",
+    "system" : "http://unitsofmeasure.org",
+    "value" : 9.8000000000000007,
+    "unit" : "µg/dL"
+  },
+  "resourceType" : "Observation"
+}

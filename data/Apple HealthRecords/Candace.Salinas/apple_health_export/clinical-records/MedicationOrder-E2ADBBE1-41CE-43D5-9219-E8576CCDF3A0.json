@@ -1,0 +1,29 @@
+{
+  "status" : "active",
+  "note" : "Please let me know if you need to use this more than three times per day",
+  "id" : "24",
+  "medicationCodeableConcept" : {
+    "text" : "Albuterol HFA 90 mcg",
+    "coding" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm/",
+        "code" : "329498"
+      }
+    ]
+  },
+  "patient" : {
+    "display" : "Candace Salinas",
+    "reference" : "Patient/1"
+  },
+  "prescriber" : {
+    "display" : "Daren Estrada",
+    "reference" : "Practitioner/20"
+  },
+  "dateWritten" : "1985-10-11",
+  "resourceType" : "MedicationOrder",
+  "dosageInstruction" : [
+    {
+      "text" : "2 puffs every 2-4 hours"
+    }
+  ]
+}

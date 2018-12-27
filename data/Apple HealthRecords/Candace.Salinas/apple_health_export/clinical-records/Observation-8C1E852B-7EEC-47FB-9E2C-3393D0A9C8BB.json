@@ -1,0 +1,47 @@
+{
+  "category" : {
+    "text" : "Laboratory",
+    "coding" : [
+      {
+        "system" : "http://hl7.org/fhir/observation-category",
+        "code" : "laboratory"
+      }
+    ]
+  },
+  "issued" : "2017-10-18T00:00:00Z",
+  "status" : "final",
+  "id" : "1",
+  "code" : {
+    "text" : "LDL-cholesterol",
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "code" : "2089-1"
+      }
+    ]
+  },
+  "referenceRange" : [
+    {
+      "low" : {
+        "code" : "mg/dL",
+        "system" : "http://unitsofmeasure.org",
+        "value" : 50,
+        "unit" : "mg/dL"
+      },
+      "high" : {
+        "code" : "mg/dL",
+        "system" : "http://unitsofmeasure.org",
+        "value" : 178,
+        "unit" : "mg/dL"
+      },
+      "text" : "50 to 178 mg/dL"
+    }
+  ],
+  "valueQuantity" : {
+    "code" : "mg/dL",
+    "system" : "http://unitsofmeasure.org",
+    "value" : 113.3,
+    "unit" : "mg/dL"
+  },
+  "resourceType" : "Observation"
+}

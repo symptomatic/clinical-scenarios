@@ -1,0 +1,33 @@
+{
+  "category" : {
+    "text" : "Vital Signs",
+    "coding" : [
+      {
+        "system" : "http://hl7.org/fhir/observation-category",
+        "code" : "vital-signs"
+      }
+    ]
+  },
+  "issued" : "2017-03-18T00:00:00Z",
+  "status" : "final",
+  "id" : "14",
+  "code" : {
+    "text" : "Temperature",
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "code" : "8310-5"
+      }
+    ]
+  },
+  "encounter" : {
+    "reference" : "Encounter/355"
+  },
+  "valueQuantity" : {
+    "code" : "Cel",
+    "system" : "http://unitsofmeasure.org",
+    "value" : 37.600000000000001,
+    "unit" : "Cel"
+  },
+  "resourceType" : "Observation"
+}

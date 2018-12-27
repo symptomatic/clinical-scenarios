@@ -1,0 +1,28 @@
+{
+  "asserter" : {
+    "display" : "Troy Monken",
+    "reference" : "Practitioner/23"
+  },
+  "category" : {
+    "coding" : [
+      {
+        "system" : "http://hl7.org/fhir/condition-category",
+        "code" : "diagnosis"
+      }
+    ]
+  },
+  "clinicalStatus" : "active",
+  "dateRecorded" : "2007-10-12",
+  "code" : {
+    "text" : "Hypothyroidism",
+    "coding" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "code" : "40930008"
+      }
+    ]
+  },
+  "id" : "42467",
+  "verificationStatus" : "confirmed",
+  "resourceType" : "Condition"
+}

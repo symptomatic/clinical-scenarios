@@ -1,0 +1,65 @@
+{
+  "category" : {
+    "text" : "Vital Signs",
+    "coding" : [
+      {
+        "system" : "http://hl7.org/fhir/observation-category",
+        "code" : "vital-signs"
+      }
+    ]
+  },
+  "issued" : "2017-10-18T00:00:00Z",
+  "status" : "final",
+  "id" : "2634785",
+  "code" : {
+    "text" : "BP-blood pressure",
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "code" : "55284-4"
+      }
+    ]
+  },
+  "component" : [
+    {
+      "valueQuantity" : {
+        "code" : "mm[Hg]",
+        "system" : "http://unitsofmeasure.org",
+        "value" : 110,
+        "unit" : "mm[Hg]"
+      },
+      "code" : {
+        "text" : "Systolic blood pressure",
+        "coding" : [
+          {
+            "display" : "Systolic blood pressure",
+            "system" : "http://loinc.org",
+            "code" : "8480-6"
+          }
+        ]
+      }
+    },
+    {
+      "valueQuantity" : {
+        "code" : "mm[Hg]",
+        "system" : "http://unitsofmeasure.org",
+        "value" : 70,
+        "unit" : "mm[Hg]"
+      },
+      "code" : {
+        "text" : "Diastolic blood pressure",
+        "coding" : [
+          {
+            "display" : "Diastolic blood pressure",
+            "system" : "http://loinc.org",
+            "code" : "8462-4"
+          }
+        ]
+      }
+    }
+  ],
+  "encounter" : {
+    "reference" : "Encounter/129837645"
+  },
+  "resourceType" : "Observation"
+}

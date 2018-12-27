@@ -1,0 +1,33 @@
+{
+  "category" : {
+    "text" : "Vital Signs",
+    "coding" : [
+      {
+        "system" : "http://hl7.org/fhir/observation-category",
+        "code" : "vital-signs"
+      }
+    ]
+  },
+  "issued" : "2017-10-18T00:00:00Z",
+  "status" : "final",
+  "id" : "15458",
+  "code" : {
+    "text" : "Weight",
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "code" : "29463-7"
+      }
+    ]
+  },
+  "encounter" : {
+    "reference" : "Encounter/129837645"
+  },
+  "valueQuantity" : {
+    "code" : "[lb_av]",
+    "system" : "http://unitsofmeasure.org",
+    "value" : 155,
+    "unit" : "[lb_av]"
+  },
+  "resourceType" : "Observation"
+}

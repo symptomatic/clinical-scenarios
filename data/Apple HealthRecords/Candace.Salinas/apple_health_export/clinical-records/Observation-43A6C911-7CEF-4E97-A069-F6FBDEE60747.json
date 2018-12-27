@@ -1,0 +1,50 @@
+{
+  "category" : {
+    "text" : "Laboratory",
+    "coding" : [
+      {
+        "system" : "http://hl7.org/fhir/observation-category",
+        "code" : "laboratory"
+      }
+    ]
+  },
+  "issued" : "2017-03-18T00:00:00Z",
+  "status" : "final",
+  "id" : "12",
+  "code" : {
+    "text" : "Triglycerides",
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "code" : "3043-7"
+      }
+    ]
+  },
+  "encounter" : {
+    "reference" : "Encounter/355"
+  },
+  "referenceRange" : [
+    {
+      "low" : {
+        "code" : "mg/dL",
+        "system" : "http://unitsofmeasure.org",
+        "value" : 10,
+        "unit" : "mg/dL"
+      },
+      "high" : {
+        "code" : "mg/dL",
+        "system" : "http://unitsofmeasure.org",
+        "value" : 250,
+        "unit" : "mg/dL"
+      },
+      "text" : "10 to 250 mg/dL"
+    }
+  ],
+  "valueQuantity" : {
+    "code" : "mg/dL",
+    "system" : "http://unitsofmeasure.org",
+    "value" : 86,
+    "unit" : "mg/dL"
+  },
+  "resourceType" : "Observation"
+}

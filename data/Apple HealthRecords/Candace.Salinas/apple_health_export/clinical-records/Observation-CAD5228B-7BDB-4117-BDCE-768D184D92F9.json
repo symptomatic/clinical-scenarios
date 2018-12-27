@@ -1,0 +1,47 @@
+{
+  "category" : {
+    "text" : "Laboratory",
+    "coding" : [
+      {
+        "system" : "http://hl7.org/fhir/observation-category",
+        "code" : "laboratory"
+      }
+    ]
+  },
+  "issued" : "2007-09-04T14:15:00+06:00",
+  "status" : "final",
+  "id" : "22",
+  "code" : {
+    "text" : "TSH",
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "code" : "3016-3"
+      }
+    ]
+  },
+  "referenceRange" : [
+    {
+      "low" : {
+        "code" : "µU/mL",
+        "system" : "http://unitsofmeasure.org",
+        "value" : 0.34999999999999998,
+        "unit" : "µU/mL"
+      },
+      "high" : {
+        "code" : "µU/mL",
+        "system" : "http://unitsofmeasure.org",
+        "value" : 5.5,
+        "unit" : "µU/mL"
+      },
+      "text" : "0.350 to 5.500 µU/mL"
+    }
+  ],
+  "valueQuantity" : {
+    "code" : "µU/mL",
+    "system" : "http://unitsofmeasure.org",
+    "value" : 3.915,
+    "unit" : "µU/mL"
+  },
+  "resourceType" : "Observation"
+}

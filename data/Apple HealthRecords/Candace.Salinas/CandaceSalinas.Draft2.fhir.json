@@ -1,0 +1,1165 @@
+{
+  "resourceType": "Bundle",
+  "entry": [
+    {
+      "fullUrl": "/Composition/SwhDwPFp9GA2vgyDc",
+      "resource": {
+        "resourceType": "Composition",
+        "identifier": {},
+        "status": "preliminary",
+        "type": {},
+        "class": {},
+        "subject": {
+          "display": "Candace Salinas",
+          "reference": "4BFfioo54BQpDWd6Y"
+        },
+        "encounter": {
+          "display": "",
+          "reference": ""
+        },
+        "date": "<dateTime>",
+        "author": [
+          {
+            "display": "Candace Salinas",
+            "reference": "4BFfioo54BQpDWd6Y"
+          }
+        ],
+        "title": "Continuity of Care Document",
+        "confidentiality": "0",
+        "attester": [],
+        "custodian": {
+          "display": "",
+          "reference": ""
+        },
+        "relatesTo": [],
+        "event": [],
+        "section": [
+          {
+            "reference": "/Condition/ytvrrrGeszFqReJGc"
+          },
+          {
+            "reference": "/Condition/BsTnpZXYJ8JGvDfr6"
+          },
+          {
+            "reference": "/Condition/DxRdJE9vq68Tm57Xn"
+          },
+          {
+            "reference": "/Condition/Cn8DX8zMRH9mZn9on"
+          },
+          {
+            "reference": "/Immunization/4LspouqYhvjetdTLG"
+          },
+          {
+            "reference": "/Immunization/H4oupmHvSHZ9ZuFQT"
+          },
+          {
+            "reference": "/Patient/XCauG5uRT2e8dPTf7"
+          },
+          {
+            "reference": "/Patient/XM8x6PbQi7vGJzMsS"
+          },
+          {
+            "reference": "/Patient/hSRkv3KdnGsMzoSwC"
+          },
+          {
+            "reference": "/Person/x4ybh75MHvFpNWbS5"
+          },
+          {
+            "reference": "/Person/JSRdrWEB8DXaMiabc"
+          },
+          {
+            "reference": "/Person/NF5BjFdokhkgxDcFq"
+          },
+          {
+            "reference": "/Person/xxnmGpE3kLuC65AGk"
+          },
+          {
+            "reference": "/Person/Rn3G4BSFTHvc3Btku"
+          },
+          {
+            "reference": "/Person/4D8TuTFLxtrq5pQMQ"
+          },
+          {
+            "reference": "/Procedure/jvdrBGzuq3zyKSnCa"
+          },
+          {
+            "reference": "/Procedure/u93fKQz4TGDpb9uQy"
+          },
+          {
+            "reference": "/Procedure/2s8b4bjZZePiLbXg7"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "/Condition/ytvrrrGeszFqReJGc",
+      "resource": {
+        "asserter": {
+          "display": "Troy Monken",
+          "reference": "Practitioner/23"
+        },
+        "category": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/condition-category",
+              "code": "diagnosis"
+            }
+          ]
+        },
+        "clinicalStatus": "active",
+        "dateRecorded": "2007-10-12",
+        "code": {
+          "text": "Hypothyroidism",
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "40930008"
+            }
+          ]
+        },
+        "id": "42467",
+        "verificationStatus": "confirmed",
+        "resourceType": "Condition",
+        "_id": "ytvrrrGeszFqReJGc",
+        "_document": {
+          "asserter": {
+            "display": "Troy Monken",
+            "reference": "Practitioner/23"
+          },
+          "category": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/condition-category",
+                "code": "diagnosis"
+              }
+            ]
+          },
+          "clinicalStatus": "active",
+          "dateRecorded": "2007-10-12",
+          "code": {
+            "text": "Hypothyroidism",
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "40930008"
+              }
+            ]
+          },
+          "id": "42467",
+          "verificationStatus": "confirmed",
+          "resourceType": "Condition",
+          "_id": "ytvrrrGeszFqReJGc"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Condition/BsTnpZXYJ8JGvDfr6",
+      "resource": {
+        "asserter": {
+          "display": "Daren Estrada",
+          "reference": "Practitioner/20"
+        },
+        "category": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/condition-category",
+              "code": "diagnosis"
+            }
+          ]
+        },
+        "clinicalStatus": "active",
+        "dateRecorded": "2012-01-02",
+        "code": {
+          "text": "Asthma",
+          "coding": [
+            {
+              "display": "Asthma",
+              "system": "http://snomed.info/sct",
+              "code": "195967001"
+            }
+          ]
+        },
+        "id": "1",
+        "notes": "2 brief hospitalizations when a child, symptoms much improved as an adult",
+        "verificationStatus": "confirmed",
+        "onsetDateTime": "1985-09-09",
+        "resourceType": "Condition",
+        "_id": "BsTnpZXYJ8JGvDfr6",
+        "_document": {
+          "asserter": {
+            "display": "Daren Estrada",
+            "reference": "Practitioner/20"
+          },
+          "category": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/condition-category",
+                "code": "diagnosis"
+              }
+            ]
+          },
+          "clinicalStatus": "active",
+          "dateRecorded": "2012-01-02",
+          "code": {
+            "text": "Asthma",
+            "coding": [
+              {
+                "display": "Asthma",
+                "system": "http://snomed.info/sct",
+                "code": "195967001"
+              }
+            ]
+          },
+          "id": "1",
+          "notes": "2 brief hospitalizations when a child, symptoms much improved as an adult",
+          "verificationStatus": "confirmed",
+          "onsetDateTime": "1985-09-09",
+          "resourceType": "Condition",
+          "_id": "BsTnpZXYJ8JGvDfr6"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Condition/DxRdJE9vq68Tm57Xn",
+      "resource": {
+        "asserter": {
+          "display": "Daren Estrada",
+          "reference": "Practitioner/20"
+        },
+        "category": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/condition-category",
+              "code": "diagnosis"
+            }
+          ]
+        },
+        "clinicalStatus": "active",
+        "dateRecorded": "2012-01-02",
+        "code": {
+          "text": "Seasonal Allergic Rhinitis",
+          "coding": [
+            {
+              "display": "Seasonal allergic rhinitis",
+              "system": "http://snomed.info/sct",
+              "code": "367498001"
+            }
+          ]
+        },
+        "id": "2",
+        "notes": "Worse when visiting family in NC during the spring",
+        "verificationStatus": "confirmed",
+        "onsetDateTime": "1994-05-12",
+        "resourceType": "Condition",
+        "_id": "DxRdJE9vq68Tm57Xn",
+        "_document": {
+          "asserter": {
+            "display": "Daren Estrada",
+            "reference": "Practitioner/20"
+          },
+          "category": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/condition-category",
+                "code": "diagnosis"
+              }
+            ]
+          },
+          "clinicalStatus": "active",
+          "dateRecorded": "2012-01-02",
+          "code": {
+            "text": "Seasonal Allergic Rhinitis",
+            "coding": [
+              {
+                "display": "Seasonal allergic rhinitis",
+                "system": "http://snomed.info/sct",
+                "code": "367498001"
+              }
+            ]
+          },
+          "id": "2",
+          "notes": "Worse when visiting family in NC during the spring",
+          "verificationStatus": "confirmed",
+          "onsetDateTime": "1994-05-12",
+          "resourceType": "Condition",
+          "_id": "DxRdJE9vq68Tm57Xn"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Condition/Cn8DX8zMRH9mZn9on",
+      "resource": {
+        "asserter": {
+          "display": "Daren Estrada",
+          "reference": "Practitioner/20"
+        },
+        "category": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/condition-category",
+              "code": "diagnosis"
+            }
+          ]
+        },
+        "clinicalStatus": "active",
+        "dateRecorded": "2016-11-25",
+        "code": {
+          "text": "Sinusitis",
+          "coding": [
+            {
+              "display": "Sinusitis (disorder)",
+              "system": "http://snomed.info/sct",
+              "code": "36971009"
+            }
+          ]
+        },
+        "id": "4",
+        "verificationStatus": "confirmed",
+        "resourceType": "Condition",
+        "_id": "Cn8DX8zMRH9mZn9on",
+        "_document": {
+          "asserter": {
+            "display": "Daren Estrada",
+            "reference": "Practitioner/20"
+          },
+          "category": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/condition-category",
+                "code": "diagnosis"
+              }
+            ]
+          },
+          "clinicalStatus": "active",
+          "dateRecorded": "2016-11-25",
+          "code": {
+            "text": "Sinusitis",
+            "coding": [
+              {
+                "display": "Sinusitis (disorder)",
+                "system": "http://snomed.info/sct",
+                "code": "36971009"
+              }
+            ]
+          },
+          "id": "4",
+          "verificationStatus": "confirmed",
+          "resourceType": "Condition",
+          "_id": "Cn8DX8zMRH9mZn9on"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Immunization/4LspouqYhvjetdTLG",
+      "resource": {
+        "vaccineCode": {
+          "text": "DTaP",
+          "coding": [
+            {
+              "system": "CVX",
+              "code": "115"
+            }
+          ]
+        },
+        "id": "19",
+        "resourceType": "Immunization",
+        "encounter": {
+          "reference": "Encounter/129837645"
+        },
+        "requester": {
+          "display": "Altick Kelly",
+          "reference": "Practitioner/8"
+        },
+        "date": "2017-10-18",
+        "_id": "4LspouqYhvjetdTLG",
+        "_document": {
+          "vaccineCode": {
+            "text": "DTaP",
+            "coding": [
+              {
+                "system": "CVX",
+                "code": "115"
+              }
+            ]
+          },
+          "id": "19",
+          "resourceType": "Immunization",
+          "encounter": {
+            "reference": "Encounter/129837645"
+          },
+          "requester": {
+            "display": "Altick Kelly",
+            "reference": "Practitioner/8"
+          },
+          "date": "2017-10-18",
+          "_id": "4LspouqYhvjetdTLG"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Immunization/H4oupmHvSHZ9ZuFQT",
+      "resource": {
+        "vaccineCode": {
+          "text": "Influenza",
+          "coding": [
+            {
+              "system": "CVX",
+              "code": "135"
+            }
+          ]
+        },
+        "id": "3",
+        "resourceType": "Immunization",
+        "encounter": {
+          "reference": "Encounter/129837645"
+        },
+        "requester": {
+          "display": "Altick Kelly",
+          "reference": "Practitioner/8"
+        },
+        "date": "2017-10-18",
+        "_id": "H4oupmHvSHZ9ZuFQT",
+        "_document": {
+          "vaccineCode": {
+            "text": "Influenza",
+            "coding": [
+              {
+                "system": "CVX",
+                "code": "135"
+              }
+            ]
+          },
+          "id": "3",
+          "resourceType": "Immunization",
+          "encounter": {
+            "reference": "Encounter/129837645"
+          },
+          "requester": {
+            "display": "Altick Kelly",
+            "reference": "Practitioner/8"
+          },
+          "date": "2017-10-18",
+          "_id": "H4oupmHvSHZ9ZuFQT"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Patient/XCauG5uRT2e8dPTf7",
+      "resource": {
+        "gender": "female",
+        "id": "19035",
+        "resourceType": "Patient",
+        "name": [
+          {
+            "given": [
+              "Candace"
+            ],
+            "family": [
+              "Salinas"
+            ]
+          }
+        ],
+        "birthDate": "1977-04-01",
+        "_id": "XCauG5uRT2e8dPTf7",
+        "_document": {
+          "gender": "female",
+          "id": "19035",
+          "resourceType": "Patient",
+          "name": [
+            {
+              "given": [
+                "Candace"
+              ],
+              "family": [
+                "Salinas"
+              ]
+            }
+          ],
+          "birthDate": "1977-04-01",
+          "_id": "XCauG5uRT2e8dPTf7"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Patient/XM8x6PbQi7vGJzMsS",
+      "resource": {
+        "gender": "female",
+        "id": "100",
+        "resourceType": "Patient",
+        "name": [
+          {
+            "use": "usual",
+            "text": "Candace Salinas"
+          }
+        ],
+        "birthDate": "1977-04-01",
+        "_id": "XM8x6PbQi7vGJzMsS",
+        "_document": {
+          "gender": "female",
+          "id": "100",
+          "resourceType": "Patient",
+          "name": [
+            {
+              "use": "usual",
+              "text": "Candace Salinas"
+            }
+          ],
+          "birthDate": "1977-04-01",
+          "_id": "XM8x6PbQi7vGJzMsS"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Patient/hSRkv3KdnGsMzoSwC",
+      "resource": {
+        "gender": "female",
+        "id": "1",
+        "resourceType": "Patient",
+        "name": [
+          {
+            "given": [
+              "Candace"
+            ],
+            "use": "usual",
+            "family": [
+              "Salinas"
+            ]
+          }
+        ],
+        "birthDate": "1977-04-01",
+        "_id": "hSRkv3KdnGsMzoSwC",
+        "_document": {
+          "gender": "female",
+          "id": "1",
+          "resourceType": "Patient",
+          "name": [
+            {
+              "given": [
+                "Candace"
+              ],
+              "use": "usual",
+              "family": [
+                "Salinas"
+              ]
+            }
+          ],
+          "birthDate": "1977-04-01",
+          "_id": "hSRkv3KdnGsMzoSwC"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Person/x4ybh75MHvFpNWbS5",
+      "resource": {
+        "_id": "x4ybh75MHvFpNWbS5",
+        "identifier": [
+          {
+            "value": "newsletter"
+          },
+          {
+            "value": "announcements"
+          },
+          {
+            "value": "job-opportunities"
+          },
+          {
+            "value": "fhir-training"
+          }
+        ],
+        "name": [
+          {
+            "text": "Jessica Argonaut",
+            "resourceType": "HumanName"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "email",
+            "value": "awatson1978@gmail.com",
+            "resourceType": "ContactPoint"
+          },
+          {
+            "system": "phone",
+            "value": "212-555-1010",
+            "resourceType": "ContactPoint"
+          },
+          {
+            "system": "linkedin",
+            "resourceType": "ContactPoint"
+          }
+        ],
+        "managingOrganization": {},
+        "resourceType": "Person",
+        "_document": {
+          "_id": "x4ybh75MHvFpNWbS5",
+          "identifier": [
+            {
+              "value": "newsletter"
+            },
+            {
+              "value": "announcements"
+            },
+            {
+              "value": "job-opportunities"
+            },
+            {
+              "value": "fhir-training"
+            }
+          ],
+          "name": [
+            {
+              "text": "Jessica Argonaut",
+              "resourceType": "HumanName"
+            }
+          ],
+          "telecom": [
+            {
+              "system": "email",
+              "value": "awatson1978@gmail.com",
+              "resourceType": "ContactPoint"
+            },
+            {
+              "system": "phone",
+              "value": "212-555-1010",
+              "resourceType": "ContactPoint"
+            },
+            {
+              "system": "linkedin",
+              "resourceType": "ContactPoint"
+            }
+          ],
+          "managingOrganization": {},
+          "resourceType": "Person"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Person/JSRdrWEB8DXaMiabc",
+      "resource": {
+        "_id": "JSRdrWEB8DXaMiabc",
+        "identifier": [
+          {
+            "value": "newsletter"
+          },
+          {
+            "value": "fhir-training"
+          }
+        ],
+        "name": [
+          {
+            "text": "Jessica",
+            "resourceType": "HumanName"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "email",
+            "value": "awatson1978@gmail.com",
+            "resourceType": "ContactPoint"
+          },
+          {
+            "system": "phone",
+            "value": "212-555-1010",
+            "resourceType": "ContactPoint"
+          },
+          {
+            "system": "linkedin",
+            "resourceType": "ContactPoint"
+          }
+        ],
+        "managingOrganization": {},
+        "resourceType": "Person",
+        "_document": {
+          "_id": "JSRdrWEB8DXaMiabc",
+          "identifier": [
+            {
+              "value": "newsletter"
+            },
+            {
+              "value": "fhir-training"
+            }
+          ],
+          "name": [
+            {
+              "text": "Jessica",
+              "resourceType": "HumanName"
+            }
+          ],
+          "telecom": [
+            {
+              "system": "email",
+              "value": "awatson1978@gmail.com",
+              "resourceType": "ContactPoint"
+            },
+            {
+              "system": "phone",
+              "value": "212-555-1010",
+              "resourceType": "ContactPoint"
+            },
+            {
+              "system": "linkedin",
+              "resourceType": "ContactPoint"
+            }
+          ],
+          "managingOrganization": {},
+          "resourceType": "Person"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Person/NF5BjFdokhkgxDcFq",
+      "resource": {
+        "_id": "NF5BjFdokhkgxDcFq",
+        "identifier": [
+          {
+            "value": "newsletter"
+          },
+          {
+            "value": "job-opportunities"
+          },
+          {
+            "value": "fhir-training"
+          }
+        ],
+        "name": [
+          {
+            "text": "Jessica Argonaut",
+            "resourceType": "HumanName"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "email",
+            "value": "jessica.argonaut@acme.com",
+            "resourceType": "ContactPoint"
+          },
+          {
+            "system": "phone",
+            "value": "212-555-1010",
+            "resourceType": "ContactPoint"
+          },
+          {
+            "system": "linkedin",
+            "resourceType": "ContactPoint"
+          }
+        ],
+        "managingOrganization": {},
+        "resourceType": "Person",
+        "_document": {
+          "_id": "NF5BjFdokhkgxDcFq",
+          "identifier": [
+            {
+              "value": "newsletter"
+            },
+            {
+              "value": "job-opportunities"
+            },
+            {
+              "value": "fhir-training"
+            }
+          ],
+          "name": [
+            {
+              "text": "Jessica Argonaut",
+              "resourceType": "HumanName"
+            }
+          ],
+          "telecom": [
+            {
+              "system": "email",
+              "value": "jessica.argonaut@acme.com",
+              "resourceType": "ContactPoint"
+            },
+            {
+              "system": "phone",
+              "value": "212-555-1010",
+              "resourceType": "ContactPoint"
+            },
+            {
+              "system": "linkedin",
+              "resourceType": "ContactPoint"
+            }
+          ],
+          "managingOrganization": {},
+          "resourceType": "Person"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Person/xxnmGpE3kLuC65AGk",
+      "resource": {
+        "_id": "xxnmGpE3kLuC65AGk",
+        "identifier": [
+          {
+            "value": "newsletter"
+          },
+          {
+            "value": "announcements"
+          }
+        ],
+        "name": [
+          {
+            "text": "Jason Argo",
+            "resourceType": "HumanName"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "email",
+            "value": "jason@acme.com",
+            "resourceType": "ContactPoint"
+          },
+          {
+            "system": "phone",
+            "value": "212-555-2020",
+            "resourceType": "ContactPoint"
+          },
+          {
+            "system": "linkedin",
+            "resourceType": "ContactPoint"
+          }
+        ],
+        "managingOrganization": {},
+        "resourceType": "Person",
+        "_document": {
+          "_id": "xxnmGpE3kLuC65AGk",
+          "identifier": [
+            {
+              "value": "newsletter"
+            },
+            {
+              "value": "announcements"
+            }
+          ],
+          "name": [
+            {
+              "text": "Jason Argo",
+              "resourceType": "HumanName"
+            }
+          ],
+          "telecom": [
+            {
+              "system": "email",
+              "value": "jason@acme.com",
+              "resourceType": "ContactPoint"
+            },
+            {
+              "system": "phone",
+              "value": "212-555-2020",
+              "resourceType": "ContactPoint"
+            },
+            {
+              "system": "linkedin",
+              "resourceType": "ContactPoint"
+            }
+          ],
+          "managingOrganization": {},
+          "resourceType": "Person"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Person/Rn3G4BSFTHvc3Btku",
+      "resource": {
+        "_id": "Rn3G4BSFTHvc3Btku",
+        "identifier": [],
+        "name": [
+          {
+            "text": "Jason Argo",
+            "resourceType": "HumanName"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "email",
+            "value": "jason@acme.com",
+            "resourceType": "ContactPoint"
+          },
+          {
+            "system": "phone",
+            "value": "212-555-2020",
+            "resourceType": "ContactPoint"
+          },
+          {
+            "system": "linkedin",
+            "resourceType": "ContactPoint"
+          }
+        ],
+        "managingOrganization": {},
+        "resourceType": "Person",
+        "_document": {
+          "_id": "Rn3G4BSFTHvc3Btku",
+          "identifier": [],
+          "name": [
+            {
+              "text": "Jason Argo",
+              "resourceType": "HumanName"
+            }
+          ],
+          "telecom": [
+            {
+              "system": "email",
+              "value": "jason@acme.com",
+              "resourceType": "ContactPoint"
+            },
+            {
+              "system": "phone",
+              "value": "212-555-2020",
+              "resourceType": "ContactPoint"
+            },
+            {
+              "system": "linkedin",
+              "resourceType": "ContactPoint"
+            }
+          ],
+          "managingOrganization": {},
+          "resourceType": "Person"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Person/4D8TuTFLxtrq5pQMQ",
+      "resource": {
+        "_id": "4D8TuTFLxtrq5pQMQ",
+        "identifier": [
+          {
+            "value": "newsletter"
+          },
+          {
+            "value": "announcements"
+          }
+        ],
+        "name": [
+          {
+            "text": "Jason Argo",
+            "resourceType": "HumanName"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "email",
+            "value": "jason@acme.com",
+            "resourceType": "ContactPoint"
+          },
+          {
+            "system": "phone",
+            "value": "212-555-2020",
+            "resourceType": "ContactPoint"
+          },
+          {
+            "system": "linkedin",
+            "resourceType": "ContactPoint"
+          }
+        ],
+        "managingOrganization": {},
+        "resourceType": "Person",
+        "_document": {
+          "_id": "4D8TuTFLxtrq5pQMQ",
+          "identifier": [
+            {
+              "value": "newsletter"
+            },
+            {
+              "value": "announcements"
+            }
+          ],
+          "name": [
+            {
+              "text": "Jason Argo",
+              "resourceType": "HumanName"
+            }
+          ],
+          "telecom": [
+            {
+              "system": "email",
+              "value": "jason@acme.com",
+              "resourceType": "ContactPoint"
+            },
+            {
+              "system": "phone",
+              "value": "212-555-2020",
+              "resourceType": "ContactPoint"
+            },
+            {
+              "system": "linkedin",
+              "resourceType": "ContactPoint"
+            }
+          ],
+          "managingOrganization": {},
+          "resourceType": "Person"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Procedure/jvdrBGzuq3zyKSnCa",
+      "resource": {
+        "performedDateTime": "2014-06-09",
+        "status": "completed",
+        "id": "10",
+        "code": {
+          "text": "ACL repair",
+          "coding": [
+            {
+              "display": "Repair of anterior cruciate ligament of knee joint (procedure)",
+              "system": "http://snomed.info/sct",
+              "code": "239426007"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/2089375"
+        },
+        "subject": {
+          "display": "Candace Salinas",
+          "reference": "Patient/1"
+        },
+        "resourceType": "Procedure",
+        "_id": "jvdrBGzuq3zyKSnCa",
+        "_document": {
+          "performedDateTime": "2014-06-09",
+          "status": "completed",
+          "id": "10",
+          "code": {
+            "text": "ACL repair",
+            "coding": [
+              {
+                "display": "Repair of anterior cruciate ligament of knee joint (procedure)",
+                "system": "http://snomed.info/sct",
+                "code": "239426007"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/2089375"
+          },
+          "subject": {
+            "display": "Candace Salinas",
+            "reference": "Patient/1"
+          },
+          "resourceType": "Procedure",
+          "_id": "jvdrBGzuq3zyKSnCa"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Procedure/u93fKQz4TGDpb9uQy",
+      "resource": {
+        "performedDateTime": "2017-10-18",
+        "status": "completed",
+        "id": "223468",
+        "code": {
+          "text": "Ultrasound Abdomen",
+          "coding": [
+            {
+              "display": "Ultrasound scan of lower abdomen (procedure)",
+              "system": "http://snomed.info/sct",
+              "code": "420052009"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/129837645"
+        },
+        "performer": [
+          {
+            "actor": {
+              "display": "Altick Kelly, MD",
+              "reference": "Practitioner/8"
+            },
+            "role": {
+              "coding": [
+                {
+                  "display": "Gynecologist",
+                  "system": "http://snomed.info/sct",
+                  "code": "83685006"
+                }
+              ]
+            }
+          }
+        ],
+        "resourceType": "Procedure",
+        "_id": "u93fKQz4TGDpb9uQy",
+        "_document": {
+          "performedDateTime": "2017-10-18",
+          "status": "completed",
+          "id": "223468",
+          "code": {
+            "text": "Ultrasound Abdomen",
+            "coding": [
+              {
+                "display": "Ultrasound scan of lower abdomen (procedure)",
+                "system": "http://snomed.info/sct",
+                "code": "420052009"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/129837645"
+          },
+          "performer": [
+            {
+              "actor": {
+                "display": "Altick Kelly, MD",
+                "reference": "Practitioner/8"
+              },
+              "role": {
+                "coding": [
+                  {
+                    "display": "Gynecologist",
+                    "system": "http://snomed.info/sct",
+                    "code": "83685006"
+                  }
+                ]
+              }
+            }
+          ],
+          "resourceType": "Procedure",
+          "_id": "u93fKQz4TGDpb9uQy"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Procedure/2s8b4bjZZePiLbXg7",
+      "resource": {
+        "code": {
+          "text": "Appendectomy",
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "80146002"
+            }
+          ]
+        },
+        "id": "9",
+        "performedDateTime": "2007-05-25",
+        "resourceType": "Procedure",
+        "status": "completed",
+        "subject": {
+          "display": "Candace Salinas",
+          "reference": "Patient/1"
+        },
+        "_id": "2s8b4bjZZePiLbXg7",
+        "_document": {
+          "code": {
+            "text": "Appendectomy",
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "80146002"
+              }
+            ]
+          },
+          "id": "9",
+          "performedDateTime": "2007-05-25",
+          "resourceType": "Procedure",
+          "status": "completed",
+          "subject": {
+            "display": "Candace Salinas",
+            "reference": "Patient/1"
+          },
+          "_id": "2s8b4bjZZePiLbXg7"
+        }
+      }
+    }
+  ]
+}

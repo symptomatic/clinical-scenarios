@@ -1,0 +1,34 @@
+{
+  "status" : "active",
+  "note" : "Over the counter",
+  "id" : "13",
+  "medicationCodeableConcept" : {
+    "text" : "Prenatal vitamins (with folate)",
+    "coding" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm/"
+      }
+    ]
+  },
+  "patient" : {
+    "reference" : "Patient/100"
+  },
+  "prescriber" : {
+    "display" : "Altick Kelly",
+    "reference" : "Practitioner/8"
+  },
+  "dateWritten" : "2017-10-20",
+  "resourceType" : "MedicationOrder",
+  "dosageInstruction" : [
+    {
+      "text" : "One tablet by mouth daily",
+      "timing" : {
+        "repeat" : {
+          "boundsPeriod" : {
+            "start" : "2017-10-20"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "performedDateTime" : "2014-06-09",
+  "status" : "completed",
+  "id" : "10",
+  "code" : {
+    "text" : "ACL repair",
+    "coding" : [
+      {
+        "display" : "Repair of anterior cruciate ligament of knee joint (procedure)",
+        "system" : "http://snomed.info/sct",
+        "code" : "239426007"
+      }
+    ]
+  },
+  "encounter" : {
+    "reference" : "Encounter/2089375"
+  },
+  "subject" : {
+    "display" : "Candace Salinas",
+    "reference" : "Patient/1"
+  },
+  "resourceType" : "Procedure"
+}

@@ -1,0 +1,29 @@
+{
+  "asserter" : {
+    "display" : "Daren Estrada",
+    "reference" : "Practitioner/20"
+  },
+  "category" : {
+    "coding" : [
+      {
+        "system" : "http://hl7.org/fhir/condition-category",
+        "code" : "diagnosis"
+      }
+    ]
+  },
+  "clinicalStatus" : "active",
+  "dateRecorded" : "2016-11-25",
+  "code" : {
+    "text" : "Sinusitis",
+    "coding" : [
+      {
+        "display" : "Sinusitis (disorder)",
+        "system" : "http://snomed.info/sct",
+        "code" : "36971009"
+      }
+    ]
+  },
+  "id" : "4",
+  "verificationStatus" : "confirmed",
+  "resourceType" : "Condition"
+}

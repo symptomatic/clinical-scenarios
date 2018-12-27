@@ -1,0 +1,28 @@
+{
+  "id" : "2",
+  "recordedDate" : "2015-02-18",
+  "resourceType" : "AllergyIntolerance",
+  "substance" : {
+    "text" : "Peanuts",
+    "coding" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "code" : "256349002"
+      }
+    ]
+  },
+  "patient" : {
+    "display" : "Candace Salinas",
+    "reference" : "Patient/1"
+  },
+  "reaction" : [
+    {
+      "manifestation" : [
+        {
+          "text" : "Wheezing"
+        }
+      ],
+      "severity" : "severe"
+    }
+  ]
+}

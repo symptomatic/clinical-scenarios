@@ -1,0 +1,31 @@
+{
+  "asserter" : {
+    "display" : "Daren Estrada",
+    "reference" : "Practitioner/20"
+  },
+  "category" : {
+    "coding" : [
+      {
+        "system" : "http://hl7.org/fhir/condition-category",
+        "code" : "diagnosis"
+      }
+    ]
+  },
+  "clinicalStatus" : "active",
+  "dateRecorded" : "2012-01-02",
+  "code" : {
+    "text" : "Seasonal Allergic Rhinitis",
+    "coding" : [
+      {
+        "display" : "Seasonal allergic rhinitis",
+        "system" : "http://snomed.info/sct",
+        "code" : "367498001"
+      }
+    ]
+  },
+  "id" : "2",
+  "notes" : "Worse when visiting family in NC during the spring",
+  "verificationStatus" : "confirmed",
+  "onsetDateTime" : "1994-05-12",
+  "resourceType" : "Condition"
+}

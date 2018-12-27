@@ -1,0 +1,33 @@
+{
+  "category" : {
+    "text" : "Vital Signs",
+    "coding" : [
+      {
+        "system" : "http://hl7.org/fhir/observation-category",
+        "code" : "vital-signs"
+      }
+    ]
+  },
+  "issued" : "2017-10-18T00:00:00Z",
+  "status" : "final",
+  "id" : "162467",
+  "code" : {
+    "text" : "Height",
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "code" : "8302-2"
+      }
+    ]
+  },
+  "encounter" : {
+    "reference" : "Encounter/129837645"
+  },
+  "valueQuantity" : {
+    "code" : "cm",
+    "system" : "http://unitsofmeasure.org",
+    "value" : 164,
+    "unit" : "cm"
+  },
+  "resourceType" : "Observation"
+}

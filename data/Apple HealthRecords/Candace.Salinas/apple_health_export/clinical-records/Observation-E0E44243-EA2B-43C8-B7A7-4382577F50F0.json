@@ -1,0 +1,50 @@
+{
+  "category" : {
+    "text" : "Laboratory",
+    "coding" : [
+      {
+        "system" : "http://hl7.org/fhir/observation-category",
+        "code" : "laboratory"
+      }
+    ]
+  },
+  "issued" : "2017-03-18T00:00:00Z",
+  "status" : "final",
+  "id" : "21",
+  "code" : {
+    "text" : "Cholesterol HDL",
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "code" : "2085-9"
+      }
+    ]
+  },
+  "encounter" : {
+    "reference" : "Encounter/355"
+  },
+  "referenceRange" : [
+    {
+      "low" : {
+        "code" : "mg/dL",
+        "system" : "http://unitsofmeasure.org",
+        "value" : 35,
+        "unit" : "mg/dL"
+      },
+      "high" : {
+        "code" : "mg/dL",
+        "system" : "http://unitsofmeasure.org",
+        "value" : 59,
+        "unit" : "mg/dL"
+      },
+      "text" : "35 to 59 mg/dL"
+    }
+  ],
+  "valueQuantity" : {
+    "code" : "mg/dL",
+    "system" : "http://unitsofmeasure.org",
+    "value" : 53.5,
+    "unit" : "mg/dL"
+  },
+  "resourceType" : "Observation"
+}

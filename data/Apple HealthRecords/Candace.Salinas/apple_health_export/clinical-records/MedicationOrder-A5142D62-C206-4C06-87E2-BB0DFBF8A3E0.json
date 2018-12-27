@@ -1,0 +1,30 @@
+{
+  "status" : "active",
+  "note" : "You only need to take this medication during pollen season",
+  "id" : "18",
+  "medicationCodeableConcept" : {
+    "text" : "Loratadine 10 mg",
+    "coding" : [
+      {
+        "display" : "Loratadine 10 MG Oral Capsule",
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm/",
+        "code" : "316167"
+      }
+    ]
+  },
+  "patient" : {
+    "display" : "Candace Salinas",
+    "reference" : "Patient/1"
+  },
+  "prescriber" : {
+    "display" : "Daren Estrada",
+    "reference" : "Practitioner/20"
+  },
+  "dateWritten" : "1994-02-26",
+  "resourceType" : "MedicationOrder",
+  "dosageInstruction" : [
+    {
+      "text" : "Once Daily"
+    }
+  ]
+}

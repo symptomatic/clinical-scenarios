@@ -1,0 +1,50 @@
+{
+  "category" : {
+    "text" : "Laboratory",
+    "coding" : [
+      {
+        "system" : "http://hl7.org/fhir/observation-category",
+        "code" : "laboratory"
+      }
+    ]
+  },
+  "issued" : "2017-10-18T00:00:00Z",
+  "status" : "final",
+  "id" : "2738664",
+  "code" : {
+    "text" : "Blood Glucose",
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "code" : "2339-0"
+      }
+    ]
+  },
+  "encounter" : {
+    "reference" : "Encounter/129837645"
+  },
+  "referenceRange" : [
+    {
+      "low" : {
+        "code" : "mg/dL",
+        "system" : "http://unitsofmeasure.org",
+        "value" : 61,
+        "unit" : "mg/dL"
+      },
+      "high" : {
+        "code" : "mg/dL",
+        "system" : "http://unitsofmeasure.org",
+        "value" : 100,
+        "unit" : "mg/dL"
+      },
+      "text" : "61-100 mg/dL"
+    }
+  ],
+  "valueQuantity" : {
+    "code" : "mg/dL",
+    "system" : "http://unitsofmeasure.org",
+    "value" : 60,
+    "unit" : "mg/dL"
+  },
+  "resourceType" : "Observation"
+}

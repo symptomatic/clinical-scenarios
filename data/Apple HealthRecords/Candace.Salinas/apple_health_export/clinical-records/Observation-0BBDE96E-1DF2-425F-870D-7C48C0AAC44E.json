@@ -1,0 +1,33 @@
+{
+  "category" : {
+    "text" : "Vital Signs",
+    "coding" : [
+      {
+        "system" : "http://hl7.org/fhir/observation-category",
+        "code" : "vital-signs"
+      }
+    ]
+  },
+  "issued" : "2017-10-18T00:00:00Z",
+  "status" : "final",
+  "id" : "43465",
+  "code" : {
+    "text" : "BMI-body mass index",
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "code" : "39156-5"
+      }
+    ]
+  },
+  "encounter" : {
+    "reference" : "Encounter/129837645"
+  },
+  "valueQuantity" : {
+    "code" : "kg/m^2",
+    "system" : "http://unitsofmeasure.org",
+    "value" : 26.600000000000001,
+    "unit" : "kg/m^2"
+  },
+  "resourceType" : "Observation"
+}

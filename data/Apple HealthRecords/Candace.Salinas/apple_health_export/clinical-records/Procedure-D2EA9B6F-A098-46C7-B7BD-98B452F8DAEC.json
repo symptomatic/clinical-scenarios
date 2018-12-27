@@ -1,0 +1,19 @@
+{
+  "code" : {
+    "text" : "Appendectomy",
+    "coding" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "code" : "80146002"
+      }
+    ]
+  },
+  "id" : "9",
+  "performedDateTime" : "2007-05-25",
+  "resourceType" : "Procedure",
+  "status" : "completed",
+  "subject" : {
+    "display" : "Candace Salinas",
+    "reference" : "Patient/1"
+  }
+}

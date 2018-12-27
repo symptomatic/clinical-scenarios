@@ -1,0 +1,21 @@
+{
+  "vaccineCode" : {
+    "text" : "DTaP",
+    "coding" : [
+      {
+        "system" : "CVX",
+        "code" : "115"
+      }
+    ]
+  },
+  "id" : "19",
+  "resourceType" : "Immunization",
+  "encounter" : {
+    "reference" : "Encounter/129837645"
+  },
+  "requester" : {
+    "display" : "Altick Kelly",
+    "reference" : "Practitioner/8"
+  },
+  "date" : "2017-10-18"
+}

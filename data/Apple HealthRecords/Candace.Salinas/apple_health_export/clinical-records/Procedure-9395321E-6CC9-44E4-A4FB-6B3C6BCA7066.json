@@ -1,0 +1,36 @@
+{
+  "performedDateTime" : "2017-10-18",
+  "status" : "completed",
+  "id" : "223468",
+  "code" : {
+    "text" : "Ultrasound Abdomen",
+    "coding" : [
+      {
+        "display" : "Ultrasound scan of lower abdomen (procedure)",
+        "system" : "http://snomed.info/sct",
+        "code" : "420052009"
+      }
+    ]
+  },
+  "encounter" : {
+    "reference" : "Encounter/129837645"
+  },
+  "performer" : [
+    {
+      "actor" : {
+        "display" : "Altick Kelly, MD",
+        "reference" : "Practitioner/8"
+      },
+      "role" : {
+        "coding" : [
+          {
+            "display" : "Gynecologist",
+            "system" : "http://snomed.info/sct",
+            "code" : "83685006"
+          }
+        ]
+      }
+    }
+  ],
+  "resourceType" : "Procedure"
+}

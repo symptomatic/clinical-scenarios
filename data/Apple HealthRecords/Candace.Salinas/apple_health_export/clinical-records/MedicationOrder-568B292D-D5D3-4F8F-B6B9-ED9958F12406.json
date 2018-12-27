@@ -1,0 +1,36 @@
+{
+  "status" : "active",
+  "note" : "Take on empty stomach at least 30 minutes before eating",
+  "id" : "23535",
+  "medicationCodeableConcept" : {
+    "text" : "Levothyroxine 75 mcg",
+    "coding" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm/",
+        "code" : "903736"
+      }
+    ]
+  },
+  "patient" : {
+    "display" : "Salinas, Candace",
+    "reference" : "Patient/190"
+  },
+  "prescriber" : {
+    "display" : "Troy Monken",
+    "reference" : "Practitioner/24763"
+  },
+  "dateWritten" : "2008-01-03T00:00:00-08:00",
+  "resourceType" : "MedicationOrder",
+  "dosageInstruction" : [
+    {
+      "text" : "Once Daily",
+      "timing" : {
+        "repeat" : {
+          "boundsPeriod" : {
+            "start" : "2008-01-03"
+          }
+        }
+      }
+    }
+  ]
+}

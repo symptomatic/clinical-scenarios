@@ -1,0 +1,33 @@
+{
+  "category" : {
+    "text" : "Vital Signs",
+    "coding" : [
+      {
+        "system" : "http://hl7.org/fhir/observation-category",
+        "code" : "vital-signs"
+      }
+    ]
+  },
+  "issued" : "2017-10-18T00:00:00Z",
+  "status" : "final",
+  "id" : "13247837",
+  "code" : {
+    "text" : "Respiratory Rate",
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "code" : "9279-1"
+      }
+    ]
+  },
+  "encounter" : {
+    "reference" : "Encounter/129837645"
+  },
+  "valueQuantity" : {
+    "code" : "/min",
+    "system" : "http://unitsofmeasure.org",
+    "value" : 22,
+    "unit" : "/min"
+  },
+  "resourceType" : "Observation"
+}

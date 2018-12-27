@@ -1,0 +1,17 @@
+{
+  "gender" : "female",
+  "id" : "1",
+  "resourceType" : "Patient",
+  "name" : [
+    {
+      "given" : [
+        "Candace"
+      ],
+      "use" : "usual",
+      "family" : [
+        "Salinas"
+      ]
+    }
+  ],
+  "birthDate" : "1977-04-01"
+}

@@ -1,0 +1,12 @@
+{
+  "gender" : "female",
+  "id" : "100",
+  "resourceType" : "Patient",
+  "name" : [
+    {
+      "use" : "usual",
+      "text" : "Candace Salinas"
+    }
+  ],
+  "birthDate" : "1977-04-01"
+}

@@ -1,0 +1,33 @@
+{
+  "category" : {
+    "text" : "Vital Signs",
+    "coding" : [
+      {
+        "system" : "http://hl7.org/fhir/observation-category",
+        "code" : "vital-signs"
+      }
+    ]
+  },
+  "issued" : "2017-03-18T00:00:00Z",
+  "status" : "final",
+  "id" : "7",
+  "code" : {
+    "text" : "Pulse",
+    "coding" : [
+      {
+        "system" : "http://loinc.org",
+        "code" : "8867-4"
+      }
+    ]
+  },
+  "encounter" : {
+    "reference" : "Encounter/355"
+  },
+  "valueQuantity" : {
+    "code" : "/min",
+    "system" : "http://unitsofmeasure.org",
+    "value" : 77,
+    "unit" : "/min"
+  },
+  "resourceType" : "Observation"
+}

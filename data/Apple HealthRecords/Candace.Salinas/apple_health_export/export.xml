@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HealthData [
+<!-- HealthKit Export Version: 8 -->
+<!ELEMENT HealthData (ExportDate,Me,(Record|Correlation|Workout|ActivitySummary|ClinicalRecord)*)>
+<!ATTLIST HealthData
+  locale CDATA #REQUIRED
+>
+<!ELEMENT ExportDate EMPTY>
+<!ATTLIST ExportDate
+  value CDATA #REQUIRED
+>
+<!ELEMENT Me EMPTY>
+<!ATTLIST Me
+  HKCharacteristicTypeIdentifierDateOfBirth         CDATA #REQUIRED
+  HKCharacteristicTypeIdentifierBiologicalSex       CDATA #REQUIRED
+  HKCharacteristicTypeIdentifierBloodType           CDATA #REQUIRED
+  HKCharacteristicTypeIdentifierFitzpatrickSkinType CDATA #REQUIRED
+>
+<!ELEMENT Record ((MetadataEntry|HeartRateVariabilityMetadataList)*)>
+<!ATTLIST Record
+  type          CDATA #REQUIRED
+  unit          CDATA #IMPLIED
+  value         CDATA #IMPLIED
+  sourceName    CDATA #REQUIRED
+  sourceVersion CDATA #IMPLIED
+  device        CDATA #IMPLIED
+  creationDate  CDATA #IMPLIED
+  startDate     CDATA #REQUIRED
+  endDate       CDATA #REQUIRED
+>
+<!-- Note: Any Records that appear as children of a correlation also appear as top-level records in this document. -->
+<!ELEMENT Correlation ((MetadataEntry|Record)*)>
+<!ATTLIST Correlation
+  type          CDATA #REQUIRED
+  sourceName    CDATA #REQUIRED
+  sourceVersion CDATA #IMPLIED
+  device        CDATA #IMPLIED
+  creationDate  CDATA #IMPLIED
+  startDate     CDATA #REQUIRED
+  endDate       CDATA #REQUIRED
+>
+<!ELEMENT Workout ((MetadataEntry|WorkoutEvent|WorkoutRoute)*)>
+<!ATTLIST Workout
+  workoutActivityType   CDATA #REQUIRED
+  duration              CDATA #IMPLIED
+  durationUnit          CDATA #IMPLIED
+  totalDistance         CDATA #IMPLIED
+  totalDistanceUnit     CDATA #IMPLIED
+  totalEnergyBurned     CDATA #IMPLIED
+  totalEnergyBurnedUnit CDATA #IMPLIED
+  sourceName            CDATA #REQUIRED
+  sourceVersion         CDATA #IMPLIED
+  device                CDATA #IMPLIED
+  creationDate          CDATA #IMPLIED
+  startDate             CDATA #REQUIRED
+  endDate               CDATA #REQUIRED
+>
+<!ELEMENT WorkoutEvent EMPTY>
+<!ATTLIST WorkoutEvent
+  type         CDATA #REQUIRED
+  date         CDATA #REQUIRED
+  duration     CDATA #IMPLIED
+  durationUnit CDATA #IMPLIED
+>
+<!ELEMENT WorkoutRoute ((MetadataEntry|Location)*)>
+<!ATTLIST WorkoutRoute
+  sourceName    CDATA #REQUIRED
+  sourceVersion CDATA #IMPLIED
+  device        CDATA #IMPLIED
+  creationDate  CDATA #IMPLIED
+  startDate     CDATA #REQUIRED
+  endDate       CDATA #REQUIRED
+>
+<!ELEMENT Location EMPTY>
+<!ATTLIST Location
+  date               CDATA #REQUIRED
+  latitude           CDATA #REQUIRED
+  longitude          CDATA #REQUIRED
+  altitude           CDATA #REQUIRED
+  horizontalAccuracy CDATA #REQUIRED
+  verticalAccuracy   CDATA #REQUIRED
+  course             CDATA #REQUIRED
+  speed              CDATA #REQUIRED
+>
+<!ELEMENT ActivitySummary EMPTY>
+<!ATTLIST ActivitySummary
+  dateComponents           CDATA #IMPLIED
+  activeEnergyBurned       CDATA #IMPLIED
+  activeEnergyBurnedGoal   CDATA #IMPLIED
+  activeEnergyBurnedUnit   CDATA #IMPLIED
+  appleExerciseTime        CDATA #IMPLIED
+  appleExerciseTimeGoal    CDATA #IMPLIED
+  appleStandHours          CDATA #IMPLIED
+  appleStandHoursGoal      CDATA #IMPLIED
+>
+<!ELEMENT MetadataEntry EMPTY>
+<!ATTLIST MetadataEntry
+  key   CDATA #REQUIRED
+  value CDATA #REQUIRED
+>
+<!-- Note: Heart Rate Variability records captured by Apple Watch may include an associated list of instantaneous beats-per-minute readings. -->
+<!ELEMENT HeartRateVariabilityMetadataList (InstantaneousBeatsPerMinute*)>
+<!ELEMENT InstantaneousBeatsPerMinute EMPTY>
+<!ATTLIST InstantaneousBeatsPerMinute
+  bpm  CDATA #REQUIRED
+  time CDATA #REQUIRED
+>
+<!ELEMENT ClinicalRecord EMPTY>
+<!ATTLIST ClinicalRecord
+  type              CDATA #REQUIRED
+  identifier        CDATA #REQUIRED
+  sourceName        CDATA #REQUIRED
+  sourceURL         CDATA #REQUIRED
+  fhirVersion       CDATA #REQUIRED
+  receivedDate      CDATA #REQUIRED
+  resourceFilePath  CDATA #REQUIRED
+>
+]>
+<HealthData locale="en_US">
+ <ExportDate value="2018-12-18 19:48:39 -0600"/>
+ <Me HKCharacteristicTypeIdentifierDateOfBirth="1983-12-16" HKCharacteristicTypeIdentifierBiologicalSex="HKBiologicalSexFemale" HKCharacteristicTypeIdentifierBloodType="HKBloodTypeABPositive" HKCharacteristicTypeIdentifierFitzpatrickSkinType="HKFitzpatrickSkinTypeII"/>
+ <ClinicalRecord type="Patient" identifier="1" sourceName="Sample Location A" sourceURL="https://localhost:9090/resource/Patient/1" fhirVersion="1.0.2" receivedDate="2018-12-18 14:06:24 -0600" resourceFilePath="/clinical-records/Patient-F4152680-0260-472F-88F3-4A48F7981270.json"/>
+ <ClinicalRecord type="Patient" identifier="100" sourceName="Sample Location B" sourceURL="https://localhost:9090/resource/Patient/100" fhirVersion="1.0.2" receivedDate="2018-12-18 14:06:58 -0600" resourceFilePath="/clinical-records/Patient-EE745E92-7BED-4401-A125-3E537DAE56AE.json"/>
+ <ClinicalRecord type="Patient" identifier="19035" sourceName="Sample Location C" sourceURL="https://localhost:9090/resource/Patient/19035" fhirVersion="1.0.2" receivedDate="2018-12-18 14:07:08 -0600" resourceFilePath="/clinical-records/Patient-D8C9B604-A4D5-411B-A51B-903941FCC294.json"/>
+ <ClinicalRecord type="MedicationOrder" identifier="24" sourceName="Sample Location A" sourceURL="https://localhost:9090/resource/MedicationOrder/24" fhirVersion="1.0.2" receivedDate="2018-12-18 14:06:24 -0600" resourceFilePath="/clinical-records/MedicationOrder-E2ADBBE1-41CE-43D5-9219-E8576CCDF3A0.json"/>
+ <ClinicalRecord type="MedicationOrder" identifier="18" sourceName="Sample Location A" sourceURL="https://localhost:9090/resource/MedicationOrder/18" fhirVersion="1.0.2" receivedDate="2018-12-18 14:06:24 -0600" resourceFilePath="/clinical-records/MedicationOrder-A5142D62-C206-4C06-87E2-BB0DFBF8A3E0.json"/>
+ <ClinicalRecord type="MedicationOrder" identifier="13" sourceName="Sample Location B" sourceURL="https://localhost:9090/resource/MedicationOrder/13" fhirVersion="1.0.2" receivedDate="2018-12-18 14:06:58 -0600" resourceFilePath="/clinical-records/MedicationOrder-05094895-6811-4881-94EE-DF751F692B91.json"/>
+ <ClinicalRecord type="MedicationOrder" identifier="23535" sourceName="Sample Location C" sourceURL="https://localhost:9090/resource/MedicationOrder/23535" fhirVersion="1.0.2" receivedDate="2018-12-18 14:07:08 -0600" resourceFilePath="/clinical-records/MedicationOrder-568B292D-D5D3-4F8F-B6B9-ED9958F12406.json"/>
+ <ClinicalRecord type="Observation" identifier="12" sourceName="Sample Location A" sourceURL="https://localhost:9090/resource/Observation/12" fhirVersion="1.0.2" receivedDate="2018-12-18 14:06:24 -0600" resourceFilePath="/clinical-records/Observation-43A6C911-7CEF-4E97-A069-F6FBDEE60747.json"/>
+ <ClinicalRecord type="Observation" identifier="4" sourceName="Sample Location A" sourceURL="https://localhost:9090/resource/Observation/4" fhirVersion="1.0.2" receivedDate="2018-12-18 14:06:24 -0600" resourceFilePath="/clinical-records/Observation-E6C3B3F4-4DA1-45CC-B3E2-777F4000D0D4.json"/>
+ <ClinicalRecord type="Observation" identifier="21" sourceName="Sample Location A" sourceURL="https://localhost:9090/resource/Observation/21" fhirVersion="1.0.2" receivedDate="2018-12-18 14:06:24 -0600" resourceFilePath="/clinical-records/Observation-E0E44243-EA2B-43C8-B7A7-4382577F50F0.json"/>
+ <ClinicalRecord type="Observation" identifier="7" sourceName="Sample Location A" sourceURL="https://localhost:9090/resource/Observation/7" fhirVersion="1.0.2" receivedDate="2018-12-18 14:06:24 -0600" resourceFilePath="/clinical-records/Observation-86682C8D-F773-43E6-B121-910908E0A730.json"/>
+ <ClinicalRecord type="Observation" identifier="14" sourceName="Sample Location A" sourceURL="https://localhost:9090/resource/Observation/14" fhirVersion="1.0.2" receivedDate="2018-12-18 14:06:24 -0600" resourceFilePath="/clinical-records/Observation-15E27414-9266-4D2C-A120-93DDF4BB9EE9.json"/>
+ <ClinicalRecord type="Observation" identifier="1" sourceName="Sample Location B" sourceURL="https://localhost:9090/resource/Observation/1" fhirVersion="1.0.2" receivedDate="2018-12-18 14:06:58 -0600" resourceFilePath="/clinical-records/Observation-8C1E852B-7EEC-47FB-9E2C-3393D0A9C8BB.json"/>
+ <ClinicalRecord type="Observation" identifier="2738664" sourceName="Sample Location B" sourceURL="https://localhost:9090/resource/Observation/2738664" fhirVersion="1.0.2" receivedDate="2018-12-18 14:06:58 -0600" resourceFilePath="/clinical-records/Observation-028A7D77-A1A0-45A9-8075-DFB23B9C39B8.json"/>
+ <ClinicalRecord type="Observation" identifier="2634785" sourceName="Sample Location B" sourceURL="https://localhost:9090/resource/Observation/2634785" fhirVersion="1.0.2" receivedDate="2018-12-18 14:06:58 -0600" resourceFilePath="/clinical-records/Observation-F4A3CB95-9D4D-4F04-A5AC-91B949E46C97.json"/>
+ <ClinicalRecord type="Observation" identifier="15458" sourceName="Sample Location B" sourceURL="https://localhost:9090/resource/Observation/15458" fhirVersion="1.0.2" receivedDate="2018-12-18 14:06:58 -0600" resourceFilePath="/clinical-records/Observation-2BBED0AE-21A0-485C-A964-5C44A4333B9D.json"/>
+ <ClinicalRecord type="Observation" identifier="43465" sourceName="Sample Location B" sourceURL="https://localhost:9090/resource/Observation/43465" fhirVersion="1.0.2" receivedDate="2018-12-18 14:06:58 -0600" resourceFilePath="/clinical-records/Observation-0BBDE96E-1DF2-425F-870D-7C48C0AAC44E.json"/>
+ <ClinicalRecord type="Observation" identifier="162467" sourceName="Sample Location B" sourceURL="https://localhost:9090/resource/Observation/162467" fhirVersion="1.0.2" receivedDate="2018-12-18 14:06:58 -0600" resourceFilePath="/clinical-records/Observation-6D83A0C8-7393-4A9E-A034-ED41028B9FDB.json"/>
+ <ClinicalRecord type="Observation" identifier="72354778" sourceName="Sample Location B" sourceURL="https://localhost:9090/resource/Observation/72354778" fhirVersion="1.0.2" receivedDate="2018-12-18 14:06:58 -0600" resourceFilePath="/clinical-records/Observation-3E7A41D9-D51E-45AF-BD5C-C251E25E7A52.json"/>
+ <ClinicalRecord type="Observation" identifier="11" sourceName="Sample Location B" sourceURL="https://localhost:9090/resource/Observation/11" fhirVersion="1.0.2" receivedDate="2018-12-18 14:06:58 -0600" resourceFilePath="/clinical-records/Observation-E21DDDC4-B6B4-4B56-9AC5-5D3489B080CF.json"/>
+ <ClinicalRecord type="Observation" identifier="1423546" sourceName="Sample Location B" sourceURL="https://localhost:9090/resource/Observation/1423546" fhirVersion="1.0.2" receivedDate="2018-12-18 14:06:58 -0600" resourceFilePath="/clinical-records/Observation-99EB9F3D-F952-489B-B7DA-A8CACDA088AA.json"/>
+ <ClinicalRecord type="Observation" identifier="13247837" sourceName="Sample Location B" sourceURL="https://localhost:9090/resource/Observation/13247837" fhirVersion="1.0.2" receivedDate="2018-12-18 14:06:58 -0600" resourceFilePath="/clinical-records/Observation-20F7793C-B2E5-405E-B0A1-4C9AEE70EFE9.json"/>
+ <ClinicalRecord type="Observation" identifier="6" sourceName="Sample Location C" sourceURL="https://localhost:9090/resource/Observation/6" fhirVersion="1.0.2" receivedDate="2018-12-18 14:07:08 -0600" resourceFilePath="/clinical-records/Observation-829EBF40-A8D5-491A-AD0C-6292CEA212AA.json"/>
+ <ClinicalRecord type="Observation" identifier="22" sourceName="Sample Location C" sourceURL="https://localhost:9090/resource/Observation/22" fhirVersion="1.0.2" receivedDate="2018-12-18 14:07:08 -0600" resourceFilePath="/clinical-records/Observation-CAD5228B-7BDB-4117-BDCE-768D184D92F9.json"/>
+ <ClinicalRecord type="Condition" identifier="1" sourceName="Sample Location A" sourceURL="https://localhost:9090/resource/Condition/1" fhirVersion="1.0.2" receivedDate="2018-12-18 14:06:24 -0600" resourceFilePath="/clinical-records/Condition-3C680973-8A92-4F4D-9633-2D0FA736EB80.json"/>
+ <ClinicalRecord type="Condition" identifier="2" sourceName="Sample Location A" sourceURL="https://localhost:9090/resource/Condition/2" fhirVersion="1.0.2" receivedDate="2018-12-18 14:06:24 -0600" resourceFilePath="/clinical-records/Condition-A11DE40A-074B-4AB5-B451-44857A4BC1C0.json"/>
+ <ClinicalRecord type="Condition" identifier="4" sourceName="Sample Location A" sourceURL="https://localhost:9090/resource/Condition/4" fhirVersion="1.0.2" receivedDate="2018-12-18 14:06:24 -0600" resourceFilePath="/clinical-records/Condition-FECED47C-AB8E-4304-A2D5-29EAFA43BBB1.json"/>
+ <ClinicalRecord type="Condition" identifier="42467" sourceName="Sample Location C" sourceURL="https://localhost:9090/resource/Condition/42467" fhirVersion="1.0.2" receivedDate="2018-12-18 14:07:08 -0600" resourceFilePath="/clinical-records/Condition-1EFED690-BA93-403F-96C9-8809A327BF90.json"/>
+ <ClinicalRecord type="Procedure" identifier="9" sourceName="Sample Location A" sourceURL="https://localhost:9090/resource/Procedure/9" fhirVersion="1.0.2" receivedDate="2018-12-18 14:06:24 -0600" resourceFilePath="/clinical-records/Procedure-D2EA9B6F-A098-46C7-B7BD-98B452F8DAEC.json"/>
+ <ClinicalRecord type="Procedure" identifier="10" sourceName="Sample Location A" sourceURL="https://localhost:9090/resource/Procedure/10" fhirVersion="1.0.2" receivedDate="2018-12-18 14:06:24 -0600" resourceFilePath="/clinical-records/Procedure-8E217A4F-F37E-445A-BBF9-3FF4E795C500.json"/>
+ <ClinicalRecord type="Procedure" identifier="223468" sourceName="Sample Location B" sourceURL="https://localhost:9090/resource/Procedure/223468" fhirVersion="1.0.2" receivedDate="2018-12-18 14:06:58 -0600" resourceFilePath="/clinical-records/Procedure-9395321E-6CC9-44E4-A4FB-6B3C6BCA7066.json"/>
+ <ClinicalRecord type="Immunization" identifier="3" sourceName="Sample Location B" sourceURL="https://localhost:9090/resource/Immunization/3" fhirVersion="1.0.2" receivedDate="2018-12-18 14:06:58 -0600" resourceFilePath="/clinical-records/Immunization-CDA81364-93B8-43D4-9E75-9F43F8F73BDE.json"/>
+ <ClinicalRecord type="Immunization" identifier="19" sourceName="Sample Location B" sourceURL="https://localhost:9090/resource/Immunization/19" fhirVersion="1.0.2" receivedDate="2018-12-18 14:06:58 -0600" resourceFilePath="/clinical-records/Immunization-775B44D5-E25C-4414-8725-4DC9E115B9C4.json"/>
+ <ClinicalRecord type="AllergyIntolerance" identifier="2" sourceName="Sample Location A" sourceURL="https://localhost:9090/resource/AllergyIntolerance/2" fhirVersion="1.0.2" receivedDate="2018-12-18 14:06:24 -0600" resourceFilePath="/clinical-records/AllergyIntolerance-99AB403F-95A4-4A5F-A62B-920AD55FF540.json"/>
+ <ClinicalRecord type="AllergyIntolerance" identifier="2" sourceName="Sample Location B" sourceURL="https://localhost:9090/resource/AllergyIntolerance/2" fhirVersion="1.0.2" receivedDate="2018-12-18 14:06:58 -0600" resourceFilePath="/clinical-records/AllergyIntolerance-05D617C1-58AD-49CC-812F-0067786C19E5.json"/>
+</HealthData>
