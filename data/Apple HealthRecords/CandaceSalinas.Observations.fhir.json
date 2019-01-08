@@ -1,0 +1,756 @@
+{
+  "resourceType": "Bundle",
+  "entry": [
+    {
+      "fullUrl": "/Observation/QpKgQDCL83dS7fZ5Q",
+      "resource": {
+        "category": {
+          "text": "Laboratory",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "laboratory"
+            }
+          ]
+        },
+        "issued": "2017-03-18T00:00:00Z",
+        "status": "final",
+        "id": "12",
+        "code": {
+          "text": "Triglycerides",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3043-7"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/355"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "value": 10,
+              "unit": "mg/dL"
+            },
+            "high": {
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "value": 250,
+              "unit": "mg/dL"
+            },
+            "text": "10 to 250 mg/dL"
+          }
+        ],
+        "valueQuantity": {
+          "code": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "value": 86,
+          "unit": "mg/dL"
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "/Observation/whCGaBamrpakhnqfE",
+      "resource": {
+        "category": {
+          "text": "Laboratory",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "laboratory"
+            }
+          ]
+        },
+        "issued": "2017-03-18T00:00:00Z",
+        "status": "final",
+        "id": "21",
+        "code": {
+          "text": "Cholesterol HDL",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2085-9"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/355"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "value": 35,
+              "unit": "mg/dL"
+            },
+            "high": {
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "value": 59,
+              "unit": "mg/dL"
+            },
+            "text": "35 to 59 mg/dL"
+          }
+        ],
+        "valueQuantity": {
+          "code": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "value": 53.5,
+          "unit": "mg/dL"
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "/Observation/iRRZk9kX3CJi56ZXP",
+      "resource": {
+        "category": {
+          "text": "Laboratory",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "laboratory"
+            }
+          ]
+        },
+        "issued": "2017-10-18T00:00:00Z",
+        "status": "final",
+        "id": "1",
+        "code": {
+          "text": "LDL-cholesterol",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2089-1"
+            }
+          ]
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "value": 50,
+              "unit": "mg/dL"
+            },
+            "high": {
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "value": 178,
+              "unit": "mg/dL"
+            },
+            "text": "50 to 178 mg/dL"
+          }
+        ],
+        "valueQuantity": {
+          "code": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "value": 113.3,
+          "unit": "mg/dL"
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "/Observation/8t8btSe2nysJPjaff",
+      "resource": {
+        "category": {
+          "text": "Laboratory",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "laboratory"
+            }
+          ]
+        },
+        "issued": "2017-10-18T00:00:00Z",
+        "status": "final",
+        "id": "2738664",
+        "code": {
+          "text": "Blood Glucose",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2339-0"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/129837645"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "value": 61,
+              "unit": "mg/dL"
+            },
+            "high": {
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "value": 100,
+              "unit": "mg/dL"
+            },
+            "text": "61-100 mg/dL"
+          }
+        ],
+        "valueQuantity": {
+          "code": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "value": 60,
+          "unit": "mg/dL"
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "/Observation/qkagkNExvJ2C3B8kk",
+      "resource": {
+        "category": {
+          "text": "Laboratory",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "laboratory"
+            }
+          ]
+        },
+        "issued": "2017-10-18T00:00:00Z",
+        "status": "final",
+        "id": "11",
+        "code": {
+          "text": "Total cholesterol",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2093-3"
+            }
+          ]
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "value": 120,
+              "unit": "mg/dL"
+            },
+            "high": {
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "value": 220,
+              "unit": "mg/dL"
+            },
+            "text": "120 to 220 mg/dL"
+          }
+        ],
+        "valueQuantity": {
+          "code": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "value": 184,
+          "unit": "mg/dL"
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "/Observation/G9JAz3GgBZHnXBRbY",
+      "resource": {
+        "category": {
+          "text": "Laboratory",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "laboratory"
+            }
+          ]
+        },
+        "issued": "2007-09-04T14:15:00+06:00",
+        "status": "final",
+        "id": "6",
+        "code": {
+          "text": "Thyroxine (T4)",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3026-2"
+            }
+          ]
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "code": "µg/dL",
+              "system": "http://unitsofmeasure.org",
+              "value": 4.5,
+              "unit": "µg/dL"
+            },
+            "high": {
+              "code": "µg/dL",
+              "system": "http://unitsofmeasure.org",
+              "value": 12,
+              "unit": "µg/dL"
+            },
+            "text": "4.5 - 12 µg/dL"
+          }
+        ],
+        "valueQuantity": {
+          "code": "µg/dL",
+          "system": "http://unitsofmeasure.org",
+          "value": 9.8,
+          "unit": "µg/dL"
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "/Observation/M7cXtDvTvncRpRRGc",
+      "resource": {
+        "category": {
+          "text": "Laboratory",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "laboratory"
+            }
+          ]
+        },
+        "issued": "2007-09-04T14:15:00+06:00",
+        "status": "final",
+        "id": "22",
+        "code": {
+          "text": "TSH",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3016-3"
+            }
+          ]
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "code": "µU/mL",
+              "system": "http://unitsofmeasure.org",
+              "value": 0.35,
+              "unit": "µU/mL"
+            },
+            "high": {
+              "code": "µU/mL",
+              "system": "http://unitsofmeasure.org",
+              "value": 5.5,
+              "unit": "µU/mL"
+            },
+            "text": "0.350 to 5.500 µU/mL"
+          }
+        ],
+        "valueQuantity": {
+          "code": "µU/mL",
+          "system": "http://unitsofmeasure.org",
+          "value": 3.915,
+          "unit": "µU/mL"
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "/Observation/CmLY8d8nErScZ8TQF",
+      "resource": {
+        "category": {
+          "text": "Vital Signs",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        },
+        "issued": "2017-03-18T00:00:00Z",
+        "status": "final",
+        "id": "4",
+        "code": {
+          "text": "BMI-body mass index",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "39156-5"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/355"
+        },
+        "valueQuantity": {
+          "code": "kg/m^2",
+          "system": "http://unitsofmeasure.org",
+          "value": 26.2,
+          "unit": "kg/m^2"
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "/Observation/Px9gtKH3ZGeWxDXj9",
+      "resource": {
+        "category": {
+          "text": "Vital Signs",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        },
+        "issued": "2017-03-18T00:00:00Z",
+        "status": "final",
+        "id": "7",
+        "code": {
+          "text": "Pulse",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/355"
+        },
+        "valueQuantity": {
+          "code": "/min",
+          "system": "http://unitsofmeasure.org",
+          "value": 77,
+          "unit": "/min"
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "/Observation/7bfvwZazAGyGupXFC",
+      "resource": {
+        "category": {
+          "text": "Vital Signs",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        },
+        "issued": "2017-03-18T00:00:00Z",
+        "status": "final",
+        "id": "14",
+        "code": {
+          "text": "Temperature",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/355"
+        },
+        "valueQuantity": {
+          "code": "Cel",
+          "system": "http://unitsofmeasure.org",
+          "value": 37.6,
+          "unit": "Cel"
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "/Observation/RJM7HvYLFTgBw5nSq",
+      "resource": {
+        "category": {
+          "text": "Vital Signs",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        },
+        "issued": "2017-10-18T00:00:00Z",
+        "status": "final",
+        "id": "2634785",
+        "code": {
+          "text": "BP-blood pressure",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "55284-4"
+            }
+          ]
+        },
+        "component": [
+          {
+            "valueQuantity": {
+              "code": "mm[Hg]",
+              "system": "http://unitsofmeasure.org",
+              "value": 110,
+              "unit": "mm[Hg]"
+            },
+            "code": {
+              "text": "Systolic blood pressure",
+              "coding": [
+                {
+                  "display": "Systolic blood pressure",
+                  "system": "http://loinc.org",
+                  "code": "8480-6"
+                }
+              ]
+            }
+          },
+          {
+            "valueQuantity": {
+              "code": "mm[Hg]",
+              "system": "http://unitsofmeasure.org",
+              "value": 70,
+              "unit": "mm[Hg]"
+            },
+            "code": {
+              "text": "Diastolic blood pressure",
+              "coding": [
+                {
+                  "display": "Diastolic blood pressure",
+                  "system": "http://loinc.org",
+                  "code": "8462-4"
+                }
+              ]
+            }
+          }
+        ],
+        "encounter": {
+          "reference": "Encounter/129837645"
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "/Observation/xdTLgeeDAe4m3PNkd",
+      "resource": {
+        "category": {
+          "text": "Vital Signs",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        },
+        "issued": "2017-10-18T00:00:00Z",
+        "status": "final",
+        "id": "15458",
+        "code": {
+          "text": "Weight",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/129837645"
+        },
+        "valueQuantity": {
+          "code": "[lb_av]",
+          "system": "http://unitsofmeasure.org",
+          "value": 155,
+          "unit": "[lb_av]"
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "/Observation/6qwzz5bAPSGfkJCAQ",
+      "resource": {
+        "category": {
+          "text": "Vital Signs",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        },
+        "issued": "2017-10-18T00:00:00Z",
+        "status": "final",
+        "id": "72354778",
+        "code": {
+          "text": "Pulse",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/129837645"
+        },
+        "valueQuantity": {
+          "code": "/min",
+          "system": "http://unitsofmeasure.org",
+          "value": 72,
+          "unit": "/min"
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "/Observation/nb5HgRNbyKyfxFgef",
+      "resource": {
+        "category": {
+          "text": "Vital Signs",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        },
+        "issued": "2017-10-18T00:00:00Z",
+        "status": "final",
+        "id": "162467",
+        "code": {
+          "text": "Height",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8302-2"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/129837645"
+        },
+        "valueQuantity": {
+          "code": "cm",
+          "system": "http://unitsofmeasure.org",
+          "value": 164,
+          "unit": "cm"
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "/Observation/YBKfvqpPEfpj8uXrT",
+      "resource": {
+        "category": {
+          "text": "Vital Signs",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        },
+        "issued": "2017-10-18T00:00:00Z",
+        "status": "final",
+        "id": "43465",
+        "code": {
+          "text": "BMI-body mass index",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "39156-5"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/129837645"
+        },
+        "valueQuantity": {
+          "code": "kg/m^2",
+          "system": "http://unitsofmeasure.org",
+          "value": 26.6,
+          "unit": "kg/m^2"
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "/Observation/QJAJeKkiTEEuDC8aQ",
+      "resource": {
+        "category": {
+          "text": "Vital Signs",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        },
+        "issued": "2017-10-18T00:00:00Z",
+        "status": "final",
+        "id": "1423546",
+        "code": {
+          "text": "Temperature",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/129837645"
+        },
+        "valueQuantity": {
+          "code": "Cel",
+          "system": "http://unitsofmeasure.org",
+          "value": 37.4,
+          "unit": "Cel"
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "/Observation/i9X9bZvvmRr6HKZPt",
+      "resource": {
+        "category": {
+          "text": "Vital Signs",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        },
+        "issued": "2017-10-18T00:00:00Z",
+        "status": "final",
+        "id": "13247837",
+        "code": {
+          "text": "Respiratory Rate",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/129837645"
+        },
+        "valueQuantity": {
+          "code": "/min",
+          "system": "http://unitsofmeasure.org",
+          "value": 22,
+          "unit": "/min"
+        },
+        "resourceType": "Observation"
+      }
+    }
+  ]
+}

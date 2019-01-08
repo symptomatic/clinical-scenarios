@@ -1,0 +1,870 @@
+
+{
+  "resourceType": "Bundle",
+  "entry": [
+    {
+      "fullUrl": "/Observation/6HCTKMpQAys9djNhK",
+      "resource": {
+        "category": {
+          "text": "Vital Signs",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        },
+        "issued": "2018-12-28T00:00:00Z",
+        "status": "final",
+        "id": "6HCTKMpQAys9djNhK",
+        "code": {
+          "text": "Pulse",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/sARLpYbtodmtgTK6K"
+        },
+        "valueQuantity": {
+          "code": "/min",
+          "system": "http://unitsofmeasure.org",
+          "value": 77,
+          "unit": "/min"
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "/Observation/B2ExBr7Tk3FD8umDC",
+      "resource": {
+        "category": {
+          "text": "Vital Signs",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        },
+        "issued": "2018-12-28T01:00:00Z",
+        "status": "final",
+        "id": "B2ExBr7Tk3FD8umDC",
+        "code": {
+          "text": "Pulse",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/sARLpYbtodmtgTK6K"
+        },
+        "valueQuantity": {
+          "code": "/min",
+          "system": "http://unitsofmeasure.org",
+          "value": 72,
+          "unit": "/min"
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "/Observation/c9QCj7aZ7qoEBxXqk",
+      "resource": {
+        "category": {
+          "text": "Vital Signs",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        },
+        "issued": "2018-12-28T02:00:00Z",
+        "status": "final",
+        "id": "c9QCj7aZ7qoEBxXqk",
+        "code": {
+          "text": "Pulse",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/sARLpYbtodmtgTK6K"
+        },
+        "valueQuantity": {
+          "code": "/min",
+          "system": "http://unitsofmeasure.org",
+          "value": 57,
+          "unit": "/min"
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "/Observation/QgFCHuwKm93brhZu8",
+      "resource": {
+        "category": {
+          "text": "Vital Signs",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        },
+        "issued": "2018-12-28T03:00:00Z",
+        "status": "final",
+        "id": "QgFCHuwKm93brhZu8",
+        "code": {
+          "text": "Pulse",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/sARLpYbtodmtgTK6K"
+        },
+        "valueQuantity": {
+          "code": "/min",
+          "system": "http://unitsofmeasure.org",
+          "value": 54,
+          "unit": "/min"
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "/Observation/qLitXkm5AgmnGjdt8",
+      "resource": {
+        "category": {
+          "text": "Vital Signs",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        },
+        "issued": "2018-12-28T04:00:00Z",
+        "status": "final",
+        "id": "qLitXkm5AgmnGjdt8",
+        "code": {
+          "text": "Pulse",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/sARLpYbtodmtgTK6K"
+        },
+        "valueQuantity": {
+          "code": "/min",
+          "system": "http://unitsofmeasure.org",
+          "value": 52,
+          "unit": "/min"
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "/Observation/2e6tyt3nDfpfDmKqw",
+      "resource": {
+        "category": {
+          "text": "Vital Signs",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        },
+        "issued": "2018-12-28T05:00:00Z",
+        "status": "final",
+        "id": "2e6tyt3nDfpfDmKqw",
+        "code": {
+          "text": "Pulse",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/sARLpYbtodmtgTK6K"
+        },
+        "valueQuantity": {
+          "code": "/min",
+          "system": "http://unitsofmeasure.org",
+          "value": 55,
+          "unit": "/min"
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "/Observation/rnkwp2x5w8JFFdF4W",
+      "resource": {
+        "category": {
+          "text": "Vital Signs",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        },
+        "issued": "2018-12-28T06:00:00Z",
+        "status": "final",
+        "id": "rnkwp2x5w8JFFdF4W",
+        "code": {
+          "text": "Pulse",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/sARLpYbtodmtgTK6K"
+        },
+        "valueQuantity": {
+          "code": "/min",
+          "system": "http://unitsofmeasure.org",
+          "value": 64,
+          "unit": "/min"
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "/Observation/LojjwP3YfWkKEbEuP",
+      "resource": {
+        "category": {
+          "text": "Vital Signs",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        },
+        "issued": "2018-12-28T07:00:00Z",
+        "status": "final",
+        "id": "LojjwP3YfWkKEbEuP",
+        "code": {
+          "text": "Pulse",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/sARLpYbtodmtgTK6K"
+        },
+        "valueQuantity": {
+          "code": "/min",
+          "system": "http://unitsofmeasure.org",
+          "value": 66,
+          "unit": "/min"
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "/Observation/QbCCziCsxacdEEfZx",
+      "resource": {
+        "category": {
+          "text": "Vital Signs",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        },
+        "issued": "2018-12-28T08:00:00Z",
+        "status": "final",
+        "id": "QbCCziCsxacdEEfZx",
+        "code": {
+          "text": "Pulse",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/sARLpYbtodmtgTK6K"
+        },
+        "valueQuantity": {
+          "code": "/min",
+          "system": "http://unitsofmeasure.org",
+          "value": 72,
+          "unit": "/min"
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "/Observation/6zTFrqSByCuothtWA",
+      "resource": {
+        "category": {
+          "text": "Vital Signs",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        },
+        "issued": "2018-12-28T09:00:00Z",
+        "status": "final",
+        "id": "6zTFrqSByCuothtWA",
+        "code": {
+          "text": "Pulse",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/sARLpYbtodmtgTK6K"
+        },
+        "valueQuantity": {
+          "code": "/min",
+          "system": "http://unitsofmeasure.org",
+          "value": 80,
+          "unit": "/min"
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "/Observation/GrjPMuD9DsmFKWb8K",
+      "resource": {
+        "category": {
+          "text": "Vital Signs",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        },
+        "issued": "2018-12-28T10:00:00Z",
+        "status": "final",
+        "id": "GrjPMuD9DsmFKWb8K",
+        "code": {
+          "text": "Pulse",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/sARLpYbtodmtgTK6K"
+        },
+        "valueQuantity": {
+          "code": "/min",
+          "system": "http://unitsofmeasure.org",
+          "value": 74,
+          "unit": "/min"
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "/Observation/4zEESX3i2yjXzYCHC",
+      "resource": {
+        "category": {
+          "text": "Vital Signs",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        },
+        "issued": "2018-12-28T11:00:00Z",
+        "status": "final",
+        "id": "4zEESX3i2yjXzYCHC",
+        "code": {
+          "text": "Pulse",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/sARLpYbtodmtgTK6K"
+        },
+        "valueQuantity": {
+          "code": "/min",
+          "system": "http://unitsofmeasure.org",
+          "value": 68,
+          "unit": "/min"
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "/Observation/cS7xNvkc5ADg3aReF",
+      "resource": {
+        "category": {
+          "text": "Vital Signs",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        },
+        "issued": "2018-12-28T12:00:00Z",
+        "status": "final",
+        "id": "cS7xNvkc5ADg3aReF",
+        "code": {
+          "text": "Pulse",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/sARLpYbtodmtgTK6K"
+        },
+        "valueQuantity": {
+          "code": "/min",
+          "system": "http://unitsofmeasure.org",
+          "value": 71,
+          "unit": "/min"
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "/Observation/B94ffaEvrScq78bkj",
+      "resource": {
+        "category": {
+          "text": "Vital Signs",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        },
+        "issued": "2018-12-28T13:00:00Z",
+        "status": "final",
+        "id": "B94ffaEvrScq78bkj",
+        "code": {
+          "text": "Pulse",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/sARLpYbtodmtgTK6K"
+        },
+        "valueQuantity": {
+          "code": "/min",
+          "system": "http://unitsofmeasure.org",
+          "value": 76,
+          "unit": "/min"
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "/Observation/uNAhrMgPQkmWtoBak",
+      "resource": {
+        "category": {
+          "text": "Vital Signs",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        },
+        "issued": "2018-12-28T14:00:00Z",
+        "status": "final",
+        "id": "uNAhrMgPQkmWtoBak",
+        "code": {
+          "text": "Pulse",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/sARLpYbtodmtgTK6K"
+        },
+        "valueQuantity": {
+          "code": "/min",
+          "system": "http://unitsofmeasure.org",
+          "value": 70,
+          "unit": "/min"
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "/Observation/FwaN87b3L4vNr5qPn",
+      "resource": {
+        "category": {
+          "text": "Vital Signs",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        },
+        "issued": "2018-12-28T15:00:00Z",
+        "status": "final",
+        "id": "FwaN87b3L4vNr5qPn",
+        "code": {
+          "text": "Pulse",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/sARLpYbtodmtgTK6K"
+        },
+        "valueQuantity": {
+          "code": "/min",
+          "system": "http://unitsofmeasure.org",
+          "value": 68,
+          "unit": "/min"
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "/Observation/b5bDJfgrgncLFMw3s",
+      "resource": {
+        "category": {
+          "text": "Vital Signs",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        },
+        "issued": "2018-12-28T16:00:00Z",
+        "status": "final",
+        "id": "b5bDJfgrgncLFMw3s",
+        "code": {
+          "text": "Pulse",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/sARLpYbtodmtgTK6K"
+        },
+        "valueQuantity": {
+          "code": "/min",
+          "system": "http://unitsofmeasure.org",
+          "value": 68,
+          "unit": "/min"
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "/Observation/3zM9pcN36wR6HJoNv",
+      "resource": {
+        "category": {
+          "text": "Vital Signs",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        },
+        "issued": "2018-12-28T17:00:00Z",
+        "status": "final",
+        "id": "3zM9pcN36wR6HJoNv",
+        "code": {
+          "text": "Pulse",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/sARLpYbtodmtgTK6K"
+        },
+        "valueQuantity": {
+          "code": "/min",
+          "system": "http://unitsofmeasure.org",
+          "value": 70,
+          "unit": "/min"
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "/Observation/ebbTFmuRxg7zdsSTL",
+      "resource": {
+        "category": {
+          "text": "Vital Signs",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        },
+        "issued": "2018-12-28T18:00:00Z",
+        "status": "final",
+        "id": "ebbTFmuRxg7zdsSTL",
+        "code": {
+          "text": "Pulse",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/sARLpYbtodmtgTK6K"
+        },
+        "valueQuantity": {
+          "code": "/min",
+          "system": "http://unitsofmeasure.org",
+          "value": 76,
+          "unit": "/min"
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "/Observation/3WbMS8tJRqhLfSLiz",
+      "resource": {
+        "category": {
+          "text": "Vital Signs",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        },
+        "issued": "2018-12-28T19:00:00Z",
+        "status": "final",
+        "id": "3WbMS8tJRqhLfSLiz",
+        "code": {
+          "text": "Pulse",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/sARLpYbtodmtgTK6K"
+        },
+        "valueQuantity": {
+          "code": "/min",
+          "system": "http://unitsofmeasure.org",
+          "value": 76,
+          "unit": "/min"
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "/Observation/zpYx4ZRwHLpTKeXgp",
+      "resource": {
+        "category": {
+          "text": "Vital Signs",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        },
+        "issued": "2018-12-28T20:00:00Z",
+        "status": "final",
+        "id": "zpYx4ZRwHLpTKeXgp",
+        "code": {
+          "text": "Pulse",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/sARLpYbtodmtgTK6K"
+        },
+        "valueQuantity": {
+          "code": "/min",
+          "system": "http://unitsofmeasure.org",
+          "value": 68,
+          "unit": "/min"
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "/Observation/Rmir6hbNv4J9sz7Dj",
+      "resource": {
+        "category": {
+          "text": "Vital Signs",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        },
+        "issued": "2018-12-28T21:00:00Z",
+        "status": "final",
+        "id": "Rmir6hbNv4J9sz7Dj",
+        "code": {
+          "text": "Pulse",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/sARLpYbtodmtgTK6K"
+        },
+        "valueQuantity": {
+          "code": "/min",
+          "system": "http://unitsofmeasure.org",
+          "value": 67,
+          "unit": "/min"
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "/Observation/aeM4msheC6sfRpZkA",
+      "resource": {
+        "category": {
+          "text": "Vital Signs",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        },
+        "issued": "2018-12-28T22:00:00Z",
+        "status": "final",
+        "id": "aeM4msheC6sfRpZkA",
+        "code": {
+          "text": "Pulse",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/sARLpYbtodmtgTK6K"
+        },
+        "valueQuantity": {
+          "code": "/min",
+          "system": "http://unitsofmeasure.org",
+          "value": 68,
+          "unit": "/min"
+        },
+        "resourceType": "Observation"
+      }
+    },
+    {
+      "fullUrl": "/Observation/YEJqXn8ekksbEyg2Q",
+      "resource": {
+        "category": {
+          "text": "Vital Signs",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        },
+        "issued": "2018-12-28T23:00:00Z",
+        "status": "final",
+        "id": "YEJqXn8ekksbEyg2Q",
+        "code": {
+          "text": "Pulse",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/sARLpYbtodmtgTK6K"
+        },
+        "valueQuantity": {
+          "code": "/min",
+          "system": "http://unitsofmeasure.org",
+          "value": 70,
+          "unit": "/min"
+        },
+        "resourceType": "Observation"
+      }
+    }
+  ]
+}
