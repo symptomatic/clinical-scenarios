@@ -1,0 +1,3282 @@
+{
+    "resourceType": "Bundle",
+    "entry": [
+      {
+        "fullUrl": "/Composition/TzMqDTw83hhFANHQW",
+        "resource": {
+          "resourceType": "Composition",
+          "identifier": {},
+          "status": "preliminary",
+          "type": {},
+          "class": {},
+          "subject": {
+            "display": "Candace Salinas",
+            "reference": "eD5SeuGxHorYQTwcH"
+          },
+          "encounter": {
+            "display": "",
+            "reference": ""
+          },
+          "date": "<dateTime>",
+          "author": [
+            {
+              "display": "Candace Salinas",
+              "reference": "eD5SeuGxHorYQTwcH"
+            }
+          ],
+          "title": "Continuity of Care Document",
+          "confidentiality": "0",
+          "attester": [],
+          "custodian": {
+            "display": "",
+            "reference": ""
+          },
+          "relatesTo": [],
+          "event": [],
+          "section": [
+            {
+              "entry": [
+                {
+                  "reference": "/AllergyIntolerance/Z9Y6dANXJajcZoZGs"
+                }
+              ]
+            },
+            {
+              "entry": [
+                {
+                  "reference": "/AllergyIntolerance/b97GPvGaq5xBnKgy7"
+                }
+              ]
+            },
+            {
+              "entry": [
+                {
+                  "reference": "/AllergyIntolerance/t6HmNY5DcSJhXJzgc"
+                }
+              ]
+            },
+            {
+              "entry": [
+                {
+                  "reference": "/AllergyIntolerance/grMRy3etJSFkghnYM"
+                }
+              ]
+            },
+            {
+              "entry": [
+                {
+                  "reference": "/AllergyIntolerance/6qs2Fy5BRgCdNsqSx"
+                }
+              ]
+            },
+            {
+              "entry": [
+                {
+                  "reference": "/AllergyIntolerance/Zy4Bb8DiNKQd9ce7b"
+                }
+              ]
+            },
+            {
+              "entry": [
+                {
+                  "reference": "/AllergyIntolerance/krFk7dY6zJCr8ZPKc"
+                }
+              ]
+            },
+            {
+              "entry": [
+                {
+                  "reference": "/AllergyIntolerance/caXaBGNJFPiNChyt8"
+                }
+              ]
+            },
+            {
+              "entry": [
+                {
+                  "reference": "/AllergyIntolerance/Z3KkbT4b6eBLqn6kj"
+                }
+              ]
+            },
+            {
+              "entry": [
+                {
+                  "reference": "/AllergyIntolerance/HWcrcSuccEZNRBNSj"
+                }
+              ]
+            },
+            {
+              "entry": [
+                {
+                  "reference": "/AllergyIntolerance/224DzchrAxuuCThu7"
+                }
+              ]
+            },
+            {
+              "entry": [
+                {
+                  "reference": "/AllergyIntolerance/ty9wRLookKXaLwE9B"
+                }
+              ]
+            },
+            {
+              "entry": [
+                {
+                  "reference": "/AllergyIntolerance/6CMfp9L6qt84PvPYC"
+                }
+              ]
+            },
+            {
+              "entry": [
+                {
+                  "reference": "/AllergyIntolerance/AJniceoepXZv5Z5N8"
+                }
+              ]
+            },
+            {
+              "entry": [
+                {
+                  "reference": "/AllergyIntolerance/gLBJJanFy7yuwEZH6"
+                }
+              ]
+            },
+            {
+              "entry": [
+                {
+                  "reference": "/AllergyIntolerance/vugzLcv3wCAkr9EE3"
+                }
+              ]
+            },
+            {
+              "reference": "/CarePlan/8RPzKq5qWTLYuSTnM"
+            },
+            {
+              "reference": "/CarePlan/K9vTapDdatgEyduPt"
+            },
+            {
+              "reference": "/CarePlan/pPybvo2atkHWGgFCm"
+            },
+            {
+              "reference": "/CarePlan/JvczSWQbypfk3cmRz"
+            },
+            {
+              "reference": "/CarePlan/SehJ9ZjC2JzQ8ig2T"
+            },
+            {
+              "reference": "/CarePlan/EMhmgqcszdDhcA63e"
+            },
+            {
+              "reference": "/CarePlan/AZuKtZ4nFuKFTZJp5"
+            },
+            {
+              "reference": "/CarePlan/nfXhMXkPqMrqTAn4A"
+            },
+            {
+              "reference": "/CarePlan/Zd8Gt49NN7vQDRCzM"
+            },
+            {
+              "reference": "/CarePlan/CkLuXPZKGiaNWEoqC"
+            },
+            {
+              "reference": "/CarePlan/k75pDW98xSH346ibC"
+            },
+            {
+              "reference": "/CarePlan/wcZuzTXCo57Ryn6fY"
+            },
+            {
+              "reference": "/Condition/Rq4PkZRKi7Xo3QpEZ"
+            },
+            {
+              "reference": "/Condition/W6CeTuG6g843pyt4H"
+            },
+            {
+              "reference": "/Condition/NrKs3SCJDz4wM23hF"
+            },
+            {
+              "reference": "/Condition/beWK2rCBafgyKfxKN"
+            },
+            {
+              "reference": "/Condition/D6Gj3aEXZWnjKccs9"
+            },
+            {
+              "reference": "/Condition/qf2LG4LGwXgJQrMo3"
+            },
+            {
+              "reference": "/Condition/CAsQAXJF5pHPNfMqt"
+            },
+            {
+              "reference": "/Condition/aNxirqYFiRG6ePYGN"
+            },
+            {
+              "reference": "/Immunization/8Rvcj6Y22hNZ9q864"
+            },
+            {
+              "reference": "/Immunization/jcjMiQNPEFfJ9Dp4F"
+            },
+            {
+              "reference": "/Immunization/eor88scvbW6B2NJLD"
+            },
+            {
+              "reference": "/Immunization/iaNAfeNGwi9YB3hti"
+            },
+            {
+              "reference": "/Immunization/srEkRjRqJqbeZKAso"
+            },
+            {
+              "reference": "/Immunization/REQSD4Gd2WDZRXQvq"
+            },
+            {
+              "reference": "/Immunization/FKw6AHsuQYiK5cdB7"
+            },
+            {
+              "reference": "/Immunization/QxXYfXKPGPQH3p4kX"
+            },
+            {
+              "reference": "/MedicationOrder/Mj6aRK66rQyWvmzHB"
+            },
+            {
+              "reference": "/MedicationOrder/DEXDq6de3KtQDftz7"
+            },
+            {
+              "reference": "/MedicationOrder/kE5f3mauetdFNu25q"
+            },
+            {
+              "reference": "/MedicationOrder/BWG349M4dtSo7wE7R"
+            },
+            {
+              "reference": "/MedicationOrder/euojrsZxKKKLPHwgX"
+            },
+            {
+              "reference": "/MedicationOrder/MkYaMDCKFeRYbweM7"
+            },
+            {
+              "reference": "/MedicationOrder/REFH9uJEgnAWgttSS"
+            },
+            {
+              "reference": "/MedicationOrder/kWATn5ahyM7cxTLD9"
+            },
+            {
+              "reference": "/MedicationOrder/yZCDxPnMeXDoPTSCM"
+            },
+            {
+              "reference": "/MedicationOrder/5dtgWxKdnjA9sREvf"
+            },
+            {
+              "reference": "/MedicationOrder/nSTCP3ypsnhAh6M6n"
+            },
+            {
+              "reference": "/MedicationStatement/SjSayerJdRhLYkT2C"
+            },
+            {
+              "reference": "/MedicationStatement/sWiw4ZY7LWGBmXgBk"
+            },
+            {
+              "reference": "/MedicationStatement/iWMRNRThFuoYqsn3G"
+            },
+            {
+              "reference": "/MedicationStatement/CMpkpcWxrxWmbdDjY"
+            },
+            {
+              "reference": "/MedicationStatement/mrdDetQ72kRqsh2YH"
+            },
+            {
+              "reference": "/MedicationStatement/kqXmtoPKZdDXN4iBM"
+            },
+            {
+              "reference": "/MedicationStatement/sGBauqtLSB7mnZdTD"
+            },
+            {
+              "reference": "/MedicationStatement/PgkdcTZyfzCtLQ2NA"
+            },
+            {
+              "reference": "/MedicationStatement/jCqgBTxXoamYeKmdh"
+            },
+            {
+              "reference": "/MedicationStatement/QXPHXoicru2Qz4anf"
+            },
+            {
+              "reference": "/Observation/TyyqvkXGKAzw87LJG"
+            },
+            {
+              "reference": "/Observation/M3MzvYDha9oNm9GwE"
+            },
+            {
+              "reference": "/Observation/c6iKdvd9Bshd4c8j5"
+            },
+            {
+              "reference": "/Observation/KDaMqWhAPBYvpWXbL"
+            },
+            {
+              "reference": "/Observation/QKkqzQsAW8MjjBtMu"
+            },
+            {
+              "reference": "/Observation/oX3cqFjoLHmCyBv59"
+            },
+            {
+              "reference": "/Observation/dsMdC2YwTcxvwLyw2"
+            },
+            {
+              "reference": "/Procedure/PnfaYNdYnGChtrzLs"
+            },
+            {
+              "reference": "/Procedure/aiGF4PxHCBwQJZWju"
+            },
+            {
+              "reference": "/Procedure/ue5mgjKicmXPbjqcQ"
+            },
+            {
+              "reference": "/Procedure/NfAaLSHmxZPtMYwbx"
+            },
+            {
+              "reference": "/Procedure/NY6k4hq7NfjEZBE5v"
+            },
+            {
+              "reference": "/Procedure/n2t3SiDCp4ijxbQ9P"
+            },
+            {
+              "reference": "/Procedure/yH8LqYHJ8ojc2ba2t"
+            }
+          ]
+        }
+      },
+      {
+        "fullUrl": "/AllergyIntolerance/Z9Y6dANXJajcZoZGs",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "identifier": [
+            {
+              "value": "AllergyIntolerance.Baseline"
+            }
+          ],
+          "clinicalStatus": "active",
+          "verificationStatus": "unconfirmed",
+          "type": "allergy",
+          "category": [
+            "food"
+          ],
+          "patient": {
+            "display": "Jane Doe"
+          },
+          "recorder": {
+            "display": "Nurse Jackie"
+          },
+          "onsetDateTime": "2017-10-20",
+          "reaction": [
+            {
+              "description": "AllergyIntolerance.Baseline"
+            }
+          ],
+          "criticality": "low",
+          "id": "Z9Y6dANXJajcZoZGs",
+          "_id": "Z9Y6dANXJajcZoZGs"
+        }
+      },
+      {
+        "fullUrl": "/AllergyIntolerance/b97GPvGaq5xBnKgy7",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "identifier": [
+            {
+              "value": "AllergyIntolerance.OnsetDateTime.Null"
+            }
+          ],
+          "clinicalStatus": "active",
+          "verificationStatus": "unconfirmed",
+          "type": "allergy",
+          "category": [
+            "food"
+          ],
+          "patient": {
+            "display": "Jane Doe"
+          },
+          "recorder": {
+            "display": "Nurse Jackie"
+          },
+          "onsetDateTime": null,
+          "reaction": [
+            {
+              "description": "AllergyIntolerance.OnsetDateTime.Null"
+            }
+          ],
+          "criticality": "low",
+          "id": "b97GPvGaq5xBnKgy7",
+          "_id": "b97GPvGaq5xBnKgy7"
+        }
+      },
+      {
+        "fullUrl": "/AllergyIntolerance/t6HmNY5DcSJhXJzgc",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "identifier": [
+            {
+              "value": "AllergyIntolerance.clinicalStatus.Null"
+            }
+          ],
+          "clinicalStatus": null,
+          "verificationStatus": "unconfirmed",
+          "type": "allergy",
+          "category": [
+            "food"
+          ],
+          "patient": {
+            "display": "Jane Doe"
+          },
+          "recorder": {
+            "display": "Nurse Jackie"
+          },
+          "onsetDateTime": "2016-10-20",
+          "reaction": [
+            {
+              "description": "AllergyIntolerance.clinicalStatus.Null"
+            }
+          ],
+          "criticality": "low",
+          "id": "t6HmNY5DcSJhXJzgc",
+          "_id": "t6HmNY5DcSJhXJzgc"
+        }
+      },
+      {
+        "fullUrl": "/AllergyIntolerance/grMRy3etJSFkghnYM",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "identifier": [
+            {
+              "value": "AllergyIntolerance.verificationStatus.Null"
+            }
+          ],
+          "clinicalStatus": "active",
+          "verificationStatus": null,
+          "type": "allergy",
+          "category": [
+            "food"
+          ],
+          "patient": {
+            "display": "Jane Doe"
+          },
+          "recorder": {
+            "display": "Nurse Jackie"
+          },
+          "onsetDateTime": "2015-10-20",
+          "reaction": [
+            {
+              "description": "AllergyIntolerance.verificationStatus.Null"
+            }
+          ],
+          "criticality": "low",
+          "id": "grMRy3etJSFkghnYM",
+          "_id": "grMRy3etJSFkghnYM"
+        }
+      },
+      {
+        "fullUrl": "/AllergyIntolerance/6qs2Fy5BRgCdNsqSx",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "identifier": [
+            {
+              "value": "AllergyIntolerance.type.Null"
+            }
+          ],
+          "clinicalStatus": "active",
+          "verificationStatus": "unconfirmed",
+          "type": null,
+          "category": [
+            "food"
+          ],
+          "patient": {
+            "display": "Jane Doe"
+          },
+          "recorder": {
+            "display": "Nurse Jackie"
+          },
+          "onsetDateTime": "2014-10-20",
+          "reaction": [
+            {
+              "description": "AllergyIntolerance.type.Null"
+            }
+          ],
+          "criticality": "low",
+          "id": "6qs2Fy5BRgCdNsqSx",
+          "_id": "6qs2Fy5BRgCdNsqSx"
+        }
+      },
+      {
+        "fullUrl": "/AllergyIntolerance/Zy4Bb8DiNKQd9ce7b",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "identifier": [
+            {
+              "value": "AllergyIntolerance.Category.Empty"
+            }
+          ],
+          "clinicalStatus": "active",
+          "verificationStatus": "unconfirmed",
+          "type": "allergy",
+          "category": [],
+          "patient": {
+            "display": "Jane Doe"
+          },
+          "recorder": {
+            "display": "Nurse Jackie"
+          },
+          "onsetDateTime": "2013-10-20",
+          "reaction": [
+            {
+              "description": "AllergyIntolerance.Category.Empty"
+            }
+          ],
+          "criticality": "low",
+          "id": "Zy4Bb8DiNKQd9ce7b",
+          "_id": "Zy4Bb8DiNKQd9ce7b"
+        }
+      },
+      {
+        "fullUrl": "/AllergyIntolerance/krFk7dY6zJCr8ZPKc",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "identifier": [
+            {
+              "value": "AllergyIntolerance.Category.Null"
+            }
+          ],
+          "clinicalStatus": "active",
+          "verificationStatus": "unconfirmed",
+          "type": "allergy",
+          "category": null,
+          "patient": {
+            "display": "Jane Doe"
+          },
+          "recorder": {
+            "display": "Nurse Jackie"
+          },
+          "onsetDateTime": "2012-10-20",
+          "reaction": [
+            {
+              "description": "AllergyIntolerance.Category.Null"
+            }
+          ],
+          "criticality": "low",
+          "id": "krFk7dY6zJCr8ZPKc",
+          "_id": "krFk7dY6zJCr8ZPKc"
+        }
+      },
+      {
+        "fullUrl": "/AllergyIntolerance/caXaBGNJFPiNChyt8",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "identifier": [
+            {
+              "value": "AllergyIntolerance.Code.Null"
+            }
+          ],
+          "clinicalStatus": "active",
+          "verificationStatus": "unconfirmed",
+          "type": "allergy",
+          "category": [
+            "food"
+          ],
+          "code": null,
+          "patient": {
+            "display": "Jane Doe"
+          },
+          "recorder": {
+            "display": "Nurse Jackie"
+          },
+          "onsetDateTime": "2011-10-20",
+          "reaction": [
+            {
+              "description": "AllergyIntolerance.Code.Null"
+            }
+          ],
+          "criticality": "low",
+          "id": "caXaBGNJFPiNChyt8",
+          "_id": "caXaBGNJFPiNChyt8"
+        }
+      },
+      {
+        "fullUrl": "/AllergyIntolerance/Z3KkbT4b6eBLqn6kj",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "identifier": [
+            {
+              "value": "AllergyIntolerance.Patient.null"
+            }
+          ],
+          "clinicalStatus": "active",
+          "verificationStatus": "unconfirmed",
+          "type": "allergy",
+          "category": [
+            "food"
+          ],
+          "patient": null,
+          "recorder": {
+            "display": "Nurse Jackie"
+          },
+          "onsetDateTime": "2010-10-20",
+          "reaction": [
+            {
+              "description": "AllergyIntolerance.Patient.null"
+            }
+          ],
+          "criticality": "low",
+          "id": "Z3KkbT4b6eBLqn6kj",
+          "_id": "Z3KkbT4b6eBLqn6kj"
+        }
+      },
+      {
+        "fullUrl": "/AllergyIntolerance/HWcrcSuccEZNRBNSj",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "identifier": [
+            {
+              "value": "AllergyIntolerance.Recorder.null"
+            }
+          ],
+          "clinicalStatus": "active",
+          "verificationStatus": "unconfirmed",
+          "type": "allergy",
+          "category": [
+            "food"
+          ],
+          "patient": {
+            "display": "Jane Doe"
+          },
+          "recorder": null,
+          "onsetDateTime": "2009-10-20",
+          "reaction": [
+            {
+              "description": "AllergyIntolerance.Recorder.null"
+            }
+          ],
+          "criticality": "low",
+          "id": "HWcrcSuccEZNRBNSj",
+          "_id": "HWcrcSuccEZNRBNSj"
+        }
+      },
+      {
+        "fullUrl": "/AllergyIntolerance/224DzchrAxuuCThu7",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "identifier": [
+            {
+              "value": "AllergyIntolerance.Reaction.Null"
+            }
+          ],
+          "clinicalStatus": "active",
+          "verificationStatus": "unconfirmed",
+          "type": "allergy",
+          "category": [
+            "food"
+          ],
+          "patient": {
+            "display": "Jane Doe"
+          },
+          "recorder": {
+            "display": "Nurse Jackie"
+          },
+          "onsetDateTime": "2008-10-20",
+          "reaction": null,
+          "criticality": "low",
+          "id": "224DzchrAxuuCThu7",
+          "_id": "224DzchrAxuuCThu7"
+        }
+      },
+      {
+        "fullUrl": "/AllergyIntolerance/ty9wRLookKXaLwE9B",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "identifier": [
+            {
+              "value": "AllergyIntolerance.Criticality.Null"
+            }
+          ],
+          "clinicalStatus": "active",
+          "verificationStatus": "unconfirmed",
+          "type": "allergy",
+          "category": [
+            "food"
+          ],
+          "patient": {
+            "display": "Jane Doe"
+          },
+          "recorder": {
+            "display": "Nurse Jackie"
+          },
+          "onsetDateTime": "2007-10-20",
+          "reaction": [
+            {
+              "description": "AllergyIntolerance.Criticality.Null"
+            }
+          ],
+          "criticality": null,
+          "id": "ty9wRLookKXaLwE9B",
+          "_id": "ty9wRLookKXaLwE9B"
+        }
+      },
+      {
+        "fullUrl": "/AllergyIntolerance/6CMfp9L6qt84PvPYC",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "identifier": [
+            {
+              "value": "AllergyIntolerance.Onset"
+            }
+          ],
+          "clinicalStatus": "active",
+          "verificationStatus": "unconfirmed",
+          "type": "allergy",
+          "category": [
+            "food"
+          ],
+          "patient": {
+            "display": "Jane Doe"
+          },
+          "recorder": {
+            "display": "Nurse Jackie"
+          },
+          "onset": "2007-10-20",
+          "reaction": [
+            {
+              "description": "AllergyIntolerance.Criticality.Null"
+            }
+          ],
+          "criticality": null,
+          "id": "6CMfp9L6qt84PvPYC",
+          "_id": "6CMfp9L6qt84PvPYC"
+        }
+      },
+      {
+        "fullUrl": "/AllergyIntolerance/AJniceoepXZv5Z5N8",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "identifier": [
+            {
+              "value": "AllergyIntolerance.OnsetPeriod"
+            }
+          ],
+          "clinicalStatus": "active",
+          "verificationStatus": "unconfirmed",
+          "type": "allergy",
+          "category": [
+            "food"
+          ],
+          "patient": {
+            "display": "Jane Doe"
+          },
+          "recorder": {
+            "display": "Nurse Jackie"
+          },
+          "onsetPeriod": {
+            "start": "2000-01-01",
+            "end": "2001-12-31"
+          },
+          "reaction": [
+            {
+              "description": "AllergyIntolerance.OnsetPeriod"
+            }
+          ],
+          "criticality": null,
+          "id": "AJniceoepXZv5Z5N8",
+          "_id": "AJniceoepXZv5Z5N8"
+        }
+      },
+      {
+        "fullUrl": "/AllergyIntolerance/gLBJJanFy7yuwEZH6",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "identifier": [
+            {
+              "value": "AllergyIntolerance.OnsetPeriod.End.Null"
+            }
+          ],
+          "clinicalStatus": "active",
+          "verificationStatus": "unconfirmed",
+          "type": "allergy",
+          "category": [
+            "food"
+          ],
+          "patient": {
+            "display": "Jane Doe"
+          },
+          "recorder": {
+            "display": "Nurse Jackie"
+          },
+          "onsetPeriod": {
+            "start": "2001-01-01",
+            "end": null
+          },
+          "reaction": [
+            {
+              "description": "AllergyIntolerance.Criticality.End.Null"
+            }
+          ],
+          "criticality": null,
+          "id": "gLBJJanFy7yuwEZH6",
+          "_id": "gLBJJanFy7yuwEZH6"
+        }
+      },
+      {
+        "fullUrl": "/AllergyIntolerance/vugzLcv3wCAkr9EE3",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "identifier": [
+            {
+              "value": "AllergyIntolerance.OnsetPeriod.End.Missing"
+            }
+          ],
+          "clinicalStatus": "active",
+          "verificationStatus": "unconfirmed",
+          "type": "allergy",
+          "category": [
+            "food"
+          ],
+          "patient": {
+            "display": "Jane Doe"
+          },
+          "recorder": {
+            "display": "Nurse Jackie"
+          },
+          "onsetPeriod": {
+            "start": "2002-01-01"
+          },
+          "reaction": [
+            {
+              "description": "AllergyIntolerance.Criticality.End.Missing"
+            }
+          ],
+          "criticality": null,
+          "id": "vugzLcv3wCAkr9EE3",
+          "_id": "vugzLcv3wCAkr9EE3"
+        }
+      },
+      {
+        "fullUrl": "/CarePlan/8RPzKq5qWTLYuSTnM",
+        "resource": {
+          "resourceType": "CarePlan",
+          "id": "Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoA",
+          "status": "active",
+          "description": "Longitudinal Care Plan",
+          "period": {
+            "start": "2015-01-01",
+            "end": "2015-12-31"
+          },
+          "subject": {
+            "display": "Jason Argonaut",
+            "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoA"
+          },
+          "addresses": [
+            {
+              "display": "Agoraphobia",
+              "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Condition/T1kK.xqvU20cEJe860G4aKgB"
+            }
+          ],
+          "goal": [
+            {
+              "display": "Hemoglobin A1c below 7.0",
+              "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Goal/T20lh4qYCPP9sg31ZDfMLcwB"
+            }
+          ],
+          "activity": [
+            {
+              "detail": {
+                "prohibited": false,
+                "category": {
+                  "text": "procedure",
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/care-plan-activity-category",
+                      "code": "procedure",
+                      "display": "Procedure"
+                    }
+                  ]
+                },
+                "code": {
+                  "text": "CBC W/ AUTO DIFFERENTIAL"
+                }
+              }
+            }
+          ],
+          "category": [
+            {
+              "text": "Longitudinal",
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "38717003",
+                  "display": "Longitudinal"
+                }
+              ]
+            }
+          ],
+          "_id": "8RPzKq5qWTLYuSTnM"
+        }
+      },
+      {
+        "fullUrl": "/CarePlan/K9vTapDdatgEyduPt",
+        "resource": {
+          "resourceType": "CarePlan",
+          "id": "Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoA",
+          "status": "active",
+          "description": "Longitudinal.Period.End.Missing",
+          "period": {
+            "start": "2015-01-01"
+          },
+          "subject": {
+            "display": "Jason Argonaut",
+            "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoA"
+          },
+          "addresses": [
+            {
+              "display": "Agoraphobia",
+              "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Condition/T1kK.xqvU20cEJe860G4aKgB"
+            }
+          ],
+          "goal": [
+            {
+              "display": "Hemoglobin A1c below 7.0",
+              "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Goal/T20lh4qYCPP9sg31ZDfMLcwB"
+            }
+          ],
+          "activity": [
+            {
+              "detail": {
+                "prohibited": false,
+                "category": {
+                  "text": "procedure",
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/care-plan-activity-category",
+                      "code": "procedure",
+                      "display": "Procedure"
+                    }
+                  ]
+                },
+                "code": {
+                  "text": "CBC W/ AUTO DIFFERENTIAL"
+                }
+              }
+            }
+          ],
+          "category": [
+            {
+              "text": "Longitudinal",
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "38717003",
+                  "display": "Longitudinal"
+                }
+              ]
+            }
+          ],
+          "_id": "K9vTapDdatgEyduPt"
+        }
+      },
+      {
+        "fullUrl": "/CarePlan/pPybvo2atkHWGgFCm",
+        "resource": {
+          "resourceType": "CarePlan",
+          "id": "Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoC",
+          "status": "active",
+          "description": "Longitudinal.Period.End.Null",
+          "period": {
+            "start": "2015-01-01",
+            "end": null
+          },
+          "subject": {
+            "display": "Jason Argonaut",
+            "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoC"
+          },
+          "addresses": [
+            {
+              "display": "Agoraphobia",
+              "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Condition/T1kK.xqvU20cEJe860G4aKgB"
+            }
+          ],
+          "goal": [
+            {
+              "display": "Hemoglobin A1c below 7.0",
+              "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Goal/T20lh4qYCPP9sg31ZDfMLcwB"
+            }
+          ],
+          "activity": [
+            {
+              "detail": {
+                "prohibited": false,
+                "category": {
+                  "text": "procedure",
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/care-plan-activity-category",
+                      "code": "procedure",
+                      "display": "Procedure"
+                    }
+                  ]
+                },
+                "code": {
+                  "text": "CBC W/ AUTO DIFFERENTIAL"
+                }
+              }
+            }
+          ],
+          "category": [
+            {
+              "text": "Longitudinal",
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "38717003",
+                  "display": "Longitudinal"
+                }
+              ]
+            }
+          ],
+          "_id": "pPybvo2atkHWGgFCm"
+        }
+      },
+      {
+        "fullUrl": "/CarePlan/JvczSWQbypfk3cmRz",
+        "resource": {
+          "resourceType": "CarePlan",
+          "id": "Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoD",
+          "status": "active",
+          "description": "Longitudinal.Period.Null",
+          "subject": {
+            "display": "Jason Argonaut",
+            "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoD"
+          },
+          "addresses": [
+            {
+              "display": "Agoraphobia",
+              "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Condition/T1kK.xqvU20cEJe860G4aKgB"
+            }
+          ],
+          "goal": [
+            {
+              "display": "Hemoglobin A1c below 7.0",
+              "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Goal/T20lh4qYCPP9sg31ZDfMLcwB"
+            }
+          ],
+          "activity": [
+            {
+              "detail": {
+                "prohibited": false,
+                "category": {
+                  "text": "procedure",
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/care-plan-activity-category",
+                      "code": "procedure",
+                      "display": "Procedure"
+                    }
+                  ]
+                },
+                "code": {
+                  "text": "CBC W/ AUTO DIFFERENTIAL"
+                }
+              }
+            }
+          ],
+          "category": [
+            {
+              "text": "Longitudinal",
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "38717003",
+                  "display": "Longitudinal"
+                }
+              ]
+            }
+          ],
+          "_id": "JvczSWQbypfk3cmRz"
+        }
+      },
+      {
+        "fullUrl": "/CarePlan/SehJ9ZjC2JzQ8ig2T",
+        "resource": {
+          "resourceType": "CarePlan",
+          "id": "Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoE",
+          "status": null,
+          "description": "Longitudinal.Status.Null",
+          "period": {
+            "start": "2015-01-01",
+            "end": "2015-12-31"
+          },
+          "subject": {
+            "display": "Jason Argonaut",
+            "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoE"
+          },
+          "addresses": [
+            {
+              "display": "Agoraphobia",
+              "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Condition/T1kK.xqvU20cEJe860G4aKgB"
+            }
+          ],
+          "goal": [
+            {
+              "display": "Hemoglobin A1c below 7.0",
+              "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Goal/T20lh4qYCPP9sg31ZDfMLcwB"
+            }
+          ],
+          "activity": [
+            {
+              "detail": {
+                "prohibited": false,
+                "category": {
+                  "text": "procedure",
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/care-plan-activity-category",
+                      "code": "procedure",
+                      "display": "Procedure"
+                    }
+                  ]
+                },
+                "code": {
+                  "text": "CBC W/ AUTO DIFFERENTIAL"
+                }
+              }
+            }
+          ],
+          "category": [
+            {
+              "text": "Longitudinal",
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "38717003",
+                  "display": "Longitudinal"
+                }
+              ]
+            }
+          ],
+          "_id": "SehJ9ZjC2JzQ8ig2T"
+        }
+      },
+      {
+        "fullUrl": "/CarePlan/EMhmgqcszdDhcA63e",
+        "resource": {
+          "resourceType": "CarePlan",
+          "id": "Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoF",
+          "description": "Longitudinal.Status.Missing",
+          "period": {
+            "start": "2015-01-01",
+            "end": "2015-12-31"
+          },
+          "subject": {
+            "display": "Jason Argonaut",
+            "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoF"
+          },
+          "addresses": [
+            {
+              "display": "Agoraphobia",
+              "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Condition/T1kK.xqvU20cEJe860G4aKgB"
+            }
+          ],
+          "goal": [
+            {
+              "display": "Hemoglobin A1c below 7.0",
+              "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Goal/T20lh4qYCPP9sg31ZDfMLcwB"
+            }
+          ],
+          "activity": [
+            {
+              "detail": {
+                "prohibited": false,
+                "category": {
+                  "text": "procedure",
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/care-plan-activity-category",
+                      "code": "procedure",
+                      "display": "Procedure"
+                    }
+                  ]
+                },
+                "code": {
+                  "text": "CBC W/ AUTO DIFFERENTIAL"
+                }
+              }
+            }
+          ],
+          "category": [
+            {
+              "text": "Longitudinal",
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "38717003",
+                  "display": "Longitudinal"
+                }
+              ]
+            }
+          ],
+          "_id": "EMhmgqcszdDhcA63e"
+        }
+      },
+      {
+        "fullUrl": "/CarePlan/AZuKtZ4nFuKFTZJp5",
+        "resource": {
+          "resourceType": "CarePlan",
+          "id": "Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoG",
+          "status": "active",
+          "description": "Longitudinal.Subject.Null",
+          "period": {
+            "start": "2015-01-01",
+            "end": "2015-12-31"
+          },
+          "subject": null,
+          "addresses": [
+            {
+              "display": "Agoraphobia",
+              "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Condition/T1kK.xqvU20cEJe860G4aKgG"
+            }
+          ],
+          "goal": [
+            {
+              "display": "Hemoglobin A1c below 7.0",
+              "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Goal/T20lh4qYCPP9sg31ZDfMLcwB"
+            }
+          ],
+          "activity": [
+            {
+              "detail": {
+                "prohibited": false,
+                "category": {
+                  "text": "procedure",
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/care-plan-activity-category",
+                      "code": "procedure",
+                      "display": "Procedure"
+                    }
+                  ]
+                },
+                "code": {
+                  "text": "CBC W/ AUTO DIFFERENTIAL"
+                }
+              }
+            }
+          ],
+          "category": [
+            {
+              "text": "Longitudinal",
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "38717003",
+                  "display": "Longitudinal"
+                }
+              ]
+            }
+          ],
+          "_id": "AZuKtZ4nFuKFTZJp5"
+        }
+      },
+      {
+        "fullUrl": "/CarePlan/nfXhMXkPqMrqTAn4A",
+        "resource": {
+          "resourceType": "CarePlan",
+          "id": "Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoH",
+          "status": "active",
+          "description": "Longitudinal.Addresses.Null",
+          "period": {
+            "start": "2015-01-01",
+            "end": "2015-12-31"
+          },
+          "subject": {
+            "display": "Jason Argonaut",
+            "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoH"
+          },
+          "addresses": [
+            {
+              "display": "Agoraphobia",
+              "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Condition/T1kK.xqvU20cEJe860G4aKgB"
+            }
+          ],
+          "goal": [
+            {
+              "display": "Hemoglobin A1c below 7.0",
+              "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Goal/T20lh4qYCPP9sg31ZDfMLcwB"
+            }
+          ],
+          "activity": [
+            {
+              "detail": {
+                "prohibited": false,
+                "category": {
+                  "text": "procedure",
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/care-plan-activity-category",
+                      "code": "procedure",
+                      "display": "Procedure"
+                    }
+                  ]
+                },
+                "code": {
+                  "text": "CBC W/ AUTO DIFFERENTIAL"
+                }
+              }
+            }
+          ],
+          "category": [
+            {
+              "text": "Longitudinal",
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "38717003",
+                  "display": "Longitudinal"
+                }
+              ]
+            }
+          ],
+          "_id": "nfXhMXkPqMrqTAn4A"
+        }
+      },
+      {
+        "fullUrl": "/CarePlan/Zd8Gt49NN7vQDRCzM",
+        "resource": {
+          "resourceType": "CarePlan",
+          "id": "Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoI",
+          "status": "active",
+          "description": "Longitudinal.Goal.Null",
+          "period": {
+            "start": "2015-01-01",
+            "end": "2015-12-31"
+          },
+          "subject": {
+            "display": "Jason Argonaut",
+            "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoI"
+          },
+          "addresses": [
+            {
+              "display": "Agoraphobia",
+              "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Condition/T1kK.xqvU20cEJe860G4aKgB"
+            }
+          ],
+          "goal": null,
+          "activity": [
+            {
+              "detail": {
+                "prohibited": false,
+                "category": {
+                  "text": "procedure",
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/care-plan-activity-category",
+                      "code": "procedure",
+                      "display": "Procedure"
+                    }
+                  ]
+                },
+                "code": {
+                  "text": "CBC W/ AUTO DIFFERENTIAL"
+                }
+              }
+            }
+          ],
+          "category": [
+            {
+              "text": "Longitudinal",
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "38717003",
+                  "display": "Longitudinal"
+                }
+              ]
+            }
+          ],
+          "_id": "Zd8Gt49NN7vQDRCzM"
+        }
+      },
+      {
+        "fullUrl": "/CarePlan/CkLuXPZKGiaNWEoqC",
+        "resource": {
+          "resourceType": "CarePlan",
+          "id": "Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoJ",
+          "status": "active",
+          "description": "Longitudinal.Activity.Null",
+          "period": {
+            "start": "2015-01-01",
+            "end": "2015-12-31"
+          },
+          "subject": {
+            "display": "Jason Argonaut",
+            "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoJ"
+          },
+          "addresses": [
+            {
+              "display": "Agoraphobia",
+              "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Condition/T1kK.xqvU20cEJe860G4aKgB"
+            }
+          ],
+          "goal": [
+            {
+              "display": "Hemoglobin A1c below 7.0",
+              "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Goal/T20lh4qYCPP9sg31ZDfMLcwB"
+            }
+          ],
+          "activity": null,
+          "category": [
+            {
+              "text": "Longitudinal",
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "38717003",
+                  "display": "Longitudinal"
+                }
+              ]
+            }
+          ],
+          "_id": "CkLuXPZKGiaNWEoqC"
+        }
+      },
+      {
+        "fullUrl": "/CarePlan/k75pDW98xSH346ibC",
+        "resource": {
+          "resourceType": "CarePlan",
+          "id": "Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoK",
+          "status": "active",
+          "description": "Longitudinal.Category.Null",
+          "period": {
+            "start": "2015-01-01",
+            "end": "2015-12-31"
+          },
+          "subject": {
+            "display": "Jason Argonaut",
+            "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoK"
+          },
+          "addresses": [
+            {
+              "display": "Agoraphobia",
+              "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Condition/T1kK.xqvU20cEJe860G4aKgB"
+            }
+          ],
+          "goal": [
+            {
+              "display": "Hemoglobin A1c below 7.0",
+              "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Goal/T20lh4qYCPP9sg31ZDfMLcwB"
+            }
+          ],
+          "activity": [
+            {
+              "detail": {
+                "prohibited": false,
+                "category": {
+                  "text": "procedure",
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/care-plan-activity-category",
+                      "code": "procedure",
+                      "display": "Procedure"
+                    }
+                  ]
+                },
+                "code": {
+                  "text": "CBC W/ AUTO DIFFERENTIAL"
+                }
+              }
+            }
+          ],
+          "category": null,
+          "_id": "k75pDW98xSH346ibC"
+        }
+      },
+      {
+        "fullUrl": "/CarePlan/wcZuzTXCo57Ryn6fY",
+        "resource": {
+          "resourceType": "CarePlan",
+          "id": "Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoL",
+          "status": "active",
+          "period": {
+            "start": "2015-01-01",
+            "end": "2015-12-31"
+          },
+          "subject": {
+            "display": "Jason Argonaut",
+            "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoL"
+          },
+          "addresses": [
+            {
+              "display": "Agoraphobia",
+              "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Condition/T1kK.xqvU20cEJe860G4aKgB"
+            }
+          ],
+          "goal": [
+            {
+              "display": "Hemoglobin A1c below 7.0",
+              "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Goal/T20lh4qYCPP9sg31ZDfMLcwB"
+            }
+          ],
+          "activity": [
+            {
+              "detail": {
+                "prohibited": false,
+                "category": {
+                  "text": "procedure",
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/care-plan-activity-category",
+                      "code": "procedure",
+                      "display": "Procedure"
+                    }
+                  ]
+                },
+                "code": {
+                  "text": "CBC W/ AUTO DIFFERENTIAL"
+                }
+              }
+            }
+          ],
+          "category": [
+            {
+              "text": "Longitudinal",
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "38717003",
+                  "display": "Longitudinal"
+                }
+              ]
+            }
+          ],
+          "_id": "wcZuzTXCo57Ryn6fY"
+        }
+      },
+      {
+        "fullUrl": "/Condition/Rq4PkZRKi7Xo3QpEZ",
+        "resource": {
+          "asserter": {
+            "display": "Nurse Jackie",
+            "reference": "Practitioner/20"
+          },
+          "category": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/condition-category",
+                "code": "diagnosis"
+              }
+            ]
+          },
+          "clinicalStatus": "active",
+          "dateRecorded": "2012-01-02",
+          "code": {
+            "text": "Condition - Baseline",
+            "coding": [
+              {
+                "display": "Condition - Baseline",
+                "system": "http://snomed.info/sct",
+                "code": "195967001"
+              }
+            ]
+          },
+          "id": "5HaavLEJD36xQFThB",
+          "notes": "2 brief hospitalizations when a child, symptoms much improved as an adult",
+          "verificationStatus": "confirmed",
+          "onsetDateTime": "1991-09-09",
+          "resourceType": "Condition",
+          "_id": "Rq4PkZRKi7Xo3QpEZ"
+        }
+      },
+      {
+        "fullUrl": "/Condition/W6CeTuG6g843pyt4H",
+        "resource": {
+          "asserter": null,
+          "category": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/condition-category",
+                "code": "diagnosis"
+              }
+            ]
+          },
+          "clinicalStatus": "active",
+          "dateRecorded": "2011-01-02",
+          "code": {
+            "text": "Condition.Asserter.Null",
+            "coding": [
+              {
+                "display": "Condition.Asserter.Null",
+                "system": "http://snomed.info/sct",
+                "code": "195967001"
+              }
+            ]
+          },
+          "id": "csQXa2ZANGay3pP53",
+          "notes": "2 brief hospitalizations when a child, symptoms much improved as an adult",
+          "verificationStatus": "confirmed",
+          "onsetDateTime": "1990-09-09",
+          "resourceType": "Condition",
+          "_id": "W6CeTuG6g843pyt4H"
+        }
+      },
+      {
+        "fullUrl": "/Condition/NrKs3SCJDz4wM23hF",
+        "resource": {
+          "asserter": {
+            "display": "Nurse Jackie",
+            "reference": "Practitioner/20"
+          },
+          "category": null,
+          "clinicalStatus": "active",
+          "dateRecorded": "2010-01-02",
+          "code": {
+            "text": "Condition.Category.Null",
+            "coding": [
+              {
+                "display": "Condition.Category.Null",
+                "system": "http://snomed.info/sct",
+                "code": "195967001"
+              }
+            ]
+          },
+          "id": "uKX45KcAvYMaBA98c",
+          "notes": "2 brief hospitalizations when a child, symptoms much improved as an adult",
+          "verificationStatus": "confirmed",
+          "onsetDateTime": "1989-09-09",
+          "resourceType": "Condition",
+          "_id": "NrKs3SCJDz4wM23hF"
+        }
+      },
+      {
+        "fullUrl": "/Condition/beWK2rCBafgyKfxKN",
+        "resource": {
+          "asserter": {
+            "display": "Nurse Jackie",
+            "reference": "Practitioner/20"
+          },
+          "category": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/condition-category",
+                "code": "diagnosis"
+              }
+            ]
+          },
+          "clinicalStatus": null,
+          "dateRecorded": "2009-01-02",
+          "code": {
+            "text": "Condition.ClinicalStatus.Null",
+            "coding": [
+              {
+                "display": "Condition.ClinicalStatus.Null",
+                "system": "http://snomed.info/sct",
+                "code": "195967001"
+              }
+            ]
+          },
+          "id": "iyuLbDhXdd9MQPa4X",
+          "notes": "2 brief hospitalizations when a child, symptoms much improved as an adult",
+          "verificationStatus": "confirmed",
+          "onsetDateTime": "1988-09-09",
+          "resourceType": "Condition",
+          "_id": "beWK2rCBafgyKfxKN"
+        }
+      },
+      {
+        "fullUrl": "/Condition/D6Gj3aEXZWnjKccs9",
+        "resource": {
+          "asserter": {
+            "display": "Nurse Jackie",
+            "reference": "Practitioner/20"
+          },
+          "category": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/condition-category",
+                "code": "diagnosis"
+              }
+            ]
+          },
+          "clinicalStatus": "active",
+          "dateRecorded": null,
+          "code": {
+            "text": "Condition.DateRecorded.Null",
+            "coding": [
+              {
+                "display": "Condition.DateRecorded.Null",
+                "system": "http://snomed.info/sct",
+                "code": "195967001"
+              }
+            ]
+          },
+          "id": "FeyRryuoQ3bdwLeSS",
+          "notes": "2 brief hospitalizations when a child, symptoms much improved as an adult",
+          "verificationStatus": "confirmed",
+          "onsetDateTime": "1987-09-09",
+          "resourceType": "Condition",
+          "_id": "D6Gj3aEXZWnjKccs9"
+        }
+      },
+      {
+        "fullUrl": "/Condition/qf2LG4LGwXgJQrMo3",
+        "resource": {
+          "asserter": {
+            "display": "Nurse Jackie",
+            "reference": "Practitioner/20"
+          },
+          "category": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/condition-category",
+                "code": "diagnosis"
+              }
+            ]
+          },
+          "clinicalStatus": "active",
+          "dateRecorded": "2008-01-02",
+          "code": {
+            "text": "Condition.Notes.Null",
+            "coding": [
+              {
+                "display": "Condition.Notes.Null",
+                "system": "http://snomed.info/sct",
+                "code": "195967001"
+              }
+            ]
+          },
+          "id": "RKuejzvfL5T8vW4SS",
+          "notes": null,
+          "verificationStatus": "confirmed",
+          "onsetDateTime": "1986-09-09",
+          "resourceType": "Condition",
+          "_id": "qf2LG4LGwXgJQrMo3"
+        }
+      },
+      {
+        "fullUrl": "/Condition/CAsQAXJF5pHPNfMqt",
+        "resource": {
+          "asserter": {
+            "display": "Nurse Jackie",
+            "reference": "Practitioner/20"
+          },
+          "category": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/condition-category",
+                "code": "diagnosis"
+              }
+            ]
+          },
+          "clinicalStatus": "active",
+          "dateRecorded": "2007-01-02",
+          "code": {
+            "text": "Condition.VerificationStatus.Null",
+            "coding": [
+              {
+                "display": "Condition.VerificationStatus.Null",
+                "system": "http://snomed.info/sct",
+                "code": "195967001"
+              }
+            ]
+          },
+          "id": "8oxesMoyYwekNWDTv",
+          "notes": "2 brief hospitalizations when a child, symptoms much improved as an adult",
+          "verificationStatus": null,
+          "onsetDateTime": "1985-09-09",
+          "resourceType": "Condition",
+          "_id": "CAsQAXJF5pHPNfMqt"
+        }
+      },
+      {
+        "fullUrl": "/Condition/aNxirqYFiRG6ePYGN",
+        "resource": {
+          "asserter": {
+            "display": "Nurse Jackie",
+            "reference": "Practitioner/20"
+          },
+          "category": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/condition-category",
+                "code": "diagnosis"
+              }
+            ]
+          },
+          "clinicalStatus": "active",
+          "dateRecorded": "2006-01-02",
+          "code": {
+            "text": "Condition.OnsetDateTime.Null",
+            "coding": [
+              {
+                "display": "Condition.OnsetDateTime.Null",
+                "system": "http://snomed.info/sct",
+                "code": "195967001"
+              }
+            ]
+          },
+          "id": "KoQgGeMCd49pqvvD3",
+          "notes": "2 brief hospitalizations when a child, symptoms much improved as an adult",
+          "verificationStatus": "confirmed",
+          "onsetDateTime": null,
+          "resourceType": "Condition",
+          "_id": "aNxirqYFiRG6ePYGN"
+        }
+      },
+      {
+        "fullUrl": "/Immunization/8Rvcj6Y22hNZ9q864",
+        "resource": {
+          "resourceType": "Immunization",
+          "vaccineCode": {
+            "text": "Immunization.Baseline",
+            "coding": [
+              {
+                "system": "CVX",
+                "code": "135"
+              }
+            ]
+          },
+          "id": "X3LpMq9CKLd9A5hdE",
+          "note": "Immunization.Baseline",
+          "encounter": {
+            "reference": "Encounter/129837645"
+          },
+          "requester": {
+            "display": "Nurse Jackie",
+            "reference": "Practitioner/8"
+          },
+          "date": "2017-10-18",
+          "_id": "8Rvcj6Y22hNZ9q864"
+        }
+      },
+      {
+        "fullUrl": "/Immunization/jcjMiQNPEFfJ9Dp4F",
+        "resource": {
+          "resourceType": "Immunization",
+          "vaccineCode": null,
+          "id": "SPpPjq5uuWrfBq9ed",
+          "note": "Immunization.vaccineCode.Null",
+          "encounter": {
+            "reference": "Encounter/129837645"
+          },
+          "requester": {
+            "display": "Nurse Jackie",
+            "reference": "Practitioner/8"
+          },
+          "date": "2016-10-18",
+          "_id": "jcjMiQNPEFfJ9Dp4F"
+        }
+      },
+      {
+        "fullUrl": "/Immunization/eor88scvbW6B2NJLD",
+        "resource": {
+          "resourceType": "Immunization",
+          "vaccineCode": {
+            "text": "Immunization.Encounter.Null",
+            "coding": [
+              {
+                "system": "CVX",
+                "code": "135"
+              }
+            ]
+          },
+          "id": "XYsjGv4kNGQLDExSa",
+          "note": "Immunization.Encounter.Null",
+          "encounter": null,
+          "requester": {
+            "display": "Nurse Jackie",
+            "reference": "Practitioner/8"
+          },
+          "date": "2015-10-18",
+          "_id": "eor88scvbW6B2NJLD"
+        }
+      },
+      {
+        "fullUrl": "/Immunization/iaNAfeNGwi9YB3hti",
+        "resource": {
+          "resourceType": "Immunization",
+          "vaccineCode": {
+            "text": "Immunization.Requestor.Null",
+            "coding": [
+              {
+                "system": "CVX",
+                "code": "135"
+              }
+            ]
+          },
+          "id": "eLgWDhusq4m73wZ66",
+          "note": "Immunization.Requestor.Null",
+          "encounter": {
+            "reference": "Encounter/129837645"
+          },
+          "requester": null,
+          "date": "2014-10-18",
+          "_id": "iaNAfeNGwi9YB3hti"
+        }
+      },
+      {
+        "fullUrl": "/Immunization/srEkRjRqJqbeZKAso",
+        "resource": {
+          "resourceType": "Immunization",
+          "vaccineCode": {
+            "text": "Immunization.Date",
+            "coding": [
+              {
+                "system": "CVX",
+                "code": "135"
+              }
+            ]
+          },
+          "id": "pHaacKgZucTP5vN7M",
+          "note": "Immunization.Date",
+          "encounter": {
+            "reference": "Encounter/129837645"
+          },
+          "requester": {
+            "display": "Nurse Jackie",
+            "reference": "Practitioner/8"
+          },
+          "date": "2013-10-18",
+          "_id": "srEkRjRqJqbeZKAso"
+        }
+      },
+      {
+        "fullUrl": "/Immunization/REQSD4Gd2WDZRXQvq",
+        "resource": {
+          "resourceType": "Immunization",
+          "vaccineCode": {
+            "text": "Immunization.Reported",
+            "coding": [
+              {
+                "system": "CVX",
+                "code": "135"
+              }
+            ]
+          },
+          "id": "LvAxWwifQSzmWZhCW",
+          "note": "Immunization.Reported",
+          "encounter": {
+            "reference": "Encounter/129837645"
+          },
+          "requester": {
+            "display": "Nurse Jackie",
+            "reference": "Practitioner/8"
+          },
+          "reported": "2012-10-18",
+          "_id": "REQSD4Gd2WDZRXQvq"
+        }
+      },
+      {
+        "fullUrl": "/Immunization/FKw6AHsuQYiK5cdB7",
+        "resource": {
+          "resourceType": "Immunization",
+          "vaccineCode": {
+            "text": "Immunization.Recorded",
+            "coding": [
+              {
+                "system": "CVX",
+                "code": "135"
+              }
+            ]
+          },
+          "id": "tgbHdtCxCmPdjCebH",
+          "note": "Immunization.Recorded",
+          "encounter": {
+            "reference": "Encounter/129837645"
+          },
+          "requester": {
+            "display": "Nurse Jackie",
+            "reference": "Practitioner/8"
+          },
+          "recorded": "2011-10-18",
+          "_id": "FKw6AHsuQYiK5cdB7"
+        }
+      },
+      {
+        "fullUrl": "/Immunization/QxXYfXKPGPQH3p4kX",
+        "resource": {
+          "resourceType": "Immunization",
+          "vaccineCode": {
+            "text": "Immunization.OccurrenceDateTime",
+            "coding": [
+              {
+                "system": "CVX",
+                "code": "135"
+              }
+            ]
+          },
+          "id": "pDqikR9iWY4LAt2qc",
+          "note": "Immunization.OccurrenceDateTime",
+          "encounter": {
+            "reference": "Encounter/129837645"
+          },
+          "requester": {
+            "display": "Nurse Jackie",
+            "reference": "Practitioner/8"
+          },
+          "occurrenceDateTime": "2010-10-18",
+          "_id": "QxXYfXKPGPQH3p4kX"
+        }
+      },
+      {
+        "fullUrl": "/MedicationOrder/Mj6aRK66rQyWvmzHB",
+        "resource": {
+          "resourceType": "MedicationOrder",
+          "status": "active",
+          "note": "MedicationOrder.Baseline",
+          "id": "WqWeDa3dz2Yvu4RNz",
+          "medicationCodeableConcept": {
+            "text": "MedicationOrder.Baseline",
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/umls/rxnorm/",
+                "code": "329498"
+              }
+            ]
+          },
+          "patient": {
+            "display": "Jane Doe",
+            "reference": "Patient/1"
+          },
+          "prescriber": {
+            "display": "Gregory House",
+            "reference": "Practitioner/20"
+          },
+          "dateWritten": "1985-10-11",
+          "dosageInstruction": [
+            {
+              "text": "2 puffs every 2-4 hours"
+            }
+          ],
+          "_id": "Mj6aRK66rQyWvmzHB"
+        }
+      },
+      {
+        "fullUrl": "/MedicationOrder/DEXDq6de3KtQDftz7",
+        "resource": {
+          "resourceType": "MedicationOrder",
+          "status": null,
+          "note": "MedicationOrder.Status.Null",
+          "id": "Poie6dgJ8JkSBfTxZ",
+          "medicationCodeableConcept": {
+            "text": "MedicationOrder.Status.Null",
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/umls/rxnorm/",
+                "code": "329498"
+              }
+            ]
+          },
+          "patient": {
+            "display": "Jane Doe",
+            "reference": "Patient/1"
+          },
+          "prescriber": {
+            "display": "Gregory House",
+            "reference": "Practitioner/20"
+          },
+          "dateWritten": "1986-10-11",
+          "dosageInstruction": [
+            {
+              "text": "2 puffs every 2-4 hours"
+            }
+          ],
+          "_id": "DEXDq6de3KtQDftz7"
+        }
+      },
+      {
+        "fullUrl": "/MedicationOrder/kE5f3mauetdFNu25q",
+        "resource": {
+          "resourceType": "MedicationOrder",
+          "status": "active",
+          "note": null,
+          "id": "hypbATmTiJ2imdB67",
+          "medicationCodeableConcept": {
+            "text": "MedicationOrder.Status.Note.Null",
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/umls/rxnorm/",
+                "code": "329498"
+              }
+            ]
+          },
+          "patient": {
+            "display": "Jane Doe",
+            "reference": "Patient/1"
+          },
+          "prescriber": {
+            "display": "Gregory House",
+            "reference": "Practitioner/20"
+          },
+          "dateWritten": "1987-10-11",
+          "dosageInstruction": [
+            {
+              "text": "2 puffs every 2-4 hours"
+            }
+          ],
+          "_id": "kE5f3mauetdFNu25q"
+        }
+      },
+      {
+        "fullUrl": "/MedicationOrder/BWG349M4dtSo7wE7R",
+        "resource": {
+          "resourceType": "MedicationOrder",
+          "status": "active",
+          "note": "MedicationOrder.MedicationCodeableConcept.Null",
+          "id": "yhWFLLRD2q4cLEweD",
+          "medicationCodeableConcept": null,
+          "patient": {
+            "display": "Jane Doe",
+            "reference": "Patient/1"
+          },
+          "prescriber": {
+            "display": "Gregory House",
+            "reference": "Practitioner/20"
+          },
+          "dateWritten": "1988-10-11",
+          "dosageInstruction": [
+            {
+              "text": "2 puffs every 2-4 hours"
+            }
+          ],
+          "_id": "BWG349M4dtSo7wE7R"
+        }
+      },
+      {
+        "fullUrl": "/MedicationOrder/euojrsZxKKKLPHwgX",
+        "resource": {
+          "resourceType": "MedicationOrder",
+          "status": "active",
+          "note": "MedicationOrder.Patient.Null",
+          "id": "KmKSe8javfPNLGCdk",
+          "medicationCodeableConcept": {
+            "text": "MedicationOrder.Patient.Null",
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/umls/rxnorm/",
+                "code": "329498"
+              }
+            ]
+          },
+          "patient": null,
+          "prescriber": {
+            "display": "Gregory House",
+            "reference": "Practitioner/20"
+          },
+          "dateWritten": "1989-10-11",
+          "dosageInstruction": [
+            {
+              "text": "2 puffs every 2-4 hours"
+            }
+          ],
+          "_id": "euojrsZxKKKLPHwgX"
+        }
+      },
+      {
+        "fullUrl": "/MedicationOrder/MkYaMDCKFeRYbweM7",
+        "resource": {
+          "resourceType": "MedicationOrder",
+          "status": "active",
+          "note": "MedicationOrder.Prescriber.Null",
+          "id": "DXLoaJqkbCGbKy8eX",
+          "medicationCodeableConcept": {
+            "text": "MedicationOrder.Prescriber.Null",
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/umls/rxnorm/",
+                "code": "329498"
+              }
+            ]
+          },
+          "patient": {
+            "display": "Jane Doe",
+            "reference": "Patient/1"
+          },
+          "prescriber": null,
+          "dateWritten": "1990-10-11",
+          "dosageInstruction": [
+            {
+              "text": "2 puffs every 2-4 hours"
+            }
+          ],
+          "_id": "MkYaMDCKFeRYbweM7"
+        }
+      },
+      {
+        "fullUrl": "/MedicationOrder/REFH9uJEgnAWgttSS",
+        "resource": {
+          "resourceType": "MedicationOrder",
+          "status": "active",
+          "note": "MedicationOrder.DosageInstruction.Null",
+          "id": "uF9nJaZmhT5yHNybA",
+          "medicationCodeableConcept": {
+            "text": "MedicationOrder.DosageInstruction.Null",
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/umls/rxnorm/",
+                "code": "329498"
+              }
+            ]
+          },
+          "patient": {
+            "display": "Jane Doe",
+            "reference": "Patient/1"
+          },
+          "prescriber": {
+            "display": "Gregory House",
+            "reference": "Practitioner/20"
+          },
+          "dateWritten": "1991-10-11",
+          "dosageInstruction": null,
+          "_id": "REFH9uJEgnAWgttSS"
+        }
+      },
+      {
+        "fullUrl": "/MedicationOrder/kWATn5ahyM7cxTLD9",
+        "resource": {
+          "resourceType": "MedicationOrder",
+          "status": "active",
+          "note": "MedicationOrder.DateWritten.Null",
+          "id": "RxT8NWTBoSJF4hzhD",
+          "medicationCodeableConcept": {
+            "text": "MedicationOrder.DateWritten.Null",
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/umls/rxnorm/",
+                "code": "329498"
+              }
+            ]
+          },
+          "patient": {
+            "display": "Jane Doe",
+            "reference": "Patient/1"
+          },
+          "prescriber": {
+            "display": "Gregory House",
+            "reference": "Practitioner/20"
+          },
+          "dateWritten": null,
+          "dosageInstruction": [
+            {
+              "text": "2 puffs every 2-4 hours"
+            }
+          ],
+          "_id": "kWATn5ahyM7cxTLD9"
+        }
+      },
+      {
+        "fullUrl": "/MedicationOrder/yZCDxPnMeXDoPTSCM",
+        "resource": {
+          "resourceType": "MedicationOrder",
+          "status": "active",
+          "note": "MedicationOrder.DateWritten.Null",
+          "id": "nM3MTZZRM22jyZBep",
+          "medicationCodeableConcept": {
+            "text": "MedicationOrder.DateWritten.Null",
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/umls/rxnorm/",
+                "code": "329498"
+              }
+            ]
+          },
+          "patient": {
+            "display": "Jane Doe",
+            "reference": "Patient/1"
+          },
+          "prescriber": {
+            "display": "Gregory House",
+            "reference": "Practitioner/20"
+          },
+          "dateWritten": null,
+          "dateEnded": "1992-10-11",
+          "dosageInstruction": [
+            {
+              "text": "2 puffs every 2-4 hours"
+            }
+          ],
+          "_id": "yZCDxPnMeXDoPTSCM"
+        }
+      },
+      {
+        "fullUrl": "/MedicationOrder/5dtgWxKdnjA9sREvf",
+        "resource": {
+          "resourceType": "MedicationOrder",
+          "status": "active",
+          "note": "MedicationOrder.Dates.Null",
+          "id": "qDf62pZwohc93XMj5",
+          "medicationCodeableConcept": {
+            "text": "MedicationOrder.Dates.Null",
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/umls/rxnorm/",
+                "code": "329498"
+              }
+            ]
+          },
+          "patient": {
+            "display": "Jane Doe",
+            "reference": "Patient/1"
+          },
+          "prescriber": {
+            "display": "Gregory House",
+            "reference": "Practitioner/20"
+          },
+          "dateWritten": null,
+          "dateEnded": null,
+          "dosageInstruction": [
+            {
+              "text": "2 puffs every 2-4 hours"
+            }
+          ],
+          "_id": "5dtgWxKdnjA9sREvf"
+        }
+      },
+      {
+        "fullUrl": "/MedicationOrder/nSTCP3ypsnhAh6M6n",
+        "resource": {
+          "resourceType": "MedicationOrder",
+          "status": "active",
+          "note": "MedicationOrder.Dates",
+          "id": "KXqLErrmg4ckZDnom",
+          "medicationCodeableConcept": {
+            "text": "MedicationOrder.Dates",
+            "coding": [
+              {
+                "system": "http://www.nlm.nih.gov/research/umls/rxnorm/",
+                "code": "329498"
+              }
+            ]
+          },
+          "patient": {
+            "display": "Jane Doe",
+            "reference": "Patient/1"
+          },
+          "prescriber": {
+            "display": "Gregory House",
+            "reference": "Practitioner/20"
+          },
+          "dateWritten": "1993-10-11",
+          "dateEnded": "1994-10-11",
+          "dosageInstruction": [
+            {
+              "text": "2 puffs every 2-4 hours"
+            }
+          ],
+          "_id": "nSTCP3ypsnhAh6M6n"
+        }
+      },
+      {
+        "fullUrl": "/MedicationStatement/SjSayerJdRhLYkT2C",
+        "resource": {
+          "resourceType": "MedicationStatement",
+          "id": "HcJZ9sk65RcQSTiej",
+          "contained": [
+            {
+              "resourceType": "Medication",
+              "id": "FpaFHviofwbdYjuEy",
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/sid/ndc",
+                    "code": "50580-506-02",
+                    "display": "MedicationStatement.Baseline"
+                  }
+                ]
+              }
+            }
+          ],
+          "identifier": [
+            {
+              "use": "official",
+              "system": "http://www.bmc.nl/portal/medstatements",
+              "value": "12345689"
+            }
+          ],
+          "status": "active",
+          "subject": {
+            "reference": "Patient/pat1",
+            "display": "Jane Doe"
+          },
+          "effectiveDateTime": "2001-01-01",
+          "dateAsserted": "2001-12-31",
+          "informationSource": {
+            "reference": "Patient/pat1",
+            "display": "Jane Doe"
+          },
+          "_id": "SjSayerJdRhLYkT2C"
+        }
+      },
+      {
+        "fullUrl": "/MedicationStatement/sWiw4ZY7LWGBmXgBk",
+        "resource": {
+          "resourceType": "MedicationStatement",
+          "id": "89c8yn3J8LaJzAY7v",
+          "contained": [
+            {
+              "resourceType": "Medication",
+              "id": "FpaFHviofwbdYjuEy",
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/sid/ndc",
+                    "code": "50580-506-02",
+                    "display": "MedicationStatement.Identifier.Null"
+                  }
+                ]
+              }
+            }
+          ],
+          "identifier": null,
+          "status": "active",
+          "subject": {
+            "reference": "Patient/pat1",
+            "display": "Jane Doe"
+          },
+          "effectiveDateTime": "2001-01-01",
+          "dateAsserted": "2001-12-31",
+          "informationSource": {
+            "reference": "Patient/pat1",
+            "display": "Jane Doe"
+          },
+          "_id": "sWiw4ZY7LWGBmXgBk"
+        }
+      },
+      {
+        "fullUrl": "/MedicationStatement/iWMRNRThFuoYqsn3G",
+        "resource": {
+          "resourceType": "MedicationStatement",
+          "id": "SLvCFxuoHFHdPraSv",
+          "contained": [
+            {
+              "resourceType": "Medication",
+              "id": "FpaFHviofwbdYjuEy",
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/sid/ndc",
+                    "code": "50580-506-02",
+                    "display": "MedicationStatement.Status.Null"
+                  }
+                ]
+              }
+            }
+          ],
+          "identifier": [
+            {
+              "use": "official",
+              "system": "http://www.bmc.nl/portal/medstatements",
+              "value": "12345689"
+            }
+          ],
+          "status": null,
+          "subject": {
+            "reference": "Patient/pat1",
+            "display": "Jane Doe"
+          },
+          "effectiveDateTime": "2001-01-01",
+          "dateAsserted": "2001-12-31",
+          "informationSource": {
+            "reference": "Patient/pat1",
+            "display": "Jane Doe"
+          },
+          "_id": "iWMRNRThFuoYqsn3G"
+        }
+      },
+      {
+        "fullUrl": "/MedicationStatement/CMpkpcWxrxWmbdDjY",
+        "resource": {
+          "resourceType": "MedicationStatement",
+          "id": "K8HtPM2GXZeizfSNP",
+          "contained": [
+            {
+              "resourceType": "Medication",
+              "id": "FpaFHviofwbdYjuEy",
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/sid/ndc",
+                    "code": "50580-506-02",
+                    "display": "MedicationStatement.Subject.Null"
+                  }
+                ]
+              }
+            }
+          ],
+          "identifier": [
+            {
+              "use": "official",
+              "system": "http://www.bmc.nl/portal/medstatements",
+              "value": "12345689"
+            }
+          ],
+          "status": "active",
+          "subject": null,
+          "effectiveDateTime": "2001-01-01",
+          "dateAsserted": "2001-12-31",
+          "informationSource": {
+            "reference": "Patient/pat1",
+            "display": "Jane Doe"
+          },
+          "_id": "CMpkpcWxrxWmbdDjY"
+        }
+      },
+      {
+        "fullUrl": "/MedicationStatement/mrdDetQ72kRqsh2YH",
+        "resource": {
+          "resourceType": "MedicationStatement",
+          "id": "db2S3TCsenDwga5tW",
+          "contained": [
+            {
+              "resourceType": "Medication",
+              "id": "FpaFHviofwbdYjuEy",
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/sid/ndc",
+                    "code": "50580-506-02",
+                    "display": "MedicationStatement.InformationSource.Null"
+                  }
+                ]
+              }
+            }
+          ],
+          "identifier": [
+            {
+              "use": "official",
+              "system": "http://www.bmc.nl/portal/medstatements",
+              "value": "12345689"
+            }
+          ],
+          "status": "active",
+          "subject": {
+            "reference": "Patient/pat1",
+            "display": "Jane Doe"
+          },
+          "effectiveDateTime": "2001-01-01",
+          "dateAsserted": "2001-12-31",
+          "informationSource": null,
+          "_id": "mrdDetQ72kRqsh2YH"
+        }
+      },
+      {
+        "fullUrl": "/MedicationStatement/kqXmtoPKZdDXN4iBM",
+        "resource": {
+          "resourceType": "MedicationStatement",
+          "id": "nyFirHhwXr5cnYhnX",
+          "contained": [
+            {
+              "resourceType": "Medication",
+              "id": "FpaFHviofwbdYjuEy",
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/sid/ndc",
+                    "code": "50580-506-02",
+                    "display": "MedicationStatement.EffectiveDateTime"
+                  }
+                ]
+              }
+            }
+          ],
+          "identifier": [
+            {
+              "use": "official",
+              "system": "http://www.bmc.nl/portal/medstatements",
+              "value": "12345689"
+            }
+          ],
+          "status": "active",
+          "subject": {
+            "reference": "Patient/pat1",
+            "display": "Jane Doe"
+          },
+          "effectiveDateTime": null,
+          "dateAsserted": "2001-12-31",
+          "informationSource": {
+            "reference": "Patient/pat1",
+            "display": "Jane Doe"
+          },
+          "_id": "kqXmtoPKZdDXN4iBM"
+        }
+      },
+      {
+        "fullUrl": "/MedicationStatement/sGBauqtLSB7mnZdTD",
+        "resource": {
+          "resourceType": "MedicationStatement",
+          "id": "kH8oaCpkXPpZr2zm7",
+          "contained": [
+            {
+              "resourceType": "Medication",
+              "id": "FpaFHviofwbdYjuEy",
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/sid/ndc",
+                    "code": "50580-506-02",
+                    "display": "MedicationStatement.DateAsserted.Null"
+                  }
+                ]
+              }
+            }
+          ],
+          "identifier": [
+            {
+              "use": "official",
+              "system": "http://www.bmc.nl/portal/medstatements",
+              "value": "12345689"
+            }
+          ],
+          "status": "active",
+          "subject": {
+            "reference": "Patient/pat1",
+            "display": "Jane Doe"
+          },
+          "effectiveDateTime": "2001-01-01",
+          "dateAsserted": null,
+          "informationSource": {
+            "reference": "Patient/pat1",
+            "display": "Jane Doe"
+          },
+          "_id": "sGBauqtLSB7mnZdTD"
+        }
+      },
+      {
+        "fullUrl": "/MedicationStatement/PgkdcTZyfzCtLQ2NA",
+        "resource": {
+          "resourceType": "MedicationStatement",
+          "id": "fKnLR8queNyjdb5EM",
+          "contained": [
+            {
+              "resourceType": "Medication",
+              "id": "FpaFHviofwbdYjuEy",
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/sid/ndc",
+                    "code": "50580-506-02",
+                    "display": "MedicationStatement.EffectivePeriod"
+                  }
+                ]
+              }
+            }
+          ],
+          "identifier": [
+            {
+              "use": "official",
+              "system": "http://www.bmc.nl/portal/medstatements",
+              "value": "12345689"
+            }
+          ],
+          "status": "active",
+          "subject": {
+            "reference": "Patient/pat1",
+            "display": "Jane Doe"
+          },
+          "effectivePeriod": {
+            "start": "2001-01-01",
+            "end": "2001-01-01"
+          },
+          "dateAsserted": "2001-12-31",
+          "informationSource": {
+            "reference": "Patient/pat1",
+            "display": "Jane Doe"
+          },
+          "_id": "PgkdcTZyfzCtLQ2NA"
+        }
+      },
+      {
+        "fullUrl": "/MedicationStatement/jCqgBTxXoamYeKmdh",
+        "resource": {
+          "resourceType": "MedicationStatement",
+          "id": "Rbad2Fr5aY3CLDwmW",
+          "contained": [
+            {
+              "resourceType": "Medication",
+              "id": "FpaFHviofwbdYjuEy",
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/sid/ndc",
+                    "code": "50580-506-02",
+                    "display": "MedicationStatement.EffectivePeriod.End.Null"
+                  }
+                ]
+              }
+            }
+          ],
+          "identifier": [
+            {
+              "use": "official",
+              "system": "http://www.bmc.nl/portal/medstatements",
+              "value": "12345689"
+            }
+          ],
+          "status": "active",
+          "subject": {
+            "reference": "Patient/pat1",
+            "display": "Jane Doe"
+          },
+          "effectivePeriod": {
+            "start": "2001-01-01",
+            "end": null
+          },
+          "dateAsserted": "2001-12-31",
+          "informationSource": {
+            "reference": "Patient/pat1",
+            "display": "Jane Doe"
+          },
+          "_id": "jCqgBTxXoamYeKmdh"
+        }
+      },
+      {
+        "fullUrl": "/MedicationStatement/QXPHXoicru2Qz4anf",
+        "resource": {
+          "resourceType": "MedicationStatement",
+          "id": "etofqBXreXsDmNQnY",
+          "contained": [
+            {
+              "resourceType": "Medication",
+              "id": "FpaFHviofwbdYjuEy",
+              "code": {
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/sid/ndc",
+                    "code": "50580-506-02",
+                    "display": "MedicationStatement.EffectivePeriod.End.Missing"
+                  }
+                ]
+              }
+            }
+          ],
+          "identifier": [
+            {
+              "use": "official",
+              "system": "http://www.bmc.nl/portal/medstatements",
+              "value": "12345689"
+            }
+          ],
+          "status": "active",
+          "subject": {
+            "reference": "Patient/pat1",
+            "display": "Jane Doe"
+          },
+          "effectivePeriod": {
+            "start": "2001-01-01"
+          },
+          "dateAsserted": "2001-12-31",
+          "informationSource": {
+            "reference": "Patient/pat1",
+            "display": "Jane Doe"
+          },
+          "_id": "QXPHXoicru2Qz4anf"
+        }
+      },
+      {
+        "fullUrl": "/Observation/TyyqvkXGKAzw87LJG",
+        "resource": {
+          "resourceType": "Observation",
+          "category": {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          },
+          "issued": "2017-03-18T00:00:00Z",
+          "status": "final",
+          "id": "yfqBSYuYHk5exq6Su",
+          "code": {
+            "text": "Observation.Baseline",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "3043-7"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/355"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "code": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "value": 10,
+                "unit": "mg/dL"
+              },
+              "high": {
+                "code": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "value": 250,
+                "unit": "mg/dL"
+              },
+              "text": "10 to 250 mg/dL"
+            }
+          ],
+          "valueQuantity": {
+            "code": "mg/dL",
+            "system": "http://unitsofmeasure.org",
+            "value": 86,
+            "unit": "mg/dL"
+          },
+          "_id": "TyyqvkXGKAzw87LJG"
+        }
+      },
+      {
+        "fullUrl": "/Observation/M3MzvYDha9oNm9GwE",
+        "resource": {
+          "resourceType": "Observation",
+          "category": null,
+          "issued": "2017-03-18T00:00:00Z",
+          "status": "final",
+          "id": "g4DPyNAtXXBZMiFtQ",
+          "code": {
+            "text": "Observation.Category.Null",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "3043-7"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/355"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "code": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "value": 10,
+                "unit": "mg/dL"
+              },
+              "high": {
+                "code": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "value": 250,
+                "unit": "mg/dL"
+              },
+              "text": "10 to 250 mg/dL"
+            }
+          ],
+          "valueQuantity": {
+            "code": "mg/dL",
+            "system": "http://unitsofmeasure.org",
+            "value": 86,
+            "unit": "mg/dL"
+          },
+          "_id": "M3MzvYDha9oNm9GwE"
+        }
+      },
+      {
+        "fullUrl": "/Observation/c6iKdvd9Bshd4c8j5",
+        "resource": {
+          "resourceType": "Observation",
+          "category": {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          },
+          "issued": null,
+          "status": "final",
+          "id": "FXJTxtcKZ4tW3naCD",
+          "code": {
+            "text": "Observation.Issued.Null",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "3043-7"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/355"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "code": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "value": 10,
+                "unit": "mg/dL"
+              },
+              "high": {
+                "code": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "value": 250,
+                "unit": "mg/dL"
+              },
+              "text": "10 to 250 mg/dL"
+            }
+          ],
+          "valueQuantity": {
+            "code": "mg/dL",
+            "system": "http://unitsofmeasure.org",
+            "value": 86,
+            "unit": "mg/dL"
+          },
+          "_id": "c6iKdvd9Bshd4c8j5"
+        }
+      },
+      {
+        "fullUrl": "/Observation/KDaMqWhAPBYvpWXbL",
+        "resource": {
+          "resourceType": "Observation",
+          "category": {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          },
+          "issued": "2017-03-18T00:00:00Z",
+          "status": null,
+          "id": "ydrD2kTPrwkCkLTBq",
+          "code": {
+            "text": "Observation.Status.Null",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "3043-7"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/355"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "code": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "value": 10,
+                "unit": "mg/dL"
+              },
+              "high": {
+                "code": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "value": 250,
+                "unit": "mg/dL"
+              },
+              "text": "10 to 250 mg/dL"
+            }
+          ],
+          "valueQuantity": {
+            "code": "mg/dL",
+            "system": "http://unitsofmeasure.org",
+            "value": 86,
+            "unit": "mg/dL"
+          },
+          "_id": "KDaMqWhAPBYvpWXbL"
+        }
+      },
+      {
+        "fullUrl": "/Observation/QKkqzQsAW8MjjBtMu",
+        "resource": {
+          "resourceType": "Observation",
+          "category": {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          },
+          "issued": "2017-03-18T00:00:00Z",
+          "status": "final",
+          "id": "zo5vwo4CKazH3Bz7u",
+          "code": {
+            "text": "Observation.Encounter.Null",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "3043-7"
+              }
+            ]
+          },
+          "encounter": null,
+          "referenceRange": [
+            {
+              "low": {
+                "code": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "value": 10,
+                "unit": "mg/dL"
+              },
+              "high": {
+                "code": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "value": 250,
+                "unit": "mg/dL"
+              },
+              "text": "10 to 250 mg/dL"
+            }
+          ],
+          "valueQuantity": {
+            "code": "mg/dL",
+            "system": "http://unitsofmeasure.org",
+            "value": 86,
+            "unit": "mg/dL"
+          },
+          "_id": "QKkqzQsAW8MjjBtMu"
+        }
+      },
+      {
+        "fullUrl": "/Observation/oX3cqFjoLHmCyBv59",
+        "resource": {
+          "resourceType": "Observation",
+          "category": {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          },
+          "issued": "2017-03-18T00:00:00Z",
+          "status": "final",
+          "id": "Stb3Qmyw8KXfQ5Sg7",
+          "code": {
+            "text": "Observation.ReferenceRange.Null",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "3043-7"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/355"
+          },
+          "referenceRange": null,
+          "valueQuantity": {
+            "code": "mg/dL",
+            "system": "http://unitsofmeasure.org",
+            "value": 86,
+            "unit": "mg/dL"
+          },
+          "_id": "oX3cqFjoLHmCyBv59"
+        }
+      },
+      {
+        "fullUrl": "/Observation/dsMdC2YwTcxvwLyw2",
+        "resource": {
+          "resourceType": "Observation",
+          "category": {
+            "text": "Laboratory",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          },
+          "issued": "2017-03-18T00:00:00Z",
+          "status": "final",
+          "id": "rzzEj9u773h8jZRbM",
+          "code": {
+            "text": "Observation.ValueString",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "3043-7"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/355"
+          },
+          "referenceRange": [
+            {
+              "low": {
+                "code": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "value": 10,
+                "unit": "mg/dL"
+              },
+              "high": {
+                "code": "mg/dL",
+                "system": "http://unitsofmeasure.org",
+                "value": 250,
+                "unit": "mg/dL"
+              },
+              "text": "10 to 250 mg/dL"
+            }
+          ],
+          "valueString": "AB+",
+          "_id": "dsMdC2YwTcxvwLyw2"
+        }
+      },
+      {
+        "fullUrl": "/Procedure/PnfaYNdYnGChtrzLs",
+        "resource": {
+          "resourceType": "Procedure",
+          "code": {
+            "text": "Procedure.Baseline",
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "80146002"
+              }
+            ]
+          },
+          "id": "eLEbQxWPQRPQgBqWH",
+          "performedDateTime": "2007-05-25",
+          "status": "completed",
+          "subject": {
+            "display": "Jane Doe",
+            "reference": "Patient/1"
+          },
+          "_id": "PnfaYNdYnGChtrzLs"
+        }
+      },
+      {
+        "fullUrl": "/Procedure/aiGF4PxHCBwQJZWju",
+        "resource": {
+          "resourceType": "Procedure",
+          "code": {
+            "text": "Procedure.Status.Null",
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "80146002"
+              }
+            ]
+          },
+          "id": "eLEbQxWPQRPQgBqWH",
+          "performedDateTime": "2006-05-25",
+          "status": null,
+          "subject": {
+            "display": "Jane Doe",
+            "reference": "Patient/1"
+          },
+          "_id": "aiGF4PxHCBwQJZWju"
+        }
+      },
+      {
+        "fullUrl": "/Procedure/ue5mgjKicmXPbjqcQ",
+        "resource": {
+          "resourceType": "Procedure",
+          "code": {
+            "text": "Procedure.Subject.Null",
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "80146002"
+              }
+            ]
+          },
+          "id": "eLEbQxWPQRPQgBqWH",
+          "performedDateTime": "2005-05-25",
+          "status": "completed",
+          "subject": null,
+          "_id": "ue5mgjKicmXPbjqcQ"
+        }
+      },
+      {
+        "fullUrl": "/Procedure/NfAaLSHmxZPtMYwbx",
+        "resource": {
+          "resourceType": "Procedure",
+          "code": {
+            "text": "Procedure.PerformedDateTime.Null",
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "80146002"
+              }
+            ]
+          },
+          "id": "4ekBQ4zvAFSbNYYr4",
+          "performedDateTime": null,
+          "status": "completed",
+          "subject": {
+            "display": "Jane Doe",
+            "reference": "Patient/1"
+          },
+          "_id": "NfAaLSHmxZPtMYwbx"
+        }
+      },
+      {
+        "fullUrl": "/Procedure/NY6k4hq7NfjEZBE5v",
+        "resource": {
+          "resourceType": "Procedure",
+          "code": {
+            "text": "Procedure.PerformedPeriod.End.Null",
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "80146002"
+              }
+            ]
+          },
+          "id": "JNWYi5dTLKo97Avtf",
+          "performedPeriod": {
+            "start": "2004-05-25",
+            "end": null
+          },
+          "status": "completed",
+          "subject": {
+            "display": "Jane Doe",
+            "reference": "Patient/1"
+          },
+          "_id": "NY6k4hq7NfjEZBE5v"
+        }
+      },
+      {
+        "fullUrl": "/Procedure/n2t3SiDCp4ijxbQ9P",
+        "resource": {
+          "resourceType": "Procedure",
+          "code": {
+            "text": "Procedure.PerformedPeriod.End.Missing",
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "80146002"
+              }
+            ]
+          },
+          "id": "gxRBNjSqReFGMbZKK",
+          "performedPeriod": {
+            "start": "2003-05-25"
+          },
+          "status": "completed",
+          "subject": {
+            "display": "Jane Doe",
+            "reference": "Patient/1"
+          },
+          "_id": "n2t3SiDCp4ijxbQ9P"
+        }
+      },
+      {
+        "fullUrl": "/Procedure/yH8LqYHJ8ojc2ba2t",
+        "resource": {
+          "resourceType": "Procedure",
+          "code": {
+            "text": "Procedure.PerformedPeriod",
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "80146002"
+              }
+            ]
+          },
+          "id": "MsdEsXPNk2FwPBYao",
+          "performedPeriod": {
+            "start": "2001-01-01",
+            "end": "2002-12-31"
+          },
+          "status": "completed",
+          "subject": {
+            "display": "Jane Doe",
+            "reference": "Patient/1"
+          },
+          "_id": "yH8LqYHJ8ojc2ba2t"
+        }
+      }
+    ]
+  }

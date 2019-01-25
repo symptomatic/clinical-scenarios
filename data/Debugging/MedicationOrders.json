@@ -1,0 +1,349 @@
+{
+  "resourceType": "Bundle",
+  "entry": [
+    {
+      "fullUrl": "/MedicationOrder/dmaGRGBPn8GCnqeoE",
+      "resource": {
+        "resourceType": "MedicationOrder",
+        "status": "active",
+        "note": "MedicationOrder.Baseline",
+        "id": "WqWeDa3dz2Yvu4RNz",
+        "medicationCodeableConcept": {
+          "text": "MedicationOrder.Baseline",
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm/",
+              "code": "329498"
+            }
+          ]
+        },
+        "patient": {
+          "display": "Jane Doe",
+          "reference": "Patient/1"
+        },
+        "prescriber": {
+          "display": "Gregory House",
+          "reference": "Practitioner/20"
+        },
+        "dateWritten": "1985-10-11",
+        "dosageInstruction": [
+          {
+            "text": "2 puffs every 2-4 hours"
+          }
+        ]
+      }
+    },
+
+    {
+      "fullUrl": "/MedicationOrder/dmaGRGBPn8GCnqeoE",
+      "resource": {
+        "resourceType": "MedicationOrder",
+        "status": null,
+        "note": "MedicationOrder.Status.Null",
+        "id": "Poie6dgJ8JkSBfTxZ",
+        "medicationCodeableConcept": {
+          "text": "MedicationOrder.Status.Null",
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm/",
+              "code": "329498"
+            }
+          ]
+        },
+        "patient": {
+          "display": "Jane Doe",
+          "reference": "Patient/1"
+        },
+        "prescriber": {
+          "display": "Gregory House",
+          "reference": "Practitioner/20"
+        },
+        "dateWritten": "1986-10-11",
+        "dosageInstruction": [
+          {
+            "text": "2 puffs every 2-4 hours"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "/MedicationOrder/dmaGRGBPn8GCnqeoE",
+      "resource": {
+        "resourceType": "MedicationOrder",
+        "status": "active",
+        "note": null,
+        "id": "hypbATmTiJ2imdB67",
+        "medicationCodeableConcept": {
+          "text": "MedicationOrder.Status.Note.Null",
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm/",
+              "code": "329498"
+            }
+          ]
+        },
+        "patient": {
+          "display": "Jane Doe",
+          "reference": "Patient/1"
+        },
+        "prescriber": {
+          "display": "Gregory House",
+          "reference": "Practitioner/20"
+        },
+        "dateWritten": "1987-10-11",
+        "dosageInstruction": [
+          {
+            "text": "2 puffs every 2-4 hours"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "/MedicationOrder/dmaGRGBPn8GCnqeoE",
+      "resource": {
+        "resourceType": "MedicationOrder",
+        "status": "active",
+        "note": "MedicationOrder.MedicationCodeableConcept.Null",
+        "id": "yhWFLLRD2q4cLEweD",
+        "medicationCodeableConcept": null,
+        "patient": {
+          "display": "Jane Doe",
+          "reference": "Patient/1"
+        },
+        "prescriber": {
+          "display": "Gregory House",
+          "reference": "Practitioner/20"
+        },
+        "dateWritten": "1988-10-11",
+        "dosageInstruction": [
+          {
+            "text": "2 puffs every 2-4 hours"
+          }
+        ]
+      }
+    },
+
+    {
+      "fullUrl": "/MedicationOrder/dmaGRGBPn8GCnqeoE",
+      "resource": {
+        "resourceType": "MedicationOrder",
+        "status": "active",
+        "note": "MedicationOrder.Patient.Null",
+        "id": "KmKSe8javfPNLGCdk",
+        "medicationCodeableConcept": {
+          "text": "MedicationOrder.Patient.Null",
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm/",
+              "code": "329498"
+            }
+          ]
+        },
+        "patient": null,
+        "prescriber": {
+          "display": "Gregory House",
+          "reference": "Practitioner/20"
+        },
+        "dateWritten": "1989-10-11",
+        "dosageInstruction": [
+          {
+            "text": "2 puffs every 2-4 hours"
+          }
+        ]
+      }
+    },
+
+    {
+      "fullUrl": "/MedicationOrder/dmaGRGBPn8GCnqeoE",
+      "resource": {
+        "resourceType": "MedicationOrder",
+        "status": "active",
+        "note": "MedicationOrder.Prescriber.Null",
+        "id": "DXLoaJqkbCGbKy8eX",
+        "medicationCodeableConcept": {
+          "text": "MedicationOrder.Prescriber.Null",
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm/",
+              "code": "329498"
+            }
+          ]
+        },
+        "patient": {
+          "display": "Jane Doe",
+          "reference": "Patient/1"
+        },
+        "prescriber": null,
+        "dateWritten": "1990-10-11",
+        "dosageInstruction": [
+          {
+            "text": "2 puffs every 2-4 hours"
+          }
+        ]
+      }
+    },
+
+    {
+      "fullUrl": "/MedicationOrder/dmaGRGBPn8GCnqeoE",
+      "resource": {
+        "resourceType": "MedicationOrder",
+        "status": "active",
+        "note": "MedicationOrder.DosageInstruction.Null",
+        "id": "uF9nJaZmhT5yHNybA",
+        "medicationCodeableConcept": {
+          "text": "MedicationOrder.DosageInstruction.Null",
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm/",
+              "code": "329498"
+            }
+          ]
+        },
+        "patient": {
+          "display": "Jane Doe",
+          "reference": "Patient/1"
+        },
+        "prescriber": {
+          "display": "Gregory House",
+          "reference": "Practitioner/20"
+        },
+        "dateWritten": "1991-10-11",
+        "dosageInstruction": null
+      }
+    },
+
+    {
+      "fullUrl": "/MedicationOrder/dmaGRGBPn8GCnqeoE",
+      "resource": {
+        "resourceType": "MedicationOrder",
+        "status": "active",
+        "note": "MedicationOrder.DateWritten.Null",
+        "id": "RxT8NWTBoSJF4hzhD",
+        "medicationCodeableConcept": {
+          "text": "MedicationOrder.DateWritten.Null",
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm/",
+              "code": "329498"
+            }
+          ]
+        },
+        "patient": {
+          "display": "Jane Doe",
+          "reference": "Patient/1"
+        },
+        "prescriber": {
+          "display": "Gregory House",
+          "reference": "Practitioner/20"
+        },
+        "dateWritten": null,
+        "dosageInstruction": [
+          {
+            "text": "2 puffs every 2-4 hours"
+          }
+        ]
+      }
+    },
+
+    {
+      "fullUrl": "/MedicationOrder/dmaGRGBPn8GCnqeoE",
+      "resource": {
+        "resourceType": "MedicationOrder",
+        "status": "active",
+        "note": "MedicationOrder.DateWritten.Null",
+        "id": "nM3MTZZRM22jyZBep",
+        "medicationCodeableConcept": {
+          "text": "MedicationOrder.DateWritten.Null",
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm/",
+              "code": "329498"
+            }
+          ]
+        },
+        "patient": {
+          "display": "Jane Doe",
+          "reference": "Patient/1"
+        },
+        "prescriber": {
+          "display": "Gregory House",
+          "reference": "Practitioner/20"
+        },
+        "dateWritten": null,
+        "dateEnded": "1992-10-11",
+        "dosageInstruction": [
+          {
+            "text": "2 puffs every 2-4 hours"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "/MedicationOrder/dmaGRGBPn8GCnqeoE",
+      "resource": {
+        "resourceType": "MedicationOrder",
+        "status": "active",
+        "note": "MedicationOrder.Dates.Null",
+        "id": "qDf62pZwohc93XMj5",
+        "medicationCodeableConcept": {
+          "text": "MedicationOrder.Dates.Null",
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm/",
+              "code": "329498"
+            }
+          ]
+        },
+        "patient": {
+          "display": "Jane Doe",
+          "reference": "Patient/1"
+        },
+        "prescriber": {
+          "display": "Gregory House",
+          "reference": "Practitioner/20"
+        },
+        "dateWritten": null,
+        "dateEnded": null,
+        "dosageInstruction": [
+          {
+            "text": "2 puffs every 2-4 hours"
+          }
+        ]
+      }
+    },
+
+    {
+      "fullUrl": "/MedicationOrder/dmaGRGBPn8GCnqeoE",
+      "resource": {
+        "resourceType": "MedicationOrder",
+        "status": "active",
+        "note": "MedicationOrder.Dates",
+        "id": "KXqLErrmg4ckZDnom",
+        "medicationCodeableConcept": {
+          "text": "MedicationOrder.Dates",
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm/",
+              "code": "329498"
+            }
+          ]
+        },
+        "patient": {
+          "display": "Jane Doe",
+          "reference": "Patient/1"
+        },
+        "prescriber": {
+          "display": "Gregory House",
+          "reference": "Practitioner/20"
+        },
+        "dateWritten": "1993-10-11",
+        "dateEnded": "1994-10-11",
+        "dosageInstruction": [
+          {
+            "text": "2 puffs every 2-4 hours"
+          }
+        ]
+      }
+    }
+  ]
+}

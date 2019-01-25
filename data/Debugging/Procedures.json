@@ -1,0 +1,164 @@
+{
+  "resourceType": "Bundle",
+  "entry": [
+    {
+      "fullUrl": "/Procedure/rMdhmJoWNTfNahvbP",
+      "resource": {
+        "resourceType": "Procedure",
+        "code": {
+          "text": "Procedure.Baseline",
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "80146002"
+            }
+          ]
+        },
+        "id": "eLEbQxWPQRPQgBqWH",
+        "performedDateTime": "2007-05-25",
+        "status": "completed",
+        "subject": {
+          "display": "Jane Doe",
+          "reference": "Patient/1"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Procedure/rMdhmJoWNTfNahvbP",
+      "resource": {
+        "resourceType": "Procedure",
+        "code": {
+          "text": "Procedure.Status.Null",
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "80146002"
+            }
+          ]
+        },
+        "id": "eLEbQxWPQRPQgBqWH",
+        "performedDateTime": "2006-05-25",
+        "status": null,
+        "subject": {
+          "display": "Jane Doe",
+          "reference": "Patient/1"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Procedure/rMdhmJoWNTfNahvbP",
+      "resource": {
+        "resourceType": "Procedure",
+        "code": {
+          "text": "Procedure.Subject.Null",
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "80146002"
+            }
+          ]
+        },
+        "id": "eLEbQxWPQRPQgBqWH",
+        "performedDateTime": "2005-05-25",
+        "status": "completed",
+        "subject": null
+      }
+    },
+    {
+      "fullUrl": "/Procedure/rMdhmJoWNTfNahvbP",
+      "resource": {
+        "resourceType": "Procedure",
+        "code": {
+          "text": "Procedure.PerformedDateTime.Null",
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "80146002"
+            }
+          ]
+        },
+        "id": "4ekBQ4zvAFSbNYYr4",
+        "performedDateTime": null,
+        "status": "completed",
+        "subject": {
+          "display": "Jane Doe",
+          "reference": "Patient/1"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Procedure/rMdhmJoWNTfNahvbP",
+      "resource": {
+        "resourceType": "Procedure",
+        "code": {
+          "text": "Procedure.PerformedPeriod.End.Null",
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "80146002"
+            }
+          ]
+        },
+        "id": "JNWYi5dTLKo97Avtf",
+        "performedPeriod": {
+          "start": "2004-05-25",
+          "end": null
+        },
+        "status": "completed",
+        "subject": {
+          "display": "Jane Doe",
+          "reference": "Patient/1"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Procedure/rMdhmJoWNTfNahvbP",
+      "resource": {
+        "resourceType": "Procedure",
+        "code": {
+          "text": "Procedure.PerformedPeriod.End.Missing",
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "80146002"
+            }
+          ]
+        },
+        "id": "gxRBNjSqReFGMbZKK",
+        "performedPeriod": {
+          "start": "2003-05-25"
+        },
+        "status": "completed",
+        "subject": {
+          "display": "Jane Doe",
+          "reference": "Patient/1"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Procedure/rMdhmJoWNTfNahvbP",
+      "resource": {
+        "resourceType": "Procedure",
+        "code": {
+          "text": "Procedure.PerformedPeriod",
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "80146002"
+            }
+          ]
+        },
+        "id": "MsdEsXPNk2FwPBYao",
+        "performedPeriod": {
+          "start": "2001-01-01",
+          "end": "2002-12-31"
+        },
+        "status": "completed",
+        "subject": {
+          "display": "Jane Doe",
+          "reference": "Patient/1"
+        }
+      }
+    }
+  ]
+}

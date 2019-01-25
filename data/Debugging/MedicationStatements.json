@@ -1,0 +1,385 @@
+{
+  "resourceType": "Bundle",
+  "entry": [{
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "id": "HcJZ9sk65RcQSTiej",
+      "contained": [
+        {
+          "resourceType": "Medication",
+          "id": "FpaFHviofwbdYjuEy",
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/ndc",
+                "code": "50580-506-02",
+                "display": "MedicationStatement.Baseline"
+              }
+            ]
+          }
+        }
+      ],
+      "identifier": [
+        {
+          "use": "official",
+          "system": "http://www.bmc.nl/portal/medstatements",
+          "value": "12345689"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "reference": "Patient/pat1",
+        "display": "Jane Doe"
+      },
+      "effectiveDateTime": "2001-01-01",
+      "dateAsserted": "2001-12-31",
+      "informationSource": {
+        "reference": "Patient/pat1",
+        "display": "Jane Doe"
+      }
+    }
+  }, {
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "id": "89c8yn3J8LaJzAY7v",
+      "contained": [
+        {
+          "resourceType": "Medication",
+          "id": "FpaFHviofwbdYjuEy",
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/ndc",
+                "code": "50580-506-02",
+                "display": "MedicationStatement.Identifier.Null"
+              }
+            ]
+          }
+        }
+      ],
+      "identifier": null,
+      "status": "active",
+      "subject": {
+        "reference": "Patient/pat1",
+        "display": "Jane Doe"
+      },
+      "effectiveDateTime": "2001-01-01",
+      "dateAsserted": "2001-12-31",
+      "informationSource": {
+        "reference": "Patient/pat1",
+        "display": "Jane Doe"
+      }
+    }
+  },
+  {
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "id": "SLvCFxuoHFHdPraSv",
+      "contained": [
+        {
+          "resourceType": "Medication",
+          "id": "FpaFHviofwbdYjuEy",
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/ndc",
+                "code": "50580-506-02",
+                "display": "MedicationStatement.Status.Null"
+              }
+            ]
+          }
+        }
+      ],
+      "identifier": [
+        {
+          "use": "official",
+          "system": "http://www.bmc.nl/portal/medstatements",
+          "value": "12345689"
+        }
+      ],
+      "status": null,
+      "subject": {
+        "reference": "Patient/pat1",
+        "display": "Jane Doe"
+      },
+      "effectiveDateTime": "2001-01-01",
+      "dateAsserted": "2001-12-31",
+      "informationSource": {
+        "reference": "Patient/pat1",
+        "display": "Jane Doe"
+      }
+    }
+  },
+  {
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "id": "K8HtPM2GXZeizfSNP",
+      "contained": [
+        {
+          "resourceType": "Medication",
+          "id": "FpaFHviofwbdYjuEy",
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/ndc",
+                "code": "50580-506-02",
+                "display": "MedicationStatement.Subject.Null"
+              }
+            ]
+          }
+        }
+      ],
+      "identifier": [
+        {
+          "use": "official",
+          "system": "http://www.bmc.nl/portal/medstatements",
+          "value": "12345689"
+        }
+      ],
+      "status": "active",
+      "subject": null,
+      "effectiveDateTime": "2001-01-01",
+      "dateAsserted": "2001-12-31",
+      "informationSource": {
+        "reference": "Patient/pat1",
+        "display": "Jane Doe"
+      }
+    }
+  },
+  {
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "id": "db2S3TCsenDwga5tW",
+      "contained": [
+        {
+          "resourceType": "Medication",
+          "id": "FpaFHviofwbdYjuEy",
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/ndc",
+                "code": "50580-506-02",
+                "display": "MedicationStatement.InformationSource.Null"
+              }
+            ]
+          }
+        }
+      ],
+      "identifier": [
+        {
+          "use": "official",
+          "system": "http://www.bmc.nl/portal/medstatements",
+          "value": "12345689"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "reference": "Patient/pat1",
+        "display": "Jane Doe"
+      },
+      "effectiveDateTime": "2001-01-01",
+      "dateAsserted": "2001-12-31",
+      "informationSource": null
+    }
+  },
+  {
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "id": "nyFirHhwXr5cnYhnX",
+      "contained": [
+        {
+          "resourceType": "Medication",
+          "id": "FpaFHviofwbdYjuEy",
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/ndc",
+                "code": "50580-506-02",
+                "display": "MedicationStatement.EffectiveDateTime"
+              }
+            ]
+          }
+        }
+      ],
+      "identifier": [
+        {
+          "use": "official",
+          "system": "http://www.bmc.nl/portal/medstatements",
+          "value": "12345689"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "reference": "Patient/pat1",
+        "display": "Jane Doe"
+      },
+      "effectiveDateTime": null,
+      "dateAsserted": "2001-12-31",
+      "informationSource": {
+        "reference": "Patient/pat1",
+        "display": "Jane Doe"
+      }
+    }
+  },
+  {
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "id": "kH8oaCpkXPpZr2zm7",
+      "contained": [
+        {
+          "resourceType": "Medication",
+          "id": "FpaFHviofwbdYjuEy",
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/ndc",
+                "code": "50580-506-02",
+                "display": "MedicationStatement.DateAsserted.Null"
+              }
+            ]
+          }
+        }
+      ],
+      "identifier": [
+        {
+          "use": "official",
+          "system": "http://www.bmc.nl/portal/medstatements",
+          "value": "12345689"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "reference": "Patient/pat1",
+        "display": "Jane Doe"
+      },
+      "effectiveDateTime": "2001-01-01",
+      "dateAsserted": null,
+      "informationSource": {
+        "reference": "Patient/pat1",
+        "display": "Jane Doe"
+      }
+    }
+  }, {
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "id": "fKnLR8queNyjdb5EM",
+      "contained": [
+        {
+          "resourceType": "Medication",
+          "id": "FpaFHviofwbdYjuEy",
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/ndc",
+                "code": "50580-506-02",
+                "display": "MedicationStatement.EffectivePeriod"
+              }
+            ]
+          }
+        }
+      ],
+      "identifier": [
+        {
+          "use": "official",
+          "system": "http://www.bmc.nl/portal/medstatements",
+          "value": "12345689"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "reference": "Patient/pat1",
+        "display": "Jane Doe"
+      },
+      "effectivePeriod": {
+        "start": "2001-01-01",
+        "end": "2001-01-01"
+      },
+      "dateAsserted": "2001-12-31",
+      "informationSource": {
+        "reference": "Patient/pat1",
+        "display": "Jane Doe"
+      }
+    }
+  },{
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "id": "Rbad2Fr5aY3CLDwmW",
+      "contained": [
+        {
+          "resourceType": "Medication",
+          "id": "FpaFHviofwbdYjuEy",
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/ndc",
+                "code": "50580-506-02",
+                "display": "MedicationStatement.EffectivePeriod.End.Null"
+              }
+            ]
+          }
+        }
+      ],
+      "identifier": [
+        {
+          "use": "official",
+          "system": "http://www.bmc.nl/portal/medstatements",
+          "value": "12345689"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "reference": "Patient/pat1",
+        "display": "Jane Doe"
+      },
+      "effectivePeriod": {
+        "start": "2001-01-01",
+        "end": null
+      },
+      "dateAsserted": "2001-12-31",
+      "informationSource": {
+        "reference": "Patient/pat1",
+        "display": "Jane Doe"
+      }
+    }
+  }, {
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "id": "etofqBXreXsDmNQnY",
+      "contained": [
+        {
+          "resourceType": "Medication",
+          "id": "FpaFHviofwbdYjuEy",
+          "code": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/ndc",
+                "code": "50580-506-02",
+                "display": "MedicationStatement.EffectivePeriod.End.Missing"
+              }
+            ]
+          }
+        }
+      ],
+      "identifier": [
+        {
+          "use": "official",
+          "system": "http://www.bmc.nl/portal/medstatements",
+          "value": "12345689"
+        }
+      ],
+      "status": "active",
+      "subject": {
+        "reference": "Patient/pat1",
+        "display": "Jane Doe"
+      },
+      "effectivePeriod": {
+        "start": "2001-01-01"
+      },
+      "dateAsserted": "2001-12-31",
+      "informationSource": {
+        "reference": "Patient/pat1",
+        "display": "Jane Doe"
+      }
+    }
+  }]
+}

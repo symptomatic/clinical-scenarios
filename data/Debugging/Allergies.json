@@ -1,0 +1,524 @@
+{
+    "resourceType": "Bundle",
+    "entry": [
+      {
+        "fullUrl": "/Composition/6SP7xYkg67LdF9Cjp",
+        "resource": {
+          "resourceType": "Composition",
+          "identifier": {},
+          "status": "preliminary",
+          "type": {},
+          "class": {},
+          "subject": {
+            "display": "Candace Salinas",
+            "reference": "eD5SeuGxHorYQTwcH"
+          },
+          "encounter": {
+            "display": "",
+            "reference": ""
+          },
+          "date": "<dateTime>",
+          "author": [
+            {
+              "display": "Candace Salinas",
+              "reference": "eD5SeuGxHorYQTwcH"
+            }
+          ],
+          "title": "Continuity of Care Document",
+          "confidentiality": "0",
+          "attester": [],
+          "custodian": {
+            "display": "",
+            "reference": ""
+          },
+          "relatesTo": [],
+          "event": [],
+          "section": [
+            {
+              "entry": [
+                {
+                  "reference": "/AllergyIntolerance/bX9fakHRRyWwAoj4h"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "fullUrl": "/AllergyIntolerance/bX9fakHRRyWwAoj4h",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "identifier": [
+            {
+              "value": "AllergyIntolerance.Baseline"
+            }
+          ],
+          "clinicalStatus": "active",
+          "verificationStatus": "unconfirmed",
+          "type": "allergy",
+          "category": [
+            "food"
+          ],
+          "patient": {
+            "display": "Jane Doe"
+          },
+          "recorder": {
+            "display": "Nurse Jackie"
+          },
+          "onsetDateTime": "2017-10-20",
+          "reaction": [
+            {
+              "description": "AllergyIntolerance.Baseline"
+            }
+          ],
+          "criticality": "low"
+        }
+      },
+      {
+        "fullUrl": "/AllergyIntolerance/bX9fakHRRyWwAoj4h",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "identifier": [
+            {
+              "value": "AllergyIntolerance.OnsetDateTime.Null"
+            }
+          ],
+          "clinicalStatus": "active",
+          "verificationStatus": "unconfirmed",
+          "type": "allergy",
+          "category": [
+            "food"
+          ],
+          "patient": {
+            "display": "Jane Doe"
+          },
+          "recorder": {
+            "display": "Nurse Jackie"
+          },
+          "onsetDateTime": null,
+          "reaction": [
+            {
+              "description": "AllergyIntolerance.OnsetDateTime.Null"
+            }
+          ],
+          "criticality": "low"
+        }
+      },
+      {
+        "fullUrl": "/AllergyIntolerance/bX9fakHRRyWwAoj4h",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "identifier": [
+            {
+              "value": "AllergyIntolerance.clinicalStatus.Null"
+            }
+          ],
+          "clinicalStatus": null,
+          "verificationStatus": "unconfirmed",
+          "type": "allergy",
+          "category": [
+            "food"
+          ],
+          "patient": {
+            "display": "Jane Doe"
+          },
+          "recorder": {
+            "display": "Nurse Jackie"
+          },
+          "onsetDateTime": "2016-10-20",
+          "reaction": [
+            {
+              "description": "AllergyIntolerance.clinicalStatus.Null"
+            }
+          ],
+          "criticality": "low"
+        }
+      }, {
+        "fullUrl": "/AllergyIntolerance/bX9fakHRRyWwAoj4h",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "identifier": [
+            {
+              "value": "AllergyIntolerance.verificationStatus.Null"
+            }
+          ],
+          "clinicalStatus": "active",
+          "verificationStatus": null,
+          "type": "allergy",
+          "category": [
+            "food"
+          ],
+          "patient": {
+            "display": "Jane Doe"
+          },
+          "recorder": {
+            "display": "Nurse Jackie"
+          },
+          "onsetDateTime": "2015-10-20",
+          "reaction": [
+            {
+              "description": "AllergyIntolerance.verificationStatus.Null"
+            }
+          ],
+          "criticality": "low"
+        }
+      },
+      {
+        "fullUrl": "/AllergyIntolerance/bX9fakHRRyWwAoj4h",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "identifier": [
+            {
+              "value": "AllergyIntolerance.type.Null"
+            }
+          ],
+          "clinicalStatus": "active",
+          "verificationStatus": "unconfirmed",
+          "type": null,
+          "category": [
+            "food"
+          ],
+          "patient": {
+            "display": "Jane Doe"
+          },
+          "recorder": {
+            "display": "Nurse Jackie"
+          },
+          "onsetDateTime": "2014-10-20",
+          "reaction": [
+            {
+              "description": "AllergyIntolerance.type.Null"
+            }
+          ],
+          "criticality": "low"
+        }
+      },
+      {
+        "fullUrl": "/AllergyIntolerance/bX9fakHRRyWwAoj4h",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "identifier": [
+            {
+              "value": "AllergyIntolerance.Category.Empty"
+            }
+          ],
+          "clinicalStatus": "active",
+          "verificationStatus": "unconfirmed",
+          "type": "allergy",
+          "category": [],
+          "patient": {
+            "display": "Jane Doe"
+          },
+          "recorder": {
+            "display": "Nurse Jackie"
+          },
+          "onsetDateTime": "2013-10-20",
+          "reaction": [
+            {
+              "description": "AllergyIntolerance.Category.Empty"
+            }
+          ],
+          "criticality": "low"
+        }
+      },
+      {
+        "fullUrl": "/AllergyIntolerance/bX9fakHRRyWwAoj4h",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "identifier": [
+            {
+              "value": "AllergyIntolerance.Category.Null"
+            }
+          ],
+          "clinicalStatus": "active",
+          "verificationStatus": "unconfirmed",
+          "type": "allergy",
+          "category": null,
+          "patient": {
+            "display": "Jane Doe"
+          },
+          "recorder": {
+            "display": "Nurse Jackie"
+          },
+          "onsetDateTime": "2012-10-20",
+          "reaction": [
+            {
+              "description": "AllergyIntolerance.Category.Null"
+            }
+          ],
+          "criticality": "low"
+        }
+      },
+      {
+        "fullUrl": "/AllergyIntolerance/bX9fakHRRyWwAoj4h",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "identifier": [
+            {
+              "value": "AllergyIntolerance.Code.Null"
+            }
+          ],
+          "clinicalStatus": "active",
+          "verificationStatus": "unconfirmed",
+          "type": "allergy",
+          "category": [
+            "food"
+          ],
+          "code": null,
+          "patient": {
+            "display": "Jane Doe"
+          },
+          "recorder": {
+            "display": "Nurse Jackie"
+          },
+          "onsetDateTime": "2011-10-20",
+          "reaction": [
+            {
+              "description": "AllergyIntolerance.Code.Null"
+            }
+          ],
+          "criticality": "low"
+        }
+      },
+      {
+        "fullUrl": "/AllergyIntolerance/bX9fakHRRyWwAoj4h",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "identifier": [
+            {
+              "value": "AllergyIntolerance.Patient.null"
+            }
+          ],
+          "clinicalStatus": "active",
+          "verificationStatus": "unconfirmed",
+          "type": "allergy",
+          "category": [
+            "food"
+          ],
+          "patient": null,
+          "recorder": {
+            "display": "Nurse Jackie"
+          },
+          "onsetDateTime": "2010-10-20",
+          "reaction": [
+            {
+              "description": "AllergyIntolerance.Patient.null"
+            }
+          ],
+          "criticality": "low"
+        }
+      },
+      {
+        "fullUrl": "/AllergyIntolerance/bX9fakHRRyWwAoj4h",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "identifier": [
+            {
+              "value": "AllergyIntolerance.Recorder.null"
+            }
+          ],
+          "clinicalStatus": "active",
+          "verificationStatus": "unconfirmed",
+          "type": "allergy",
+          "category": [
+            "food"
+          ],
+          "patient": {
+            "display": "Jane Doe"
+          },
+          "recorder": null,
+          "onsetDateTime": "2009-10-20",
+          "reaction": [
+            {
+              "description": "AllergyIntolerance.Recorder.null"
+            }
+          ],
+          "criticality": "low"
+        }
+      },
+      {
+        "fullUrl": "/AllergyIntolerance/bX9fakHRRyWwAoj4h",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "identifier": [
+            {
+              "value": "AllergyIntolerance.Reaction.Null"
+            }
+          ],
+          "clinicalStatus": "active",
+          "verificationStatus": "unconfirmed",
+          "type": "allergy",
+          "category": [
+            "food"
+          ],
+          "patient": {
+            "display": "Jane Doe"
+          },
+          "recorder": {
+            "display": "Nurse Jackie"
+          },
+          "onsetDateTime": "2008-10-20",
+          "reaction": null,
+          "criticality": "low"
+        }
+      },
+      {
+        "fullUrl": "/AllergyIntolerance/bX9fakHRRyWwAoj4h",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "identifier": [
+            {
+              "value": "AllergyIntolerance.Criticality.Null"
+            }
+          ],
+          "clinicalStatus": "active",
+          "verificationStatus": "unconfirmed",
+          "type": "allergy",
+          "category": [
+            "food"
+          ],
+          "patient": {
+            "display": "Jane Doe"
+          },
+          "recorder": {
+            "display": "Nurse Jackie"
+          },
+          "onsetDateTime": "2007-10-20",
+          "reaction": [
+            {
+              "description": "AllergyIntolerance.Criticality.Null"
+            }
+          ],
+          "criticality": null
+        }
+      },
+      {
+        "fullUrl": "/AllergyIntolerance/bX9fakHRRyWwAoj4h",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "identifier": [
+            {
+              "value": "AllergyIntolerance.Onset"
+            }
+          ],
+          "clinicalStatus": "active",
+          "verificationStatus": "unconfirmed",
+          "type": "allergy",
+          "category": [
+            "food"
+          ],
+          "patient": {
+            "display": "Jane Doe"
+          },
+          "recorder": {
+            "display": "Nurse Jackie"
+          },
+          "onset": "2007-10-20",
+          "reaction": [
+            {
+              "description": "AllergyIntolerance.Criticality.Null"
+            }
+          ],
+          "criticality": null
+        }
+      },
+      {
+        "fullUrl": "/AllergyIntolerance/bX9fakHRRyWwAoj4h",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "identifier": [
+            {
+              "value": "AllergyIntolerance.OnsetPeriod"
+            }
+          ],
+          "clinicalStatus": "active",
+          "verificationStatus": "unconfirmed",
+          "type": "allergy",
+          "category": [
+            "food"
+          ],
+          "patient": {
+            "display": "Jane Doe"
+          },
+          "recorder": {
+            "display": "Nurse Jackie"
+          },
+          "onsetPeriod": {
+              "start": "2000-01-01",
+              "end": "2001-12-31"
+          },
+          "reaction": [
+            {
+              "description": "AllergyIntolerance.OnsetPeriod"
+            }
+          ],
+          "criticality": null
+        }
+      },
+      {
+        "fullUrl": "/AllergyIntolerance/bX9fakHRRyWwAoj4h",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "identifier": [
+            {
+              "value": "AllergyIntolerance.OnsetPeriod.End.Null"
+            }
+          ],
+          "clinicalStatus": "active",
+          "verificationStatus": "unconfirmed",
+          "type": "allergy",
+          "category": [
+            "food"
+          ],
+          "patient": {
+            "display": "Jane Doe"
+          },
+          "recorder": {
+            "display": "Nurse Jackie"
+          },
+          "onsetPeriod": {
+              "start": "2001-01-01",
+              "end": null
+          },
+          "reaction": [
+            {
+              "description": "AllergyIntolerance.Criticality.End.Null"
+            }
+          ],
+          "criticality": null
+        }
+      },
+      {
+        "fullUrl": "/AllergyIntolerance/bX9fakHRRyWwAoj4h",
+        "resource": {
+          "resourceType": "AllergyIntolerance",
+          "identifier": [
+            {
+              "value": "AllergyIntolerance.OnsetPeriod.End.Missing"
+            }
+          ],
+          "clinicalStatus": "active",
+          "verificationStatus": "unconfirmed",
+          "type": "allergy",
+          "category": [
+            "food"
+          ],
+          "patient": {
+            "display": "Jane Doe"
+          },
+          "recorder": {
+            "display": "Nurse Jackie"
+          },
+          "onsetPeriod": {
+              "start": "2002-01-01"
+          },
+          "reaction": [
+            {
+              "description": "AllergyIntolerance.Criticality.End.Missing"
+            }
+          ],
+          "criticality": null
+        }
+      }            
+    ]
+  }

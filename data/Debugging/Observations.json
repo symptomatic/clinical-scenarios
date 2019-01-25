@@ -1,0 +1,345 @@
+{
+  "resourceType": "Bundle",
+  "entry": [
+    {
+      "fullUrl": "/Observation/QpKgQDCL83dS7fZ5Q",
+      "resource": {
+        "resourceType": "Observation",
+        "category": {
+          "text": "Laboratory",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "laboratory"
+            }
+          ]
+        },
+        "issued": "2017-03-18T00:00:00Z",
+        "status": "final",
+        "id": "yfqBSYuYHk5exq6Su",
+        "code": {
+          "text": "Observation.Baseline",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3043-7"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/355"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "value": 10,
+              "unit": "mg/dL"
+            },
+            "high": {
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "value": 250,
+              "unit": "mg/dL"
+            },
+            "text": "10 to 250 mg/dL"
+          }
+        ],
+        "valueQuantity": {
+          "code": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "value": 86,
+          "unit": "mg/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Observation/QpKgQDCL83dS7fZ5Q",
+      "resource": {
+        "resourceType": "Observation",
+        "category": null,
+        "issued": "2017-03-18T00:00:00Z",
+        "status": "final",
+        "id": "g4DPyNAtXXBZMiFtQ",
+        "code": {
+          "text": "Observation.Category.Null",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3043-7"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/355"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "value": 10,
+              "unit": "mg/dL"
+            },
+            "high": {
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "value": 250,
+              "unit": "mg/dL"
+            },
+            "text": "10 to 250 mg/dL"
+          }
+        ],
+        "valueQuantity": {
+          "code": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "value": 86,
+          "unit": "mg/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Observation/QpKgQDCL83dS7fZ5Q",
+      "resource": {
+        "resourceType": "Observation",
+        "category": {
+          "text": "Laboratory",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "laboratory"
+            }
+          ]
+        },
+        "issued": null,
+        "status": "final",
+        "id": "FXJTxtcKZ4tW3naCD",
+        "code": {
+          "text": "Observation.Issued.Null",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3043-7"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/355"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "value": 10,
+              "unit": "mg/dL"
+            },
+            "high": {
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "value": 250,
+              "unit": "mg/dL"
+            },
+            "text": "10 to 250 mg/dL"
+          }
+        ],
+        "valueQuantity": {
+          "code": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "value": 86,
+          "unit": "mg/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Observation/QpKgQDCL83dS7fZ5Q",
+      "resource": {
+        "resourceType": "Observation",
+        "category": {
+          "text": "Laboratory",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "laboratory"
+            }
+          ]
+        },
+        "issued": "2017-03-18T00:00:00Z",
+        "status": null,
+        "id": "ydrD2kTPrwkCkLTBq",
+        "code": {
+          "text": "Observation.Status.Null",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3043-7"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/355"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "value": 10,
+              "unit": "mg/dL"
+            },
+            "high": {
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "value": 250,
+              "unit": "mg/dL"
+            },
+            "text": "10 to 250 mg/dL"
+          }
+        ],
+        "valueQuantity": {
+          "code": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "value": 86,
+          "unit": "mg/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Observation/QpKgQDCL83dS7fZ5Q",
+      "resource": {
+        "resourceType": "Observation",
+        "category": {
+          "text": "Laboratory",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "laboratory"
+            }
+          ]
+        },
+        "issued": "2017-03-18T00:00:00Z",
+        "status": "final",
+        "id": "zo5vwo4CKazH3Bz7u",
+        "code": {
+          "text": "Observation.Encounter.Null",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3043-7"
+            }
+          ]
+        },
+        "encounter": null,
+        "referenceRange": [
+          {
+            "low": {
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "value": 10,
+              "unit": "mg/dL"
+            },
+            "high": {
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "value": 250,
+              "unit": "mg/dL"
+            },
+            "text": "10 to 250 mg/dL"
+          }
+        ],
+        "valueQuantity": {
+          "code": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "value": 86,
+          "unit": "mg/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Observation/QpKgQDCL83dS7fZ5Q",
+      "resource": {
+        "resourceType": "Observation",
+        "category": {
+          "text": "Laboratory",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "laboratory"
+            }
+          ]
+        },
+        "issued": "2017-03-18T00:00:00Z",
+        "status": "final",
+        "id": "Stb3Qmyw8KXfQ5Sg7",
+        "code": {
+          "text": "Observation.ReferenceRange.Null",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3043-7"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/355"
+        },
+        "referenceRange": null,
+        "valueQuantity": {
+          "code": "mg/dL",
+          "system": "http://unitsofmeasure.org",
+          "value": 86,
+          "unit": "mg/dL"
+        }
+      }
+    },
+    {
+      "fullUrl": "/Observation/QpKgQDCL83dS7fZ5Q",
+      "resource": {
+        "resourceType": "Observation",
+        "category": {
+          "text": "Laboratory",
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/observation-category",
+              "code": "laboratory"
+            }
+          ]
+        },
+        "issued": "2017-03-18T00:00:00Z",
+        "status": "final",
+        "id": "rzzEj9u773h8jZRbM",
+        "code": {
+          "text": "Observation.ValueString",
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "3043-7"
+            }
+          ]
+        },
+        "encounter": {
+          "reference": "Encounter/355"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "value": 10,
+              "unit": "mg/dL"
+            },
+            "high": {
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org",
+              "value": 250,
+              "unit": "mg/dL"
+            },
+            "text": "10 to 250 mg/dL"
+          }
+        ],
+        "valueString": "AB+"
+      }
+    }
+  ]
+}

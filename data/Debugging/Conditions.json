@@ -1,0 +1,274 @@
+{
+  "resourceType": "Bundle",
+  "entry": [
+    {
+      "fullUrl": "/Condition/6Pb9Z5RMy265cuC8s",
+      "resource": {
+        "asserter": {
+          "display": "Nurse Jackie",
+          "reference": "Practitioner/20"
+        },
+        "category": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/condition-category",
+              "code": "diagnosis"
+            }
+          ]
+        },
+        "clinicalStatus": "active",
+        "dateRecorded": "2012-01-02",
+        "code": {
+          "text": "Condition - Baseline",
+          "coding": [
+            {
+              "display": "Condition - Baseline",
+              "system": "http://snomed.info/sct",
+              "code": "195967001"
+            }
+          ]
+        },
+        "id": "5HaavLEJD36xQFThB",
+        "notes": "2 brief hospitalizations when a child, symptoms much improved as an adult",
+        "verificationStatus": "confirmed",
+        "onsetDateTime": "1991-09-09",
+        "resourceType": "Condition"
+      }
+    },
+
+    {
+      "fullUrl": "/Condition/6Pb9Z5RMy265cuC8s",
+      "resource": {
+        "asserter": null,
+        "category": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/condition-category",
+              "code": "diagnosis"
+            }
+          ]
+        },
+        "clinicalStatus": "active",
+        "dateRecorded": "2011-01-02",
+        "code": {
+          "text": "Condition.Asserter.Null",
+          "coding": [
+            {
+              "display": "Condition.Asserter.Null",
+              "system": "http://snomed.info/sct",
+              "code": "195967001"
+            }
+          ]
+        },
+        "id": "csQXa2ZANGay3pP53",
+        "notes": "2 brief hospitalizations when a child, symptoms much improved as an adult",
+        "verificationStatus": "confirmed",
+        "onsetDateTime": "1990-09-09",
+        "resourceType": "Condition"
+      }
+    },
+
+    {
+      "fullUrl": "/Condition/6Pb9Z5RMy265cuC8s",
+      "resource": {
+        "asserter": {
+          "display": "Nurse Jackie",
+          "reference": "Practitioner/20"
+        },
+        "category": null,
+        "clinicalStatus": "active",
+        "dateRecorded": "2010-01-02",
+        "code": {
+          "text": "Condition.Category.Null",
+          "coding": [
+            {
+              "display": "Condition.Category.Null",
+              "system": "http://snomed.info/sct",
+              "code": "195967001"
+            }
+          ]
+        },
+        "id": "uKX45KcAvYMaBA98c",
+        "notes": "2 brief hospitalizations when a child, symptoms much improved as an adult",
+        "verificationStatus": "confirmed",
+        "onsetDateTime": "1989-09-09",
+        "resourceType": "Condition"
+      }
+    },
+
+    {
+      "fullUrl": "/Condition/6Pb9Z5RMy265cuC8s",
+      "resource": {
+        "asserter": {
+          "display": "Nurse Jackie",
+          "reference": "Practitioner/20"
+        },
+        "category": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/condition-category",
+              "code": "diagnosis"
+            }
+          ]
+        },
+        "clinicalStatus": null,
+        "dateRecorded": "2009-01-02",
+        "code": {
+          "text": "Condition.ClinicalStatus.Null",
+          "coding": [
+            {
+              "display": "Condition.ClinicalStatus.Null",
+              "system": "http://snomed.info/sct",
+              "code": "195967001"
+            }
+          ]
+        },
+        "id": "iyuLbDhXdd9MQPa4X",
+        "notes": "2 brief hospitalizations when a child, symptoms much improved as an adult",
+        "verificationStatus": "confirmed",
+        "onsetDateTime": "1988-09-09",
+        "resourceType": "Condition"
+      }
+    },
+
+    {
+      "fullUrl": "/Condition/6Pb9Z5RMy265cuC8s",
+      "resource": {
+        "asserter": {
+          "display": "Nurse Jackie",
+          "reference": "Practitioner/20"
+        },
+        "category": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/condition-category",
+              "code": "diagnosis"
+            }
+          ]
+        },
+        "clinicalStatus": "active",
+        "dateRecorded": null,
+        "code": {
+          "text": "Condition.DateRecorded.Null",
+          "coding": [
+            {
+              "display": "Condition.DateRecorded.Null",
+              "system": "http://snomed.info/sct",
+              "code": "195967001"
+            }
+          ]
+        },
+        "id": "FeyRryuoQ3bdwLeSS",
+        "notes": "2 brief hospitalizations when a child, symptoms much improved as an adult",
+        "verificationStatus": "confirmed",
+        "onsetDateTime": "1987-09-09",
+        "resourceType": "Condition"
+      }
+    },
+
+    {
+      "fullUrl": "/Condition/6Pb9Z5RMy265cuC8s",
+      "resource": {
+        "asserter": {
+          "display": "Nurse Jackie",
+          "reference": "Practitioner/20"
+        },
+        "category": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/condition-category",
+              "code": "diagnosis"
+            }
+          ]
+        },
+        "clinicalStatus": "active",
+        "dateRecorded": "2008-01-02",
+        "code": {
+          "text": "Condition.Notes.Null",
+          "coding": [
+            {
+              "display": "Condition.Notes.Null",
+              "system": "http://snomed.info/sct",
+              "code": "195967001"
+            }
+          ]
+        },
+        "id": "RKuejzvfL5T8vW4SS",
+        "notes": null,
+        "verificationStatus": "confirmed",
+        "onsetDateTime": "1986-09-09",
+        "resourceType": "Condition"
+      }
+    },
+
+    {
+      "fullUrl": "/Condition/6Pb9Z5RMy265cuC8s",
+      "resource": {
+        "asserter": {
+          "display": "Nurse Jackie",
+          "reference": "Practitioner/20"
+        },
+        "category": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/condition-category",
+              "code": "diagnosis"
+            }
+          ]
+        },
+        "clinicalStatus": "active",
+        "dateRecorded": "2007-01-02",
+        "code": {
+          "text": "Condition.VerificationStatus.Null",
+          "coding": [
+            {
+              "display": "Condition.VerificationStatus.Null",
+              "system": "http://snomed.info/sct",
+              "code": "195967001"
+            }
+          ]
+        },
+        "id": "8oxesMoyYwekNWDTv",
+        "notes": "2 brief hospitalizations when a child, symptoms much improved as an adult",
+        "verificationStatus": null,
+        "onsetDateTime": "1985-09-09",
+        "resourceType": "Condition"
+      }
+    },
+
+    {
+      "fullUrl": "/Condition/6Pb9Z5RMy265cuC8s",
+      "resource": {
+        "asserter": {
+          "display": "Nurse Jackie",
+          "reference": "Practitioner/20"
+        },
+        "category": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/condition-category",
+              "code": "diagnosis"
+            }
+          ]
+        },
+        "clinicalStatus": "active",
+        "dateRecorded": "2006-01-02",
+        "code": {
+          "text": "Condition.OnsetDateTime.Null",
+          "coding": [
+            {
+              "display": "Condition.OnsetDateTime.Null",
+              "system": "http://snomed.info/sct",
+              "code": "195967001"
+            }
+          ]
+        },
+        "id": "KoQgGeMCd49pqvvD3",
+        "notes": "2 brief hospitalizations when a child, symptoms much improved as an adult",
+        "verificationStatus": "confirmed",
+        "onsetDateTime": null,
+        "resourceType": "Condition"
+      }
+    }
+  ]
+}

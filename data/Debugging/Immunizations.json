@@ -1,0 +1,192 @@
+{
+  "resourceType": "Bundle",
+  "entry": [
+    {
+      "fullUrl": "/Immunization/HNJApyH5skRYBo2tk",
+      "resource": {
+        "resourceType": "Immunization",
+        "vaccineCode": {
+          "text": "Immunization.Baseline",
+          "coding": [
+            {
+              "system": "CVX",
+              "code": "135"
+            }
+          ]
+        },
+        "id": "X3LpMq9CKLd9A5hdE",
+        "note": "Immunization.Baseline",
+        "encounter": {
+          "reference": "Encounter/129837645"
+        },
+        "requester": {
+          "display": "Nurse Jackie",
+          "reference": "Practitioner/8"
+        },
+        "date": "2017-10-18"
+      }
+    },
+    {
+      "fullUrl": "/Immunization/HNJApyH5skRYBo2tk",
+      "resource": {
+        "resourceType": "Immunization",
+        "vaccineCode": null,
+        "id": "SPpPjq5uuWrfBq9ed",
+        "note": "Immunization.vaccineCode.Null",
+        "encounter": {
+          "reference": "Encounter/129837645"
+        },
+        "requester": {
+          "display": "Nurse Jackie",
+          "reference": "Practitioner/8"
+        },
+        "date": "2016-10-18"
+      }
+    },
+    {
+      "fullUrl": "/Immunization/HNJApyH5skRYBo2tk",
+      "resource": {
+        "resourceType": "Immunization",
+        "vaccineCode": {
+          "text": "Immunization.Encounter.Null",
+          "coding": [
+            {
+              "system": "CVX",
+              "code": "135"
+            }
+          ]
+        },
+        "id": "XYsjGv4kNGQLDExSa",
+        "note": "Immunization.Encounter.Null",
+        "encounter": null,
+        "requester": {
+          "display": "Nurse Jackie",
+          "reference": "Practitioner/8"
+        },
+        "date": "2015-10-18"
+      }
+    },
+    {
+      "fullUrl": "/Immunization/HNJApyH5skRYBo2tk",
+      "resource": {
+        "resourceType": "Immunization",
+        "vaccineCode": {
+          "text": "Immunization.Requestor.Null",
+          "coding": [
+            {
+              "system": "CVX",
+              "code": "135"
+            }
+          ]
+        },
+        "id": "eLgWDhusq4m73wZ66",
+        "note": "Immunization.Requestor.Null",
+        "encounter": {
+          "reference": "Encounter/129837645"
+        },
+        "requester": null,
+        "date": "2014-10-18"
+      }
+    },
+    {
+      "fullUrl": "/Immunization/HNJApyH5skRYBo2tk",
+      "resource": {
+        "resourceType": "Immunization",
+        "vaccineCode": {
+          "text": "Immunization.Date",
+          "coding": [
+            {
+              "system": "CVX",
+              "code": "135"
+            }
+          ]
+        },
+        "id": "pHaacKgZucTP5vN7M",
+        "note": "Immunization.Date",
+        "encounter": {
+          "reference": "Encounter/129837645"
+        },
+        "requester": {
+          "display": "Nurse Jackie",
+          "reference": "Practitioner/8"
+        },
+        "date": "2013-10-18"
+      }
+    },
+    {
+      "fullUrl": "/Immunization/HNJApyH5skRYBo2tk",
+      "resource": {
+        "resourceType": "Immunization",
+        "vaccineCode": {
+          "text": "Immunization.Reported",
+          "coding": [
+            {
+              "system": "CVX",
+              "code": "135"
+            }
+          ]
+        },
+        "id": "LvAxWwifQSzmWZhCW",
+        "note": "Immunization.Reported",
+        "encounter": {
+          "reference": "Encounter/129837645"
+        },
+        "requester": {
+          "display": "Nurse Jackie",
+          "reference": "Practitioner/8"
+        },
+        "reported": "2012-10-18"
+      }
+    },
+    {
+      "fullUrl": "/Immunization/HNJApyH5skRYBo2tk",
+      "resource": {
+        "resourceType": "Immunization",
+        "vaccineCode": {
+          "text": "Immunization.Recorded",
+          "coding": [
+            {
+              "system": "CVX",
+              "code": "135"
+            }
+          ]
+        },
+        "id": "tgbHdtCxCmPdjCebH",
+        "note": "Immunization.Recorded",
+        "encounter": {
+          "reference": "Encounter/129837645"
+        },
+        "requester": {
+          "display": "Nurse Jackie",
+          "reference": "Practitioner/8"
+        },
+        "recorded": "2011-10-18"
+      }
+    },
+    {
+      "fullUrl": "/Immunization/HNJApyH5skRYBo2tk",
+      "resource": {
+        "resourceType": "Immunization",
+        "vaccineCode": {
+          "text": "Immunization.OccurrenceDateTime",
+          "coding": [
+            {
+              "system": "CVX",
+              "code": "135"
+            }
+          ]
+        },
+        "id": "pDqikR9iWY4LAt2qc",
+        "note": "Immunization.OccurrenceDateTime",
+        "encounter": {
+          "reference": "Encounter/129837645"
+        },
+        "requester": {
+          "display": "Nurse Jackie",
+          "reference": "Practitioner/8"
+        },
+        "occurrenceDateTime": "2010-10-18"
+      }
+    }
+  ]
+}

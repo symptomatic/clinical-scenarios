@@ -1,0 +1,692 @@
+{
+  "resourceType": "Bundle",
+  "entry": [
+    {
+      "fullUrl": "/CarePlan/iXyvCYENrLPcz6ehw",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoA",
+        "status": "active",
+        "description": "Longitudinal Care Plan",
+        "period": {
+          "start": "2015-01-01",
+          "end": "2015-12-31"
+        },
+        "subject": {
+          "display": "Jason Argonaut",
+          "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoA"
+        },
+        "addresses": [
+          {
+            "display": "Agoraphobia",
+            "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Condition/T1kK.xqvU20cEJe860G4aKgB"
+          }
+        ],
+        "goal":[
+          {
+            "display": "Hemoglobin A1c below 7.0",
+            "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Goal/T20lh4qYCPP9sg31ZDfMLcwB"
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "prohibited": false,
+              "category": {
+                "text": "procedure",
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/care-plan-activity-category",
+                    "code": "procedure",
+                    "display": "Procedure"
+                  }
+                ]
+              },
+              "code": {
+                "text": "CBC W/ AUTO DIFFERENTIAL"
+              }
+            }
+          }
+        ],
+        "category": [
+          {
+            "text": "Longitudinal",
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "38717003",
+                "display": "Longitudinal"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "/CarePlan/iXyvCYENrLPcz6ehw",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoA",
+        "status": "active",
+        "description": "Longitudinal.Period.End.Missing",
+        "period": {
+          "start": "2015-01-01"
+        },
+        "subject": {
+          "display": "Jason Argonaut",
+          "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoA"
+        },
+        "addresses": [
+          {
+            "display": "Agoraphobia",
+            "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Condition/T1kK.xqvU20cEJe860G4aKgB"
+          }
+        ],
+        "goal": [
+          {
+            "display": "Hemoglobin A1c below 7.0",
+            "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Goal/T20lh4qYCPP9sg31ZDfMLcwB"
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "prohibited": false,
+              "category": {
+                "text": "procedure",
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/care-plan-activity-category",
+                    "code": "procedure",
+                    "display": "Procedure"
+                  }
+                ]
+              },
+              "code": {
+                "text": "CBC W/ AUTO DIFFERENTIAL"
+              }
+            }
+          }
+        ],
+        "category": [
+          {
+            "text": "Longitudinal",
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "38717003",
+                "display": "Longitudinal"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "/CarePlan/iXyvCYENrLPcz6ehw",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoC",
+        "status": "active",
+        "description": "Longitudinal.Period.End.Null",
+        "period": {
+          "start": "2015-01-01",
+          "end": null
+        },
+        "subject": {
+          "display": "Jason Argonaut",
+          "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoC"
+        },
+        "addresses": [
+          {
+            "display": "Agoraphobia",
+            "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Condition/T1kK.xqvU20cEJe860G4aKgB"
+          }
+        ],
+        "goal": [
+          {
+            "display": "Hemoglobin A1c below 7.0",
+            "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Goal/T20lh4qYCPP9sg31ZDfMLcwB"
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "prohibited": false,
+              "category": {
+                "text": "procedure",
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/care-plan-activity-category",
+                    "code": "procedure",
+                    "display": "Procedure"
+                  }
+                ]
+              },
+              "code": {
+                "text": "CBC W/ AUTO DIFFERENTIAL"
+              }
+            }
+          }
+        ],
+        "category": [
+          {
+            "text": "Longitudinal",
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "38717003",
+                "display": "Longitudinal"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "/CarePlan/iXyvCYENrLPcz6ehw",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoD",
+        "status": "active",
+        "description": "Longitudinal.Period.Null",
+        "subject": {
+          "display": "Jason Argonaut",
+          "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoD"
+        },
+        "addresses": [
+          {
+            "display": "Agoraphobia",
+            "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Condition/T1kK.xqvU20cEJe860G4aKgB"
+          }
+        ],
+        "goal": [
+          {
+            "display": "Hemoglobin A1c below 7.0",
+            "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Goal/T20lh4qYCPP9sg31ZDfMLcwB"
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "prohibited": false,
+              "category": {
+                "text": "procedure",
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/care-plan-activity-category",
+                    "code": "procedure",
+                    "display": "Procedure"
+                  }
+                ]
+              },
+              "code": {
+                "text": "CBC W/ AUTO DIFFERENTIAL"
+              }
+            }
+          }
+        ],
+        "category": [
+          {
+            "text": "Longitudinal",
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "38717003",
+                "display": "Longitudinal"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "/CarePlan/iXyvCYENrLPcz6ehw",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoE",
+        "status": null,
+        "description": "Longitudinal.Status.Null",
+        "period": {
+          "start": "2015-01-01",
+          "end": "2015-12-31"
+        },
+        "subject": {
+          "display": "Jason Argonaut",
+          "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoE"
+        },
+        "addresses": [
+          {
+            "display": "Agoraphobia",
+            "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Condition/T1kK.xqvU20cEJe860G4aKgB"
+          }
+        ],
+        "goal": [
+          {
+            "display": "Hemoglobin A1c below 7.0",
+            "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Goal/T20lh4qYCPP9sg31ZDfMLcwB"
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "prohibited": false,
+              "category": {
+                "text": "procedure",
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/care-plan-activity-category",
+                    "code": "procedure",
+                    "display": "Procedure"
+                  }
+                ]
+              },
+              "code": {
+                "text": "CBC W/ AUTO DIFFERENTIAL"
+              }
+            }
+          }
+        ],
+        "category": [
+          {
+            "text": "Longitudinal",
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "38717003",
+                "display": "Longitudinal"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "/CarePlan/iXyvCYENrLPcz6ehw",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoF",
+        "description": "Longitudinal.Status.Missing",
+        "period": {
+          "start": "2015-01-01",
+          "end": "2015-12-31"
+        },
+        "subject": {
+          "display": "Jason Argonaut",
+          "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoF"
+        },
+        "addresses": [
+          {
+            "display": "Agoraphobia",
+            "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Condition/T1kK.xqvU20cEJe860G4aKgB"
+          }
+        ],
+        "goal": [
+          {
+            "display": "Hemoglobin A1c below 7.0",
+            "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Goal/T20lh4qYCPP9sg31ZDfMLcwB"
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "prohibited": false,
+              "category": {
+                "text": "procedure",
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/care-plan-activity-category",
+                    "code": "procedure",
+                    "display": "Procedure"
+                  }
+                ]
+              },
+              "code": {
+                "text": "CBC W/ AUTO DIFFERENTIAL"
+              }
+            }
+          }
+        ],
+        "category": [
+          {
+            "text": "Longitudinal",
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "38717003",
+                "display": "Longitudinal"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "/CarePlan/iXyvCYENrLPcz6ehw",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoG",
+        "status": "active",
+        "description": "Longitudinal.Subject.Null",
+        "period": {
+          "start": "2015-01-01",
+          "end": "2015-12-31"
+        },
+        "subject": null,
+        "addresses": [
+          {
+            "display": "Agoraphobia",
+            "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Condition/T1kK.xqvU20cEJe860G4aKgG"
+          }
+        ],
+        "goal": [
+          {
+            "display": "Hemoglobin A1c below 7.0",
+            "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Goal/T20lh4qYCPP9sg31ZDfMLcwB"
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "prohibited": false,
+              "category": {
+                "text": "procedure",
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/care-plan-activity-category",
+                    "code": "procedure",
+                    "display": "Procedure"
+                  }
+                ]
+              },
+              "code": {
+                "text": "CBC W/ AUTO DIFFERENTIAL"
+              }
+            }
+          }
+        ],
+        "category": [
+          {
+            "text": "Longitudinal",
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "38717003",
+                "display": "Longitudinal"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "/CarePlan/iXyvCYENrLPcz6ehw",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoH",
+        "status": "active",
+        "description": "Longitudinal.Addresses.Null",
+        "period": {
+          "start": "2015-01-01",
+          "end": "2015-12-31"
+        },
+        "subject": {
+          "display": "Jason Argonaut",
+          "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoH"
+        },
+        "addresses": [
+          {
+            "display": "Agoraphobia",
+            "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Condition/T1kK.xqvU20cEJe860G4aKgB"
+          }
+        ],
+        "goal": [
+          {
+            "display": "Hemoglobin A1c below 7.0",
+            "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Goal/T20lh4qYCPP9sg31ZDfMLcwB"
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "prohibited": false,
+              "category": {
+                "text": "procedure",
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/care-plan-activity-category",
+                    "code": "procedure",
+                    "display": "Procedure"
+                  }
+                ]
+              },
+              "code": {
+                "text": "CBC W/ AUTO DIFFERENTIAL"
+              }
+            }
+          }
+        ],
+        "category": [
+          {
+            "text": "Longitudinal",
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "38717003",
+                "display": "Longitudinal"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "/CarePlan/iXyvCYENrLPcz6ehw",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoI",
+        "status": "active",
+        "description": "Longitudinal.Goal.Null",
+        "period": {
+          "start": "2015-01-01",
+          "end": "2015-12-31"
+        },
+        "subject": {
+          "display": "Jason Argonaut",
+          "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoI"
+        },
+        "addresses": [
+          {
+            "display": "Agoraphobia",
+            "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Condition/T1kK.xqvU20cEJe860G4aKgB"
+          }
+        ],
+        "goal": null,
+        "activity": [
+          {
+            "detail": {
+              "prohibited": false,
+              "category": {
+                "text": "procedure",
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/care-plan-activity-category",
+                    "code": "procedure",
+                    "display": "Procedure"
+                  }
+                ]
+              },
+              "code": {
+                "text": "CBC W/ AUTO DIFFERENTIAL"
+              }
+            }
+          }
+        ],
+        "category": [
+          {
+            "text": "Longitudinal",
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "38717003",
+                "display": "Longitudinal"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "/CarePlan/iXyvCYENrLPcz6ehw",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoJ",
+        "status": "active",
+        "description": "Longitudinal.Activity.Null",
+        "period": {
+          "start": "2015-01-01",
+          "end": "2015-12-31"
+        },
+        "subject": {
+          "display": "Jason Argonaut",
+          "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoJ"
+        },
+        "addresses": [
+          {
+            "display": "Agoraphobia",
+            "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Condition/T1kK.xqvU20cEJe860G4aKgB"
+          }
+        ],
+        "goal": [
+          {
+            "display": "Hemoglobin A1c below 7.0",
+            "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Goal/T20lh4qYCPP9sg31ZDfMLcwB"
+          }
+        ],
+        "activity": null,
+        "category": [
+          {
+            "text": "Longitudinal",
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "38717003",
+                "display": "Longitudinal"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "/CarePlan/iXyvCYENrLPcz6ehw",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoK",
+        "status": "active",
+        "description": "Longitudinal.Category.Null",
+        "period": {
+          "start": "2015-01-01",
+          "end": "2015-12-31"
+        },
+        "subject": {
+          "display": "Jason Argonaut",
+          "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoK"
+        },
+        "addresses": [
+          {
+            "display": "Agoraphobia",
+            "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Condition/T1kK.xqvU20cEJe860G4aKgB"
+          }
+        ],
+        "goal": [
+          {
+            "display": "Hemoglobin A1c below 7.0",
+            "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Goal/T20lh4qYCPP9sg31ZDfMLcwB"
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "prohibited": false,
+              "category": {
+                "text": "procedure",
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/care-plan-activity-category",
+                    "code": "procedure",
+                    "display": "Procedure"
+                  }
+                ]
+              },
+              "code": {
+                "text": "CBC W/ AUTO DIFFERENTIAL"
+              }
+            }
+          }
+        ],
+        "category": null
+      }
+    },
+    {
+      "fullUrl": "/CarePlan/iXyvCYENrLPcz6ehw",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoL",
+        "status": "active",
+        "period": {
+          "start": "2015-01-01",
+          "end": "2015-12-31"
+        },
+        "subject": {
+          "display": "Jason Argonaut",
+          "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Patient/Tbt3KuCY0B5PSrJvCu2j-PlK.aiHsu2xUjUM8bWpetXoL"
+        },
+        "addresses": [
+          {
+            "display": "Agoraphobia",
+            "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Condition/T1kK.xqvU20cEJe860G4aKgB"
+          }
+        ],
+        "goal": [
+          {
+            "display": "Hemoglobin A1c below 7.0",
+            "reference": "https://open-ic.epic.com/Argonaut/api/FHIR/DSTU2/Goal/T20lh4qYCPP9sg31ZDfMLcwB"
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "prohibited": false,
+              "category": {
+                "text": "procedure",
+                "coding": [
+                  {
+                    "system": "http://hl7.org/fhir/care-plan-activity-category",
+                    "code": "procedure",
+                    "display": "Procedure"
+                  }
+                ]
+              },
+              "code": {
+                "text": "CBC W/ AUTO DIFFERENTIAL"
+              }
+            }
+          }
+        ],
+        "category": [
+          {
+            "text": "Longitudinal",
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "38717003",
+                "display": "Longitudinal"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+    "resourceType": "Bundle",
+    "entry": [
+      {
+        "fullUrl": "/Composition/SzSrx2wdEuJH3dni9",
+        "resource": {
+          "resourceType": "Composition",
+          "identifier": {},
+          "status": "preliminary",
+          "type": {},
+          "class": {},
+          "subject": {
+            "display": "Candace Salinas",
+            "reference": "eD5SeuGxHorYQTwcH"
+          },
+          "encounter": {
+            "display": "",
+            "reference": ""
+          },
+          "date": "<dateTime>",
+          "author": [
+            {
+              "display": "Candace Salinas",
+              "reference": "eD5SeuGxHorYQTwcH"
+            }
+          ],
+          "title": "Continuity of Care Document",
+          "confidentiality": "0",
+          "attester": [],
+          "custodian": {
+            "display": "",
+            "reference": ""
+          },
+          "relatesTo": [],
+          "event": [],
+          "section": []
+        }
+      }
+    ]
+  }
