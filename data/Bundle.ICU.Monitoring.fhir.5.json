@@ -1,0 +1,4265 @@
+{
+    "resourceType": "Bundle",
+    "entry": [
+      {
+        "fullUrl": "/Composition/tcAYhoYC7RK2wKp58",
+        "resource": {
+          "resourceType": "Composition",
+          "identifier": {},
+          "status": "preliminary",
+          "type": {},
+          "class": {},
+          "subject": {
+            "display": "Gregory House",
+            "reference": "bW9wLNjYWHp2tx8gW"
+          },
+          "encounter": {
+            "display": "",
+            "reference": ""
+          },
+          "date": "<dateTime>",
+          "author": [
+            {
+              "display": "Gregory House",
+              "reference": "bW9wLNjYWHp2tx8gW"
+            }
+          ],
+          "title": "Continuity of Care Document",
+          "confidentiality": "0",
+          "attester": [],
+          "custodian": {
+            "display": "",
+            "reference": ""
+          },
+          "relatesTo": [],
+          "event": [],
+          "section": [
+            {
+              "reference": "/Observation/kHZ5ybZFTowvSW7qT"
+            },
+            {
+              "reference": "/Observation/A5gTFQKwcuAjCxx4z"
+            },
+            {
+              "reference": "/Observation/sLE6ftuExQMLJHW9A"
+            },
+            {
+              "reference": "/Observation/9FNwrG8xnb8oYaxzX"
+            },
+            {
+              "reference": "/Observation/dNu7f6rZK8zBYewzo"
+            },
+            {
+              "reference": "/Observation/BYouwucuNK4w7npxY"
+            },
+            {
+              "reference": "/Observation/aK9zQHZmgxFHtxCuo"
+            },
+            {
+              "reference": "/Observation/mNTxhthMs4uieW9M8"
+            },
+            {
+              "reference": "/Observation/uMotT5pmaWq8uZvx9"
+            },
+            {
+              "reference": "/Observation/td5mtFQX7tSRDZCJv"
+            },
+            {
+              "reference": "/Observation/bzxMqs5KLXKy2GkSE"
+            },
+            {
+              "reference": "/Observation/f3NQTxhfi9YdRjfE6"
+            },
+            {
+              "reference": "/Observation/3dzbJTvExjnhExFeS"
+            },
+            {
+              "reference": "/Observation/r2JK9ZR6khWsbWBP5"
+            },
+            {
+              "reference": "/Observation/BzsaNtWceK5H8zAe3"
+            },
+            {
+              "reference": "/Observation/pMrPzKXz5AquNqtL7"
+            },
+            {
+              "reference": "/Observation/YJHCfpsNMysPRyqRP"
+            },
+            {
+              "reference": "/Observation/nNRiZDd6DAEYgYoCE"
+            },
+            {
+              "reference": "/Observation/PdmwwCz8HepCFBsS8"
+            },
+            {
+              "reference": "/Observation/ZTNpTw9aZzrikKBXC"
+            },
+            {
+              "reference": "/Observation/uvJgmc7dyMpGnRXSp"
+            },
+            {
+              "reference": "/Observation/dHwKE9Kma3CwcyoaK"
+            },
+            {
+              "reference": "/Observation/bRMZjZwnTGaxJd5PE"
+            },
+            {
+              "reference": "/Observation/6QsujGccdyzZo6bz6"
+            },
+            {
+              "reference": "/Observation/ZmbNDWmc6AaS7Kroc"
+            },
+            {
+              "reference": "/Observation/Y8yBtWkE7dpNkP29J"
+            },
+            {
+              "reference": "/Observation/AkMpwKHCktC6LQSjo"
+            },
+            {
+              "reference": "/Observation/HyBLcu6H5HeSoKXDG"
+            },
+            {
+              "reference": "/Observation/SipTybzS6zATedmXN"
+            },
+            {
+              "reference": "/Observation/ocLyrvS6YAD2JDEfT"
+            },
+            {
+              "reference": "/Observation/nP6A3y3jmsXywTdkF"
+            },
+            {
+              "reference": "/Observation/ss6NevwewKs6ZiHMZ"
+            },
+            {
+              "reference": "/Observation/nsPcqCjy7drZZkc5f"
+            },
+            {
+              "reference": "/Observation/34j3kTBc4sTGfkKXK"
+            },
+            {
+              "reference": "/Observation/x3PLys9aJJx7ZgmnA"
+            },
+            {
+              "reference": "/Observation/ntvFKaiCmWccWDDBx"
+            },
+            {
+              "reference": "/Observation/7bwcq7k5cecPE9HAS"
+            },
+            {
+              "reference": "/Observation/parwhNr96C86c36dX"
+            },
+            {
+              "reference": "/Observation/XGa4yT6sMgzCuyGLi"
+            },
+            {
+              "reference": "/Observation/s8ciyFYc2PZNyGGA4"
+            },
+            {
+              "reference": "/Observation/acbGDBAokGzqwPBdL"
+            },
+            {
+              "reference": "/Observation/HTdf9fqZJjDnaazxC"
+            },
+            {
+              "reference": "/Observation/SSAu2kDNuoE9L7NfM"
+            },
+            {
+              "reference": "/Observation/RB8FKob9shTmBZXDu"
+            },
+            {
+              "reference": "/Observation/BvZaXsgi9Ny552eYZ"
+            },
+            {
+              "reference": "/Observation/rFzDpRxkA6sgQdE9X"
+            },
+            {
+              "reference": "/Observation/MacNMkKeZuNq3DvvH"
+            },
+            {
+              "reference": "/Observation/9pht96BDf48HfbsRG"
+            },
+            {
+              "reference": "/Observation/kyigkxGZvQujHhaJd"
+            },
+            {
+              "reference": "/Observation/BqHRaqN5KtWEA4E8G"
+            },
+            {
+              "reference": "/Observation/uT9WXG2YYekDd7m8M"
+            },
+            {
+              "reference": "/Observation/erWNwuSwyvSSFSF2Z"
+            },
+            {
+              "reference": "/Observation/wbuNoC6RRuQ2yNGrL"
+            },
+            {
+              "reference": "/Observation/hayYkxsEuLEh2Y2zG"
+            },
+            {
+              "reference": "/Observation/uXWLSvvMH5jgjQnvX"
+            },
+            {
+              "reference": "/Observation/oypu2hPgs7E867x9M"
+            },
+            {
+              "reference": "/Observation/YMa9uPAxyyBgDHqS3"
+            },
+            {
+              "reference": "/Observation/e2Z33kbvKwDaPd9Z5"
+            },
+            {
+              "reference": "/Observation/o7HSkuCJcJL9dixRq"
+            },
+            {
+              "reference": "/Observation/yi5kyzN5m3Xyeyxd3"
+            },
+            {
+              "reference": "/Observation/GXGqmezhCsg4foyvn"
+            },
+            {
+              "reference": "/Observation/7htvYkJcumLxfz8py"
+            },
+            {
+              "reference": "/Observation/7jTfqFbmJxairAg6m"
+            },
+            {
+              "reference": "/Observation/58tGnzo2hifA6Dtbm"
+            },
+            {
+              "reference": "/Observation/ExAkdA77yFvWJwmGw"
+            },
+            {
+              "reference": "/Observation/89nLG8dCKZJSHxjov"
+            },
+            {
+              "reference": "/Observation/Hpea7G42YRTw7CQWE"
+            },
+            {
+              "reference": "/Observation/Rpibit7kMfsLGGJpT"
+            },
+            {
+              "reference": "/Observation/stXTYz3h2bcwmwnBu"
+            },
+            {
+              "reference": "/Observation/PQPaf8ktf9YxsqiMk"
+            },
+            {
+              "reference": "/Observation/5MCPhHwhmSXEajcyA"
+            },
+            {
+              "reference": "/Observation/5BheAq55bw3GbcYgT"
+            },
+            {
+              "reference": "/Observation/6fPweqzMG9K9SmpsM"
+            },
+            {
+              "reference": "/Observation/kpJsNCZd2qDaJKzTa"
+            },
+            {
+              "reference": "/Observation/sfnJJDDsW6NjPRSo2"
+            },
+            {
+              "reference": "/Observation/YoAZBGxjDLv3YFuHk"
+            },
+            {
+              "reference": "/Observation/hGrq6utZM94hnYSfW"
+            },
+            {
+              "reference": "/Observation/XRMMK4MEfNoNgSjen"
+            },
+            {
+              "reference": "/Observation/gGm22DEa38r2BMFDt"
+            },
+            {
+              "reference": "/Observation/oKMWg3vX2saEJ9jo4"
+            },
+            {
+              "reference": "/Observation/rJm8zuiNt8At8BiFJ"
+            },
+            {
+              "reference": "/Observation/bixmSjFitpPh8qtpR"
+            },
+            {
+              "reference": "/Observation/eAKxHP6Las4NBHz27"
+            },
+            {
+              "reference": "/Observation/ffrEAHWCZ8LHNAuXb"
+            },
+            {
+              "reference": "/Observation/ZxxS44orBNstxJkZq"
+            },
+            {
+              "reference": "/Observation/keRMADmaxeEKX6NvK"
+            },
+            {
+              "reference": "/Observation/WH5yzJoay95qMb4Cb"
+            },
+            {
+              "reference": "/Observation/2bZeiWmjt7PJ3beLX"
+            },
+            {
+              "reference": "/Observation/vTZuvJ4ALLzoeCtFi"
+            },
+            {
+              "reference": "/Observation/uGsAD4DviaebNpM6J"
+            },
+            {
+              "reference": "/Observation/XWsDbYc3nSAmxBzSR"
+            },
+            {
+              "reference": "/Observation/YzS8MHh67hg7QxYWD"
+            },
+            {
+              "reference": "/Observation/Mg46L2ogHbXcx8xcp"
+            },
+            {
+              "reference": "/Observation/bSkDtiLKAEQHQf2DA"
+            },
+            {
+              "reference": "/Observation/mWGF2KQSQJTkG74Qt"
+            },
+            {
+              "reference": "/Observation/NfyJzY8XHJpccBjeP"
+            }
+          ]
+        }
+      },
+      {
+        "fullUrl": "/Observation/kHZ5ybZFTowvSW7qT",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T00:00:00Z",
+          "status": "final",
+          "id": "LesaQ5zzxsQEBmiLP",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/1",
+            "display": "Candace Salinas"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 55,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "kHZ5ybZFTowvSW7qT"
+        }
+      },
+      {
+        "fullUrl": "/Observation/A5gTFQKwcuAjCxx4z",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T01:00:00Z",
+          "status": "final",
+          "id": "NDMmAMPziAdaCH49q",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/1",
+            "display": "Candace Salinas"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 55,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "A5gTFQKwcuAjCxx4z"
+        }
+      },
+      {
+        "fullUrl": "/Observation/sLE6ftuExQMLJHW9A",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T02:00:00Z",
+          "status": "final",
+          "id": "4jDNgEjKGknEhrxSy",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/1",
+            "display": "Candace Salinas"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 55,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "sLE6ftuExQMLJHW9A"
+        }
+      },
+      {
+        "fullUrl": "/Observation/9FNwrG8xnb8oYaxzX",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T03:00:00Z",
+          "status": "final",
+          "id": "AvDHT5TwPZnpz8aib",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/1",
+            "display": "Candace Salinas"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 54,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "9FNwrG8xnb8oYaxzX"
+        }
+      },
+      {
+        "fullUrl": "/Observation/dNu7f6rZK8zBYewzo",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T04:00:00Z",
+          "status": "final",
+          "id": "fNigfFzp7z5sHC5eP",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/1",
+            "display": "Candace Salinas"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 55,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "dNu7f6rZK8zBYewzo"
+        }
+      },
+      {
+        "fullUrl": "/Observation/BYouwucuNK4w7npxY",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T05:00:00Z",
+          "status": "final",
+          "id": "xpXZRbHQKShWmNsGQ",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/1",
+            "display": "Candace Salinas"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 55,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "BYouwucuNK4w7npxY"
+        }
+      },
+      {
+        "fullUrl": "/Observation/aK9zQHZmgxFHtxCuo",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T06:00:00Z",
+          "status": "final",
+          "id": "H4nisZiqzEBTCMGpQ",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/1",
+            "display": "Candace Salinas"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 55,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "aK9zQHZmgxFHtxCuo"
+        }
+      },
+      {
+        "fullUrl": "/Observation/mNTxhthMs4uieW9M8",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T07:00:00Z",
+          "status": "final",
+          "id": "KMLjJE5WHvvwiSdBZ",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/1",
+            "display": "Candace Salinas"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 66,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "mNTxhthMs4uieW9M8"
+        }
+      },
+      {
+        "fullUrl": "/Observation/uMotT5pmaWq8uZvx9",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T08:00:00Z",
+          "status": "final",
+          "id": "PNP2dywgWaJv2QHBG",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/1",
+            "display": "Candace Salinas"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 63,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "uMotT5pmaWq8uZvx9"
+        }
+      },
+      {
+        "fullUrl": "/Observation/td5mtFQX7tSRDZCJv",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T09:00:00Z",
+          "status": "final",
+          "id": "b6yJWDLEQdRApwedF",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/1",
+            "display": "Candace Salinas"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 64,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "td5mtFQX7tSRDZCJv"
+        }
+      },
+      {
+        "fullUrl": "/Observation/bzxMqs5KLXKy2GkSE",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T10:00:00Z",
+          "status": "final",
+          "id": "b6yJWDLEQdRApwedF",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/1",
+            "display": "Candace Salinas"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 68,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "bzxMqs5KLXKy2GkSE"
+        }
+      },
+      {
+        "fullUrl": "/Observation/f3NQTxhfi9YdRjfE6",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T11:00:00Z",
+          "status": "final",
+          "id": "b6yJWDLEQdRApwedF",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/1",
+            "display": "Candace Salinas"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 67,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "f3NQTxhfi9YdRjfE6"
+        }
+      },
+      {
+        "fullUrl": "/Observation/3dzbJTvExjnhExFeS",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T12:00:00Z",
+          "status": "final",
+          "id": "WbmDi95wtugZ8xnyq",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/1",
+            "display": "Candace Salinas"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 69,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "3dzbJTvExjnhExFeS"
+        }
+      },
+      {
+        "fullUrl": "/Observation/r2JK9ZR6khWsbWBP5",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T13:00:00Z",
+          "status": "final",
+          "id": "zMrdXJ5ggikEW8B4i",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/1",
+            "display": "Candace Salinas"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 67,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "r2JK9ZR6khWsbWBP5"
+        }
+      },
+      {
+        "fullUrl": "/Observation/BzsaNtWceK5H8zAe3",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T14:00:00Z",
+          "status": "final",
+          "id": "gvnCEMjNR6J52SuLP",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/1",
+            "display": "Candace Salinas"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 64,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "BzsaNtWceK5H8zAe3"
+        }
+      },
+      {
+        "fullUrl": "/Observation/pMrPzKXz5AquNqtL7",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T15:00:00Z",
+          "status": "final",
+          "id": "sCsjpLxqbtsEvtDgg",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/1",
+            "display": "Candace Salinas"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 60,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "pMrPzKXz5AquNqtL7"
+        }
+      },
+      {
+        "fullUrl": "/Observation/YJHCfpsNMysPRyqRP",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T16:00:00Z",
+          "status": "final",
+          "id": "Ze4Y4K7citLue5Wa7",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/1",
+            "display": "Candace Salinas"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 61,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "YJHCfpsNMysPRyqRP"
+        }
+      },
+      {
+        "fullUrl": "/Observation/nNRiZDd6DAEYgYoCE",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T17:00:00Z",
+          "status": "final",
+          "id": "54wGGbDhywGdfca2t",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/1",
+            "display": "Candace Salinas"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 65,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "nNRiZDd6DAEYgYoCE"
+        }
+      },
+      {
+        "fullUrl": "/Observation/PdmwwCz8HepCFBsS8",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T18:00:00Z",
+          "status": "final",
+          "id": "od2uXbpTdkYxJXTKA",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/1",
+            "display": "Candace Salinas"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 66,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "PdmwwCz8HepCFBsS8"
+        }
+      },
+      {
+        "fullUrl": "/Observation/ZTNpTw9aZzrikKBXC",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T19:00:00Z",
+          "status": "final",
+          "id": "kacv8BxecafCq8gYi",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/1",
+            "display": "Candace Salinas"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 68,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "ZTNpTw9aZzrikKBXC"
+        }
+      },
+      {
+        "fullUrl": "/Observation/uvJgmc7dyMpGnRXSp",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T20:00:00Z",
+          "status": "final",
+          "id": "AtqN6nCkREkMvhiP9",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/1",
+            "display": "Candace Salinas"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 65,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "uvJgmc7dyMpGnRXSp"
+        }
+      },
+      {
+        "fullUrl": "/Observation/dHwKE9Kma3CwcyoaK",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T21:00:00Z",
+          "status": "final",
+          "id": "KEb2RLtiRrw3yqxet",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/1",
+            "display": "Candace Salinas"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 68,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "dHwKE9Kma3CwcyoaK"
+        }
+      },
+      {
+        "fullUrl": "/Observation/bRMZjZwnTGaxJd5PE",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T22:00:00Z",
+          "status": "final",
+          "id": "SymwqADHmvcQp2x2C",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/1",
+            "display": "Candace Salinas"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 69,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "bRMZjZwnTGaxJd5PE"
+        }
+      },
+      {
+        "fullUrl": "/Observation/6QsujGccdyzZo6bz6",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T23:00:00Z",
+          "status": "final",
+          "id": "9HaPEtMj9bv2DwePg",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/1",
+            "display": "Candace Salinas"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 68,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "6QsujGccdyzZo6bz6"
+        }
+      },
+      {
+        "fullUrl": "/Observation/ZmbNDWmc6AaS7Kroc",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T00:00:00Z",
+          "status": "final",
+          "id": "CK978YATsuE6ETKNB",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/6scx6JnMeNZYfzgyr"
+          },
+          "subject": {
+            "reference": "Patient/Anyman/Bob",
+            "display": "Bob Anyman"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 61,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "ZmbNDWmc6AaS7Kroc"
+        }
+      },
+      {
+        "fullUrl": "/Observation/Y8yBtWkE7dpNkP29J",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T01:00:00Z",
+          "status": "final",
+          "id": "6L248bGEBYzhL4C34",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/6scx6JnMeNZYfzgyr"
+          },
+          "subject": {
+            "reference": "Patient/Anyman/Bob",
+            "display": "Bob Anyman"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 53,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "Y8yBtWkE7dpNkP29J"
+        }
+      },
+      {
+        "fullUrl": "/Observation/AkMpwKHCktC6LQSjo",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T02:00:00Z",
+          "status": "final",
+          "id": "yoETFMbWpbe2Mu2o4",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/6scx6JnMeNZYfzgyr"
+          },
+          "subject": {
+            "reference": "Patient/Anyman/Bob",
+            "display": "Bob Anyman"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 52,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "AkMpwKHCktC6LQSjo"
+        }
+      },
+      {
+        "fullUrl": "/Observation/HyBLcu6H5HeSoKXDG",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T03:00:00Z",
+          "status": "final",
+          "id": "yFevEFw4BAZQFzKZs",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/6scx6JnMeNZYfzgyr"
+          },
+          "subject": {
+            "reference": "Patient/Anyman/Bob",
+            "display": "Bob Anyman"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 52,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "HyBLcu6H5HeSoKXDG"
+        }
+      },
+      {
+        "fullUrl": "/Observation/SipTybzS6zATedmXN",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T04:00:00Z",
+          "status": "final",
+          "id": "t7xvz3ofHEbaoT8DT",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/6scx6JnMeNZYfzgyr"
+          },
+          "subject": {
+            "reference": "Patient/Anyman/Bob",
+            "display": "Bob Anyman"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 51,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "SipTybzS6zATedmXN"
+        }
+      },
+      {
+        "fullUrl": "/Observation/ocLyrvS6YAD2JDEfT",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T05:00:00Z",
+          "status": "final",
+          "id": "JZtCFzhGcj5xmuyXC",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/6scx6JnMeNZYfzgyr"
+          },
+          "subject": {
+            "reference": "Patient/Anyman/Bob",
+            "display": "Bob Anyman"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 52,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "ocLyrvS6YAD2JDEfT"
+        }
+      },
+      {
+        "fullUrl": "/Observation/nP6A3y3jmsXywTdkF",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T06:00:00Z",
+          "status": "final",
+          "id": "9yRQDBefZMjM4SCEY",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/6scx6JnMeNZYfzgyr"
+          },
+          "subject": {
+            "reference": "Patient/Anyman/Bob",
+            "display": "Bob Anyman"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 56,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "nP6A3y3jmsXywTdkF"
+        }
+      },
+      {
+        "fullUrl": "/Observation/ss6NevwewKs6ZiHMZ",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T07:00:00Z",
+          "status": "final",
+          "id": "qoy4Y3nJADcSPXBgo",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/6scx6JnMeNZYfzgyr"
+          },
+          "subject": {
+            "reference": "Patient/Anyman/Bob",
+            "display": "Bob Anyman"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 66,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "ss6NevwewKs6ZiHMZ"
+        }
+      },
+      {
+        "fullUrl": "/Observation/nsPcqCjy7drZZkc5f",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T08:00:00Z",
+          "status": "final",
+          "id": "bJNBBykFcLjRjJc9u",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/6scx6JnMeNZYfzgyr"
+          },
+          "subject": {
+            "reference": "Patient/Anyman/Bob",
+            "display": "Bob Anyman"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 63,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "nsPcqCjy7drZZkc5f"
+        }
+      },
+      {
+        "fullUrl": "/Observation/34j3kTBc4sTGfkKXK",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T09:00:00Z",
+          "status": "final",
+          "id": "HmMFHWNGYrBBB7WMv",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/6scx6JnMeNZYfzgyr"
+          },
+          "subject": {
+            "reference": "Patient/Anyman/Bob",
+            "display": "Bob Anyman"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 64,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "34j3kTBc4sTGfkKXK"
+        }
+      },
+      {
+        "fullUrl": "/Observation/x3PLys9aJJx7ZgmnA",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T10:00:00Z",
+          "status": "final",
+          "id": "rXET4JXjv97aQdurT",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/6scx6JnMeNZYfzgyr"
+          },
+          "subject": {
+            "reference": "Patient/Anyman/Bob",
+            "display": "Bob Anyman"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 66,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "x3PLys9aJJx7ZgmnA"
+        }
+      },
+      {
+        "fullUrl": "/Observation/ntvFKaiCmWccWDDBx",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T11:00:00Z",
+          "status": "final",
+          "id": "qJqFJFXCeHdW76gNQ",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/6scx6JnMeNZYfzgyr"
+          },
+          "subject": {
+            "reference": "Patient/Anyman/Bob",
+            "display": "Bob Anyman"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 68,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "ntvFKaiCmWccWDDBx"
+        }
+      },
+      {
+        "fullUrl": "/Observation/7bwcq7k5cecPE9HAS",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T12:00:00Z",
+          "status": "final",
+          "id": "RtrMeuLShuYoL9non",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/6scx6JnMeNZYfzgyr"
+          },
+          "subject": {
+            "reference": "Patient/Anyman/Bob",
+            "display": "Bob Anyman"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 70,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "7bwcq7k5cecPE9HAS"
+        }
+      },
+      {
+        "fullUrl": "/Observation/parwhNr96C86c36dX",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T13:00:00Z",
+          "status": "final",
+          "id": "wzoGR2PKjQDBT2STu",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/6scx6JnMeNZYfzgyr"
+          },
+          "subject": {
+            "reference": "Patient/Anyman/Bob",
+            "display": "Bob Anyman"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 69,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "parwhNr96C86c36dX"
+        }
+      },
+      {
+        "fullUrl": "/Observation/XGa4yT6sMgzCuyGLi",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T14:00:00Z",
+          "status": "final",
+          "id": "vrv85ugCSghfko2yZ",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/6scx6JnMeNZYfzgyr"
+          },
+          "subject": {
+            "reference": "Patient/Anyman/Bob",
+            "display": "Bob Anyman"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 64,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "XGa4yT6sMgzCuyGLi"
+        }
+      },
+      {
+        "fullUrl": "/Observation/s8ciyFYc2PZNyGGA4",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T15:00:00Z",
+          "status": "final",
+          "id": "NxLYMjwYJs4uh6MGr",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/6scx6JnMeNZYfzgyr"
+          },
+          "subject": {
+            "reference": "Patient/Anyman/Bob",
+            "display": "Bob Anyman"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 60,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "s8ciyFYc2PZNyGGA4"
+        }
+      },
+      {
+        "fullUrl": "/Observation/acbGDBAokGzqwPBdL",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T16:00:00Z",
+          "status": "final",
+          "id": "auW6TuEn7BoDyXMkd",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/6scx6JnMeNZYfzgyr"
+          },
+          "subject": {
+            "reference": "Patient/Anyman/Bob",
+            "display": "Bob Anyman"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 61,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "acbGDBAokGzqwPBdL"
+        }
+      },
+      {
+        "fullUrl": "/Observation/HTdf9fqZJjDnaazxC",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T17:00:00Z",
+          "status": "final",
+          "id": "F8LqrbznHy7u8weaw",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/6scx6JnMeNZYfzgyr"
+          },
+          "subject": {
+            "reference": "Patient/Anyman/Bob",
+            "display": "Bob Anyman"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 65,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "HTdf9fqZJjDnaazxC"
+        }
+      },
+      {
+        "fullUrl": "/Observation/SSAu2kDNuoE9L7NfM",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T18:00:00Z",
+          "status": "final",
+          "id": "SNPHjpmGNZXHSzBph",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/6scx6JnMeNZYfzgyr"
+          },
+          "subject": {
+            "reference": "Patient/Anyman/Bob",
+            "display": "Bob Anyman"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 66,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "SSAu2kDNuoE9L7NfM"
+        }
+      },
+      {
+        "fullUrl": "/Observation/RB8FKob9shTmBZXDu",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T19:00:00Z",
+          "status": "final",
+          "id": "tv9xNXhKC7uXsQzza",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/6scx6JnMeNZYfzgyr"
+          },
+          "subject": {
+            "reference": "Patient/Anyman/Bob",
+            "display": "Bob Anyman"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 68,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "RB8FKob9shTmBZXDu"
+        }
+      },
+      {
+        "fullUrl": "/Observation/BvZaXsgi9Ny552eYZ",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T20:00:00Z",
+          "status": "final",
+          "id": "9fgC36rvpmz8xP9xn",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/6scx6JnMeNZYfzgyr"
+          },
+          "subject": {
+            "reference": "Patient/Anyman/Bob",
+            "display": "Bob Anyman"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 62,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "BvZaXsgi9Ny552eYZ"
+        }
+      },
+      {
+        "fullUrl": "/Observation/rFzDpRxkA6sgQdE9X",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T21:00:00Z",
+          "status": "final",
+          "id": "PStcMwirg88eFntus",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/6scx6JnMeNZYfzgyr"
+          },
+          "subject": {
+            "reference": "Patient/Anyman/Bob",
+            "display": "Bob Anyman"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 62,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "rFzDpRxkA6sgQdE9X"
+        }
+      },
+      {
+        "fullUrl": "/Observation/MacNMkKeZuNq3DvvH",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T22:00:00Z",
+          "status": "final",
+          "id": "H2r4uxX49hCwyqDSm",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/6scx6JnMeNZYfzgyr"
+          },
+          "subject": {
+            "reference": "Patient/Anyman/Bob",
+            "display": "Bob Anyman"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 66,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "MacNMkKeZuNq3DvvH"
+        }
+      },
+      {
+        "fullUrl": "/Observation/9pht96BDf48HfbsRG",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T23:00:00Z",
+          "status": "final",
+          "id": "wD8PFTsFzs7f7ejZs",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/6scx6JnMeNZYfzgyr"
+          },
+          "subject": {
+            "reference": "Patient/Anyman/Bob",
+            "display": "Bob Anyman"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 67,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "9pht96BDf48HfbsRG"
+        }
+      },
+      {
+        "fullUrl": "/Observation/kyigkxGZvQujHhaJd",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T00:00:00Z",
+          "status": "final",
+          "id": "LesaQ5zzxsQEBmiLP",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Smart/Nancy",
+            "display": "Nancy Smart"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 56,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "kyigkxGZvQujHhaJd"
+        }
+      },
+      {
+        "fullUrl": "/Observation/BqHRaqN5KtWEA4E8G",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T01:00:00Z",
+          "status": "final",
+          "id": "NDMmAMPziAdaCH49q",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Smart/Nancy",
+            "display": "Nancy Smart"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 52,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "BqHRaqN5KtWEA4E8G"
+        }
+      },
+      {
+        "fullUrl": "/Observation/uT9WXG2YYekDd7m8M",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T02:00:00Z",
+          "status": "final",
+          "id": "4jDNgEjKGknEhrxSy",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Smart/Nancy",
+            "display": "Nancy Smart"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 57,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "uT9WXG2YYekDd7m8M"
+        }
+      },
+      {
+        "fullUrl": "/Observation/erWNwuSwyvSSFSF2Z",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T03:00:00Z",
+          "status": "final",
+          "id": "AvDHT5TwPZnpz8aib",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Smart/Nancy",
+            "display": "Nancy Smart"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 54,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "erWNwuSwyvSSFSF2Z"
+        }
+      },
+      {
+        "fullUrl": "/Observation/wbuNoC6RRuQ2yNGrL",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T04:00:00Z",
+          "status": "final",
+          "id": "fNigfFzp7z5sHC5eP",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Smart/Nancy",
+            "display": "Nancy Smart"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 52,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "wbuNoC6RRuQ2yNGrL"
+        }
+      },
+      {
+        "fullUrl": "/Observation/hayYkxsEuLEh2Y2zG",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T05:00:00Z",
+          "status": "final",
+          "id": "xpXZRbHQKShWmNsGQ",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Smart/Nancy",
+            "display": "Nancy Smart"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 55,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "hayYkxsEuLEh2Y2zG"
+        }
+      },
+      {
+        "fullUrl": "/Observation/uXWLSvvMH5jgjQnvX",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T06:00:00Z",
+          "status": "final",
+          "id": "H4nisZiqzEBTCMGpQ",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Smart/Nancy",
+            "display": "Nancy Smart"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 54,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "uXWLSvvMH5jgjQnvX"
+        }
+      },
+      {
+        "fullUrl": "/Observation/oypu2hPgs7E867x9M",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T07:00:00Z",
+          "status": "final",
+          "id": "KMLjJE5WHvvwiSdBZ",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Smart/Nancy",
+            "display": "Nancy Smart"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 66,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "oypu2hPgs7E867x9M"
+        }
+      },
+      {
+        "fullUrl": "/Observation/YMa9uPAxyyBgDHqS3",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T08:00:00Z",
+          "status": "final",
+          "id": "PNP2dywgWaJv2QHBG",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Smart/Nancy",
+            "display": "Nancy Smart"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 63,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "YMa9uPAxyyBgDHqS3"
+        }
+      },
+      {
+        "fullUrl": "/Observation/e2Z33kbvKwDaPd9Z5",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T09:00:00Z",
+          "status": "final",
+          "id": "b6yJWDLEQdRApwedF",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Smart/Nancy",
+            "display": "Nancy Smart"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 64,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "e2Z33kbvKwDaPd9Z5"
+        }
+      },
+      {
+        "fullUrl": "/Observation/o7HSkuCJcJL9dixRq",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T10:00:00Z",
+          "status": "final",
+          "id": "b6yJWDLEQdRApwedF",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Smart/Nancy",
+            "display": "Nancy Smart"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 66,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "o7HSkuCJcJL9dixRq"
+        }
+      },
+      {
+        "fullUrl": "/Observation/yi5kyzN5m3Xyeyxd3",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T11:00:00Z",
+          "status": "final",
+          "id": "b6yJWDLEQdRApwedF",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Smart/Nancy",
+            "display": "Nancy Smart"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 65,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "yi5kyzN5m3Xyeyxd3"
+        }
+      },
+      {
+        "fullUrl": "/Observation/GXGqmezhCsg4foyvn",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T12:00:00Z",
+          "status": "final",
+          "id": "WbmDi95wtugZ8xnyq",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Smart/Nancy",
+            "display": "Nancy Smart"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 66,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "GXGqmezhCsg4foyvn"
+        }
+      },
+      {
+        "fullUrl": "/Observation/7htvYkJcumLxfz8py",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T13:00:00Z",
+          "status": "final",
+          "id": "zMrdXJ5ggikEW8B4i",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Smart/Nancy",
+            "display": "Nancy Smart"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 73,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "7htvYkJcumLxfz8py"
+        }
+      },
+      {
+        "fullUrl": "/Observation/7jTfqFbmJxairAg6m",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T14:00:00Z",
+          "status": "final",
+          "id": "gvnCEMjNR6J52SuLP",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Smart/Nancy",
+            "display": "Nancy Smart"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 72,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "7jTfqFbmJxairAg6m"
+        }
+      },
+      {
+        "fullUrl": "/Observation/58tGnzo2hifA6Dtbm",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T15:00:00Z",
+          "status": "final",
+          "id": "sCsjpLxqbtsEvtDgg",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Smart/Nancy",
+            "display": "Nancy Smart"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 57,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "58tGnzo2hifA6Dtbm"
+        }
+      },
+      {
+        "fullUrl": "/Observation/ExAkdA77yFvWJwmGw",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T16:00:00Z",
+          "status": "final",
+          "id": "Ze4Y4K7citLue5Wa7",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Smart/Nancy",
+            "display": "Nancy Smart"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 56,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "ExAkdA77yFvWJwmGw"
+        }
+      },
+      {
+        "fullUrl": "/Observation/89nLG8dCKZJSHxjov",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T17:00:00Z",
+          "status": "final",
+          "id": "54wGGbDhywGdfca2t",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Smart/Nancy",
+            "display": "Nancy Smart"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 62,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "89nLG8dCKZJSHxjov"
+        }
+      },
+      {
+        "fullUrl": "/Observation/Hpea7G42YRTw7CQWE",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T18:00:00Z",
+          "status": "final",
+          "id": "od2uXbpTdkYxJXTKA",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Smart/Nancy",
+            "display": "Nancy Smart"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 66,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "Hpea7G42YRTw7CQWE"
+        }
+      },
+      {
+        "fullUrl": "/Observation/Rpibit7kMfsLGGJpT",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T19:00:00Z",
+          "status": "final",
+          "id": "kacv8BxecafCq8gYi",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Smart/Nancy",
+            "display": "Nancy Smart"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 68,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "Rpibit7kMfsLGGJpT"
+        }
+      },
+      {
+        "fullUrl": "/Observation/stXTYz3h2bcwmwnBu",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T20:00:00Z",
+          "status": "final",
+          "id": "AtqN6nCkREkMvhiP9",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Smart/Nancy",
+            "display": "Nancy Smart"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 67,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "stXTYz3h2bcwmwnBu"
+        }
+      },
+      {
+        "fullUrl": "/Observation/PQPaf8ktf9YxsqiMk",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T21:00:00Z",
+          "status": "final",
+          "id": "KEb2RLtiRrw3yqxet",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Smart/Nancy",
+            "display": "Nancy Smart"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 64,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "PQPaf8ktf9YxsqiMk"
+        }
+      },
+      {
+        "fullUrl": "/Observation/5MCPhHwhmSXEajcyA",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T22:00:00Z",
+          "status": "final",
+          "id": "SymwqADHmvcQp2x2C",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Smart/Nancy",
+            "display": "Nancy Smart"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 66,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "5MCPhHwhmSXEajcyA"
+        }
+      },
+      {
+        "fullUrl": "/Observation/5BheAq55bw3GbcYgT",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T23:00:00Z",
+          "status": "final",
+          "id": "9HaPEtMj9bv2DwePg",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Smart/Nancy",
+            "display": "Nancy Smart"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 70,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "5BheAq55bw3GbcYgT"
+        }
+      },
+      {
+        "fullUrl": "/Observation/6fPweqzMG9K9SmpsM",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T00:00:00Z",
+          "status": "final",
+          "id": "LesaQ5zzxsQEBmiLP",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 65,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "6fPweqzMG9K9SmpsM"
+        }
+      },
+      {
+        "fullUrl": "/Observation/kpJsNCZd2qDaJKzTa",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T01:00:00Z",
+          "status": "final",
+          "id": "NDMmAMPziAdaCH49q",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 65,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "kpJsNCZd2qDaJKzTa"
+        }
+      },
+      {
+        "fullUrl": "/Observation/sfnJJDDsW6NjPRSo2",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T02:00:00Z",
+          "status": "final",
+          "id": "4jDNgEjKGknEhrxSy",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 57,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "sfnJJDDsW6NjPRSo2"
+        }
+      },
+      {
+        "fullUrl": "/Observation/YoAZBGxjDLv3YFuHk",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T03:00:00Z",
+          "status": "final",
+          "id": "AvDHT5TwPZnpz8aib",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 57,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "YoAZBGxjDLv3YFuHk"
+        }
+      },
+      {
+        "fullUrl": "/Observation/hGrq6utZM94hnYSfW",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T04:00:00Z",
+          "status": "final",
+          "id": "fNigfFzp7z5sHC5eP",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 52,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "hGrq6utZM94hnYSfW"
+        }
+      },
+      {
+        "fullUrl": "/Observation/XRMMK4MEfNoNgSjen",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T05:00:00Z",
+          "status": "final",
+          "id": "xpXZRbHQKShWmNsGQ",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 55,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "XRMMK4MEfNoNgSjen"
+        }
+      },
+      {
+        "fullUrl": "/Observation/gGm22DEa38r2BMFDt",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T06:00:00Z",
+          "status": "final",
+          "id": "H4nisZiqzEBTCMGpQ",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 64,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "gGm22DEa38r2BMFDt"
+        }
+      },
+      {
+        "fullUrl": "/Observation/oKMWg3vX2saEJ9jo4",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T07:00:00Z",
+          "status": "final",
+          "id": "KMLjJE5WHvvwiSdBZ",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 66,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "oKMWg3vX2saEJ9jo4"
+        }
+      },
+      {
+        "fullUrl": "/Observation/rJm8zuiNt8At8BiFJ",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T08:00:00Z",
+          "status": "final",
+          "id": "PNP2dywgWaJv2QHBG",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 63,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "rJm8zuiNt8At8BiFJ"
+        }
+      },
+      {
+        "fullUrl": "/Observation/bixmSjFitpPh8qtpR",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T09:00:00Z",
+          "status": "final",
+          "id": "b6yJWDLEQdRApwedF",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 64,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "bixmSjFitpPh8qtpR"
+        }
+      },
+      {
+        "fullUrl": "/Observation/eAKxHP6Las4NBHz27",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T10:00:00Z",
+          "status": "final",
+          "id": "b6yJWDLEQdRApwedF",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 69,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "eAKxHP6Las4NBHz27"
+        }
+      },
+      {
+        "fullUrl": "/Observation/ffrEAHWCZ8LHNAuXb",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T11:00:00Z",
+          "status": "final",
+          "id": "b6yJWDLEQdRApwedF",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 65,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "ffrEAHWCZ8LHNAuXb"
+        }
+      },
+      {
+        "fullUrl": "/Observation/ZxxS44orBNstxJkZq",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T12:00:00Z",
+          "status": "final",
+          "id": "WbmDi95wtugZ8xnyq",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 66,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "ZxxS44orBNstxJkZq"
+        }
+      },
+      {
+        "fullUrl": "/Observation/keRMADmaxeEKX6NvK",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T13:00:00Z",
+          "status": "final",
+          "id": "zMrdXJ5ggikEW8B4i",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 71,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "keRMADmaxeEKX6NvK"
+        }
+      },
+      {
+        "fullUrl": "/Observation/WH5yzJoay95qMb4Cb",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T14:00:00Z",
+          "status": "final",
+          "id": "gvnCEMjNR6J52SuLP",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 65,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "WH5yzJoay95qMb4Cb"
+        }
+      },
+      {
+        "fullUrl": "/Observation/2bZeiWmjt7PJ3beLX",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T15:00:00Z",
+          "status": "final",
+          "id": "sCsjpLxqbtsEvtDgg",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 67,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "2bZeiWmjt7PJ3beLX"
+        }
+      },
+      {
+        "fullUrl": "/Observation/vTZuvJ4ALLzoeCtFi",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T16:00:00Z",
+          "status": "final",
+          "id": "Ze4Y4K7citLue5Wa7",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 68,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "vTZuvJ4ALLzoeCtFi"
+        }
+      },
+      {
+        "fullUrl": "/Observation/uGsAD4DviaebNpM6J",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T17:00:00Z",
+          "status": "final",
+          "id": "54wGGbDhywGdfca2t",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 70,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "uGsAD4DviaebNpM6J"
+        }
+      },
+      {
+        "fullUrl": "/Observation/XWsDbYc3nSAmxBzSR",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T18:00:00Z",
+          "status": "final",
+          "id": "od2uXbpTdkYxJXTKA",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 63,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "XWsDbYc3nSAmxBzSR"
+        }
+      },
+      {
+        "fullUrl": "/Observation/YzS8MHh67hg7QxYWD",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T19:00:00Z",
+          "status": "final",
+          "id": "kacv8BxecafCq8gYi",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 68,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "YzS8MHh67hg7QxYWD"
+        }
+      },
+      {
+        "fullUrl": "/Observation/Mg46L2ogHbXcx8xcp",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T20:00:00Z",
+          "status": "final",
+          "id": "AtqN6nCkREkMvhiP9",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 67,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "Mg46L2ogHbXcx8xcp"
+        }
+      },
+      {
+        "fullUrl": "/Observation/bSkDtiLKAEQHQf2DA",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T21:00:00Z",
+          "status": "final",
+          "id": "KEb2RLtiRrw3yqxet",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 68,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "bSkDtiLKAEQHQf2DA"
+        }
+      },
+      {
+        "fullUrl": "/Observation/mWGF2KQSQJTkG74Qt",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T22:00:00Z",
+          "status": "final",
+          "id": "SymwqADHmvcQp2x2C",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 66,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "mWGF2KQSQJTkG74Qt"
+        }
+      },
+      {
+        "fullUrl": "/Observation/NfyJzY8XHJpccBjeP",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T23:00:00Z",
+          "status": "final",
+          "id": "9HaPEtMj9bv2DwePg",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 67,
+            "unit": "/min"
+          },
+          "resourceType": "Observation",
+          "_id": "NfyJzY8XHJpccBjeP"
+        }
+      }
+    ]
+  }

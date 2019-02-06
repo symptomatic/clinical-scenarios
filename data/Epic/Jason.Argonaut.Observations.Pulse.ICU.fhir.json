@@ -1,0 +1,966 @@
+
+{
+    "resourceType": "Bundle",
+    "entry": [
+      {
+        "fullUrl": "/Observation/LesaQ5zzxsQEBmiLP",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T00:00:00Z",
+          "status": "final",
+          "id": "LesaQ5zzxsQEBmiLP",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 65,
+            "unit": "/min"
+          },
+          "resourceType": "Observation"
+        }
+      },
+      {
+        "fullUrl": "/Observation/NDMmAMPziAdaCH49q",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T01:00:00Z",
+          "status": "final",
+          "id": "NDMmAMPziAdaCH49q",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 65,
+            "unit": "/min"
+          },
+          "resourceType": "Observation"
+        }
+      },
+      {
+        "fullUrl": "/Observation/4jDNgEjKGknEhrxSy",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T02:00:00Z",
+          "status": "final",
+          "id": "4jDNgEjKGknEhrxSy",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 57,
+            "unit": "/min"
+          },
+          "resourceType": "Observation"
+        }
+      },
+      {
+        "fullUrl": "/Observation/AvDHT5TwPZnpz8aib",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T03:00:00Z",
+          "status": "final",
+          "id": "AvDHT5TwPZnpz8aib",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 54,
+            "unit": "/min"
+          },
+          "resourceType": "Observation"
+        }
+      },
+      {
+        "fullUrl": "/Observation/fNigfFzp7z5sHC5eP",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T04:00:00Z",
+          "status": "final",
+          "id": "fNigfFzp7z5sHC5eP",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 52,
+            "unit": "/min"
+          },
+          "resourceType": "Observation"
+        }
+      },
+      {
+        "fullUrl": "/Observation/xpXZRbHQKShWmNsGQ",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T05:00:00Z",
+          "status": "final",
+          "id": "xpXZRbHQKShWmNsGQ",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 55,
+            "unit": "/min"
+          },
+          "resourceType": "Observation"
+        }
+      },
+      {
+        "fullUrl": "/Observation/H4nisZiqzEBTCMGpQ",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T06:00:00Z",
+          "status": "final",
+          "id": "H4nisZiqzEBTCMGpQ",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 64,
+            "unit": "/min"
+          },
+          "resourceType": "Observation"
+        }
+      },
+      {
+        "fullUrl": "/Observation/KMLjJE5WHvvwiSdBZ",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T07:00:00Z",
+          "status": "final",
+          "id": "KMLjJE5WHvvwiSdBZ",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 66,
+            "unit": "/min"
+          },
+          "resourceType": "Observation"
+        }
+      },
+      {
+        "fullUrl": "/Observation/PNP2dywgWaJv2QHBG",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T08:00:00Z",
+          "status": "final",
+          "id": "PNP2dywgWaJv2QHBG",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 63,
+            "unit": "/min"
+          },
+          "resourceType": "Observation"
+        }
+      },
+      {
+        "fullUrl": "/Observation/b6yJWDLEQdRApwedF",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T09:00:00Z",
+          "status": "final",
+          "id": "b6yJWDLEQdRApwedF",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 64,
+            "unit": "/min"
+          },
+          "resourceType": "Observation"
+        }
+      },
+      {
+        "fullUrl": "/Observation/b6yJWDLEQdRApwedF",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T10:00:00Z",
+          "status": "final",
+          "id": "b6yJWDLEQdRApwedF",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 66,
+            "unit": "/min"
+          },
+          "resourceType": "Observation"
+        }
+      },
+      {
+        "fullUrl": "/Observation/b6yJWDLEQdRApwedF",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T11:00:00Z",
+          "status": "final",
+          "id": "b6yJWDLEQdRApwedF",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 65,
+            "unit": "/min"
+          },
+          "resourceType": "Observation"
+        }
+      },
+      {
+        "fullUrl": "/Observation/WbmDi95wtugZ8xnyq",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T12:00:00Z",
+          "status": "final",
+          "id": "WbmDi95wtugZ8xnyq",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 66,
+            "unit": "/min"
+          },
+          "resourceType": "Observation"
+        }
+      },
+      {
+        "fullUrl": "/Observation/zMrdXJ5ggikEW8B4i",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T13:00:00Z",
+          "status": "final",
+          "id": "zMrdXJ5ggikEW8B4i",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 67,
+            "unit": "/min"
+          },
+          "resourceType": "Observation"
+        }
+      },
+      {
+        "fullUrl": "/Observation/gvnCEMjNR6J52SuLP",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T14:00:00Z",
+          "status": "final",
+          "id": "gvnCEMjNR6J52SuLP",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 65,
+            "unit": "/min"
+          },
+          "resourceType": "Observation"
+        }
+      },
+      {
+        "fullUrl": "/Observation/sCsjpLxqbtsEvtDgg",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T15:00:00Z",
+          "status": "final",
+          "id": "sCsjpLxqbtsEvtDgg",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 67,
+            "unit": "/min"
+          },
+          "resourceType": "Observation"
+        }
+      },
+      {
+        "fullUrl": "/Observation/Ze4Y4K7citLue5Wa7",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T16:00:00Z",
+          "status": "final",
+          "id": "Ze4Y4K7citLue5Wa7",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 68,
+            "unit": "/min"
+          },
+          "resourceType": "Observation"
+        }
+      },
+      {
+        "fullUrl": "/Observation/54wGGbDhywGdfca2t",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T17:00:00Z",
+          "status": "final",
+          "id": "54wGGbDhywGdfca2t",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 70,
+            "unit": "/min"
+          },
+          "resourceType": "Observation"
+        }
+      },
+      {
+        "fullUrl": "/Observation/od2uXbpTdkYxJXTKA",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T18:00:00Z",
+          "status": "final",
+          "id": "od2uXbpTdkYxJXTKA",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 69,
+            "unit": "/min"
+          },
+          "resourceType": "Observation"
+        }
+      },
+      {
+        "fullUrl": "/Observation/kacv8BxecafCq8gYi",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T19:00:00Z",
+          "status": "final",
+          "id": "kacv8BxecafCq8gYi",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 68,
+            "unit": "/min"
+          },
+          "resourceType": "Observation"
+        }
+      },
+      {
+        "fullUrl": "/Observation/AtqN6nCkREkMvhiP9",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T20:00:00Z",
+          "status": "final",
+          "id": "AtqN6nCkREkMvhiP9",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 67,
+            "unit": "/min"
+          },
+          "resourceType": "Observation"
+        }
+      },
+      {
+        "fullUrl": "/Observation/KEb2RLtiRrw3yqxet",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T21:00:00Z",
+          "status": "final",
+          "id": "KEb2RLtiRrw3yqxet",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 68,
+            "unit": "/min"
+          },
+          "resourceType": "Observation"
+        }
+      },
+      {
+        "fullUrl": "/Observation/SymwqADHmvcQp2x2C",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T22:00:00Z",
+          "status": "final",
+          "id": "SymwqADHmvcQp2x2C",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 66,
+            "unit": "/min"
+          },
+          "resourceType": "Observation"
+        }
+      },
+      {
+        "fullUrl": "/Observation/9HaPEtMj9bv2DwePg",
+        "resource": {
+          "category": {
+            "text": "Vital Signs",
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          },
+          "issued": "2018-12-21T23:00:00Z",
+          "status": "final",
+          "id": "9HaPEtMj9bv2DwePg",
+          "code": {
+            "text": "Pulse",
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8867-4"
+              }
+            ]
+          },
+          "encounter": {
+            "reference": "Encounter/sARLpYbtodmtgTK6K"
+          },
+          "subject": {
+            "reference": "Patient/Argonaut/Jason",
+            "display": "Jason Argonaut"
+          },
+          "valueQuantity": {
+            "code": "/min",
+            "system": "http://unitsofmeasure.org",
+            "value": 67,
+            "unit": "/min"
+          },
+          "resourceType": "Observation"
+        }
+      }
+    ]
+  }
