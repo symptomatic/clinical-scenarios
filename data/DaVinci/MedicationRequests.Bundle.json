@@ -1,0 +1,1071 @@
+{
+    "resourceType": "Bundle",
+    "type": "transaction",
+    "entry": [
+      {
+        "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/MedicationRequest/medicationrequest01",
+        "resource": {
+            "resourceType": "MedicationRequest",
+            "id": "medicationrequest01",
+            "status": "active",
+            "intent": "order",
+            "patient": {
+                "reference": "Patient/patient01"
+            },
+            "authoredOn": "2018-07-01",
+            "medicationCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                        "code": "197884",
+                        "display": "Lisinopril 40 MG Oral Tablet"
+                    }
+                ]
+            },
+            "dosageInstruction": [
+                {
+                "text": "1 tab po qd",
+                "route": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "26643006",
+                            "display": "Oral Route (qualifier value)"
+                        }
+                    ]
+                },
+                "timing": {
+                    "repeat": {
+                        "frequency": 1,
+                        "period": 1,
+                        "periodUnits": "d"
+                    }
+                },
+                "doseAndRate": [
+                    {
+                    "doseQuantity": {
+                            "value": 1,
+                            "unit": "{tablet}",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "{tablet}"
+                        }
+                    }
+                ]
+                }
+            ]
+        },
+        "request": {
+          "method": "PUT",
+          "url": "MedicationRequest/medicationrequest01"
+        }
+      },
+      {
+        "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/MedicationRequest/medicationrequest02",
+        "resource": {
+            "resourceType": "MedicationRequest",
+            "id": "medicationrequest02",
+            "status": "active",
+            "intent": "order",
+            "patient": {
+                "reference": "Patient/patient01"
+            },
+            "authoredOn": "2018-07-01",
+            "medicationCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                        "code": "686924",
+                        "display": "Carvedilol 2.5 MG Oral Tablet"
+                    }
+                ]
+            },
+            "dosageInstruction": [
+                {
+                "text": "1 tab po qd",
+                "route": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "26643006",
+                            "display": "Oral Route (qualifier value)"
+                        }
+                    ]
+                },
+                "timing": {
+                    "repeat": {
+                        "frequency": 1,
+                        "period": 1,
+                        "periodUnits": "d"
+                    }
+                },
+                "doseAndRate": [
+                    {
+                    "doseQuantity": {
+                            "value": 1,
+                            "unit": "{tablet}",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "{tablet}"
+                        }
+                    }
+                ]
+                }
+            ]
+        },
+        "request": {
+          "method": "PUT",
+          "url": "MedicationRequest/medicationrequest02"
+        }
+      },
+      {
+        "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/MedicationRequest/medicationrequest03",
+        "resource": {
+            "resourceType": "MedicationRequest",
+            "id": "medicationrequest03",
+            "status": "active",
+            "intent": "order",
+            "patient": {
+                "reference": "Patient/patient01"
+            },
+            "authoredOn": "2018-07-01",
+            "medicationCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                        "code": "313988",
+                        "display": "Furosemide 40 MG Oral Tablet"
+                    }
+                ]
+            },
+            "dosageInstruction": [
+                {
+                "text": "1 tab po bid",
+                "route": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "26643006",
+                            "display": "Oral Route (qualifier value)"
+                        }
+                    ]
+                },
+                "timing": {
+                    "repeat": {
+                    "frequency": 2,
+                    "period": 1,
+                    "periodUnits": "d"
+                    }
+                },
+                "doseAndRate": [
+                    {
+                    "doseQuantity": {
+                        "value": 1,
+                        "unit": "{tablet}",
+                        "system": "http://unitsofmeasure.org",
+                        "code": "{tablet}"
+                    }
+                    }
+                ]
+                }
+            ]
+        },
+        "request": {
+          "method": "PUT",
+          "url": "MedicationRequest/medicationrequest03"
+        }
+      },
+      {
+        "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/MedicationRequest/medicationrequest04",
+        "resource": {
+            "resourceType": "MedicationRequest",
+            "id": "medicationrequest04",
+            "status": "active",
+            "intent": "order",
+            "patient": {
+                "reference": "Patient/patient01"
+            },
+            "authoredOn": "2018-07-01",
+            "medicationCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                        "code": "432389",
+                        "display": "Aspirin 80 MG Oral Tablet"
+                    }
+                ]
+            },
+            "dosageInstruction": [
+                {
+                "text": "1 tab po qd",
+                "route": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "26643006",
+                            "display": "Oral Route (qualifier value)"
+                        }
+                    ]
+                },
+                "timing": {
+                    "repeat": {
+                        "frequency": 1,
+                        "period": 1,
+                        "periodUnits": "d"
+                    }
+                },
+                "doseAndRate": [
+                    {
+                    "doseQuantity": {
+                            "value": 1,
+                            "unit": "{tablet}",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "{tablet}"
+                        }
+                    }
+                ]
+                }
+            ]
+        },
+        "request": {
+          "method": "PUT",
+          "url": "MedicationRequest/medicationrequest04"
+        }
+      },
+      {
+        "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/MedicationRequest/medicationrequest05",
+        "resource": {
+            "resourceType": "MedicationRequest",
+            "id": "medicationrequest05",
+            "status": "active",
+            "intent": "order",
+            "patient": {
+                "reference": "Patient/patient01"
+            },
+            "authoredOn": "2018-07-01",
+            "medicationCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                        "code": "310537",
+                        "display": "Glyburide 20 MG Oral Tablet"
+                    }
+                ]
+            },
+            "dosageInstruction": [
+                {
+                "text": "1 tab po qd",
+                "route": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "26643006",
+                            "display": "Oral Route (qualifier value)"
+                        }
+                    ]
+                },
+                "timing": {
+                    "repeat": {
+                        "frequency": 1,
+                        "period": 1,
+                        "periodUnits": "d"
+                    }
+                },
+                "doseAndRate": [
+                    {
+                    "doseQuantity": {
+                            "value": 1,
+                            "unit": "{tablet}",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "{tablet}"
+                        }
+                    }
+                ]
+                }
+            ]
+        },
+        "request": {
+          "method": "PUT",
+          "url": "MedicationRequest/medicationrequest05"
+        }
+      },
+      {
+        "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/MedicationRequest/medicationrequest06",
+        "resource": {
+            "resourceType": "MedicationRequest",
+            "id": "medicationrequest06",
+            "status": "active",
+            "intent": "order",
+            "patient": {
+                "reference": "Patient/patient01"
+            },
+            "authoredOn": "2018-07-01",
+            "medicationCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                        "code": "314077",
+                        "display": "Lisinopril 20 MG Oral Tablet"
+                    }
+                ]
+            },
+            "dosageInstruction": [
+                {
+                "text": "1 tab po qd",
+                "route": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "26643006",
+                            "display": "Oral Route (qualifier value)"
+                        }
+                    ]
+                },
+                "timing": {
+                    "repeat": {
+                        "frequency": 1,
+                        "period": 1,
+                        "periodUnits": "d"
+                    }
+                },
+                "doseAndRate": [
+                    {
+                    "doseQuantity": {
+                            "value": 1,
+                            "unit": "{tablet}",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "{tablet}"
+                        }
+                    }
+                ]
+                }
+            ]
+        },
+        "request": {
+          "method": "PUT",
+          "url": "MedicationRequest/medicationrequest06"
+        }
+      },
+      {
+        "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/MedicationRequest/medicationrequest07",
+        "resource": {
+            "resourceType": "MedicationRequest",
+            "id": "medicationrequest07",
+            "status": "active",
+            "intent": "order",
+            "patient": {
+                "reference": "Patient/patient01"
+            },
+            "authoredOn": "2018-07-01",
+            "medicationCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                        "code": "310429",
+                        "display": "Furosemide 20 MG Oral Tablet"
+                    }
+                ]
+            },
+            "dosageInstruction": [
+                {
+                "text": "1 tab po bid",
+                "route": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "26643006",
+                            "display": "Oral Route (qualifier value)"
+                        }
+                    ]
+                },
+                "timing": {
+                    "repeat": {
+                        "frequency": 2,
+                        "period": 1,
+                        "periodUnits": "d"
+                    }
+                },
+                "doseAndRate": [
+                    {
+                    "doseQuantity": {
+                            "value": 1,
+                            "unit": "{tablet}",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "{tablet}"
+                        }
+                    }
+                ]
+                }
+            ]
+        },
+        "request": {
+          "method": "PUT",
+          "url": "MedicationRequest/medicationrequest07"
+        }
+      },
+      {
+        "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/MedicationRequest/medicationrequest08",
+        "resource": {
+            "resourceType": "MedicationRequest",
+            "id": "medicationrequest08",
+            "status": "active",
+            "intent": "order",
+            "patient": {
+                "reference": "Patient/patient01"
+            },
+            "authoredOn": "2018-07-01",
+            "medicationCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                        "code": "432389",
+                        "display": "Aspirin 80 MG Oral Tablet"
+                    }
+                ]
+            },
+            "dosageInstruction": [
+                {
+                "text": "1 tab po qd",
+                "route": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "26643006",
+                            "display": "Oral Route (qualifier value)"
+                        }
+                    ]
+                },
+                "timing": {
+                    "repeat": {
+                        "frequency": 1,
+                        "period": 1,
+                        "periodUnits": "d"
+                    }
+                },
+                "doseAndRate": [
+                    {
+                    "doseQuantity": {
+                            "value": 1,
+                            "unit": "{tablet}",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "{tablet}"
+                        }
+                    }
+                ]
+                }
+            ]
+        },
+        "request": {
+          "method": "PUT",
+          "url": "MedicationRequest/medicationrequest08"
+        }
+      },
+      {
+        "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/MedicationRequest/medicationrequest09",
+        "resource": {
+            "resourceType": "MedicationRequest",
+            "id": "medicationrequest09",
+            "status": "active",
+            "intent": "order",
+            "patient": {
+                "reference": "Patient/patient01"
+            },
+            "authoredOn": "2018-07-01",
+            "medicationCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                        "code": "310537",
+                        "display": "Glyburide 20 MG Oral Tablet"
+                    }
+                ]
+            },
+            "dosageInstruction": [
+                {
+                "text": "1 tab po qd",
+                "route": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "26643006",
+                            "display": "Oral Route (qualifier value)"
+                        }
+                    ]
+                },
+                "timing": {
+                    "repeat": {
+                        "frequency": 1,
+                        "period": 1,
+                        "periodUnits": "d"
+                    }
+                },
+                "doseAndRate": [
+                    {
+                    "doseQuantity": {
+                            "value": 1,
+                            "unit": "{tablet}",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "{tablet}"
+                        }
+                    }
+                ]
+                }
+            ]
+        },
+        "request": {
+          "method": "PUT",
+          "url": "MedicationRequest/medicationrequest09"
+        }
+      },
+      {
+        "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/MedicationRequest/medicationrequest10",
+        "resource": {
+            "resourceType": "MedicationRequest",
+            "id": "medicationrequest10",
+            "status": "active",
+            "intent": "order",
+            "patient": {
+                "reference": "Patient/patient02"
+            },
+            "authoredOn": "2018-07-01",
+            "medicationCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                        "code": "197884",
+                        "display": "Lisinopril 40 MG Oral Tablet"
+                    }
+                ]
+            },
+            "dosageInstruction": [
+                {
+                "text": "1 tab po qd",
+                "route": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "26643006",
+                            "display": "Oral Route (qualifier value)"
+                        }
+                    ]
+                },
+                "timing": {
+                    "repeat": {
+                        "frequency": 1,
+                        "period": 1,
+                        "periodUnits": "d"
+                    }
+                },
+                "doseAndRate": [
+                    {
+                    "doseQuantity": {
+                            "value": 1,
+                            "unit": "{tablet}",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "{tablet}"
+                        }
+                    }
+                ]
+                }
+            ]
+        },
+        "request": {
+          "method": "PUT",
+          "url": "MedicationRequest/medicationrequest10"
+        }
+      },
+      {
+        "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/MedicationRequest/medicationrequest11",
+        "resource": {
+            "resourceType": "MedicationRequest",
+            "id": "medicationrequest11",
+            "status": "active",
+            "intent": "order",
+            "patient": {
+                "reference": "Patient/patient02"
+            },
+            "authoredOn": "2018-07-01",
+            "medicationCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                        "code": "245422",
+                        "display": "Allopurinol 150 MG Oral Tablet"
+                    }
+                ]
+            },
+            "dosageInstruction": [
+                {
+                "text": "1 tab po qd",
+                "route": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "26643006",
+                            "display": "Oral Route (qualifier value)"
+                        }
+                    ]
+                },
+                "timing": {
+                    "repeat": {
+                        "frequency": 1,
+                        "period": 1,
+                        "periodUnits": "d"
+                    }
+                },
+                "doseAndRate": [
+                    {
+                    "doseQuantity": {
+                            "value": 1,
+                            "unit": "{tablet}",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "{tablet}"
+                        }
+                    }
+                ]
+                }
+            ]
+        },
+        "request": {
+          "method": "PUT",
+          "url": "MedicationRequest/medicationrequest11"
+        }
+      },
+      {
+        "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/MedicationRequest/medicationrequest12",
+        "resource": {
+            "resourceType": "MedicationRequest",
+            "id": "medicationrequest12",
+            "status": "active",
+            "intent": "order",
+            "patient": {
+                "reference": "Patient/patient02"
+            },
+            "authoredOn": "2018-07-01",
+            "medicationCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                        "code": "311296",
+                        "display": "Levofloxacin 750 MG Oral Tablet"
+                    }
+                ]
+            },
+            "dosageInstruction": [
+                {
+                "text": "1 tab po qd",
+                "route": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "26643006",
+                            "display": "Oral Route (qualifier value)"
+                        }
+                    ]
+                },
+                "timing": {
+                    "repeat": {
+                        "frequency": 1,
+                        "period": 1,
+                        "periodUnits": "d"
+                    }
+                },
+                "doseAndRate": [
+                    {
+                    "doseQuantity": {
+                            "value": 1,
+                            "unit": "{tablet}",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "{tablet}"
+                        }
+                    }
+                ]
+                }
+            ]
+        },
+        "request": {
+          "method": "PUT",
+          "url": "MedicationRequest/medicationrequest12"
+        }
+      },
+      {
+        "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/MedicationRequest/medicationrequest13",
+        "resource": {
+            "resourceType": "MedicationRequest",
+            "id": "medicationrequest13",
+            "status": "active",
+            "intent": "order",
+            "patient": {
+                "reference": "Patient/patient02"
+            },
+            "authoredOn": "2018-07-01",
+            "medicationCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                        "code": "197884",
+                        "display": "Lisinopril 40 MG Oral Tablet"
+                    }
+                ]
+            },
+            "dosageInstruction": [
+                {
+                "text": "1 tab po qd",
+                "route": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "26643006",
+                            "display": "Oral Route (qualifier value)"
+                        }
+                    ]
+                },
+                "timing": {
+                    "repeat": {
+                        "frequency": 1,
+                        "period": 1,
+                        "periodUnits": "d"
+                    }
+                },
+                "doseAndRate": [
+                    {
+                    "doseQuantity": {
+                            "value": 1,
+                            "unit": "{tablet}",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "{tablet}"
+                        }
+                    }
+                ]
+                }
+            ]
+        },
+        "request": {
+          "method": "PUT",
+          "url": "MedicationRequest/medicationrequest13"
+        }
+      },
+      {
+        "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/MedicationRequest/medicationrequest14",
+        "resource": {
+            "resourceType": "MedicationRequest",
+            "id": "medicationrequest14",
+            "status": "active",
+            "intent": "order",
+            "patient": {
+                "reference": "Patient/patient02"
+            },
+            "authoredOn": "2018-07-01",
+            "medicationCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                        "code": "245422",
+                        "display": "Allopurinol 150 MG Oral Tablet"
+                    }
+                ]
+            },
+            "dosageInstruction": [
+                {
+                "text": "1 tab po qd",
+                "route": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "26643006",
+                            "display": "Oral Route (qualifier value)"
+                        }
+                    ]
+                },
+                "timing": {
+                    "repeat": {
+                        "frequency": 1,
+                        "period": 1,
+                        "periodUnits": "d"
+                    }
+                },
+                "doseAndRate": [
+                    {
+                    "doseQuantity": {
+                            "value": 1,
+                            "unit": "{tablet}",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "{tablet}"
+                        }
+                    }
+                ]
+                }
+            ]
+        },
+        "request": {
+          "method": "PUT",
+          "url": "MedicationRequest/medicationrequest14"
+        }
+      },
+      {
+        "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/MedicationRequest/medicationrequest15",
+        "resource": {
+            "resourceType": "MedicationRequest",
+            "id": "medicationrequest15",
+            "status": "active",
+            "intent": "order",
+            "patient": {
+                "reference": "Patient/patient03"
+            },
+            "authoredOn": "2018-07-01",
+            "medicationCodeableConcept": {
+                "coding": [
+                    {
+                        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+                        "code": "311296",
+                        "display": "Levofloxacin 750 MG Oral Tablet"
+                    }
+                ]
+            },
+            "dosageInstruction": [
+                {
+                "text": "1 tab po qd",
+                "route": {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "26643006",
+                            "display": "Oral Route (qualifier value)"
+                        }
+                    ]
+                },
+                "timing": {
+                    "repeat": {
+                        "frequency": 1,
+                        "period": 1,
+                        "periodUnits": "d"
+                    }
+                },
+                "doseAndRate": [
+                    {
+                    "doseQuantity": {
+                            "value": 1,
+                            "unit": "{tablet}",
+                            "system": "http://unitsofmeasure.org",
+                            "code": "{tablet}"
+                        }
+                    }
+                ]
+                }
+            ]
+        },
+        "request": {
+          "method": "PUT",
+          "url": "MedicationRequest/medicationrequest15"
+        }
+      },
+      {
+        "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/List/list01",
+        "resource": {
+            "resourceType": "List",
+            "id": "list01",
+            "status": "current",
+            "subject": {
+                "reference": "Patient/patient01"
+            },
+            "date": "2018-07-01",
+            "mode": "working",
+            "title": "Outpatient medications",
+            "entry": [
+                {
+                    "item": {
+                        "resourceType": "MedicationRequest",
+                        "reference": "MedicationRequest/medicationrequest06"
+                    }
+                },
+                {
+                    "item": {
+                        "resourceType": "MedicationRequest",
+                        "reference": "MedicationRequest/medicationrequest07"
+                    }
+                },
+                {
+                    "item": {
+                        "resourceType": "MedicationRequest",
+                        "reference": "MedicationRequest/medicationrequest08"
+                    }
+                },
+                {
+                    "item": {
+                        "resourceType": "MedicationRequest",
+                        "reference": "MedicationRequest/medicationrequest09"
+                    }
+                }
+            ]
+        },
+        "request": {
+          "method": "PUT",
+          "url": "List/list01"
+        }
+      },
+      {
+        "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/List/list02",
+        "resource": {
+            "resourceType": "List",
+            "id": "list02",
+            "status": "current",
+            "subject": {
+                "reference": "Patient/patient01"
+            },
+            "date": "2018-07-05",
+            "mode": "working",
+            "title": "Discharge medications",
+            "entry": [
+                {
+                    "item": {
+                        "resourceType": "MedicationRequest",
+                        "reference": "MedicationRequest/medicationrequest01"
+                    }
+                },
+                {
+                    "item": {
+                        "resourceType": "MedicationRequest",
+                        "reference": "MedicationRequest/medicationrequest02"
+                    }
+                },
+                {
+                    "item": {
+                        "resourceType": "MedicationRequest",
+                        "reference": "MedicationRequest/medicationrequest03"
+                    }
+                },
+                {
+                    "item": {
+                        "resourceType": "MedicationRequest",
+                        "reference": "MedicationRequest/medicationrequest04"
+                    }
+                },
+                {
+                    "item": {
+                        "resourceType": "MedicationRequest",
+                        "reference": "MedicationRequest/medicationrequest05"
+                    }
+                }
+            ]
+        },
+        "request": {
+          "method": "PUT",
+          "url": "List/list02"
+        }
+      },
+      {
+        "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/List/list03",
+        "resource": {
+            "resourceType": "List",
+            "id": "list03",
+            "status": "current",
+            "subject": {
+                "reference": "Patient/patient02"
+            },
+            "date": "2018-07-01",
+            "mode": "working",
+            "title": "Outpatient medications",
+            "entry": [
+                {
+                    "item": {
+                        "resourceType": "MedicationRequest",
+                        "reference": "MedicationRequest/medicationrequest13"
+                    }
+                },
+                {
+                    "item": {
+                        "resourceType": "MedicationRequest",
+                        "reference": "MedicationRequest/medicationrequest14"
+                    }
+                }
+            ]
+        },
+        "request": {
+          "method": "PUT",
+          "url": "List/list03"
+        }
+      },
+      {
+        "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/List/list04",
+        "resource": {
+            "resourceType": "List",
+            "id": "list04",
+            "status": "current",
+            "subject": {
+                "reference": "Patient/patient02"
+            },
+            "date": "2018-07-05",
+            "mode": "working",
+            "title": "Discharge medications",
+            "entry": [
+                {
+                    "item": {
+                        "resourceType": "MedicationRequest",
+                        "reference": "MedicationRequest/medicationrequest10"
+                    }
+                },
+                {
+                    "item": {
+                        "resourceType": "MedicationRequest",
+                        "reference": "MedicationRequest/medicationrequest11"
+                    }
+                },
+                {
+                    "item": {
+                        "resourceType": "MedicationRequest",
+                        "reference": "MedicationRequest/medicationrequest12"
+                    }
+                }
+            ]
+        },
+        "request": {
+          "method": "PUT",
+          "url": "List/list04"
+        }
+      },
+      {
+          "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/List/list05",
+          "resource": {
+              "resourceType": "List",
+              "id": "list05",
+              "status": "current",
+              "subject": {
+                  "reference": "Patient/patient03"
+              },
+              "date": "2018-07-01",
+              "mode": "working",
+              "title": "Outpatient medications",
+              "entry": [
+              ]
+          },
+          "request": {
+              "method": "PUT",
+              "url": "List/list05"
+          }
+      },
+      {
+        "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/List/list06",
+        "resource": {
+            "resourceType": "List",
+            "id": "list06",
+            "status": "current",
+            "subject": {
+                "reference": "Patient/patient03"
+            },
+            "date": "2018-07-05",
+            "mode": "working",
+            "title": "Discharge medications",
+            "entry": [
+                {
+                    "item": {
+                        "resourceType": "MedicationRequest",
+                        "reference": "MedicationRequest/medicationrequest15"
+                    }
+                }
+            ]
+        },
+        "request": {
+          "method": "PUT",
+          "url": "List/list06"
+        }
+      }
+    ]
+  }

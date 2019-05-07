@@ -1,0 +1,936 @@
+{
+    "resourceType": "Bundle",
+    "type": "transaction",
+    "entry": [
+      {
+          "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/Patient/patient01",
+          "resource": {
+            "resourceType": "Patient",
+            "id": "patient01",
+            "meta": {
+              "profile": ["http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-patient"]
+            },
+            "active": true,
+            "identifier": [
+              {
+                "use": "usual",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/v2/0203",
+                      "code": "MR",
+                      "display": "Medical record number"
+                    }
+                  ]
+                },
+                "system": "http://hospital.davinci.org",
+                "value": "12345"
+              }
+            ],
+            "name": [
+              {
+                "use": "official",
+                "family": "Webster",
+                "given": [
+                  "Jairo"
+                ]
+              }
+            ],
+            "gender": "male",
+            "birthDate": "1946-12-16",
+            "deceasedBoolean": false,
+            "address": [
+              {
+                "use": "home",
+                "line": [
+                  "7496 Beaver Ridge Ave"
+                ],
+                "city": "Thornton",
+                "state": "NJ",
+                "postalCode": "07003",
+                "country": "USA"
+              }
+            ],
+            "maritalStatus": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v3/MaritalStatus",
+                  "code": "M",
+                  "display": "Married"
+                }
+              ]
+            },
+            "communication": [
+              {
+                "language": {
+                  "coding": [
+                    {
+                      "system": "urn:ietf:bcp:47",
+                      "code": "en-US",
+                      "display": "US English"
+                    }
+                  ]
+                },
+                "preferred": true
+              }
+            ],
+            "managingOrganization": {
+               "reference": "Organization/organization01"
+            },
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+                "valueCode" : "M"
+              },
+              {
+                "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+                "extension" : [
+                  {
+                    "url" : "ombCategory",
+                    "valueCoding" : {
+                      "system" : "urn:oid:2.16.840.1.113883.6.238",
+                      "code" : "2106-3",
+                      "display" : "White"
+                    }
+                  },
+                  {
+                    "url" : "text",
+                    "valueString" : "White"
+                  }
+                ]
+              },
+              {
+                "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+                "extension" : [
+                  {
+                    "url" : "ombCategory",
+                    "valueCoding" : {
+                      "system" : "urn:oid:2.16.840.1.113883.6.238",
+                      "code" : "2186-5",
+                      "display" : "Not Hispanic or Latino"
+                    }
+                  },
+                  {
+                    "url" : "text",
+                    "valueString" : "Not Hispanic or Latino"
+                  }
+                ]
+              }
+            ]
+          },
+        "request": {
+          "method": "PUT",
+          "url": "Patient/patient01"
+        }
+      },
+      {
+          "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/Patient/patient02",
+          "resource": {
+            "resourceType": "Patient",
+            "id": "patient02",
+            "meta": {
+              "profile": ["http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-patient"]
+            },
+            "active": true,
+            "identifier": [
+              {
+                "use": "usual",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/v2/0203",
+                      "code": "MR",
+                      "display": "Medical record number"
+                    }
+                  ]
+                },
+                "system": "http://hospital.davinci.org",
+                "value": "23456"
+              }
+            ],
+            "name": [
+              {
+                "use": "official",
+                "family": "Bernard",
+                "given": [
+                  "Darien"
+                ]
+              }
+            ],
+            "gender": "male",
+            "birthDate": "1967-06-13",
+            "deceasedBoolean": false,
+            "address": [
+              {
+                "use": "home",
+                "line": [
+                  "6 Rockwell Street"
+                ],
+                "city": "Lynnwood",
+                "state": "NJ",
+                "postalCode": "07420",
+                "country": "USA"
+              }
+            ],
+            "maritalStatus": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v3/MaritalStatus",
+                  "code": "M",
+                  "display": "Married"
+                }
+              ]
+            },
+            "communication": [
+              {
+                "language": {
+                  "coding": [
+                    {
+                      "system": "urn:ietf:bcp:47",
+                      "code": "en-US",
+                      "display": "US English"
+                    }
+                  ]
+                },
+                "preferred": true
+              }
+            ],
+            "managingOrganization": {
+               "reference": "Organization/organization02"
+            },
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+                "valueCode" : "M"
+              },
+              {
+                "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+                "extension" : [
+                  {
+                    "url" : "ombCategory",
+                    "valueCoding" : {
+                      "system" : "urn:oid:2.16.840.1.113883.6.238",
+                      "code" : "2028-9",
+                      "display" : "Asian"
+                    }
+                  },
+                  {
+                    "url" : "text",
+                    "valueString" : "Asian"
+                  }
+                ]
+              },
+              {
+                "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+                "extension" : [
+                  {
+                    "url" : "ombCategory",
+                    "valueCoding" : {
+                      "system" : "urn:oid:2.16.840.1.113883.6.238",
+                      "code" : "2186-5",
+                      "display" : "Not Hispanic or Latino"
+                    }
+                  },
+                  {
+                    "url" : "text",
+                    "valueString" : "Not Hispanic or Latino"
+                  }
+                ]
+              }
+            ]
+          },
+        "request": {
+          "method": "PUT",
+          "url": "Patient/patient02"
+        }
+      },
+      {
+          "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/Patient/patient03",
+          "resource": {
+            "resourceType": "Patient",
+            "id": "patient03",
+            "meta": {
+              "profile": ["http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-patient"]
+            },
+            "active": true,
+            "identifier": [
+              {
+                "use": "usual",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/v2/0203",
+                      "code": "MR",
+                      "display": "Medical record number"
+                    }
+                  ]
+                },
+                "system": "http://hospital.davinci.org",
+                "value": "34567"
+              }
+            ],
+            "name": [
+              {
+                "use": "official",
+                "family": "Hartman",
+                "given": [
+                  "Virginia"
+                ]
+              }
+            ],
+            "gender": "female",
+            "birthDate": "1983-09-12",
+            "deceasedBoolean": false,
+            "address": [
+              {
+                "use": "home",
+                "line": [
+                  "213 Lilac Ave."
+                ],
+                "city": "Freehold",
+                "state": "MI",
+                "postalCode": "48099",
+                "country": "USA"
+              }
+            ],
+            "maritalStatus": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/v3/MaritalStatus",
+                  "code": "U",
+                  "display": "unmarried"
+                }
+              ]
+            },
+            "communication": [
+              {
+                "language": {
+                  "coding": [
+                    {
+                      "system": "urn:ietf:bcp:47",
+                      "code": "en-US",
+                      "display": "US English"
+                    }
+                  ]
+                },
+                "preferred": true
+              }
+            ],
+            "managingOrganization": {
+               "reference": "Organization/organization03"
+            },
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+                "valueCode" : "F"
+              },
+              {
+                "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+                "extension" : [
+                  {
+                    "url" : "ombCategory",
+                    "valueCoding" : {
+                      "system" : "urn:oid:2.16.840.1.113883.6.238",
+                      "code" : "2054-5",
+                      "display" : "Black or African American"
+                    }
+                  },
+                  {
+                    "url" : "text",
+                    "valueString" : "Black or African American"
+                  }
+                ]
+              },
+              {
+                "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+                "extension" : [
+                  {
+                    "url" : "ombCategory",
+                    "valueCoding" : {
+                      "system" : "urn:oid:2.16.840.1.113883.6.238",
+                      "code" : "2186-5",
+                      "display" : "Not Hispanic or Latino"
+                    }
+                  },
+                  {
+                    "url" : "text",
+                    "valueString" : "Not Hispanic or Latino"
+                  }
+                ]
+              }
+            ]
+          },
+          "request": {
+            "method": "PUT",
+            "url": "Patient/patient03"
+          }
+      },
+      {
+          "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/Organization/organization01",
+          "resource": {
+              "resourceType": "Organization",
+              "id": "organization01",
+              "meta": {
+                  "profile": ["http://hl7.org/fhir/us/davinci-deqm/STU3/StructureDefinition/organization-deqm"]
+              },
+              "active": true,
+              "identifier": [
+                  {
+                      "use": "official",
+                      "type": {
+                        "coding": [
+                          {
+                            "system": "http://hl7.org/fhir/v2/0203",
+                            "code": "TAX",
+                            "display": "Tax ID number"
+                          }
+                        ]
+                      },
+                      "system": "urn:oid:2.16.840.1.113883.4.4",
+                      "value": "123456789",
+                      "assigner": {
+                          "display": "www.irs.gov"
+                      }
+                  }
+              ],
+              "name": "DaVinciHospital01",
+              "type": [
+                  {
+                  "coding": [
+                      {
+                      "system": "http://hl7.org/fhir/organization-type",
+                      "code": "prov",
+                      "display": "Healthcare Provider"
+                      }
+                  ]
+                  }
+              ],
+              "address": [
+                  {
+                      "line": [
+                          "73 Lakewood Street"
+                      ],
+                      "city": "Warwick",
+                      "state": "RI",
+                      "postalCode": "02886",
+                      "country": "USA"
+                  }
+              ],
+              "telecom": [
+                  {
+                  "system": "phone",
+                  "value": "(+1) 401-555-1212"
+                  }
+              ]
+          },
+          "request": {
+            "method": "PUT",
+            "url": "Organization/organization01"
+          }
+      },
+      {
+          "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/Organization/organization02",
+          "resource": {
+              "resourceType": "Organization",
+              "id": "organization02",
+              "meta": {
+                  "profile": ["http://hl7.org/fhir/us/davinci-deqm/STU3/StructureDefinition/organization-deqm"]
+              },
+              "active": true,
+              "identifier": [
+                  {
+                      "use": "official",
+                      "type": {
+                        "coding": [
+                          {
+                            "system": "http://hl7.org/fhir/v2/0203",
+                            "code": "TAX",
+                            "display": "Tax ID number"
+                          }
+                        ]
+                      },
+                      "system": "urn:oid:2.16.840.1.113883.4.4",
+                      "value": "234567891",
+                      "assigner": {
+                          "display": "www.irs.gov"
+                      }
+                  }
+              ],
+              "name": "DaVinciHospital02",
+              "type": [
+                  {
+                  "coding": [
+                      {
+                      "system": "http://hl7.org/fhir/organization-type",
+                      "code": "prov",
+                      "display": "Healthcare Provider"
+                      }
+                  ]
+                  }
+              ],
+              "address": [
+                  {
+                      "line": [
+                          "3 Sherwood St."
+                      ],
+                      "city": "Englewood",
+                      "state": "NJ",
+                      "postalCode": "07631",
+                      "country": "USA"
+                  }
+              ],
+              "telecom": [
+                  {
+                  "system": "phone",
+                  "value": "(+1) 551-555-1212"
+                  }
+              ]
+          },
+          "request": {
+            "method": "PUT",
+            "url": "Organization/organization02"
+          }
+      },
+      {
+          "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/Organization/organization03",
+          "resource": {
+              "resourceType": "Organization",
+              "id": "organization03",
+              "meta": {
+                  "profile": ["http://hl7.org/fhir/us/davinci-deqm/STU3/StructureDefinition/organization-deqm"]
+              },
+              "active": true,
+              "identifier": [
+                  {
+                      "use": "official",
+                      "type": {
+                        "coding": [
+                          {
+                            "system": "http://hl7.org/fhir/v2/0203",
+                            "code": "PRN",
+                            "display": "Provider number"
+                          }
+                        ]
+                      },
+                      "system": "http://hl7.org/fhir/sid/us-npi",
+                      "value": "345678912",
+                      "assigner": {
+                          "display": "www.cms.gov"
+                      }
+                  }
+              ],
+              "name": "DaVinciHospital03",
+              "type": [
+                  {
+                  "coding": [
+                      {
+                      "system": "http://hl7.org/fhir/organization-type",
+                      "code": "prov",
+                      "display": "Healthcare Provider"
+                      }
+                  ]
+                  }
+              ],
+              "address": [
+                  {
+                      "line": [
+                          "94 Olive Ave."
+                      ],
+                      "city": "Union City",
+                      "state": "NJ",
+                      "postalCode": "07087",
+                      "country": "USA"
+                  }
+              ],
+              "telecom": [
+                  {
+                  "system": "phone",
+                  "value": "(+1) 201-555-1212"
+                  }
+              ]
+          },
+          "request": {
+            "method": "PUT",
+            "url": "Organization/organization03"
+          }
+      },
+      {
+          "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/Organization/organization04",
+          "resource": {
+              "resourceType": "Organization",
+              "id": "organization04",
+              "meta": {
+                  "profile": ["http://hl7.org/fhir/us/davinci-deqm/STU3/StructureDefinition/organization-deqm"]
+              },
+              "active": true,
+              "identifier": [
+                  {
+                      "use": "official",
+                      "type": {
+                        "coding": [
+                          {
+                            "system": "http://hl7.org/fhir/v2/0203",
+                            "code": "TAX",
+                            "display": "Tax ID number"
+                          }
+                        ]
+                      },
+                      "system": "urn:oid:2.16.840.1.113883.4.4",
+                      "value": "456789123",
+                      "assigner": {
+                          "display": "www.irs.gov"
+                      }
+                  }
+              ],
+              "name": "DVPayer04",
+              "type": [
+                  {
+                  "coding": [
+                      {
+                      "system": "http://hl7.org/fhir/organization-type",
+                      "code": "ins",
+                      "display": "Insurance Company"
+                      }
+                  ]
+                  }
+              ],
+              "address": [
+                  {
+                      "line": [
+                          "160 Glen Eagles Road"
+                      ],
+                      "city": "Grand Rapids",
+                      "state": "MI",
+                      "postalCode": "49503",
+                      "country": "USA"
+                  }
+              ],
+              "telecom": [
+                  {
+                  "system": "phone",
+                  "value": "(+1) 616-555-1212"
+                  }
+              ]
+          },
+          "request": {
+            "method": "PUT",
+            "url": "Organization/organization04"
+          }
+      },
+      {
+          "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/Practitioner/practioner01",
+          "resource": {
+            "resourceType": "Practitioner",
+            "id": "practioner01",
+            "meta": {
+              "profile": ["http://hl7.org/fhir/us/davinci-deqm/STU3/StructureDefinition/practitioner-deqm"]
+            },
+            "active": true,
+            "identifier": [
+              {
+                  "use": "official",
+                  "type": {
+                    "coding": [
+                      {
+                        "system": "http://hl7.org/fhir/v2/0203",
+                        "code": "PRN",
+                        "display": "Provider number"
+                      }
+                    ]
+                  },
+                  "system": "http://hl7.org/fhir/sid/us-npi",
+                  "value": "456789123"
+              }
+            ],
+            "name": {
+              "family": [
+                  "Hale"
+              ],
+              "given": [
+                  "Cody"
+              ],
+              "suffix": [
+                  "MD"
+              ]
+            },
+            "gender": "male"
+          },
+          "request": {
+            "method": "PUT",
+            "url": "Practitioner/practitioner01"
+          }
+      },
+      {
+          "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/Practitioner/practioner02",
+          "resource": {
+            "resourceType": "Practitioner",
+            "id": "practioner02",
+            "meta": {
+              "profile": ["http://hl7.org/fhir/us/davinci-deqm/STU3/StructureDefinition/practitioner-deqm"]
+            },
+            "active": true,
+            "identifier": [
+              {
+                  "use": "official",
+                  "type": {
+                    "coding": [
+                      {
+                        "system": "http://hl7.org/fhir/v2/0203",
+                        "code": "PRN",
+                        "display": "Provider number"
+                      }
+                    ]
+                  },
+                  "system": "http://hl7.org/fhir/sid/us-npi",
+                  "value": "567891234"
+              }
+            ],
+            "name": {
+              "family": [
+                  "Watkins"
+              ],
+              "given": [
+                  "Keaton"
+              ],
+              "suffix": [
+                  "MD"
+              ]
+            },
+            "gender": "male"
+          },
+          "request": {
+            "method": "PUT",
+            "url": "Practitioner/practitioner02"
+          }
+      },
+      {
+          "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/Practitioner/practioner03",
+          "resource": {
+            "resourceType": "Practitioner",
+            "id": "practioner03",
+            "meta": {
+              "profile": ["http://hl7.org/fhir/us/davinci-deqm/STU3/StructureDefinition/practitioner-deqm"]
+            },
+            "active": true,
+            "identifier": [
+              {
+                  "use": "official",
+                  "type": {
+                    "coding": [
+                      {
+                        "system": "http://hl7.org/fhir/v2/0203",
+                        "code": "PRN",
+                        "display": "Provider number"
+                      }
+                    ]
+                  },
+                  "system": "http://hl7.org/fhir/sid/us-npi",
+                  "value": "678912345"
+              }
+            ],
+            "name": {
+              "family": [
+                  "Baldwin"
+              ],
+              "given": [
+                  "Kristina"
+              ],
+              "suffix": [
+                  "MD"
+              ]
+            },
+            "gender": "female"
+          },
+          "request": {
+            "method": "PUT",
+            "url": "Practitioner/practitioner03"
+          }
+      },
+      {
+          "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/Location/location01",
+          "resource": {
+              "resourceType": "Location",
+              "id": "location01",
+              "meta": {
+                  "profile": ["http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-location"]
+              },
+              "name": "DaVinciClinic01",
+              "address": [
+                  {
+                      "line": [
+                          "102 Heritage Dr."
+                      ],
+                      "city": "Somerset",
+                      "state": "NJ",
+                      "postalCode": "08873",
+                      "country": "USA"
+                  }
+              ]
+          },
+          "request": {
+            "method": "PUT",
+            "url": "Location/location01"
+          }
+      },
+      {
+          "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/Location/location02",
+          "resource": {
+              "resourceType": "Location",
+              "id": "location02",
+              "meta": {
+                  "profile": ["http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-location"]
+              },
+              "name": "DaVinciClinic02",
+              "address": [
+                  {
+                      "line": [
+                          "21 W. Atlantic Street"
+                      ],
+                      "city": "Burlington",
+                      "state": "NJ",
+                      "postalCode": "08873",
+                      "country": "USA"
+                  }
+              ]
+          },
+          "request": {
+            "method": "PUT",
+            "url": "Location/location02"
+          }
+      },
+      {
+          "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/Location/location03",
+          "resource": {
+              "resourceType": "Location",
+              "id": "location03",
+              "meta": {
+                  "profile": ["http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-location"]
+              },
+              "name": "DaVinciClinic03",
+              "address": [
+                  {
+                      "line": [
+                          "550 Griffin Rd."
+                      ],
+                      "city": "Bloomington",
+                      "state": "MI",
+                      "postalCode": "48033",
+                      "country": "USA"
+                  }
+              ]
+          },
+          "request": {
+            "method": "PUT",
+            "url": "Location/location03"
+          }
+      },
+      {
+          "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/Coverage/coverage01",
+          "resource": {
+              "resourceType": "Coverage",
+              "id": "coverage01",
+              "meta": {
+                  "profile": ["http://hl7.org/fhir/us/davinci-deqm/STU3/StructureDefinition/coverage-deqm"]
+              },
+              "policyHolder": {
+                  "reference": "Patient/patient01"
+              },
+              "subscriber": {
+                  "reference": "Patient/patient01"
+              },
+              "beneficiary": {
+                  "reference": "Patient/patient01"
+              },
+              "relationship": {
+                  "coding": [
+                      {
+                          "code": "self"
+                      }
+                  ]
+              },
+              "payor": [
+                  {
+                      "reference": "Organization/organization04"
+                  }
+              ],
+              "subscriberId": "A123456789"
+          },
+          "request": {
+            "method": "PUT",
+            "url": "Coverage/coverage01"
+          }
+      },
+      {
+          "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/Coverage/coverage02",
+          "resource": {
+              "resourceType": "Coverage",
+              "id": "coverage02",
+              "meta": {
+                  "profile": ["http://hl7.org/fhir/us/davinci-deqm/STU3/StructureDefinition/coverage-deqm"]
+              },
+              "policyHolder": {
+                  "reference": "Patient/patient02"
+              },
+              "subscriber": {
+                  "reference": "Patient/patient02"
+              },
+              "beneficiary": {
+                  "reference": "Patient/patient02"
+              },
+              "relationship": {
+                  "coding": [
+                      {
+                          "code": "self"
+                      }
+                  ]
+              },
+              "payor": [
+                  {
+                      "reference": "Organization/organization04"
+                  }
+              ],
+              "subscriberId": "B123456789"
+          },
+          "request": {
+            "method": "PUT",
+            "url": "Coverage/coverage02"
+          }
+      },
+      {
+          "fullUrl": "https://api-v5-r4.hspconsortium.org/DaVinciEHR/data/Coverage/coverage03",
+          "resource": {
+              "resourceType": "Coverage",
+              "id": "coverage03",
+              "meta": {
+                  "profile": ["http://hl7.org/fhir/us/davinci-deqm/STU3/StructureDefinition/coverage-deqm"]
+              },
+              "policyHolder": {
+                  "reference": "Patient/patient03"
+              },
+              "subscriber": {
+                  "reference": "Patient/patient03"
+              },
+              "beneficiary": {
+                  "reference": "Patient/patient03"
+              },
+              "relationship": {
+                  "coding": [
+                      {
+                          "code": "self"
+                      }
+                  ]
+              },
+              "payor": [
+                  {
+                      "reference": "Organization/organization04"
+                  }
+              ],
+              "subscriberId": "C123456789"
+          },
+          "request": {
+            "method": "PUT",
+            "url": "Coverage/coverage03"
+          }
+      }
+    ]
+  }
