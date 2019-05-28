@@ -1,0 +1,149 @@
+{
+  "resourceType": "ValueSet",
+  "id": "2.16.840.1.113883.1.11.20.22",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2019-01-13T14:59:59.250+00:00"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Value Set Contents</h3><p>This value set contains 13 concepts</p><p>All codes from system <code>http://loinc.org</code></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-34117-2\"> </a><a href=\"http://details.loinc.org/LOINC/34117-2.html\">34117-2</a></td><td>History and physical note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-11492-6\"> </a><a href=\"http://details.loinc.org/LOINC/11492-6.html\">11492-6</a></td><td>Provider-unspecified, History and physical note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-28626-0\"> </a><a href=\"http://details.loinc.org/LOINC/28626-0.html\">28626-0</a></td><td>Physician History and physical note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-34774-0\"> </a><a href=\"http://details.loinc.org/LOINC/34774-0.html\">34774-0</a></td><td>Surgery History and physical note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-34115-6\"> </a><a href=\"http://details.loinc.org/LOINC/34115-6.html\">34115-6</a></td><td>Medical student Hospital History and physical note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-34116-4\"> </a><a href=\"http://details.loinc.org/LOINC/34116-4.html\">34116-4</a></td><td>Physician Nursing facility History and physical note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-34095-0\"> </a><a href=\"http://details.loinc.org/LOINC/34095-0.html\">34095-0</a></td><td>Comprehensive history and physical note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-34096-8\"> </a><a href=\"http://details.loinc.org/LOINC/34096-8.html\">34096-8</a></td><td>Nursing facility Comprehensive history and physical note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-51849-8\"> </a><a href=\"http://details.loinc.org/LOINC/51849-8.html\">51849-8</a></td><td>Admission history and physical note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-47039-3\"> </a><a href=\"http://details.loinc.org/LOINC/47039-3.html\">47039-3</a></td><td>Hospital Admission history and physical note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-34763-3\"> </a><a href=\"http://details.loinc.org/LOINC/34763-3.html\">34763-3</a></td><td>General medicine Admission history and physical note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-34094-3\"> </a><a href=\"http://details.loinc.org/LOINC/34094-3.html\">34094-3</a></td><td>Cardiology Hospital Admission history and physical note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-34138-8\"> </a><a href=\"http://details.loinc.org/LOINC/34138-8.html\">34138-8</a></td><td>Targeted history and physical note</td></tr></table></div>"
+  },
+  "url": "http://hl7.org/fhir/us/ccda/ValueSet/2.16.840.1.113883.1.11.20.22",
+  "name": "HPDocumentType",
+  "status": "active",
+  "date": "2019-03-04T06:22:43+00:00",
+  "description": "Specific URL Pending",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "34117-2",
+            "display": "History and physical note"
+          },
+          {
+            "code": "11492-6",
+            "display": "Provider-unspecified, History and physical note"
+          },
+          {
+            "code": "28626-0",
+            "display": "Physician History and physical note"
+          },
+          {
+            "code": "34774-0",
+            "display": "Surgery History and physical note"
+          },
+          {
+            "code": "34115-6",
+            "display": "Medical student Hospital History and physical note"
+          },
+          {
+            "code": "34116-4",
+            "display": "Physician Nursing facility History and physical note"
+          },
+          {
+            "code": "34095-0",
+            "display": "Comprehensive history and physical note"
+          },
+          {
+            "code": "34096-8",
+            "display": "Nursing facility Comprehensive history and physical note"
+          },
+          {
+            "code": "51849-8",
+            "display": "Admission history and physical note"
+          },
+          {
+            "code": "47039-3",
+            "display": "Hospital Admission history and physical note"
+          },
+          {
+            "code": "34763-3",
+            "display": "General medicine Admission history and physical note"
+          },
+          {
+            "code": "34094-3",
+            "display": "Cardiology Hospital Admission history and physical note"
+          },
+          {
+            "code": "34138-8",
+            "display": "Targeted history and physical note"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "identifier": "urn:uuid:539bf127-d859-4829-8065-f60ca2ca8c91",
+    "timestamp": "2017-07-13T13:33:07+00:00",
+    "contains": [
+      {
+        "system": "http://loinc.org",
+        "code": "34117-2",
+        "display": "History and physical note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "11492-6",
+        "display": "Provider-unspecified, History and physical note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "28626-0",
+        "display": "Physician History and physical note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "34774-0",
+        "display": "Surgery History and physical note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "34115-6",
+        "display": "Medical student Hospital History and physical note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "34116-4",
+        "display": "Physician Nursing facility History and physical note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "34095-0",
+        "display": "Comprehensive history and physical note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "34096-8",
+        "display": "Nursing facility Comprehensive history and physical note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "51849-8",
+        "display": "Admission history and physical note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "47039-3",
+        "display": "Hospital Admission history and physical note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "34763-3",
+        "display": "General medicine Admission history and physical note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "34094-3",
+        "display": "Cardiology Hospital Admission history and physical note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "34138-8",
+        "display": "Targeted history and physical note"
+      }
+    ]
+  }
+}

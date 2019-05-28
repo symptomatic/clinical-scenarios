@@ -1,0 +1,275 @@
+{
+  "resourceType": "ValueSet",
+  "id": "2.16.840.1.113883.11.20.8.1",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2019-01-13T14:59:59.265+00:00"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Value Set Contents</h3><p>This value set contains 27 concepts</p><p>All codes from system <code>http://loinc.org</code></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-11506-3\"> </a><a href=\"http://details.loinc.org/LOINC/11506-3.html\">11506-3</a></td><td>Provider-unspecified Progress note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-18733-6\"> </a><a href=\"http://details.loinc.org/LOINC/18733-6.html\">18733-6</a></td><td>Physician attending Progress note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-28569-2\"> </a><a href=\"http://details.loinc.org/LOINC/28569-2.html\">28569-2</a></td><td>Physician consulting Progress note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-28617-9\"> </a><a href=\"http://details.loinc.org/LOINC/28617-9.html\">28617-9</a></td><td>Dentistry Progress note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-34900-1\"> </a><a href=\"http://details.loinc.org/LOINC/34900-1.html\">34900-1</a></td><td>General medicine Progress note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-34904-3\"> </a><a href=\"http://details.loinc.org/LOINC/34904-3.html\">34904-3</a></td><td>Mental health Progress note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-28623-7\"> </a><a href=\"http://details.loinc.org/LOINC/28623-7.html\">28623-7</a></td><td>Nurse Progress note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-11507-1\"> </a><a href=\"http://details.loinc.org/LOINC/11507-1.html\">11507-1</a></td><td>Occupational therapy Progress note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-11508-9\"> </a><a href=\"http://details.loinc.org/LOINC/11508-9.html\">11508-9</a></td><td>Physical therapy Progress note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-11509-7\"> </a><a href=\"http://details.loinc.org/LOINC/11509-7.html\">11509-7</a></td><td>Podiatry Progress note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-28627-8\"> </a><a href=\"http://details.loinc.org/LOINC/28627-8.html\">28627-8</a></td><td>Psychiatry Progress note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-11510-5\"> </a><a href=\"http://details.loinc.org/LOINC/11510-5.html\">11510-5</a></td><td>Psychology Progress note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-28656-7\"> </a><a href=\"http://details.loinc.org/LOINC/28656-7.html\">28656-7</a></td><td>Social work Progress note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-11512-1\"> </a><a href=\"http://details.loinc.org/LOINC/11512-1.html\">11512-1</a></td><td>Speech-language pathology Progress note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-34126-3\"> </a><a href=\"http://details.loinc.org/LOINC/34126-3.html\">34126-3</a></td><td>Intensive care unit Progress note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-15507-7\"> </a><a href=\"http://details.loinc.org/LOINC/15507-7.html\">15507-7</a></td><td>Provider-unspecified ED Progress note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-34129-7\"> </a><a href=\"http://details.loinc.org/LOINC/34129-7.html\">34129-7</a></td><td>Patient's home Progress note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-34125-5\"> </a><a href=\"http://details.loinc.org/LOINC/34125-5.html\">34125-5</a></td><td>Case manager Patient's home Progress note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-34130-5\"> </a><a href=\"http://details.loinc.org/LOINC/34130-5.html\">34130-5</a></td><td>Hospital Progress note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-34131-3\"> </a><a href=\"http://details.loinc.org/LOINC/34131-3.html\">34131-3</a></td><td>Outpatient Progress note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-34124-8\"> </a><a href=\"http://details.loinc.org/LOINC/34124-8.html\">34124-8</a></td><td>Cardiology Outpatient Progress note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-34127-1\"> </a><a href=\"http://details.loinc.org/LOINC/34127-1.html\">34127-1</a></td><td>Dentistry Hygienist Outpatient Progress note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-34128-9\"> </a><a href=\"http://details.loinc.org/LOINC/34128-9.html\">34128-9</a></td><td>Dentistry Outpatient Progress note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-34901-9\"> </a><a href=\"http://details.loinc.org/LOINC/34901-9.html\">34901-9</a></td><td>General medicine Outpatient Progress note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-34132-1\"> </a><a href=\"http://details.loinc.org/LOINC/34132-1.html\">34132-1</a></td><td>Pharmacy Outpatient Progress note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-28580-9\"> </a><a href=\"http://details.loinc.org/LOINC/28580-9.html\">28580-9</a></td><td>Chiropractic medicine Progress note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-28575-9\"> </a><a href=\"http://details.loinc.org/LOINC/28575-9.html\">28575-9</a></td><td>Nurse practitioner Progress note</td></tr></table></div>"
+  },
+  "url": "http://hl7.org/fhir/us/ccda/ValueSet/2.16.840.1.113883.11.20.8.1",
+  "name": "ProgressNoteDocumentTypeCode",
+  "status": "active",
+  "date": "2019-03-04T06:22:43+00:00",
+  "description": "Specific URL Pending",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "11506-3",
+            "display": "Provider-unspecified Progress note"
+          },
+          {
+            "code": "18733-6",
+            "display": "Physician attending Progress note"
+          },
+          {
+            "code": "28569-2",
+            "display": "Physician consulting Progress note"
+          },
+          {
+            "code": "28617-9",
+            "display": "Dentistry Progress note"
+          },
+          {
+            "code": "34900-1",
+            "display": "General medicine Progress note"
+          },
+          {
+            "code": "34904-3",
+            "display": "Mental health Progress note"
+          },
+          {
+            "code": "28623-7",
+            "display": "Nurse Progress note"
+          },
+          {
+            "code": "11507-1",
+            "display": "Occupational therapy Progress note"
+          },
+          {
+            "code": "11508-9",
+            "display": "Physical therapy Progress note"
+          },
+          {
+            "code": "11509-7",
+            "display": "Podiatry Progress note"
+          },
+          {
+            "code": "28627-8",
+            "display": "Psychiatry Progress note"
+          },
+          {
+            "code": "11510-5",
+            "display": "Psychology Progress note"
+          },
+          {
+            "code": "28656-7",
+            "display": "Social work Progress note"
+          },
+          {
+            "code": "11512-1",
+            "display": "Speech-language pathology Progress note"
+          },
+          {
+            "code": "34126-3",
+            "display": "Intensive care unit Progress note"
+          },
+          {
+            "code": "15507-7",
+            "display": "Provider-unspecified ED Progress note"
+          },
+          {
+            "code": "34129-7",
+            "display": "Patient's home Progress note"
+          },
+          {
+            "code": "34125-5",
+            "display": "Case manager Patient's home Progress note"
+          },
+          {
+            "code": "34130-5",
+            "display": "Hospital Progress note"
+          },
+          {
+            "code": "34131-3",
+            "display": "Outpatient Progress note"
+          },
+          {
+            "code": "34124-8",
+            "display": "Cardiology Outpatient Progress note"
+          },
+          {
+            "code": "34127-1",
+            "display": "Dentistry Hygienist Outpatient Progress note"
+          },
+          {
+            "code": "34128-9",
+            "display": "Dentistry Outpatient Progress note"
+          },
+          {
+            "code": "34901-9",
+            "display": "General medicine Outpatient Progress note"
+          },
+          {
+            "code": "34132-1",
+            "display": "Pharmacy Outpatient Progress note"
+          },
+          {
+            "code": "28580-9",
+            "display": "Chiropractic medicine Progress note"
+          },
+          {
+            "code": "28575-9",
+            "display": "Nurse practitioner Progress note"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "identifier": "urn:uuid:20f88be7-5655-48c7-aa2a-00348c01f23a",
+    "timestamp": "2017-07-13T13:33:08+00:00",
+    "contains": [
+      {
+        "system": "http://loinc.org",
+        "code": "11506-3",
+        "display": "Provider-unspecified Progress note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "18733-6",
+        "display": "Physician attending Progress note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "28569-2",
+        "display": "Physician consulting Progress note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "28617-9",
+        "display": "Dentistry Progress note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "34900-1",
+        "display": "General medicine Progress note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "34904-3",
+        "display": "Mental health Progress note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "28623-7",
+        "display": "Nurse Progress note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "11507-1",
+        "display": "Occupational therapy Progress note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "11508-9",
+        "display": "Physical therapy Progress note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "11509-7",
+        "display": "Podiatry Progress note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "28627-8",
+        "display": "Psychiatry Progress note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "11510-5",
+        "display": "Psychology Progress note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "28656-7",
+        "display": "Social work Progress note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "11512-1",
+        "display": "Speech-language pathology Progress note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "34126-3",
+        "display": "Intensive care unit Progress note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "15507-7",
+        "display": "Provider-unspecified ED Progress note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "34129-7",
+        "display": "Patient's home Progress note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "34125-5",
+        "display": "Case manager Patient's home Progress note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "34130-5",
+        "display": "Hospital Progress note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "34131-3",
+        "display": "Outpatient Progress note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "34124-8",
+        "display": "Cardiology Outpatient Progress note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "34127-1",
+        "display": "Dentistry Hygienist Outpatient Progress note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "34128-9",
+        "display": "Dentistry Outpatient Progress note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "34901-9",
+        "display": "General medicine Outpatient Progress note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "34132-1",
+        "display": "Pharmacy Outpatient Progress note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "28580-9",
+        "display": "Chiropractic medicine Progress note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "28575-9",
+        "display": "Nurse practitioner Progress note"
+      }
+    ]
+  }
+}

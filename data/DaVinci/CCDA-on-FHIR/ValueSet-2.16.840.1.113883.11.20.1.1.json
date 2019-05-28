@@ -1,0 +1,122 @@
+{
+  "resourceType": "ValueSet",
+  "id": "2.16.840.1.113883.11.20.1.1",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2019-01-13T14:59:58.782+00:00"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h3>Value Set Contents</h3><p>This value set contains 10 concepts</p><p>All codes from system <code>http://loinc.org</code></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-11504-8\"> </a><a href=\"http://details.loinc.org/LOINC/11504-8.html\">11504-8</a></td><td>Provider-unspecified Operation note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-34137-0\"> </a><a href=\"http://details.loinc.org/LOINC/34137-0.html\">34137-0</a></td><td>Outpatient Surgical operation note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-28583-3\"> </a><a href=\"http://details.loinc.org/LOINC/28583-3.html\">28583-3</a></td><td>Dentist Operation note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-28624-5\"> </a><a href=\"http://details.loinc.org/LOINC/28624-5.html\">28624-5</a></td><td>Podiatry Operation note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-28573-4\"> </a><a href=\"http://details.loinc.org/LOINC/28573-4.html\">28573-4</a></td><td>Physician, Operation note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-34877-1\"> </a><a href=\"http://details.loinc.org/LOINC/34877-1.html\">34877-1</a></td><td>Urology Surgical operation note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-34874-8\"> </a><a href=\"http://details.loinc.org/LOINC/34874-8.html\">34874-8</a></td><td>Surgery Surgical operation note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-34870-6\"> </a><a href=\"http://details.loinc.org/LOINC/34870-6.html\">34870-6</a></td><td>Plastic surgery Surgical operation note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-34868-0\"> </a><a href=\"http://details.loinc.org/LOINC/34868-0.html\">34868-0</a></td><td>Orthopaedic surgery Surgical operation note</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---loinc.org-34818-5\"> </a><a href=\"http://details.loinc.org/LOINC/34818-5.html\">34818-5</a></td><td>Otolaryngology Surgical operation note</td></tr></table></div>"
+  },
+  "url": "http://hl7.org/fhir/us/ccda/ValueSet/2.16.840.1.113883.11.20.1.1",
+  "name": "SurgicalOperationNoteDocumentTypeCode",
+  "status": "active",
+  "date": "2019-03-04T06:22:43+00:00",
+  "description": "Specific URL Pending",
+  "compose": {
+    "include": [
+      {
+        "system": "http://loinc.org",
+        "concept": [
+          {
+            "code": "11504-8",
+            "display": "Provider-unspecified Operation note"
+          },
+          {
+            "code": "34137-0",
+            "display": "Outpatient Surgical operation note"
+          },
+          {
+            "code": "28583-3",
+            "display": "Dentist Operation note"
+          },
+          {
+            "code": "28624-5",
+            "display": "Podiatry Operation note"
+          },
+          {
+            "code": "28573-4",
+            "display": "Physician, Operation note"
+          },
+          {
+            "code": "34877-1",
+            "display": "Urology Surgical operation note"
+          },
+          {
+            "code": "34874-8",
+            "display": "Surgery Surgical operation note"
+          },
+          {
+            "code": "34870-6",
+            "display": "Plastic surgery Surgical operation note"
+          },
+          {
+            "code": "34868-0",
+            "display": "Orthopaedic surgery Surgical operation note"
+          },
+          {
+            "code": "34818-5",
+            "display": "Otolaryngology Surgical operation note"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "identifier": "urn:uuid:30cb393a-50a5-459f-89f0-b193e8997930",
+    "timestamp": "2017-07-13T13:33:08+00:00",
+    "contains": [
+      {
+        "system": "http://loinc.org",
+        "code": "11504-8",
+        "display": "Provider-unspecified Operation note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "34137-0",
+        "display": "Outpatient Surgical operation note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "28583-3",
+        "display": "Dentist Operation note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "28624-5",
+        "display": "Podiatry Operation note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "28573-4",
+        "display": "Physician, Operation note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "34877-1",
+        "display": "Urology Surgical operation note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "34874-8",
+        "display": "Surgery Surgical operation note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "34870-6",
+        "display": "Plastic surgery Surgical operation note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "34868-0",
+        "display": "Orthopaedic surgery Surgical operation note"
+      },
+      {
+        "system": "http://loinc.org",
+        "code": "34818-5",
+        "display": "Otolaryngology Surgical operation note"
+      }
+    ]
+  }
+}
