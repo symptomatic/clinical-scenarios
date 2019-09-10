@@ -1,0 +1,1620 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='CDA.xsl'?><ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:sdtc="urn:hl7-org:sdtc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" classCode="DOCCLIN" moodCode="EVN">
+    <realmCode code="US"/>
+    <typeId extension="POCD_HD000040" root="2.16.840.1.113883.1.3"/>
+    <templateId root="2.16.840.1.113883.10.20.22.1.1"/>
+    <templateId root="2.16.840.1.113883.10.20.22.1.2"/>
+    <id extension="20130918165626" root="2.16.840.1.113883.19"/>
+    <code code="34133-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Summarization Of Episode Note"/>
+    <title>Health Summary</title>
+    <effectiveTime value="20130918045626+005"/>
+    <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25"/>
+    <languageCode code="en-US"/>
+    <setId extension="2013091804nn26" root="2.16.840.1.113883.19"/>
+    <versionNumber value="1"/>
+    <recordTarget contextControlCode="OP" typeCode="RCT">
+        <patientRole classCode="PAT">
+            <id extension="M000243" root="2.16.840.1.113883.3.1458"/>
+            <addr>
+                <streetAddressLine>123 MILAN STREET</streetAddressLine>
+                <city>DULUTH</city>
+                <state>MN</state>
+                <postalCode>55812</postalCode>
+                <country>USA</country>
+            </addr>
+            <telecom nullFlavor="NI"/>
+            <patient classCode="PSN" determinerCode="INSTANCE">
+                <name>
+                    <family>Everyman</family>
+                    <given>Adam</given>
+                </name>
+                <administrativeGenderCode code="M" codeSystem="2.16.840.1.113883.5.1" displayName="Male"/>
+                <birthTime value="19621022"/>
+                <raceCode code="2106-3" codeSystem="2.16.840.1.113883.6.238" displayName="White"/>
+                <ethnicGroupCode code="2186-5" codeSystem="2.16.840.1.113883.6.238" displayName="Not Hispanic or Latino"/>
+                <languageCommunication>
+                    <languageCode code="eng"/>
+                    <modeCode code="ESP" codeSystem="2.16.840.1.113883.5.60" codeSystemName="LanguageAbilityMode" displayName="Expressed spoken"/>
+                    <preferenceInd value="true"/>
+                </languageCommunication>
+            </patient>
+            <providerOrganization>
+                <id root="1.1.1.1.1.1.1.1.4"/>
+                <name>Get Well Clinic</name>
+                <telecom nullFlavor="NI"/>
+                <addr>
+                    <streetAddressLine>55 Center Avenue Apt 2B</streetAddressLine>
+                    <city>Phoenix</city>
+                    <state>AZ</state>
+                    <postalCode>85002</postalCode>
+                </addr>
+            </providerOrganization>
+        </patientRole>
+    </recordTarget>
+    <author contextControlCode="OP" typeCode="AUT">
+        <time value="20120920"/>
+        <assignedAuthor classCode="ASSIGNED">
+            <id extension="KP00018" root="2.16.840.1.113883.4.6"/>
+            <addr>
+                <streetAddressLine>Family Health Clinic</streetAddressLine>
+                <streetAddressLine>1004 Healthcare Dr.</streetAddressLine>
+                <city>Portland</city>
+                <state>OR</state>
+                <postalCode>97005</postalCode>
+                <country>USA</country>
+            </addr>
+            <telecom nullFlavor="NI"/>
+            <assignedPerson>
+                <name>
+                    <given>Samir</given>
+                    <family>Khan</family>
+                </name>
+            </assignedPerson>
+        </assignedAuthor>
+    </author>
+    <dataEnterer>
+        <assignedEntity>
+            <id extension="999999943255" root="2.16.840.1.113883.4.6"/>
+            <addr>
+                <streetAddressLine>1004 Healthcare Dr.</streetAddressLine>
+                <city>Portland</city>
+                <state>OR</state>
+                <postalCode>97005</postalCode>
+                <country>USA</country>
+            </addr>
+            <telecom use="WP" value="tel:555-555-1004"/>
+            <assignedPerson>
+                <name>
+                    <given>Holly</given>
+                    <family>Liu</family>
+                </name>
+            </assignedPerson>
+        </assignedEntity>
+    </dataEnterer>
+    <informant>
+        <assignedEntity>
+            <id extension="KP00018" root="2.16.840.1.113883.19"/>
+            <addr>
+                <streetAddressLine>1004 Healthcare Dr.</streetAddressLine>
+                <city>Portland</city>
+                <state>OR</state>
+                <postalCode>97005</postalCode>
+                <country>USA</country>
+            </addr>
+            <telecom nullFlavor="NI"/>
+            <assignedPerson>
+                <name>
+                    <given>Samir</given>
+                    <family>Khan</family>
+                </name>
+            </assignedPerson>
+        </assignedEntity>
+    </informant>
+    <custodian typeCode="CST">
+        <assignedCustodian classCode="ASSIGNED">
+            <representedCustodianOrganization classCode="ORG" determinerCode="INSTANCE">
+                <id root="2.16.840.1.113883.3.13.300.1.1.2"/>
+                <name>Family Health Clinic</name>
+                <telecom nullFlavor="NI"/>
+                <addr>
+                    <streetAddressLine>1004 Healthcare Dr.</streetAddressLine>
+                    <city>Portland</city>
+                    <state>OR</state>
+                    <postalCode>97005</postalCode>
+                    <country>USA</country>
+                </addr>
+            </representedCustodianOrganization>
+        </assignedCustodian>
+    </custodian>
+    
+    <!--DocumentationOf/ServiceEvent-->
+    <legalAuthenticator typeCode="AUTHEN" xmlns="urn:hl7-org:v3" xmlns:sdtc="urn:hl7-org:sdtc">
+  <time value="20190611142229-0400"/>
+  <signatureCode code="S"/>
+  <assignedEntity>
+    <id extension="ywang@direct.eval.md" root="2.16.840.1.113883.3.4988.102.2.1.1"/>
+    <assignedPerson>
+      <name><family>Wang</family><given>Yan</given></name>
+    </assignedPerson>
+  </assignedEntity>
+  <sdtc:signatureText mediaType="text/xml" representation="B64"><thumbnail>Signed by Yan Wang (ywang@direct.eval.md) at Tue Jun 11 14:22:29 EDT 2019</thumbnail><digitalSignature> <authorizedSigner Id="d27a2d1e-5962-4651-9475-34de993d6e5c"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="xmldsig-0e006e48-0128-47ca-a254-45aeb9d84938">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/>
+<ds:Reference Id="xmldsig-0e006e48-0128-47ca-a254-45aeb9d84938-ref0">
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/>
+<ds:DigestValue>sAo+FYBvfZUXTzX1fWxD3EIWH2pDqvVM5rPf/r9A6S8Oc8/WRH5mQERrn88YfCP4+Grli6a7upMI
+deI2Puxdxg==</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-0e006e48-0128-47ca-a254-45aeb9d84938-signedprops">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/>
+<ds:DigestValue>mUYOA0Hulb4DuFG0A1MvwKEkJFRsFWofy2ox2Y6Zw/hEX0chjK7pqh3weQXfLUKtjqLOhD5EPKWk
+od6wTyBnVg==</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="xmldsig-0e006e48-0128-47ca-a254-45aeb9d84938-sigvalue">
+S8BpHqjvO+PsXWYN/ftYj+MpUemIDJA7MZeMxCWu2v1688/ZV6slQtau1ofWENU98PokWjymbku2
+99//vmCzPiZrB2LoWYMvfQzmtFBU2DzjLE2HZGl9YMytuZozvg/3QkNwgWgAaloT715Mp68xjMu0
+Ne/yN05EgVen/vQ3rlWDEbEL3ZZC/WBXuxzMkGkN20BPtuBuMsHwvb3FHL7Xx0Y0GvTtvC/cO4sM
+sngGQE7IwSKrX7n+U463/65tt8xwJ7G48TcbAPT4FEcCYszEBBYXW/hcKth0HS6L/5MgfJGyMkHY
+WgjO97QPMowQHeRbLs7j/5pk2HmhUe32X8SpMXlC8Dg+mNJoMQD/kTO7lVGVTLPpGYksk+sZT+7y
+qhkOlYvh/dIfkv0KPMNBdoHI4I/z/eh6vBWSq0A6IobAvQcYn7yeZj+ZvJSGHn2pY3yUNYy2nlsg
+19Wyymi/I42iH3d+/Jw6CVDZQYwqqlOmtyNiE4R/JqJ1HhgoxOUzZ/su
+</ds:SignatureValue>
+<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIGqzCCBJOgAwIBAgIQQGGoxalDD4IdNo30Nw7zXjANBgkqhkiG9w0BAQsFADBYMQswCQYDVQQG
+EwJVUzETMBEGA1UECAwKTkVXIEpFUlNFWTEOMAwGA1UECgwFTWF4TUQxJDAiBgNVBAMMG01heFNp
+Z25hdHVyZXMgU3RhZ2luZyBDQSBHMjAeFw0xODEwMDQxODEzMjNaFw0xOTA5MTUxODM0NTNaMEEx
+IDAeBgNVBAsMF1lhbiBXYW5nIFNpZ25hdHVyZSBDZXJ0MR0wGwYDVQQDDBR5d2FuZ0BkaXJlY3Qu
+ZXZhbC5tZDCCAaAwDQYJKoZIhvcNAQEBBQADggGNADCCAYgCggGBALKk8BeF2fjRliOoLJ2UDQII
+wXdTaztCKrh3MDiG6vXR+vEXEv0jSxHldaHrfTVC+SkKGXv12qO1WvfAcfed8MrdCQFmqVfJWfkL
+onbysB2CPtbl8QKTnGmtrZnTnI0iJ4IRcoI2hrhrweozbhjCoKJBJJn7rbbtB2TZaWXOd2Db6le/
+xRsMfKBUcDLDkFo5u16rpXP4gP5ob5dwxE0uRgtn2AMtamoH1PkugCeDl2999vdvm0JHlsYF+yli
+N991SM/kLj6ShLLXbQ6c6RozkobCnvL1krmYEuDeEHVXL37mogDPPdNPOkOaVrUcVsd9sQ9SIZN1
+sCQLe3OonUwCTeuX9sNI9rZ3c4KCFW02K92ckqaMG2PDEN7HjW9oTAZnbWYXqbf0xDfM0C/Nu3Hg
+dUxXyn31VajeHCcwzjPz4JCurLs1aFvcQX2PZfK12vhvYcofqkvZGb4+2pGL8HrLA1yYXIBkHKY1
+3ES3EWwQpRFxdZJuGg6+3loLRnra42rLQQIBA6OCAggwggIEMA4GA1UdDwEB/wQEAwIE8DAfBgNV
+HREEGDAWgRR5d2FuZ0BkaXJlY3QuZXZhbC5tZDAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBQUmU+q
+MPaiJz8DzSYdmBvRrHthgzAfBgNVHSMEGDAWgBQrxEEtlBGfsjPUOJv/QO3DiKEjpzCBhQYIKwYB
+BQUHAQEEeTB3MHUGCCsGAQUFBzAChmlodHRwOi8vd3d3Lm1heG1kaXJlY3QuY29tLmV2YWwubWF4
+Lm1kL0NBX1JlcG9zaXRvcnkvTWF4U2lnbmF0dXJlc1N0YWdpbmdDQUcyL01heFNpZ25hdHVyZXNT
+dGFnaW5nQ0FHMi5wN2IwegYDVR0fBHMwcTBvoG2ga4ZpaHR0cDovL3d3dy5tYXhtZGlyZWN0LmNv
+bS5ldmFsLm1heC5tZC9DQV9SZXBvc2l0b3J5L01heFNpZ25hdHVyZXNTdGFnaW5nQ0FHMi9NYXhT
+aWduYXR1cmVzU3RhZ2luZ0NBRzIuY3JsMH8GA1UdIAR4MHYwDAYKKwYBBAGCwVsBATBYBgsrBgEE
+AYLBWwABAzBJMEcGCCsGAQUFBwIBFjtodHRwczovL3d3dy5kaXJlY3RtZGVtYWlsLmNvbS9kb2N1
+bWVudHMvTWF4U2lnbmF0dXJlc1BvbGljeTAMBgorBgEEAYLBWwIEMA0GCSqGSIb3DQEBCwUAA4IC
+AQBccZWaEKYqQLPyl6/QpPIBDCULc7mMgmp87hl/bFXMw+p4vO+AJnYAgC5/A9h3hTsNvBIsy9kJ
+NnWpl569YAa5w4gZbQyWodFavZKyXbYgNdgqOHJztVHxfUVUlIKXhNyyZbD7NjYl3vc4LZy7FWtS
+06MuZ6jlxsZxdz9Pl7tliHeAZ2ditTY0DV3Y0oYqbTHB8dnMj6Q7j3PGiLL4J6GLnOpM/r4+hXJT
+JBPepZOdTIp/xxPEg7awlnMyq2gs75wyoAsHazVcWxkcicUcMYAIRRA8KKOstPEgsvX74ofrO5Cj
+iAmejpCNwYFQEPjKxpSbxXhtH1j/+zoLMDehzkah7q3oWUuQBBu6C7Cv3jGDiynxzpRoJuwX0NAd
+nqtYcuEyaHpH+DuaYiV8Llwp2twgGF4MNdWqbRmn6ON1+iMHeK4sP4LHMkisONpim75V1ezXfR85
+3CkTk++5HsuUOnXAlH6Yemp2nCgPoChskybzH1CjDKkfFwGMhJPfo4at6AWWmoV0MNwgtw9GXlfn
+9NC4MrMOg6J+8GW1axIrXeju5Xj+CPgbeHP1mMdEZxdyrV4xPZwB9ZB7Su8khIlwl7RQ2w4/TVGv
+B4cxG27kslSeU3B+WxGud6xIqaRR3b9x4uBwXi6EnsAPlgJNmwe0wwS7YzE7L4OtWbH4C6FBnKhQ
+Hw==
+</ds:X509Certificate>
+<ds:X509IssuerSerial>
+<ds:X509IssuerName>cn=MaxSignatures Staging CA G2,o=MaxMD,st=NEW JERSEY,c=US</ds:X509IssuerName>
+<ds:X509SerialNumber>85577667630657960861917334420241445726</ds:X509SerialNumber>
+</ds:X509IssuerSerial>
+<ds:X509SubjectName>cn=ywang@direct.eval.md,ou=Yan Wang Signature Cert</ds:X509SubjectName>
+</ds:X509Data>
+</ds:KeyInfo>
+<ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" Target="#xmldsig-0e006e48-0128-47ca-a254-45aeb9d84938"><xades:SignedProperties Id="xmldsig-0e006e48-0128-47ca-a254-45aeb9d84938-signedprops"><xades:SignedSignatureProperties><xades:SigningTime>2019-06-11T14:22:29.601-04:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>mRn00TIx9UqABMrXNeZAMU2WxuMDlNrrFbioulGSLiM=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>cn=MaxSignatures Staging CA G2,o=MaxMD,st=NEW JERSEY,c=US</ds:X509IssuerName><ds:X509SerialNumber>85577667630657960861917334420241445726</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>uF2FhQLz65mJvjXFexoUncNvh0vTMj4Pw8IfV0aOKCQ=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>cn=MaxMD Root CA v1.0,o=MaxMD,l=Fort Lee,st=NEW JERSEY,c=US</ds:X509IssuerName><ds:X509SerialNumber>1537211545487</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>9RUacCjZG6t1qyyXGpyRaIZdVsIvyc4RwNk5cPKfTyc=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>cn=MaxMD Root CA v1.0,o=MaxMD,l=Fort Lee,st=NEW JERSEY,c=US</ds:X509IssuerName><ds:X509SerialNumber>1502994895133</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyImplied/></xades:SignaturePolicyIdentifier><xades:SignerRole><xades:ClaimedRoles><xades:ClaimedRole>AUTHEN</xades:ClaimedRole></xades:ClaimedRoles></xades:SignerRole><xades:SignaturePurpose>Legal Authenticator Signature</xades:SignaturePurpose></xades:SignedSignatureProperties></xades:SignedProperties><xades:UnsignedProperties><xades:UnsignedSignatureProperties><xades:SignatureTimeStamp><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><xades:EncapsulatedTimeStamp>MIAGCSqGSIb3DQEHAqCAMIIP9AIBAzELMAkGBSsOAwIaBQAwbwYLKoZIhvcNAQkQAQSgYAReMFwC
+AQEGCWCGSAGG/WwHATAhMAkGBSsOAwIaBQAEFCxlQIpB1Qj03L5ZDPe/HTpHD3I4AhB86lKz5b0x
+tfmU+NSfVdHwGA8yMDE5MDYxMTE4MjIzMFoCBgFrR8b1kaCCDT8wggZqMIIFUqADAgECAhADAZoC
+Ov9YsWvW1ermF/BmMA0GCSqGSIb3DQEBBQUAMGIxCzAJBgNVBAYTAlVTMRUwEwYDVQQKEwxEaWdp
+Q2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5jb20xITAfBgNVBAMTGERpZ2lDZXJ0IEFz
+c3VyZWQgSUQgQ0EtMTAeFw0xNDEwMjIwMDAwMDBaFw0yNDEwMjIwMDAwMDBaMEcxCzAJBgNVBAYT
+AlVTMREwDwYDVQQKEwhEaWdpQ2VydDElMCMGA1UEAxMcRGlnaUNlcnQgVGltZXN0YW1wIFJlc3Bv
+bmRlcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKNkXfx8s+CCNeDg9sYq5kl1O8xu
+4FOpnx9kWeZ8a39rjJ1V+JLjntVaY1sCSVDZg85vZu7dy4XpX6X51Id0iEQ7Gcnl9ZGfxhQ5rCTq
+qEsskYnMXij0ZLZQt/USs3OWCmejvmGfrvP9Enh1DqZbFP1FI46GRFV9GIYFjFWHeUhG98oOjafe
+Tl/iqLYtWQJhiGFyGGi5uHzu5uc0LzF3gTAfuzYBje8n4/ea8EwxZI3j6/oZh6h+z+yMDDZbesF6
+uHjHyQYuRhDIjegEYNu8c3T6Ttj+qkDxss5wRoPp2kChWTrZFQlXmVYwk/PJYczQCMxr7GJCkawC
+wO+k8IkRj3cCAwEAAaOCAzUwggMxMA4GA1UdDwEB/wQEAwIHgDAMBgNVHRMBAf8EAjAAMBYGA1Ud
+JQEB/wQMMAoGCCsGAQUFBwMIMIIBvwYDVR0gBIIBtjCCAbIwggGhBglghkgBhv1sBwEwggGSMCgG
+CCsGAQUFBwIBFhxodHRwczovL3d3dy5kaWdpY2VydC5jb20vQ1BTMIIBZAYIKwYBBQUHAgIwggFW
+HoIBUgBBAG4AeQAgAHUAcwBlACAAbwBmACAAdABoAGkAcwAgAEMAZQByAHQAaQBmAGkAYwBhAHQA
+ZQAgAGMAbwBuAHMAdABpAHQAdQB0AGUAcwAgAGEAYwBjAGUAcAB0AGEAbgBjAGUAIABvAGYAIAB0
+AGgAZQAgAEQAaQBnAGkAQwBlAHIAdAAgAEMAUAAvAEMAUABTACAAYQBuAGQAIAB0AGgAZQAgAFIA
+ZQBsAHkAaQBuAGcAIABQAGEAcgB0AHkAIABBAGcAcgBlAGUAbQBlAG4AdAAgAHcAaABpAGMAaAAg
+AGwAaQBtAGkAdAAgAGwAaQBhAGIAaQBsAGkAdAB5ACAAYQBuAGQAIABhAHIAZQAgAGkAbgBjAG8A
+cgBwAG8AcgBhAHQAZQBkACAAaABlAHIAZQBpAG4AIABiAHkAIAByAGUAZgBlAHIAZQBuAGMAZQAu
+MAsGCWCGSAGG/WwDFTAfBgNVHSMEGDAWgBQVABIrE5iymQftHt+ivlcNK2cCzTAdBgNVHQ4EFgQU
+YVpNJLZJMp1KKnkag0v0HonByn0wfQYDVR0fBHYwdDA4oDagNIYyaHR0cDovL2NybDMuZGlnaWNl
+cnQuY29tL0RpZ2lDZXJ0QXNzdXJlZElEQ0EtMS5jcmwwOKA2oDSGMmh0dHA6Ly9jcmw0LmRpZ2lj
+ZXJ0LmNvbS9EaWdpQ2VydEFzc3VyZWRJRENBLTEuY3JsMHcGCCsGAQUFBwEBBGswaTAkBggrBgEF
+BQcwAYYYaHR0cDovL29jc3AuZGlnaWNlcnQuY29tMEEGCCsGAQUFBzAChjVodHRwOi8vY2FjZXJ0
+cy5kaWdpY2VydC5jb20vRGlnaUNlcnRBc3N1cmVkSURDQS0xLmNydDANBgkqhkiG9w0BAQUFAAOC
+AQEAnSV+GzNNsiaBXJuGziMgD4CH5Yj//7HUaiwx7ToXGXEXzakbvFoWOQCd42yE5FpA+94GAYw3
++puxnSR+/iCkV61bt5qwYCbqaVchXTQvH3Gwg5QZBWs1kBCge5fH9j/n4hFBpr1i2fAnPTgdKG86
+Ugnw7HBi02JLsOBzppLA044x2C/jbRcTBu7kA7YUq/OPQ6dxnSHdFMoVXZJB2vkPgdGZdA0mxA5/
+G7X1oPHGdwYoFenYk+VVFvC7Cqsc21xIJ2bIo4sKHOWV2q7ELlmgYd3a822iYemKC23sEhi991VU
+QAOSK2vCUcIKSK+w1G7g9BQKOhvjjz3Kr2qNe9zYRDCCBs0wggW1oAMCAQICEAb9+QOWA63qAArr
+Pye7uhswDQYJKoZIhvcNAQEFBQAwZTELMAkGA1UEBhMCVVMxFTATBgNVBAoTDERpZ2lDZXJ0IElu
+YzEZMBcGA1UECxMQd3d3LmRpZ2ljZXJ0LmNvbTEkMCIGA1UEAxMbRGlnaUNlcnQgQXNzdXJlZCBJ
+RCBSb290IENBMB4XDTA2MTExMDAwMDAwMFoXDTIxMTExMDAwMDAwMFowYjELMAkGA1UEBhMCVVMx
+FTATBgNVBAoTDERpZ2lDZXJ0IEluYzEZMBcGA1UECxMQd3d3LmRpZ2ljZXJ0LmNvbTEhMB8GA1UE
+AxMYRGlnaUNlcnQgQXNzdXJlZCBJRCBDQS0xMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC
+AQEA6IItmfnKwkKVpYBzQHDSnlZUXKnE0kEGj8kz/E1FkVyBn+0snPgWWd+etSQVwpi5tHdJ3InE
+Ctqvy15r7a2wcTHrzzpADEZNk+yLejYIA6sMNP4YSYL+x8cxSIB8HqIPkg5QycaH6zY/2DDD/6b3
++6LNb3Mj/qxWBZDwMiEWicZwiPkFl32jx0PdAug7Pe2xQaPtP77blUjE7h6z8rwMK5nQxl0SQoHh
+g26Ccz8mSxSQrllmCsSNvtLOBq6thG9IhJtPQLnxTPKvmPv2zkBdXPao8S+v7Iki8msYZbHBc63X
+8djPHgp0XEK4aH631XcKJ1Z8D2KkPzIUYJX9BwSiCQIDAQABo4IDejCCA3YwDgYDVR0PAQH/BAQD
+AgGGMDsGA1UdJQQ0MDIGCCsGAQUFBwMBBggrBgEFBQcDAgYIKwYBBQUHAwMGCCsGAQUFBwMEBggr
+BgEFBQcDCDCCAdIGA1UdIASCAckwggHFMIIBtAYKYIZIAYb9bAABBDCCAaQwOgYIKwYBBQUHAgEW
+Lmh0dHA6Ly93d3cuZGlnaWNlcnQuY29tL3NzbC1jcHMtcmVwb3NpdG9yeS5odG0wggFkBggrBgEF
+BQcCAjCCAVYeggFSAEEAbgB5ACAAdQBzAGUAIABvAGYAIAB0AGgAaQBzACAAQwBlAHIAdABpAGYA
+aQBjAGEAdABlACAAYwBvAG4AcwB0AGkAdAB1AHQAZQBzACAAYQBjAGMAZQBwAHQAYQBuAGMAZQAg
+AG8AZgAgAHQAaABlACAARABpAGcAaQBDAGUAcgB0ACAAQwBQAC8AQwBQAFMAIABhAG4AZAAgAHQA
+aABlACAAUgBlAGwAeQBpAG4AZwAgAFAAYQByAHQAeQAgAEEAZwByAGUAZQBtAGUAbgB0ACAAdwBo
+AGkAYwBoACAAbABpAG0AaQB0ACAAbABpAGEAYgBpAGwAaQB0AHkAIABhAG4AZAAgAGEAcgBlACAA
+aQBuAGMAbwByAHAAbwByAGEAdABlAGQAIABoAGUAcgBlAGkAbgAgAGIAeQAgAHIAZQBmAGUAcgBl
+AG4AYwBlAC4wCwYJYIZIAYb9bAMVMBIGA1UdEwEB/wQIMAYBAf8CAQAweQYIKwYBBQUHAQEEbTBr
+MCQGCCsGAQUFBzABhhhodHRwOi8vb2NzcC5kaWdpY2VydC5jb20wQwYIKwYBBQUHMAKGN2h0dHA6
+Ly9jYWNlcnRzLmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydEFzc3VyZWRJRFJvb3RDQS5jcnQwgYEGA1Ud
+HwR6MHgwOqA4oDaGNGh0dHA6Ly9jcmwzLmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydEFzc3VyZWRJRFJv
+b3RDQS5jcmwwOqA4oDaGNGh0dHA6Ly9jcmw0LmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydEFzc3VyZWRJ
+RFJvb3RDQS5jcmwwHQYDVR0OBBYEFBUAEisTmLKZB+0e36K+Vw0rZwLNMB8GA1UdIwQYMBaAFEXr
+oq/0ksuCMS1Ri6enIZ3zbcgPMA0GCSqGSIb3DQEBBQUAA4IBAQBGUD7Jtygkpzgdtlspr1LPUukx
+R6tWXHvVDQtBs+/sdR90OPKyXGGinJXDUOSCuSPRujqGcq04eKx1XRcXNHJHhZRW0eu7NoR3zCSl
+8wQZVann4+erYs37iy2QwsDStZS9Xk+xBdIOPRqpFFumhjFiqKgz5Js5p8T1zh14dpQlc+Qqq8+c
+dkvtX8JLFuRLcEwAiR78xXm8TBJX/l/hHrwCXaj++wc4Tw3GXZG5D2dFzdaD7eeSDY2xaYxP+1ng
+Iw/Sqq4AfO6cQg7PkdcntxbuD8O9fAqg7iwIVYUiuOsYGk38KiGtSTGDR5V3cdyxG0tLHBCcdxTB
+nU8vWpUIKRAmMYICLDCCAigCAQEwdjBiMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQg
+SW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMSEwHwYDVQQDExhEaWdpQ2VydCBBc3N1cmVk
+IElEIENBLTECEAMBmgI6/1ixa9bV6uYX8GYwCQYFKw4DAhoFAKCBjDAaBgkqhkiG9w0BCQMxDQYL
+KoZIhvcNAQkQAQQwHAYJKoZIhvcNAQkFMQ8XDTE5MDYxMTE4MjIzMFowIwYJKoZIhvcNAQkEMRYE
+FMdGoz7TI7aJVyaEMCKpYZaHmAA0MCsGCyqGSIb3DQEJEAIMMRwwGjAYMBYEFGFNJx2RAuMBaYIk
+h/3l3gCjUrAdMA0GCSqGSIb3DQEBAQUABIIBAGITDj3+DgRoBkW0sp7O25HjYCs3oObY5+AU39jN
+aBUwaj424qOb0JXPY/jtiHOeJax+X4rinU5WiQhQNDCWtMFTkAMcLYryLkbjwEQ3U1kUSEcsT/U5
+1kMs8dZDrWIxic7Ev+kD7AF8M5UWOuyyhzD3zgVvrcWJRyQhwAkryLk2Gfa+ExScPJr0na4Y39lf
+VabHiFsxXj9q9Vi0oSiB2pmvum44xVmKMeyRdItnc6/UixT2RJoC7XMR0GlwAluyvq6sPEZaS31F
+lgBaySWaLPueRwowannmO+bmtg/Y/O85bRfpvatl7aDg+dQxfKkomBO6DxdPy7B/RJZFp8d2lpoA
+AAAA</xades:EncapsulatedTimeStamp></xades:SignatureTimeStamp><xades:CompleteCertificateRefs Id="xmldsig-2d32a0cb-887b-42d8-addd-13e38c4357e1-CompleteCertificateRefs"><xades:CertRefs><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>mRn00TIx9UqABMrXNeZAMU2WxuMDlNrrFbioulGSLiM=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>cn=MaxSignatures Staging CA G2,o=MaxMD,st=NEW JERSEY,c=US</ds:X509IssuerName><ds:X509SerialNumber>85577667630657960861917334420241445726</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>uF2FhQLz65mJvjXFexoUncNvh0vTMj4Pw8IfV0aOKCQ=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>cn=MaxMD Root CA v1.0,o=MaxMD,l=Fort Lee,st=NEW JERSEY,c=US</ds:X509IssuerName><ds:X509SerialNumber>1537211545487</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>9RUacCjZG6t1qyyXGpyRaIZdVsIvyc4RwNk5cPKfTyc=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>cn=MaxMD Root CA v1.0,o=MaxMD,l=Fort Lee,st=NEW JERSEY,c=US</ds:X509IssuerName><ds:X509SerialNumber>1502994895133</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:CertRefs></xades:CompleteCertificateRefs><xades:CompleteRevocationRefs><xades:CRLRefs><xades:CRLRef><xades:DigestAlgAndValue><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>PhTYeqeOFrlRYSthZicYkJ4U2eEl6Vm4jxK/rHQHFeM=</ds:DigestValue></xades:DigestAlgAndValue><xades:CRLIdentifier><xades:Issuer>cn=MaxSignatures Staging CA G2,o=MaxMD,st=NEW JERSEY,c=US</xades:Issuer><xades:IssueTime>2019-04-30T09:40:02.000-04:00</xades:IssueTime><xades:Number>4</xades:Number></xades:CRLIdentifier></xades:CRLRef></xades:CRLRefs></xades:CompleteRevocationRefs><xades:CertificateValues><xades:EncapsulatedX509Certificate>MIIGqzCCBJOgAwIBAgIQQGGoxalDD4IdNo30Nw7zXjANBgkqhkiG9w0BAQsFADBYMQswCQYDVQQG
+EwJVUzETMBEGA1UECAwKTkVXIEpFUlNFWTEOMAwGA1UECgwFTWF4TUQxJDAiBgNVBAMMG01heFNp
+Z25hdHVyZXMgU3RhZ2luZyBDQSBHMjAeFw0xODEwMDQxODEzMjNaFw0xOTA5MTUxODM0NTNaMEEx
+IDAeBgNVBAsMF1lhbiBXYW5nIFNpZ25hdHVyZSBDZXJ0MR0wGwYDVQQDDBR5d2FuZ0BkaXJlY3Qu
+ZXZhbC5tZDCCAaAwDQYJKoZIhvcNAQEBBQADggGNADCCAYgCggGBALKk8BeF2fjRliOoLJ2UDQII
+wXdTaztCKrh3MDiG6vXR+vEXEv0jSxHldaHrfTVC+SkKGXv12qO1WvfAcfed8MrdCQFmqVfJWfkL
+onbysB2CPtbl8QKTnGmtrZnTnI0iJ4IRcoI2hrhrweozbhjCoKJBJJn7rbbtB2TZaWXOd2Db6le/
+xRsMfKBUcDLDkFo5u16rpXP4gP5ob5dwxE0uRgtn2AMtamoH1PkugCeDl2999vdvm0JHlsYF+yli
+N991SM/kLj6ShLLXbQ6c6RozkobCnvL1krmYEuDeEHVXL37mogDPPdNPOkOaVrUcVsd9sQ9SIZN1
+sCQLe3OonUwCTeuX9sNI9rZ3c4KCFW02K92ckqaMG2PDEN7HjW9oTAZnbWYXqbf0xDfM0C/Nu3Hg
+dUxXyn31VajeHCcwzjPz4JCurLs1aFvcQX2PZfK12vhvYcofqkvZGb4+2pGL8HrLA1yYXIBkHKY1
+3ES3EWwQpRFxdZJuGg6+3loLRnra42rLQQIBA6OCAggwggIEMA4GA1UdDwEB/wQEAwIE8DAfBgNV
+HREEGDAWgRR5d2FuZ0BkaXJlY3QuZXZhbC5tZDAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBQUmU+q
+MPaiJz8DzSYdmBvRrHthgzAfBgNVHSMEGDAWgBQrxEEtlBGfsjPUOJv/QO3DiKEjpzCBhQYIKwYB
+BQUHAQEEeTB3MHUGCCsGAQUFBzAChmlodHRwOi8vd3d3Lm1heG1kaXJlY3QuY29tLmV2YWwubWF4
+Lm1kL0NBX1JlcG9zaXRvcnkvTWF4U2lnbmF0dXJlc1N0YWdpbmdDQUcyL01heFNpZ25hdHVyZXNT
+dGFnaW5nQ0FHMi5wN2IwegYDVR0fBHMwcTBvoG2ga4ZpaHR0cDovL3d3dy5tYXhtZGlyZWN0LmNv
+bS5ldmFsLm1heC5tZC9DQV9SZXBvc2l0b3J5L01heFNpZ25hdHVyZXNTdGFnaW5nQ0FHMi9NYXhT
+aWduYXR1cmVzU3RhZ2luZ0NBRzIuY3JsMH8GA1UdIAR4MHYwDAYKKwYBBAGCwVsBATBYBgsrBgEE
+AYLBWwABAzBJMEcGCCsGAQUFBwIBFjtodHRwczovL3d3dy5kaXJlY3RtZGVtYWlsLmNvbS9kb2N1
+bWVudHMvTWF4U2lnbmF0dXJlc1BvbGljeTAMBgorBgEEAYLBWwIEMA0GCSqGSIb3DQEBCwUAA4IC
+AQBccZWaEKYqQLPyl6/QpPIBDCULc7mMgmp87hl/bFXMw+p4vO+AJnYAgC5/A9h3hTsNvBIsy9kJ
+NnWpl569YAa5w4gZbQyWodFavZKyXbYgNdgqOHJztVHxfUVUlIKXhNyyZbD7NjYl3vc4LZy7FWtS
+06MuZ6jlxsZxdz9Pl7tliHeAZ2ditTY0DV3Y0oYqbTHB8dnMj6Q7j3PGiLL4J6GLnOpM/r4+hXJT
+JBPepZOdTIp/xxPEg7awlnMyq2gs75wyoAsHazVcWxkcicUcMYAIRRA8KKOstPEgsvX74ofrO5Cj
+iAmejpCNwYFQEPjKxpSbxXhtH1j/+zoLMDehzkah7q3oWUuQBBu6C7Cv3jGDiynxzpRoJuwX0NAd
+nqtYcuEyaHpH+DuaYiV8Llwp2twgGF4MNdWqbRmn6ON1+iMHeK4sP4LHMkisONpim75V1ezXfR85
+3CkTk++5HsuUOnXAlH6Yemp2nCgPoChskybzH1CjDKkfFwGMhJPfo4at6AWWmoV0MNwgtw9GXlfn
+9NC4MrMOg6J+8GW1axIrXeju5Xj+CPgbeHP1mMdEZxdyrV4xPZwB9ZB7Su8khIlwl7RQ2w4/TVGv
+B4cxG27kslSeU3B+WxGud6xIqaRR3b9x4uBwXi6EnsAPlgJNmwe0wwS7YzE7L4OtWbH4C6FBnKhQ
+Hw==</xades:EncapsulatedX509Certificate><xades:EncapsulatedX509Certificate>MIIGszCCBJugAwIBAgIGAWXo8rePMA0GCSqGSIb3DQEBCwUAMGIxCzAJBgNVBAYTAlVTMRMwEQYD
+VQQIEwpORVcgSkVSU0VZMREwDwYDVQQHEwhGb3J0IExlZTEOMAwGA1UEChMFTWF4TUQxGzAZBgNV
+BAMTEk1heE1EIFJvb3QgQ0EgdjEuMDAeFw0xODA5MTcxOTEyMjVaFw0zODA5MTYxOTEyMjVaMFgx
+CzAJBgNVBAYTAlVTMRMwEQYDVQQIDApORVcgSkVSU0VZMQ4wDAYDVQQKDAVNYXhNRDEkMCIGA1UE
+AwwbTWF4U2lnbmF0dXJlcyBTdGFnaW5nIENBIEcyMIICIDANBgkqhkiG9w0BAQEFAAOCAg0AMIIC
+CAKCAgEAqzuM8M6/VI8KNVZ/FvlJWeiHGwQxaQzdMYv25wXXMGLS9j8N9fWCmXde6a8RY8ulcoz9
+zflSb//KzXY7uk5D3vG2V2z2Bq5B5BhCi/RwFnNix65ATMqvPxRsPKZhfjAKEdgrri28xJxeCBXK
+aHFiNizA+DJa4z+bAldCQRmMo6Rz8DfbUqi/hS+P8m4yWKg1ZpLoz8UmDlrnY+DI4Ty8UElYQyOV
+jUKs1vaOPDbTINzupnMxtO78CubegVRqlwLlC/L6txxLSEpkaB+4TnwU++NfojhIHMWlVCXCF1GX
+U+5osmywaAQpZNWEiNVKLmFyHUUw5aujs2bQs8KbfNwJW/GIWIHyi2BIeFnVZ2buclr9q/ITmxoN
+edUzgVJDS0UEWJhc+l2Kaw9qDljOugGnzb/wme4UIe4G0BxwQ1ELIaCZXFa8t4kohVIX93qbg1sx
+CXlqOBt8AUM8PFvKXgCo+Rv3XaNVLvicALrrNn/0Q9kXUq4opM6VyMAbZJKNxLOnQU/Z27l1F1BV
+vm6CPqAsEAflha/RnQQrpCygHepJIHzPpMEgTYrgGDAbDU/h+4VvCTXOqfHjwMi0FqhN1X4OqygN
+VxAa5UAlnAn2lByvdNE17vEfcBo0M+9sOWCt/AA1CBalEfvLBdoZXF3EbOQkOVB6pVrgpKK7a2Fc
+k4EgjdsCAQOjggF5MIIBdTAOBgNVHQ8BAf8EBAMCAYYwEgYDVR0TAQH/BAgwBgEB/wIBATAdBgNV
+HQ4EFgQUK8RBLZQRn7Iz1Dib/0Dtw4ihI6cwHwYDVR0jBBgwFoAUZ7WyAXxPQ+gVnVY/iShyZlOc
+BoAwXQYIKwYBBQUHAQEEUTBPME0GCCsGAQUFBzAChkFodHRwOi8vd3d3LmRpcmVjdG1kZW1haWwu
+Y29tL0NBX1JlcG9zaXRvcnkvUm9vdENBL01heE1EUm9vdENBLnA3YjBSBgNVHR8ESzBJMEegRaBD
+hkFodHRwOi8vd3d3LmRpcmVjdG1kZW1haWwuY29tL0NBX1JlcG9zaXRvcnkvUm9vdENBL01heE1E
+Um9vdENBLmNybDBcBgNVHSAEVTBTMFEGBFUdIAAwSTBHBggrBgEFBQcCARY7aHR0cHM6Ly93d3cu
+ZGlyZWN0bWRlbWFpbC5jb20vZG9jdW1lbnRzL01heFNpZ25hdHVyZXNQb2xpY3kwDQYJKoZIhvcN
+AQELBQADggIBAFwmB6W+Fk1GSYGitkIeITihd+zAa7UYU6va4PMe+9pESg9lDpldRRsULb9s6pTP
+Ukn1ioSvX1unK+MZr/ZkiMIlF8jXjWD/ic+1JhacAiZHIXwCjS7siKAQjoI3uGybdiUzeUGV3MmW
+XV9lT9pirivZM2MbvcEOZLLfLoRYlHx3xlawwULtBO94RerF7wh/LgWq+pdXMdbTzZSbHHPh8pRX
+svb2g4Lp0+hFoJ+rKpfFv5ePoAu55rLr/uMSVHqd9gFPl6DQzc3G24Y1qQDFyGxHeB+qDxGe7ezK
+6sYnctVBEfa0Ha47T7gTRMRLSh1DTwpGEeosCmlSL/rVXg1XYCUPQllsr2hutcXJLc+A81z7J2cr
+pQSVP+U7wxcULRMc/vtOB2VBQEVMWn5UQuO350e6FGYUzkDr77nrLTUttglLDVLd+sYpWTbZsvI3
+2CTKPJFTp8x4rPzrprjCCOya5YJ7tNTwKutwQ2Icl6g/8gT17liNqo7+rUhvHFstjjfJZTEPcTzB
+dnWLhuryhV2YvqfGrIQliTR2fXUSbh3vZdFiH8gwiC4zSP4HRB1G1bkWFwNnV+Ihq6wZO9Tjrg2E
+gGKFI6UTTxSN2Kisjs8KaNRcwHg+33759bYPErERrDD9V/IXISV6OKsWEI+2CwDaYPykbvYTDJfo
+yvRjmWj207YF</xades:EncapsulatedX509Certificate><xades:EncapsulatedX509Certificate>MIIGADCCA+igAwIBAgIGAV3xehEdMA0GCSqGSIb3DQEBCwUAMGIxCzAJBgNVBAYTAlVTMRMwEQYD
+VQQIEwpORVcgSkVSU0VZMREwDwYDVQQHEwhGb3J0IExlZTEOMAwGA1UEChMFTWF4TUQxGzAZBgNV
+BAMTEk1heE1EIFJvb3QgQ0EgdjEuMDAeFw0xNzA4MTcxODM0NTVaFw0zNzA4MTYxODM0NTVaMGIx
+CzAJBgNVBAYTAlVTMRMwEQYDVQQIDApORVcgSkVSU0VZMREwDwYDVQQHDAhGb3J0IExlZTEOMAwG
+A1UECgwFTWF4TUQxGzAZBgNVBAMMEk1heE1EIFJvb3QgQ0EgdjEuMDCCAiIwDQYJKoZIhvcNAQEB
+BQADggIPADCCAgoCggIBAKxNCBFKNZrAIfMaTgyDssrvyLPlSmpRS6lcJNeroDzMWlA1vBNMNOQH
+E+AUWwyYW3p9kOS93WgHAjwYAQr6a9rmS3B6UECtuYf163cC45uzlQOE0JMciiHHVw0BnvfQrV1L
+/HDWK7AKyKt9YFTygk2BFqrS4wBw3jRURisDM+ST27QkwzTdMEpXEiLzGuLuMcMYug7bOc8G98QQ
++CmnejLIVjaO2u+fEOEUZtgXKb1ij3CIhyu2hq4m19pHWQJkNTNeNG0TjmiBOvAD7KO2zJGdxeQp
+Q+B8+aOUgDsYDl/7KPYViHn7Rh5jkWhDQvpsbqP5vcGbMx+3Uu4iLHCT3JqrUYwVFBhAvBquNzdi
+jo88CikROod3cU72g/72DBFUuncZpxttubvO14IR1sRGm9uWjd6v6aDZA5TVAWyJribSDf16DB+X
+GRPxKM22TpQXM1WCEBWxl9HQMinB96cTvFR1oMKDZNXhbWZ2M9ZOVvHK5C52IxO0rAxXi8u0IDTe
+eVloe/QCQF/JnhAl4eYkstnxCVnA5AA7SzqP2EC7f3nwIGZypiFTRbdYwdPT802KfVmDtCPfFF6V
+0gJnf1efFNU4m4xyGoVWzIss/3G4ILsW36mnG1pl134ZdIQINra+mt/EVBj/m1hf5tY/Ba4IipKj
+pmRmC+JzimlvAyOixOOjAgMBAAGjgbswgbgwDgYDVR0PAQH/BAQDAgGGMA8GA1UdEwEB/wQFMAMB
+Af8wHQYDVR0OBBYEFGe1sgF8T0PoFZ1WP4kocmZTnAaAMB8GA1UdIwQYMBaAFGe1sgF8T0PoFZ1W
+P4kocmZTnAaAMFUGA1UdIAROMEwwSgYEVR0gADBCMEAGCCsGAQUFBwIBFjRodHRwczovL3d3dy5k
+aXJlY3RtZGVtYWlsLmNvbS9kb2N1bWVudHMvRGlyZWN0UG9saWN5MA0GCSqGSIb3DQEBCwUAA4IC
+AQCltEgGQugSclYk5Q/WnIaY55FVq+fiBFnqILvHnF7lMLkhhOIu7zb7mf4ghbVfb8Col4xn6dAC
+/aiaw13Ojwe9K0Atfo8fnSaJ16move3MND46M730qejD20e14ORAeJ5dDhq/oFo0aXqJRHT9EF8W
+8ljBvbU5cWdWRU41MVF5kkxS6KRR1cNO3oQY4Bwh9JzNwP+ncdLzt9fm2cr6OSZAHGAsKTSnJFmk
+8DMaSWGSUyIs7+0pAKN/+gQJgwwXqnhOlqXRL+zsVZZs+gzRj3TWByjc6ZOCzo+dDVBUhFyKROFn
+KfveAyPGC19jGqbjLDesESuX+AM6VrAOqZd+1nQv1UR2c4QsBlXpE0hpD0uMGwtfR4zaw54H8Lhf
+GzLI0ZGpTh3Amj6phiKMrV9TLamRWUMfkprLUl7AJl+pm+rLNT7Fu4hhoTaltGBI2UdTmvOmuUxw
+51zlKjUZgY/oiO4YFOEoodQsyGUYfmkNXd7GRRF5SkePjex15sv9LoTCz6Ft5mYS2G2p5+io2Smx
+hK/QFsw3Ey0wUaKCUWwLl7tWDZlq1fldMe/GzBkdtUuz9rIyvaMCcnzvKgMJSVvXbqUwGY9UN+1z
+kOzG7XteAHOAfRYshq5n59YgSF2Yb9GNW8uVzSZausB5FELM6cONAzs6tmbKP+PGpht8UJCO9jDS
+4g==</xades:EncapsulatedX509Certificate></xades:CertificateValues><xades:RevocationValues><xades:CRLValues><xades:EncapsulatedCRLValue>MIIDHDCCAQQCAQEwDQYJKoZIhvcNAQELBQAwWDELMAkGA1UEBhMCVVMxEzARBgNVBAgMCk5FVyBK
+RVJTRVkxDjAMBgNVBAoMBU1heE1EMSQwIgYDVQQDDBtNYXhTaWduYXR1cmVzIFN0YWdpbmcgQ0Eg
+RzIXDTE5MDQzMDEzNDAwMloXDTE5MDUzMDEzNDAwMlowRzAiAhEArPdi2Zum+l7YlnpeLrcgWBcN
+MTkwNDIyMTQyNDU3WjAhAhAPmcGxrleE5YBvLz1uZ+oHFw0xOTA0MzAxMzQwMDJaoC8wLTAfBgNV
+HSMEGDAWgBQrxEEtlBGfsjPUOJv/QO3DiKEjpzAKBgNVHRQEAwIBBDANBgkqhkiG9w0BAQsFAAOC
+AgEAphc6bIZJ6mkOdjCZGp/MVM6/b0HlmWQIvbFYOM8FbSqcKFknih7X4Ti0cyOgGavRXxVsAMtv
+xUDNo5J3zL5oihmzTU0LbAt9QYU8pvoQX+8uKOOZaQCDc60xU+9lGc7jow67LdppPA1mq4guH/b2
+Rbh9nBYlJ/WlRiaJWSa6Rf5o9xmubn4eR6lCLDGEqiOdaTwUDMFZmqgqHESmQ2p1GN9TfktEiEI+
+h/GSp9RHXXW6vWYcr/VG5YguvRk5/aB3MWpeG2S9X3/N9KZB7YAzirpf1lYj8C7XJDIQX0MNm+2T
+z0F/VhCNYaIoQ23pOJy7CNYvBXEbbnOhkWVWlN+DmJnqqeRKtdPTn0dSzLR3QXW1fs04ylFHaRf4
+Gf2wYG9+NBXxaPI5i45U9mN4follRnn9CmYbMhkfa507UEvZkny63qvrNpZRJ1JEhO69XppYRVFo
+Sngtk9TiKth8qjq8i9ph1kBIuoaonuy0zLZkoPfelh9dijaI4nJSX9JR3OhSxbxMR3pn7XMKyG6n
+mcDiLfYaiZIbIKOx9kBdI0RFc3lS9xQAMi3pBqrAJ9YKpWXuagQjeQ5j5qHIR4vm+YOZdvb4vma3
+N8w8TDF/02r8bRalit6FBc0m4717VIirhsSvPmfsX6v9tkhmB/4NZ1XyWTwCUE34BzhDMWX9bHBw
+V8A=</xades:EncapsulatedCRLValue></xades:CRLValues></xades:RevocationValues><xades:SigAndRefsTimeStamp><xades:Include URI="#xmldsig-0e006e48-0128-47ca-a254-45aeb9d84938-sigvalue" referencedData="true"/><xades:Include URI="#xmldsig-2d32a0cb-887b-42d8-addd-13e38c4357e1-CompleteCertificateRefs" referencedData="true"/><xades:Include URI="#xmldsig-8b10911a-f1c1-4e0c-8ba4-3ce7d578c76a-CompleteRevocationRefs" referencedData="true"/><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><xades:EncapsulatedTimeStamp>MIAGCSqGSIb3DQEHAqCAMIIVAwIBAzELMAkGBSsOAwIaBQAwggE4BgsqhkiG9w0BCRABBKCCAScE
+ggEjMIIBHwIBAQYLKwYBBAG/VQNkAgAwITAJBgUrDgMCGgUABBToz2MASwJvrsoYHcSTtIs/8Cwv
+awIFAS/UZdgYDzIwMTkwNjExMTgyMjQ0WgEB/wIGAWtHxvaIoIGqpIGnMIGkMRcwFQYDVQQDDA5U
+U0ExIEFDQ1YgMjAxNjEQMA4GA1UECwwHUEtJQUNDVjFEMEIGA1UECgw7QWdlbmNpYSBkZSBUZWNu
+b2xvZ8OtYSB5IENlcnRpZmljYWNpw7NuIEVsZWN0csOzbmljYSAtIEFDQ1YxETAPBgNVBAcMCFZh
+bGVuY2lhMREwDwYDVQQIDAhWYWxlbmNpYTELMAkGA1UEBhMCRVOhGjAYBggrBgEFBQcBAwQMMAow
+CAYGBACBl14BoIIQOzCCCGAwggZIoAMCAQICCA10r2ZLtWkNMA0GCSqGSIb3DQEBCwUAMEIxEjAQ
+BgNVBAMMCUFDQ1ZSQUlaMTEQMA4GA1UECwwHUEtJQUNDVjENMAsGA1UECgwEQUNDVjELMAkGA1UE
+BhMCRVMwHhcNMTYwMjI5MTYzNzUwWhcNMjkwMjI1MTYzNzUwWjCBpDEXMBUGA1UEAwwOVFNBMSBB
+Q0NWIDIwMTYxEDAOBgNVBAsMB1BLSUFDQ1YxRDBCBgNVBAoMO0FnZW5jaWEgZGUgVGVjbm9sb2fD
+rWEgeSBDZXJ0aWZpY2FjacOzbiBFbGVjdHLDs25pY2EgLSBBQ0NWMREwDwYDVQQHDAhWYWxlbmNp
+YTERMA8GA1UECAwIVmFsZW5jaWExCzAJBgNVBAYTAkVTMIICIjANBgkqhkiG9w0BAQEFAAOCAg8A
+MIICCgKCAgEAuRPEs7jJ42ytw8DDAhEJp1vN/TJtMkBDKYX9KgsPdWF0TuOuvHvwF+D5yzGRKExg
+IDKAFGX3XsV4EZ0DsRybfeFI8/PCdQP+kJjo1izQx10uhyxQyKlsQxD1m9729kHnrtwo8S1tKYMO
+VbQ3p7l24PKZOEFWJkveh9WV1f3mJoFx7itEBNKPxI8lTjmOmlerMX19oRoc5BqVOG+Z2uHA+Hvb
+x1vbKUGGygaUcoBlKzIh9aHY+tFzmw9X4WcfwgHFn1adY5Koq3oIls7uV9k71B8NMSDE6QhjENSo
+Cs78SzMOrA9jAPuK500E1sxGhWk0+ZeGhsBak+EODuAKecW3Otdg8APMCNRWX3yRDTU5auS2BqkN
+uwz9/gH63WVl4gi0THpjmGeqkgoTnDN2hQEYhiWnU6dRf0uPN8SI/h6QqtFLKB2kFwnVFSv2FmOW
+r/uLogu8d1hSHQCQqHwLtBIOxbZv5srKQRq6qQ4MxCWeadzP/s46icT/35UtCzlUEC7I2dOELQcD
+0h7EflDUw+eVXnOL6kxrE+prrb3vvM3H0ZIHsitKQt131gh8TqhiNmmK4BsrlzCR9GsWtVINSZim
+5ostEpgnMToTK9ehjoS9m/eo0ZFyj6D29RmPxKAfbIpNx/OS9Lwpxikk7MD3eqbtTYP2rikA1tKt
+dkqtREKCvQkCAwEAAaOCAvUwggLxMGYGCCsGAQUFBwEBBFowWDA1BggrBgEFBQcwAoYpaHR0cDov
+L3d3dy5hY2N2LmVzL2dlc3RjZXJ0L0FDQ1ZSQUlaMS5jcnQwHwYIKwYBBQUHMAGGE2h0dHA6Ly9v
+Y3NwLmFjY3YuZXMwHQYDVR0OBBYEFMbE2EDISJSdnUtRw/pO1Q5UYpWUMB8GA1UdIwQYMBaAFNKH
+tOPfNyeTVfZW6oHlNsyMHj+9MIIBxgYDVR0gBIIBvTCCAbkwggG1BgsrBgEEAb9VA2QCADCCAaQw
+ggFuBggrBgEFBQcCAjCCAWAeggFcAFMAZQByAHYAaQBkAG8AcgAgAGQAZQAgAFMAZQBsAGwAYQBk
+AG8AIABkAGUAIABUAGkAZQBtAHAAbwAgAGQAZQAgAGwAYQAgAEEAZwBlAG4AYwBpAGEAIABkAGUA
+IABUAGUAYwBuAG8AbABvAGcA7QBhACAAeQAgAEMAZQByAHQAaQBmAGkAYwBhAGMAaQDzAG4AIABF
+AGwAZQBjAHQAcgDzAG4AaQBjAGEAIABJAFYARgAgACgAUABsAC4AIABkAGUAIABOAGEAcABvAGwA
+ZQBzACAAeQAgAFMAaQBjAGkAbABpAGEAIAA2ACwAIABDAFAAIAA0ADYAMAAwADMAIABDAEkARgAg
+AFEAOQA2ADUAMAAwADEAMABDACkALgAgAEMAUABTACAAeQAgAEMAUAAgAGUAbgAgAGgAdAB0AHAA
+OgAvAC8AdwB3AHcALgBhAGMAYwB2AC4AZQBzMDAGCCsGAQUFBwIBFiRodHRwOi8vd3d3LmFjY3Yu
+ZXMvbGVnaXNsYWNpb25fYy5odG0wVQYDVR0fBE4wTDBKoEigRoZEaHR0cDovL3d3dy5hY2N2LmVz
+L2ZpbGVhZG1pbi9BcmNoaXZvcy9jZXJ0aWZpY2Fkb3MvcmFpemFjY3YxX2Rlci5jcmwwDgYDVR0P
+AQH/BAQDAgbAMBYGA1UdJQEB/wQMMAoGCCsGAQUFBwMIMA0GCSqGSIb3DQEBCwUAA4ICAQAI1gww
+OnXZgzydbdPXVP9P+1W7gsKkITDjZJPD4Z/jbSKFAMVrA5PDmGtQrjkhh78isrNL4C9zDSZRcZ6/
+lBND52IWe8M/M4k7CPaeRt2wf+xLr8NbOef/uJMcqRqCXiWGPPiWsfaU/sdVbmReVL79onO4EAmM
+GuV9IEhlwHVYMyi2C7r86L4raZLiIGw5lZoRsN+hry0OhQLcUCW9jJoH7m6O0QZYq8YDJZMgcMWU
+Xm+1VjenUwApvd90owmP6UoI6NdYhqTUXEZUykSFOfMqLHWWtt/YGVPt08bHzYn8LpTEk4OfJWIh
+xLnxyioLZYQAnSpvCcGl9RdGn6IJ9OmcMwSsVIF2/bMVBXR5SM7tJXmM1C4NdQw+vwpKorsoJ1TU
+IQGvHTQbDMG0OdKzkmzKtWsyGTbqBejqPXJR+Qs+4xCrftcTGJPy5quGVHRNCLkNrXs2nTl5/weq
+6g3OMRYSinE1Ldlaa01Chlgl01+PRcIQ3Zsj9/wZS+tjZL5QC6K4w9holuFqmjonHnxNslZqr+B/
+YIeBe9HhGvAj6sWGO+TCJiKEBrc5OPb3g3ut2I4tWbE2OybuJPM/WCng446Ow2dXNTaEDnmnX6BG
+wAgXm9jUnKLIISwAs/j49DtnjqNSyLtnuPTpxHklUs1Wc/NqtgZuwZlI06YGcr1YZYYJQDCCB9Mw
+ggW7oAMCAQICCF7Dt6ZDf6TgMA0GCSqGSIb3DQEBBQUAMEIxEjAQBgNVBAMMCUFDQ1ZSQUlaMTEQ
+MA4GA1UECwwHUEtJQUNDVjENMAsGA1UECgwEQUNDVjELMAkGA1UEBhMCRVMwHhcNMTEwNTA1MDkz
+NzM3WhcNMzAxMjMxMDkzNzM3WjBCMRIwEAYDVQQDDAlBQ0NWUkFJWjExEDAOBgNVBAsMB1BLSUFD
+Q1YxDTALBgNVBAoMBEFDQ1YxCzAJBgNVBAYTAkVTMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIIC
+CgKCAgEAm6mrv2FKl68vl2aadF/Q2Zb9z+LkZu8fH0czwkSj35reH7VU3RV8aTURb7vIDI5qGB7Y
+j9kWvBBINlzwY7OQWlwkN9ej1ssJcbnxAXKEsH3bTYDN/NNvyfjatg6C0kWFqBtoqD3o9ERsvaHC
+ywO+jD4TAITfSkjA4yIK6Ok3pxhMsQkNI1Z/BE3ZF4QYpcjaQJRz684OVzwDgTqdCqFXQ2msV215
+kHjltbQ72LxMjSihp6OnugJOJdEqru2uAyK4ayAPMChUlX/g7s4KZp3RQC1uIq+dGsEFGdJvwPKf
++HuzAkL7UKkdLZMPI6vGwQ+S/9CiFfVTCXEc/0UThOYmXvjgiBwK/Ba2qHMGuPBjhAKgxlrs53Tf
+cK6jgyXq1seXh5OnxoqKM5dgNxA+lz5uKRXWoQ/RiCwSn2+qpMZC60Gi45VD0wGFbY67O/MjNsf+
+O+ChJQdIq8mJdP8Ij4C/wJZl8+7sS2i9nYjDMbNA8ejP9ji7nOTRf9TlWJt8+tTzDpt1keS6Ui4Z
+ftH1zVoZ/LoG9vtSqEuZBN34+bSLUKNOYonwhyT6g0LBh/rVLSkqWnF6ZGrXJ2BjDdvOSfWNH5CJ
+Mhf4c0O40lqThmHW4XUK6nlmdohPcesEJdYKWnqT5blLF0APsba59d5P3OCzrDsRcGCESkNumSDA
+KXEKwGUCAwEAAaOCAsswggLHMH0GCCsGAQUFBwEBBHEwbzBMBggrBgEFBQcwAoZAaHR0cDovL3d3
+dy5hY2N2LmVzL2ZpbGVhZG1pbi9BcmNoaXZvcy9jZXJ0aWZpY2Fkb3MvcmFpemFjY3YxLmNydDAf
+BggrBgEFBQcwAYYTaHR0cDovL29jc3AuYWNjdi5lczAdBgNVHQ4EFgQU0oe04983J5NV9lbqgeU2
+zIweP70wDwYDVR0TAQH/BAUwAwEB/zAfBgNVHSMEGDAWgBTSh7Tj3zcnk1X2VuqB5TbMjB4/vTCC
+AXMGA1UdIASCAWowggFmMIIBYgYEVR0gADCCAVgwggEiBggrBgEFBQcCAjCCARQeggEQAEEAdQB0
+AG8AcgBpAGQAYQBkACAAZABlACAAQwBlAHIAdABpAGYAaQBjAGEAYwBpAPMAbgAgAFIAYQDtAHoA
+IABkAGUAIABsAGEAIABBAEMAQwBWACAAKABBAGcAZQBuAGMAaQBhACAAZABlACAAVABlAGMAbgBv
+AGwAbwBnAO0AYQAgAHkAIABDAGUAcgB0AGkAZgBpAGMAYQBjAGkA8wBuACAARQBsAGUAYwB0AHIA
+8wBuAGkAYwBhACwAIABDAEkARgAgAFEANAA2ADAAMQAxADUANgBFACkALgAgAEMAUABTACAAZQBu
+ACAAaAB0AHQAcAA6AC8ALwB3AHcAdwAuAGEAYwBjAHYALgBlAHMwMAYIKwYBBQUHAgEWJGh0dHA6
+Ly93d3cuYWNjdi5lcy9sZWdpc2xhY2lvbl9jLmh0bTBVBgNVHR8ETjBMMEqgSKBGhkRodHRwOi8v
+d3d3LmFjY3YuZXMvZmlsZWFkbWluL0FyY2hpdm9zL2NlcnRpZmljYWRvcy9yYWl6YWNjdjFfZGVy
+LmNybDAOBgNVHQ8BAf8EBAMCAQYwFwYDVR0RBBAwDoEMYWNjdkBhY2N2LmVzMA0GCSqGSIb3DQEB
+BQUAA4ICAQCXMQKf5/1DZ0hEFOQph+1MKGbQjzXaTWG3SpdNtduQ4AUuDsZ50PKXaQ+9BEfZvtu1
+Kdqb2a6pmdXTPDCT9Y2hqPwGjUT0yhaVfDPcYouoN/gn2AktG+/IFCcgqWRE/y7WdapsTWBAGUlD
+VGPa4sy6ZuVPRHpb2WqBK0DVf/kBJ1gsyO1IkXw/pgDPxClzETbehhk+ne4ZihvVsO2OPZwqwA3Y
+PWbjPA291ZRc4uKnNRsEAPY/Wo3qQ71fiR2pwbDMmeJNAAraySdb5xOQXOT1M6JVbdzgCU0vsSZb
+J3UACcRidykIX55ZrLZ+rZ9UMCIDwR5xZP75OAqWGN0CFKwjywYcHqR9jQ3eJ0HordoVt7Aj3Suo
+09olh+3oVURNiPQ2foSaeKz3DlZJDtYzJdaEUEJsIBIdKtW+vPJwgaRwYL4FtZueBES+YSOs6aUk
+jBGAlFqiorlJ0sHc0aftMREsnhmm7uFV4cDqzw2E5Be3onyl3lUlBu7MwIdcQNrMlT9V4DXHuIS+
+tF3NeoMBcu6H5l8drrWFxibf5sGa6R4CR58qqG2pW8/sRXd/mCeaMl0q44TuxZhmL5YgHd3YwyfX
+sPn+2X3N0J+PCxRYUZ8vi8M4Ld7oj9aNh6T1VkMWmSz0pFa0NLhhN8nCWIAboJeh/FmN6RH20Q9L
+VTRGKouGOzGCA3QwggNwAgEBME4wQjESMBAGA1UEAwwJQUNDVlJBSVoxMRAwDgYDVQQLDAdQS0lB
+Q0NWMQ0wCwYDVQQKDARBQ0NWMQswCQYDVQQGEwJFUwIIDXSvZku1aQ0wCQYFKw4DAhoFAKCB/DAa
+BgkqhkiG9w0BCQMxDQYLKoZIhvcNAQkQAQQwHAYJKoZIhvcNAQkFMQ8XDTE5MDYxMTE4MjI0NFow
+IwYJKoZIhvcNAQkEMRYEFFe4YiBAEEkHb9G2AJ64m0vlhH6aMIGaBgsqhkiG9w0BCRACDDGBijCB
+hzCBhDAWBBRHfmx70VTNZHUzg+GMHZMc8akN+DBqBBSTBXqIFcZPzogv+pEWUih4vFNkFzBSMEak
+RDBCMRIwEAYDVQQDDAlBQ0NWUkFJWjExEDAOBgNVBAsMB1BLSUFDQ1YxDTALBgNVBAoMBEFDQ1Yx
+CzAJBgNVBAYTAkVTAghew7emQ3+k4DANBgkqhkiG9w0BAQEFAASCAgA0YmCZTtSJtLFuIyUN4JZQ
+WNTSOt3atol2JeRiCbpGHUChDNJc/hanePE2BpBvDAoh3HrgNo9VbtwnsJ7f/LrI0eBB68rxh/Lf
+u2GFmEKa2qrwBcSKnjImLOnOzcE+QynhzWYtitk0m4TLE9i6VEWZbWjQe6iSz5vT4u9SMA7ULAIa
+UsB4xVYW/wjg5TmtwjhOzc3cUnGSsnVbd/dAZewIK5M+8CvNRq/8dGieF0FDWieN0f+hvtmKQdKS
+alvUoggd4y4i4fQRbwe3C2pBs/K6m3VUlyi4eMEBmEUBzTieP0tpmPC/lpeuB/rt4cYR5XD+peVm
+TCQ1S74i5i33aIFt4KtgOL0wHAFpWwstnE6qBsFaZsnL21seoni/Fg5RPzzgZZpYUkRxAKWC9L2L
+aClgiiTym8FD09s+I8wzFmRfALIkmeaKl1j1zjiWH/WlPEV/Au5ldhLZaY2bFPLSXCNy6+2Frcrn
+kDqXmbWrtCP6Lh6+n2jd1hAZT4/NNcxYCTHU6Zd5WUXKnQHhvT4Ef93IRg64kfRkFsVoBaq+CYiU
+oVd9vNByqZ09sCIO/RYCGS8qVih49KHYiyRVmrZHX+B2iPp+maBIY3TOFZsqUitFDqOn/1S2lIEL
+4HZL5P04FfhDDieV9aI9nAZN3yFunUTQpg6tBCfoMrOu8oSsQAd4jwAAAAA=</xades:EncapsulatedTimeStamp></xades:SigAndRefsTimeStamp></xades:UnsignedSignatureProperties></xades:UnsignedProperties></xades:QualifyingProperties></ds:Object>
+</ds:Signature></authorizedSigner> </digitalSignature></sdtc:signatureText>
+</legalAuthenticator><documentationOf typeCode="DOC">
+        <serviceEvent classCode="PCPR" moodCode="EVN">
+            <code code="64109004" codeSystem="2.16.840.1.113883.6.96" displayName="Costochondritis"/>
+            <effectiveTime>
+                <low value="20120407"/>
+                <high value="20120407"/>
+            </effectiveTime>
+            <performer typeCode="PRF">
+                <functionCode code="PP" codeSystem="2.16.840.1.113883.12.443" codeSystemName="Provider Role" displayName="Primary Care Provider">
+                    <originalText>Primary Care Provider</originalText>
+                </functionCode>
+                <time>
+                    <low value="20120407"/>
+                    <high value="20120407"/>
+                </time>
+                <assignedEntity classCode="ASSIGNED">
+                    <id extension="PseudiMD-1" root="2.16.840.1.113883.4.6"/>
+                    <addr>
+                        <streetAddressLine>Get Well Clinic</streetAddressLine>
+                        <country>1004 Healthcare Dr.</country>
+                        <city>Portland</city>
+                        <state>OR</state>
+                        <postalCode>97005</postalCode>
+                    </addr>
+                    <telecom nullFlavor="NI"/>
+                    <assignedPerson>
+                        <name>
+                            <prefix>Dr.</prefix>
+                            <given>Samir</given>
+                            <family>Khan</family>
+                        </name>
+                    </assignedPerson>
+                </assignedEntity>
+            </performer>
+            <performer typeCode="PRF">
+                <functionCode code="PP" codeSystem="2.16.840.1.113883.12.443" codeSystemName="Provider Role" displayName="Primary Care Provider">
+                    <originalText>Primary Care Provider</originalText>
+                </functionCode>
+                <time>
+                    <low value="20120407"/>
+                    <high value="20120407"/>
+                </time>
+                <assignedEntity classCode="ASSIGNED">
+                    <id extension="PseudiMD-1" root="2.16.840.1.113883.4.6"/>
+                    <addr>
+                        <streetAddressLine>Get Well Clinic</streetAddressLine>
+                        <country>1004 Healthcare Dr.</country>
+                        <city>Portland</city>
+                        <state>OR</state>
+                        <postalCode>97005</postalCode>
+                    </addr>
+                    <telecom nullFlavor="NI"/>
+                    <assignedPerson>
+                        <name>
+                            <prefix>RN</prefix>
+                            <given>Nancy</given>
+                            <family>Nightingale</family>
+                        </name>
+                    </assignedPerson>
+                </assignedEntity>
+            </performer>
+        </serviceEvent>
+    </documentationOf>
+    <!--Admission and Discharge Dates and Locations-->
+    <componentOf>
+        <encompassingEncounter>
+            <id extension="e5243f09-ebe1-4d52-ad7e-377952b4aba6" root="2.16.840.1.113883.19"/>
+            <effectiveTime>
+                <low value="20120920"/>
+                <high value="20120920"/>
+            </effectiveTime>
+            <responsibleParty>
+                <assignedEntity>
+                    <id root="2.16.840.1.113883.4.6"/>
+                    <addr>
+                        <streetAddressLine>1004 Healthcare Dr.</streetAddressLine>
+                        <city>Portland</city>
+                        <state>OR</state>
+                        <postalCode>97005</postalCode>
+                        <country>USA</country>
+                    </addr>
+                    <telecom nullFlavor="NI"/>
+                    <assignedPerson>
+                        <name>
+                            <given>Samir</given>
+                            <family>Khan</family>
+                        </name>
+                    </assignedPerson>
+                </assignedEntity>
+            </responsibleParty>
+            <encounterParticipant typeCode="ATND">
+                <assignedEntity>
+                    <id extension="KP00018" root="2.16.840.1.113883.4.6"/>
+                    <code/>
+                    <addr use="HP">
+                        <streetAddressLine>1004 Healthcare Dr.</streetAddressLine>
+                        <city>Portland</city>
+                        <state>OR</state>
+                        <postalCode>97005</postalCode>
+                        <country>USA</country>
+                    </addr>
+                    <telecom nullFlavor="NI"/>
+                    <assignedPerson>
+                        <name>
+                            <given>Samir</given>
+                            <family>Khan</family>
+                        </name>
+                    </assignedPerson>
+                </assignedEntity>
+            </encounterParticipant>
+            <location>
+                <healthCareFacility>
+                    <location>
+                        <name/>
+                    </location>
+                </healthCareFacility>
+            </location>
+        </encompassingEncounter>
+    </componentOf>
+    <component>
+        <structuredBody>
+            <!--Allergies-->
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.6.1"/>
+                    <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="ALLERGIES, ADVERSE REACTIONS, ALERTS"/>
+                    <title>Allergies, Adverse Reactions, Alerts</title>
+                    <text>
+                        <table border="1" width="100%">
+                            <thead>
+                                <tr>
+                                    <th>Allergy Substance</th>
+                                    <th>Code</th>
+                                    <th>CodeSystem</th>
+                                    <th>Reaction</th>
+                                    <th>Severity</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr ID="ALGSUMMARY_1">
+                                    <td>Penicilin G benzathine</td>
+                                    <td ID="ALGSUB_1">7982</td>
+                                    <td>RxNorm</td>
+                                    <td ID="ALGREACT_1">Hives</td>
+                                    <td ID="ALGSEV_1">Moderate</td>
+                                    <td ID="ALGSTS_1">Active</td>
+                                </tr>
+                                <tr ID="ALGSUMMARY_2">
+                                    <td>Codeine</td>
+                                    <td ID="ALGSUB_2">2670</td>
+                                    <td>RxNorm</td>
+                                    <td ID="ALGREACT_2">Nausea</td>
+                                    <td ID="ALGSEV_2">Moderate</td>
+                                    <td ID="ALGSTS_2">Active</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry typeCode="DRIV">
+                        <act classCode="ACT" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.30"/>
+                            <id root="d6540bff-feb0-413d-8ba5-15cc3ed57efa"/>
+                            <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Allergies, adverse reactions, alerts"/>
+                            <statusCode code="active"/>
+                            <effectiveTime>
+                                <low value="20120808"/>
+                                <high nullFlavor="UNK"/>
+                            </effectiveTime>
+                            <entryRelationship inversionInd="true" typeCode="SUBJ">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.7"/>
+                                    <id root="a6a57d1e-f365-45c0-b60e-1500027999d8"/>
+                                    <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"/>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime>
+                                        <low value="20120808"/>
+                                        <high nullFlavor="UNK"/>
+                                    </effectiveTime>
+                                    <value code="416098002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="drug allergy" xsi:type="CD">
+                                        <originalText>
+                                            <reference value="#ALGREACT_1"/>
+                                        </originalText>
+                                    </value>
+                                    <participant typeCode="CSM">
+                                        <participantRole classCode="MANU">
+                                            <playingEntity classCode="MMAT">
+                                                <code code="7982" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="Penicilin G benzathine">
+                                                    <originalText>
+                                                        <reference value="#ALGREACT_1"/>
+                                                    </originalText>
+                                                </code>
+                                                <name>Penicilin G benzathine</name>
+                                            </playingEntity>
+                                        </participantRole>
+                                    </participant>
+                                    <entryRelationship inversionInd="true" typeCode="SUBJ">
+                                        <observation classCode="OBS" moodCode="EVN">
+                                            <templateId root="2.16.840.1.113883.10.20.22.4.8"/>
+                                            <code code="SEV" codeSystem="2.16.840.1.113883.5.4" codeSystemName="ActCode" displayName="Severity Observation"/>
+                                            <statusCode code="completed"/>
+                                            <value code="6736007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Moderate" xsi:type="CD"/>
+                                        </observation>
+                                    </entryRelationship>
+                                    <entryRelationship inversionInd="true" typeCode="MFST">
+                                        <observation classCode="OBS" moodCode="EVN">
+                                            <templateId root="2.16.840.1.113883.10.20.22.4.9"/>
+                                            <id root="4adc1020-7b14-11db-9fe1-0800200c9a64"/>
+                                            <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"/>
+                                            <statusCode code="completed"/>
+                                            <effectiveTime>
+                                                <low value="20120808"/>
+                                                <high nullFlavor="UNK"/>
+                                            </effectiveTime>
+                                            <value code="247472004" codeSystem="2.16.840.1.113883.6.96" displayName="Hives" xsi:type="CD"/>
+                                        </observation>
+                                    </entryRelationship>
+                                    <entryRelationship inversionInd="true" typeCode="SUBJ">
+                                        <observation classCode="OBS" moodCode="EVN">
+                                            <templateId root="2.16.840.1.113883.10.20.22.4.28"/>
+                                            <code code="33999-4" codeSystem="2.16.840.1.113883.6.1" displayName="Status"/>
+                                            <statusCode code="completed"/>
+                                            <value code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Active" xsi:type="CE"/>
+                                        </observation>
+                                    </entryRelationship>
+                                </observation>
+                            </entryRelationship>
+                        </act>
+                    </entry>
+                    <entry typeCode="DRIV">
+                        <act classCode="ACT" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.30"/>
+                            <id root="27cd2809-9ac0-4193-9432-e2e3f174bbb3"/>
+                            <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Allergies, adverse reactions, alerts"/>
+                            <statusCode code="active"/>
+                            <effectiveTime>
+                                <low value="20120808"/>
+                                <high nullFlavor="UNK"/>
+                            </effectiveTime>
+                            <entryRelationship inversionInd="true" typeCode="SUBJ">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.7"/>
+                                    <id root="6df55cbe-c5e8-4a93-9112-b29da1a2b805"/>
+                                    <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"/>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime>
+                                        <low value="20120808"/>
+                                        <high nullFlavor="UNK"/>
+                                    </effectiveTime>
+                                    <value code="416098002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="drug allergy" xsi:type="CD">
+                                        <originalText>
+                                            <reference value="#ALGREACT_2"/>
+                                        </originalText>
+                                    </value>
+                                    <participant typeCode="CSM">
+                                        <participantRole classCode="MANU">
+                                            <playingEntity classCode="MMAT">
+                                                <code code="2670" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="Codeine">
+                                                    <originalText>
+                                                        <reference value="#ALGREACT_2"/>
+                                                    </originalText>
+                                                </code>
+                                                <name>Codeine</name>
+                                            </playingEntity>
+                                        </participantRole>
+                                    </participant>
+                                    <entryRelationship inversionInd="true" typeCode="SUBJ">
+                                        <observation classCode="OBS" moodCode="EVN">
+                                            <templateId root="2.16.840.1.113883.10.20.22.4.8"/>
+                                            <code code="SEV" codeSystem="2.16.840.1.113883.5.4" codeSystemName="ActCode" displayName="Severity Observation"/>
+                                            <statusCode code="completed"/>
+                                            <value code="6736007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Moderate" xsi:type="CD"/>
+                                        </observation>
+                                    </entryRelationship>
+                                    <entryRelationship inversionInd="true" typeCode="MFST">
+                                        <observation classCode="OBS" moodCode="EVN">
+                                            <templateId root="2.16.840.1.113883.10.20.22.4.9"/>
+                                            <id root="4adc1020-7b14-11db-9fe1-0800200c9a64"/>
+                                            <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"/>
+                                            <statusCode code="completed"/>
+                                            <effectiveTime>
+                                                <low value="20120808"/>
+                                                <high nullFlavor="UNK"/>
+                                            </effectiveTime>
+                                            <value code="73879007" codeSystem="2.16.840.1.113883.6.96" displayName="Nausea" xsi:type="CD"/>
+                                        </observation>
+                                    </entryRelationship>
+                                    <entryRelationship inversionInd="true" typeCode="SUBJ">
+                                        <observation classCode="OBS" moodCode="EVN">
+                                            <templateId root="2.16.840.1.113883.10.20.22.4.28"/>
+                                            <code code="33999-4" codeSystem="2.16.840.1.113883.6.1" displayName="Status"/>
+                                            <statusCode code="completed"/>
+                                            <value code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Active" xsi:type="CE"/>
+                                        </observation>
+                                    </entryRelationship>
+                                </observation>
+                            </entryRelationship>
+                        </act>
+                    </entry>
+                </section>
+            </component>
+            <!--MEDICATIONS-->
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.1.1"/>
+                    <code code="10160-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of Medications Use"/>
+                    <title>Medications</title>
+                    <text>
+                        <table border="1" width="100%">
+                            <thead>
+                                <tr>
+                                    <th>Medication</th>
+                                    <th>Medication Code</th>
+                                    <th>Medication CodeSystem</th>
+                                    <th>Start Date</th>
+                                    <th>Route</th>
+                                    <th>Dose</th>
+                                    <th>Status</th>
+                                    <th>Fill Instructions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td ID="MED_1">albuterol 0.09 MG/ACTUAT [Proventil]</td>
+                                    <td>573621</td>
+                                    <td>RxNorm</td>
+                                    <td>2012-08-14</td>
+                                    <td>Inhalation</td>
+                                    <td>0.09 MG/ACTUAT INHALANT SOLUTION 2 puffs every 6 hours PRN wheezing</td>
+                                    <td>Active</td>
+                                    <td>Generic substitution allowed</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry contextConductionInd="true" typeCode="DRIV">
+                        <substanceAdministration classCode="SBADM" moodCode="INT">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+                            <id root="9fc3dfad-2f94-47b6-bfa5-473f75c5a832"/>
+                            <text>
+                                <reference value="#MED_1"/>0.09 MG/ACTUAT INHALANT SOLUTION 2 puffs every 6 hours PRN
+                                wheezing
+                            </text>
+                            <statusCode code="completed"/>
+                            <effectiveTime xsi:type="IVL_TS">
+                                <low value="20120814"/>
+                                <high value="20120814"/>
+                            </effectiveTime>
+                            <routeCode code="C38216" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus" displayName="Inhalation"/>
+                            <doseQuantity unit="1" value="1">
+                                <translation value="1">
+                                    <originalText>INHALANT SOLUTION</originalText>
+                                </translation>
+                            </doseQuantity>
+                            <consumable typeCode="CSM">
+                                <manufacturedProduct classCode="MANU">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                                    <manufacturedMaterial>
+                                        <code code="573621" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="albuterol 0.09 MG/ACTUAT [Proventil] "/>
+                                    </manufacturedMaterial>
+                                </manufacturedProduct>
+                            </consumable>
+                            <entryRelationship typeCode="REFR">
+                                <supply classCode="SPLY" moodCode="INT">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.17"/>
+                                    <id root="108f6c53-ff85-47f0-8a26-97a56d3fe8e6"/>
+                                    <statusCode code="completed"/>
+                                    <repeatNumber value="1"/>
+                                    <product>
+                                        <manufacturedProduct classCode="MANU">
+                                            <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                                            <manufacturedMaterial>
+                                                <code code="573621" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="albuterol 0.09 MG/ACTUAT [Proventil] "/>
+                                            </manufacturedMaterial>
+                                        </manufacturedProduct>
+                                    </product>
+                                </supply>
+                            </entryRelationship>
+                        </substanceAdministration>
+                    </entry>
+                </section>
+            </component>
+            <!--Hospital Discharge Medications-->
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.11.1"/>
+                    <code code="10183-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hospital Discharge Medications"/>
+                    <title>Hospital Discharge Medications</title>
+                    <text>
+                        <table border="1" width="100%">
+                            <thead>
+                                <tr>
+                                    <th>Medication</th>
+                                    <th>Direction</th>
+                                    <th>Start Date</th>
+                                    <th>Status</th>
+                                    <th>Indications</th>
+                                    <th>Fill Instuctions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr ID="DISMEDSUMMARY_1">
+                                    <td ID="MEDNAME_1">No Discharge Medication</td>
+                                    <td ID="MEDDIR_1"/>
+                                    <td ID="MEDSTARTDATE_1"/>
+                                    <td ID="MEDSTATUS_1"/>
+                                    <td ID="MEDINDICATIONS_1"/>
+                                    <td ID="MEDINSTRUCTIONS_1"/>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry typeCode="DRIV">
+                        <act classCode="ACT" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.35"/>
+                            <id root="bc385a92-a59e-4002-978c-b1d1c7888c1e"/>
+                            <code code="10183-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Discharge Medications"/>
+                            <statusCode code="active"/>
+                            <effectiveTime xsi:type="IVL_TS">
+                                <low nullFlavor="UNK"/>
+                                <high nullFlavor="UNK"/>
+                            </effectiveTime>
+                            <entryRelationship typeCode="SUBJ">
+                                <substanceAdministration classCode="SBADM" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+                                    <id root="3264abca-c154-41d6-b938-964bfb4db4cf"/>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime xsi:type="IVL_TS">
+                                        <low nullFlavor="UNK"/>
+                                        <high nullFlavor="UNK"/>
+                                    </effectiveTime>
+                                    <routeCode nullFlavor="UNK"/>
+                                    <consumable>
+                                        <manufacturedProduct classCode="MANU">
+                                            <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                                            <id root="3065a5ed-3589-4317-927b-2bb9fbfb0a18"/>
+                                            <manufacturedMaterial>
+                                                <code nullFlavor="NI"/>
+                                            </manufacturedMaterial>
+                                        </manufacturedProduct>
+                                    </consumable>
+                                </substanceAdministration>
+                            </entryRelationship>
+                        </act>
+                    </entry>
+                </section>
+            </component>
+            <!--PROBLEMS-->
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.5.1"/>
+                    <code code="11450-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Problem list"/>
+                    <title>Problems</title>
+                    <text>
+                        <table border="1" width="100%">
+                            <thead>
+                                <tr>
+                                    <th>Problem Name</th>
+                                    <th>Code</th>
+                                    <th>CodeSystem</th>
+                                    <th>Start Date</th>
+                                    <th>End Date</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr ID="PROBSUMMARY_1">
+                                    <td ID="PROBDESCRIPTION_1">Costochondritis</td>
+                                    <td ID="PROBSNOMED_1">64109004</td>
+                                    <td ID="PROBCODESYSTEM_1">SNOMED-CT</td>
+                                    <td ID="PROBSDATE_1">2012-08-15</td>
+                                    <td ID="PROBEDATE_1"/>
+                                    <td ID="PROBSTATUS_1">Active</td>
+                                </tr>
+                                <tr ID="PROBSUMMARY_2">
+                                    <td ID="PROBDESCRIPTION_2">Asthma</td>
+                                    <td ID="PROBSNOMED_2">195967001</td>
+                                    <td ID="PROBCODESYSTEM_2">SNOMED-CT</td>
+                                    <td ID="PROBSDATE_2">2011-09-25</td>
+                                    <td ID="PROBEDATE_2"/>
+                                    <td ID="PROBSTATUS_2">Active</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry typeCode="DRIV">
+                        <act classCode="ACT" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
+                            <id root="ec8a6ff8-ed4b-4f7e-82c3-e98e58b45de7"/>
+                            <code nullFlavor="UNK"/>
+                            <statusCode code="completed"/>
+                            <effectiveTime>
+                                <low value="20120815"/>
+                                <high nullFlavor="UNK"/>
+                            </effectiveTime>
+                            <entryRelationship typeCode="SUBJ">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                                    <id root="ab1791b0-5c71-11db-b0de-0800200c9a66"/>
+                                    <code code="409586006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Complaint"/>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime>
+                                        <low value="20120815"/>
+                                    </effectiveTime>
+                                    <value code="64109004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Costochondritis" xsi:type="CD"/>
+                                    <entryRelationship typeCode="REFR">
+                                        <observation classCode="OBS" moodCode="EVN">
+                                            <templateId root="2.16.840.1.113883.10.20.22.4.6"/>
+                                            <code code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Status"/>
+                                            <statusCode code="completed"/>
+                                            <value code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Active" xsi:type="CD"/>
+                                        </observation>
+                                    </entryRelationship>
+                                </observation>
+                            </entryRelationship>
+                        </act>
+                    </entry>
+                    <entry typeCode="DRIV">
+                        <act classCode="ACT" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
+                            <id root="ec8a6ff8-ed4b-4f7e-82c3-e98e58b45de7"/>
+                            <code nullFlavor="UNK"/>
+                            <statusCode code="completed"/>
+                            <effectiveTime>
+                                <low value="20110925"/>
+                                <high nullFlavor="UNK"/>
+                            </effectiveTime>
+                            <entryRelationship typeCode="SUBJ">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                                    <id root="ab1791b0-5c71-11db-b0de-0800200c9a66"/>
+                                    <code code="409586006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Complaint"/>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime>
+                                        <low value="20110925"/>
+                                    </effectiveTime>
+                                    <value code="195967001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Asthma" xsi:type="CD"/>
+                                    <entryRelationship typeCode="REFR">
+                                        <observation classCode="OBS" moodCode="EVN">
+                                            <templateId root="2.16.840.1.113883.10.20.22.4.6"/>
+                                            <code code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Status"/>
+                                            <statusCode code="completed"/>
+                                            <value code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Active" xsi:type="CD"/>
+                                        </observation>
+                                    </entryRelationship>
+                                </observation>
+                            </entryRelationship>
+                        </act>
+                    </entry>
+                </section>
+            </component>
+            <!--RESULTS-->
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.3.1"/>
+                    <code code="30954-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Results"/>
+                    <title>Laboratory Values/Results</title>
+                    <text>
+                        <table border="1" width="100%">
+                            <thead>
+                                <tr>
+                                    <th>Test</th>
+                                    <th>Test Code</th>
+                                    <th>Code System</th>
+                                    <th>Actual Result</th>
+                                    <th>Date</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr ID="RESULTSUMMARY_1">
+                                    <td>CO2</td>
+                                    <td>2028-9</td>
+                                    <td>LOINC</td>
+                                    <td>23 mmol/L</td>
+                                    <td>2012-08-15</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry typeCode="DRIV">
+                        <organizer classCode="BATTERY" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+                            <id root="09e6711e-92b4-4d36-a8a3-0ac67478a309"/>
+                            <code code="43789009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="BMP"/>
+                            <statusCode code="completed"/>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                                    <id root="3188cc8d-9460-4a13-91ac-837acc54b034"/>
+                                    <code code="2028-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="CO2"/>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20120815"/>
+                                    <value unit="mmol/L" value="23" xsi:type="PQ"/>
+                                    <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+                                    <methodCode/>
+                                    <targetSiteCode nullFlavor="UNK"/>
+                                    <referenceRange>
+                                        <observationRange>
+                                            <text>23 mmol/L ; 23 mmol/L</text>
+                                        </observationRange>
+                                    </referenceRange>
+                                </observation>
+                            </component>
+                        </organizer>
+                    </entry>
+                </section>
+            </component>
+            <!--PROCEDURES-->
+            <component>
+                <section>
+                    <templateId assigningAuthorityName="HL7 CCD" root="2.16.840.1.113883.10.20.22.2.7.1"/>
+                    <code code="47519-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Procedures"/>
+                    <title>Procedures</title>
+                    <text>
+                        <table border="1" width="100%">
+                            <thead>
+                                <tr>
+                                    <th>Procedure Name</th>
+                                    <th>Code</th>
+                                    <th>CodeSystem</th>
+                                    <th>Target Site</th>
+                                    <th>Date of Procedure</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr ID="PROCEDURESUMMARY_1">
+                                    <td ID="PROCEDURENAME_1">No procedure</td>
+                                    <td ID="PROCEDURECODE_1"/>
+                                    <td ID="PROCEDURECODESYSTEM_1">SNOMED-CT</td>
+                                    <td ID="PROCEDURETARGET_1">()</td>
+                                    <td ID="PROCEDUREDATE_1"/>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry typeCode="DRIV">
+                        <procedure classCode="PROC" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.14"/>
+                            <id root="b5a3aa52-ee7b-4bf7-9340-4df085345f23"/>
+                            <code nullFlavor="UNK"/>
+                            <statusCode code="completed"/>
+                            <effectiveTime nullFlavor="UNK"/>
+                            <methodCode nullFlavor="UNK"/>
+                            <targetSiteCode nullFlavor="UNK"/>
+                        </procedure>
+                    </entry>
+                </section>
+            </component>
+            <!--Encounter Diagnosis-->
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.22"/>
+                    <code code="46240-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of Encounters"/>
+                    <title>Encounter Diagnosis</title>
+                    <text>
+                        <table border="1" width="100%">
+                            <thead>
+                                <tr>
+                                    <th>Code</th>
+                                    <th>CodeSystem</th>
+                                    <th>Description</th>
+                                    <th>Date</th>
+                                    <th>Finding</th>
+                                    <th>Finding Code</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr ID="ENCSUMMARY_1">
+                                    <td>99213</td>
+                                    <td>SNOMED-CT</td>
+                                    <td>Ambulatory Visit</td>
+                                    <td>2012-08-15</td>
+                                    <td>Costochondritis</td>
+                                    <td>203523006 - ICD-10-CM</td>
+                                    <td>Active</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry typeCode="DRIV">
+                        <encounter classCode="ENC" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.49"/>
+                            <id root="cbcaef4a-0c51-4285-8c59-5e57eae34929"/>
+                            <code code="99213" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Ambulatory Office Visit"/>
+                            <effectiveTime>
+                                <low value="20120815"/>
+                            </effectiveTime>
+                            <entryRelationship typeCode="SUBJ">
+                                <act classCode="ACT" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.80"/>
+                                    <id root="d07c41e6-4d9d-484a-97c0-2b7e252bddc5"/>
+                                    <code code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Encounter Diagnosis"/>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime>
+                                        <low value="20120815"/>
+                                    </effectiveTime>
+                                    <entryRelationship typeCode="SUBJ">
+                                        <observation classCode="OBS" moodCode="EVN" negationInd="true">
+                                            <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                                            <id root="5554e0f6-08af-413f-8775-2ea880b46c52"/>
+                                            <code code="409586006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Complaint"/>
+                                            <statusCode code="completed"/>
+                                            <effectiveTime>
+                                                <low value="20120815"/>
+                                                <high nullFlavor="UNK"/>
+                                            </effectiveTime>
+                                            <value code="99213" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Ambulatory Visit" xsi:type="CD"/>
+                                            <entryRelationship typeCode="REFR">
+                                                <observation classCode="OBS" moodCode="EVN">
+                                                    <templateId root="2.16.840.1.113883.10.20.22.4.6"/>
+                                                    <code code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Status"/>
+                                                    <statusCode code="completed"/>
+                                                    <value code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Active" xsi:type="CD"/>
+                                                </observation>
+                                            </entryRelationship>
+                                        </observation>
+                                    </entryRelationship>
+                                </act>
+                            </entryRelationship>
+                        </encounter>
+                    </entry>
+                </section>
+            </component>
+            <!--VITAL SIGNS-->
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.4.1"/>
+                    <code code="8716-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Vital Signs"/>
+                    <title>Vital Signs</title>
+                    <text>
+                        <table border="1" width="100%">
+                            <thead>
+                                <tr>
+                                    <th>Vitals</th>
+                                    <th>Date</th>
+                                    <th>Value</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr ID="VITALSIGNHEIGHT_1">
+                                    <td>Height</td>
+                                    <td>2012-09-20</td>
+                                    <td>70 in</td>
+                                </tr>
+                                <tr ID="VITALSIGNWEIGHT_1">
+                                    <td>Weight</td>
+                                    <td>2012-09-20</td>
+                                    <td>195 lbs</td>
+                                </tr>
+                                <tr ID="VITALSIGNBP_1">
+                                    <td>Blood Pressure</td>
+                                    <td>2012-09-20</td>
+                                    <td>140/100 mmHg</td>
+                                </tr>
+                                <tr ID="VITALSIGNBMI_1">
+                                    <td>BMI</td>
+                                    <td>2012-09-20</td>
+                                    <td>28</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry typeCode="DRIV">
+                        <organizer classCode="CLUSTER" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.26"/>
+                            <id root="225532cc-d112-45ab-bd62-cd408b694462"/>
+                            <code code="46680005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Vital signs"/>
+                            <statusCode code="completed"/>
+                            <effectiveTime value="20120920"/>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                                    <id root="ff6bbccf-0e26-4fb9-91ae-a40c2e29477d"/>
+                                    <code code="8302-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Height"/>
+                                    <text>
+                                        <reference value="#VITALSIGNHEIGHT_1"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20120920"/>
+                                    <value unit="in" value="70" xsi:type="PQ"/>
+                                    <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+                                </observation>
+                            </component>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                                    <id root="eb97003b-e6b0-4ffc-a62c-2018a8df3716"/>
+                                    <code code="3141-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Weight"/>
+                                    <text>
+                                        <reference value="#VITALSIGNWEIGHT_1"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20120920"/>
+                                    <value unit="lbs" value="195" xsi:type="PQ"/>
+                                    <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+                                </observation>
+                            </component>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                                    <id root="4a195bd6-ec99-4ff2-bec1-85f3a3531039"/>
+                                    <code code="8480-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Blood Pressure"/>
+                                    <text>
+                                        <reference value="#VITALSIGNBP_1"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20120920"/>
+                                    <value unit="mmHg" value="140" xsi:type="PQ"/>
+                                    <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+                                </observation>
+                            </component>
+                            <component>
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                                    <id root="b464836b-a70c-49f1-94ff-573489a1950e"/>
+                                    <code code="41909-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="BMI"/>
+                                    <text>
+                                        <reference value="#VITALSIGNBMI_1"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime value="20120920"/>
+                                    <value value="28" xsi:type="PQ"/>
+                                    <interpretationCode code="N" codeSystem="2.16.840.1.113883.5.83"/>
+                                </observation>
+                            </component>
+                        </organizer>
+                    </entry>
+                </section>
+            </component>
+            <!--Plan of Care-->
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.10"/>
+                    <code code="18776-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Treatment plan"/>
+                    <title>Plan of Care, Goals and Instructions</title>
+                    <text>
+                        <table border="1" width="100%">
+                            <thead>
+                                <tr>
+                                    <th>Type</th>
+                                    <th>Planned Activity</th>
+                                    <th>Instructions</th>
+                                    <th>Planned DateTime</th>
+                                    <th>Code</th>
+                                    <th>CodeSystem</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>GOAL</td>
+                                    <td>Asthma Management</td>
+                                    <td>Resources and intructions provided during visit</td>
+                                    <td/>
+                                    <td>406162001</td>
+                                    <td>SNOMED-CT</td>
+                                </tr>
+                                <tr>
+                                    <td>GOAL</td>
+                                    <td>Weight Loss</td>
+                                    <td>Diet and Exercise counseling provided during visit</td>
+                                    <td/>
+                                    <td>289169006</td>
+                                    <td>SNOMED-CT</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry typeCode="DRIV">
+                        <observation classCode="OBS" moodCode="GOL">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.44"/>
+                            <id root="18b33c36-1cb5-4671-acec-26d94b3d0162"/>
+                            <code code="406162001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED-CT" displayName="Asthma Management"/>
+                            <statusCode code="completed"/>
+                            <effectiveTime>
+                                <center nullFlavor="UNK"/>
+                            </effectiveTime>
+                        </observation>
+                    </entry>
+                    <entry>
+                        <act classCode="ACT" moodCode="RQO">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.39"/>
+                            <id root="9a6d1bac-17d3-4195-89a4-1121bc809a5c"/>
+                            <code code="289169006" codeSystem="2.16.840.1.113883.6.96" displayName="Weight Loss"/>
+                            <statusCode code="completed"/>
+                            <effectiveTime>
+                                <center nullFlavor="UNK"/>
+                            </effectiveTime>
+                        </act>
+                    </entry>
+                </section>
+            </component>
+            <!--IMMUNIZATIONS-->
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.2.1"/>
+                    <code code="11369-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of Immunizations"/>
+                    <title>Immunizations</title>
+                    <text>
+                        <table border="1" width="100%">
+                            <thead>
+                                <tr>
+                                    <th>Vaccine Name</th>
+                                    <th>Vaccine Code</th>
+                                    <th>CodeSystem</th>
+                                    <th>Date</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <content>Influenza virus vaccine</content>
+                                    </td>
+                                    <td>
+                                        <content>88</content>
+                                    </td>
+                                    <td>
+                                        <content>CVX</content>
+                                    </td>
+                                    <td>
+                                        <content>2012-08-15</content>
+                                    </td>
+                                    <td>
+                                        <content>Completed</content>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry typeCode="DRIV">
+                        <substanceAdministration classCode="SBADM" moodCode="EVN" negationInd="false">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.52"/>
+                            <id root="fa45e1e3-38b6-4ae3-9297-8e34a4726d17"/>
+                            <text/>
+                            <statusCode code="completed"/>
+                            <effectiveTime value="20120815" xsi:type="IVL_TS"/>
+                            <routeCode nullFlavor="UNK"/>
+                            <doseQuantity nullFlavor="UNK"/>
+                            <consumable>
+                                <manufacturedProduct classCode="MANU">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.54"/>
+                                    <manufacturedMaterial>
+                                        <code code="88" codeSystem="2.16.840.1.113883.12.292" codeSystemName="CVX" displayName="Influenza virus vaccine">
+                                            <originalText/>
+                                        </code>
+                                    </manufacturedMaterial>
+                                </manufacturedProduct>
+                            </consumable>
+                        </substanceAdministration>
+                    </entry>
+                </section>
+            </component>
+            <!--Functional And Cognitive Status-->
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.14"/>
+                    <code code="47420-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Functional And Cognitive Status"/>
+                    <title>Functional And Cognitive Status</title>
+                    <text>
+                        <table border="1" width="100%">
+                            <thead>
+                                <tr>
+                                    <th>Type</th>
+                                    <th>Condition</th>
+                                    <th>Code</th>
+                                    <th>Code System</th>
+                                    <th>Date</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>FUNCTIONAL</td>
+                                    <td>No impairment</td>
+                                    <td>66557003</td>
+                                    <td>SNOMED-CT</td>
+                                    <td>2012-08-15</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td>COGNITIVE</td>
+                                    <td>No impairment</td>
+                                    <td>66557003</td>
+                                    <td>SNOMED-CT</td>
+                                    <td>2012-08-15</td>
+                                    <td>Active</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry typeCode="DRIV">
+                        <observation classCode="OBS" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.68"/>
+                            <id root="3846e388-dbdc-47e7-9044-228364478c16"/>
+                            <code code="409586006" codeSystem="2.16.840.1.113883.6.96" displayName="Complaint" xsi:type="CE"/>
+                            <text/>
+                            <statusCode code="completed"/>
+                            <effectiveTime>
+                                <low value="20120815"/>
+                            </effectiveTime>
+                            <value code="66557003" codeSystem="2.16.840.1.113883.6.96" displayName="No impairment" xsi:type="CD"/>
+                            <entryRelationship typeCode="REFR">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.72"/>
+                                    <id nullFlavor="UNK"/>
+                                    <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"/>
+                                    <statusCode code="completed"/>
+                                    <value code="66557003" codeSystem="2.16.840.1.113883.6.96" displayName="No impairment" xsi:type="CD"/>
+                                    <participant typeCode="IND">
+                                        <participantRole classCode="CAREGIVER">
+                                            <code nullFlavor="UNK"/>
+                                        </participantRole>
+                                    </participant>
+                                </observation>
+                            </entryRelationship>
+                            <entryRelationship typeCode="COMP">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.69"/>
+                                    <id nullFlavor="UNK"/>
+                                    <code nullFlavor="UNK"/>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime>
+                                        <low value="20120815"/>
+                                    </effectiveTime>
+                                    <value code="66557003" codeSystem="2.16.840.1.113883.6.96" displayName="No impairment" xsi:type="CD"/>
+                                </observation>
+                            </entryRelationship>
+                        </observation>
+                    </entry>
+                    <entry typeCode="DRIV">
+                        <observation classCode="OBS" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.73"/>
+                            <id root="38660dde-3fda-4fc2-bc01-5e0279c4db1e"/>
+                            <code code="373930000" codeSystem="2.16.840.1.113883.6.96" displayName="Cognitive Function Finding" xsi:type="CE"/>
+                            <text/>
+                            <statusCode code="completed"/>
+                            <effectiveTime>
+                                <low value="20120815"/>
+                            </effectiveTime>
+                            <value code="66557003" codeSystem="2.16.840.1.113883.6.96" displayName="No impairment" xsi:type="CD"/>
+                            <entryRelationship typeCode="REFR">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.72"/>
+                                    <id nullFlavor="UNK"/>
+                                    <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"/>
+                                    <statusCode code="completed"/>
+                                    <value code="66557003" codeSystem="2.16.840.1.113883.6.96" displayName="No impairment" xsi:type="CD"/>
+                                    <participant typeCode="IND">
+                                        <participantRole classCode="CAREGIVER">
+                                            <code nullFlavor="UNK"/>
+                                        </participantRole>
+                                    </participant>
+                                </observation>
+                            </entryRelationship>
+                            <entryRelationship typeCode="COMP">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.69"/>
+                                    <id nullFlavor="UNK"/>
+                                    <code nullFlavor="UNK"/>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime>
+                                        <low value="20120815"/>
+                                    </effectiveTime>
+                                    <value code="66557003" codeSystem="2.16.840.1.113883.6.96" displayName="No impairment" xsi:type="CD"/>
+                                </observation>
+                            </entryRelationship>
+                        </observation>
+                    </entry>
+                </section>
+            </component>
+            <!--SOCIAL HISTORY-->
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.17"/>
+                    <code code="29762-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Social History"/>
+                    <title>Social History</title>
+                    <text>
+                        <table border="1" width="100%">
+                            <thead>
+                                <tr>
+                                    <th>Element Description</th>
+                                    <th>Description</th>
+                                    <th>Start Date</th>
+                                    <th>End Date</th>
+                                    <th>Code</th>
+                                    <th>CodeSystem</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Smoking Status</td>
+                                    <td>Never smoker</td>
+                                    <td/>
+                                    <td/>
+                                    <td>266919005</td>
+                                    <td>SNOMED-CT</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry typeCode="DRIV">
+                        <observation classCode="OBS" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.22.4.38"/>
+                            <id root="94b1b2cd-6eba-483c-adb7-38001d008631"/>
+                            <code code="230056004" codeSystem="2.16.840.1.113883.6.96" displayName="Smoking Status"/>
+                            <statusCode code="completed"/>
+                            <effectiveTime>
+                                <low nullFlavor="UNK"/>
+                            </effectiveTime>
+                            <value xsi:type="ST">Never smoker</value>
+                        </observation>
+                    </entry>
+                    <entry typeCode="DRIV">
+                        <observation classCode="OBS" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.78"/>
+                            <id root="01461b85-7a55-403a-b664-378cd8b4de95"/>
+                            <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"/>
+                            <statusCode code="completed"/>
+                            <effectiveTime>
+                                <low nullFlavor="UNK"/>
+                            </effectiveTime>
+                            <value code="266919005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Never smoker" xsi:type="CD"/>
+                        </observation>
+                    </entry>
+                </section>
+            </component>
+            <!--Reason for Referral Info-->
+            <component>
+                <section>
+                    <templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.1"/>
+                    <code code="42349-1" codeSystem="2.16.840.1.113883.6.1" displayName="Reason For Referral"/>
+                    <title>Reason For Referral</title>
+                    <text>
+                        <paragraph>Pulmonary function tests, Dr. Penny Puffer, Tel: 555-555-1049, 1047 Healthcare Drive,
+                            Portland, OR 97005, Scheduled date: 2013-02-09
+                            <br/>
+                        </paragraph>
+                    </text>
+                </section>
+            </component>
+        </structuredBody>
+    </component>
+</ClinicalDocument>

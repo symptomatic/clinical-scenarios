@@ -1,0 +1,1676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    File:               CDAR2_IG_CCDA_NUTRITION_R1_D1_2018MAY_SAMPLE.xml
+    Specification:      C-CDA R2.1 Supplemental Templates for Nutrition, Release 1 (US Realm)
+    Date:               May 2018
+    
+    
+    Changes Made: 
+    Date: 2017-10-26 - Eric Parapini:   Initial Sample with Empty sections created
+          2017-10-28 - Eric Parapini:   Sample data entered into document, filler information for the Assessment categories
+          2017-10-29 - Eric Parapini:   Initial structure for Health concern act
+          2017-11-03 - Eric Parapini:   Changes to the assessment structure
+          2017-11-04 - Eric Parapini:   Changes to the nutrition diagnosis
+          2017-11-19 - Eric Parapini:   Updated with additional findings, updated the extensions to be 2017-12-01, fixed minor errors. Added coded entries for goals with plain text example. Added narrative for nutrition interventions and nutrition monitoring and evaluations.
+          2017-11-28 - Eric Parapini:   Initial sample file completed with complex nutrition order
+          2017-12-13 - Sarah Gaunt      General updates, added enteral formula order
+          2017-12-15 - Eric Parapini:   Final fixes
+          2018-03-14 - Eric Parapini:   Removed Assessment Section
+          2018-04-18 - Eric Parapini:   Fixed use of Diet Item/Food Item - Aligned Valuesets
+          2018-05-01 - Eric Parapini:   Verified use of values used to align with value sets
+-->
+<!--
+    Disclaimer: 
+    This sample file is informative only.
+    This sample file contains representative data elements from the eICR IG. 
+    The file depicts a fictional character's health data. Any resemblance to a real person is coincidental.
+    To illustrate as many data elements as possible, the clinical scenario may not be entirely plausible. 
+    The data in this sample file is not intended to represent a real patients, people or clinical events. 
+    This sample is designed to be used in conjunction with the eICR IG.
+     
+    Where guidance has been given to the conformance or cardinality of elements or
+    attributes and there is a discrepancy with the IG, the IG is always the normative
+    source of truth.
+    
+    Please note:  This sample is valid against the Schema and Schematron for ERRORS (not warnings). 
+    Logical schematron WARNINGS will generate from the sample file. 
+    It is logical to generate a samples file from a system with valid warnings.
+-->
+<!-- 
+    Templates are identified in comments above their template id.  
+    The IG in which the template version was first published is identified in square brackets before the template name.
+    
+    e.g.: [C-CDA 2.1] Continuity of Care (CCD) (V3)       indicates that the Discharge Summary (V3) template was first published in IG C-CDA R2.1
+          [C-CDA R2.0] Plan of Treatment Section (V2)     indicates that the Plan of Treatment Section (V2) template was first published in IG C-CDA R2.0
+          [C-CDA R1.1] History of Present Illness Section indicates that the Hospital Course Section was first published in IG C-CDA R1.1
+          
+    Even though all 3 templates above are included in IG C-CDA 2.1, because there have been no new versions of 
+    the History of Present Illness Section template in IGs later than C-CDA R1.1, it is considered to be published in R1.1. 
+    Similarly, there have been no new versions of the Plan of Treatment Section template later than C-CDA R.2 so it 
+    is considered to be published in R2.0.
+    
+    Templates that are part of the C-CDA R2.1 Supplemental Templates for Nutrition, Release 1 (US Realm)IG are labeled with:
+    [C-CDA SUPL Nutrition R1]
+-->
+<!--
+        ********************************************************
+        CDA Header
+        ********************************************************
+    -->
+
+<?xml-stylesheet type="text/xsl" href="../Stylesheet/Stylesheets/CDA/cda.xsl"?>
+<ClinicalDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:hl7-org:v3 ../validation/schema/infrastructure/cda/CDA_SDTC.xsd" xmlns="urn:hl7-org:v3" xmlns:cda="urn:hl7-org:v3"
+  xmlns:sdtc="urn:hl7-org:sdtc" xmlns:voc="http://www.lantanagroup.com/voc">
+
+  <realmCode code="US" />
+  <typeId root="2.16.840.1.113883.1.3" extension="POCD_HD000040" />
+  <!-- [C-CDA 2.1] US Realm Header -->
+  <templateId root="2.16.840.1.113883.10.20.22.1.1" extension="2015-08-01" />
+  <!-- [C-CDA 2.1] Care Plan -->
+  <templateId root="2.16.840.1.113883.10.20.22.1.15" extension="2015-08-01" />
+  <!-- [C-CDA SUPL Nutrition R1]  Care Plan (Nutrition) -->
+  <templateId root="2.16.840.1.113883.10.20.22.1.16" extension="2017-12-01" />
+  <!-- Document ID -->
+  <id root="db734647-fc99-424c-a864-7e3cda82e703" />
+
+  <code code="80791-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Nutrition and dietetics Plan of care note" />
+  <title>Nutrition Care Plan</title>
+  <effectiveTime value="201612011120-0800" />
+  <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25" />
+  <languageCode code="en-US" />
+  <!-- This document is the second document in the set (see setId for id of the set).  -->
+  <setId root="004bb033-b948-4f4c-b5bf-a8dbd7d8dd40" />
+  <!-- See relatedDocument for the previous version in the set -->
+  <versionNumber value="2" />
+
+  <!--
+        ********************************************************
+        recordTarget: The patient
+        ********************************************************
+    -->
+  <recordTarget>
+    <patientRole>
+      <!-- Example Social Security Number using the actual SSN OID. -->
+      <id extension="444222222" root="2.16.840.1.113883.4.1" />
+      <id extension="example-vendor-id" root="2.16.840.1.113883.19" />
+      <addr use="HP">
+        <streetAddressLine>2222 Home Street</streetAddressLine>
+        <city>Beaverton</city>
+        <state>OR</state>
+        <postalCode>97867</postalCode>
+        <!-- US is "United States" from ISO 3166-1 Country Codes: 1.0.3166.1 -->
+        <country>US</country>
+      </addr>
+
+      <!-- Note: Patient Historical Address -->
+      <addr use="H">
+        <streetAddressLine>3333 Old Home Street</streetAddressLine>
+        <city>Beaverton</city>
+        <state>OR</state>
+        <postalCode>97869</postalCode>
+        <country>US</country>
+        <useablePeriod value="19950625" />
+      </addr>
+      <!-- HP is "primary home" from HL7 AddressUse 2.16.840.1.113883.5.1119 -->
+      <telecom value="tel:+1(555)555-2003" use="HP" />
+      <!-- H is "home"  from HL7 AddressUse 2.16.840.1.113883.5.1119- this can be used as other historical/old homes along with usable period -->
+      <telecom value="tel:+1(555)555-2006" use="H">
+        <useablePeriod xsi:type="IVL_TS">
+          <low value="19580201" />
+          <high value="19991203" />
+        </useablePeriod>
+      </telecom>
+      <telecom value="mailto://someone@example.com" />
+      <patient>
+        <!-- The first name element represents what the patient is known as -->
+        <name use="L">
+          <given>Eve</given>
+          <!--<given>Middle</given>-->
+          <!-- The "SP" is "Spouse" from HL7 Code System EntityNamePartQualifier 2.16.840.1.113883.5.43 -->
+          <family qualifier="SP">Betterhalf</family>
+          <suffix>Sr.</suffix>
+        </name>
+        <!-- The second name element represents another name associated with the patient -->
+        <name use="SRCH">
+          <given>Eve</given>
+          <!-- The "BR" is "Birth" from HL7 Code System EntityNamePartQualifier 2.16.840.1.113883.5.43 -->
+          <family qualifier="BR">Everywoman</family>
+        </name>
+        <administrativeGenderCode code="F" displayName="Female" codeSystem="2.16.840.1.113883.5.1" codeSystemName="AdministrativeGender" />
+        <!-- Note: Date of birth need only be precise to the day -->
+        <birthTime value="19750501" />
+        <maritalStatusCode code="M" displayName="Married" codeSystem="2.16.840.1.113883.5.2" codeSystemName="MaritalStatusCode" />
+        <religiousAffiliationCode code="1013" displayName="Christian (non-Catholic, non-specific)" codeSystem="2.16.840.1.113883.5.1076"
+          codeSystemName="HL7 Religious Affiliation" />
+        <!-- CDC Race and Ethnicity code set contains the five minimum race and ethnicity categories defined by OMB Standards -->
+        <raceCode nullFlavor="UNK" />
+        <ethnicGroupCode nullFlavor="UNK" />
+        <guardian>
+          <code code="POWATT" displayName="Power of Attorney" codeSystem="2.16.840.1.113883.1.11.19830" codeSystemName="ResponsibleParty" />
+          <addr use="HP">
+            <streetAddressLine>2222 Home Street</streetAddressLine>
+            <city>Beaverton</city>
+            <state>OR</state>
+            <postalCode>97867</postalCode>
+            <country>US</country>
+          </addr>
+          <telecom value="tel:+1(555)555-2008" use="MC" />
+          <guardianPerson>
+            <name>
+              <given>Boris</given>
+              <given qualifier="CL">Bo</given>
+              <family>Betterhalf</family>
+              <suffix>Jr</suffix>
+            </name>
+          </guardianPerson>
+        </guardian>
+        <birthplace>
+          <place>
+            <addr>
+              <streetAddressLine>4444 Home Street</streetAddressLine>
+              <city>Beaverton</city>
+              <state>OR</state>
+              <postalCode>97867</postalCode>
+              <country>US</country>
+            </addr>
+          </place>
+        </birthplace>
+        <languageCommunication>
+          <languageCode code="eng" />
+          <!-- "eng" is ISO 639-2 alpha-3 code for "English" -->
+          <modeCode code="ESP" displayName="Expressed spoken" codeSystem="2.16.840.1.113883.5.60" codeSystemName="LanguageAbilityMode" />
+          <proficiencyLevelCode code="G" displayName="Good" codeSystem="2.16.840.1.113883.5.61" codeSystemName="LanguageAbilityProficiency" />
+          <!-- Patient's preferred language -->
+          <preferenceInd value="true" />
+        </languageCommunication>
+      </patient>
+      <providerOrganization>
+        <id extension="219BX" root="2.16.840.1.113883.4.6" />
+        <name>The Dietetics Alliance Health Group</name>
+        <telecom use="WP" value="tel: +1(555)555-5000" />
+        <addr>
+          <streetAddressLine>1007 Nutrition Drive</streetAddressLine>
+          <city>Portland</city>
+          <state>OR</state>
+          <postalCode>99123</postalCode>
+          <country>US</country>
+        </addr>
+      </providerOrganization>
+    </patientRole>
+  </recordTarget>
+  <!--
+        ********************************************************
+        author
+        ********************************************************
+    -->
+  <author>
+    <!-- Authored on this day -->
+    <time value="20161201" />
+    <assignedAuthor>
+      <!-- Author's NPI Number, if unknown, use a nullFlavor -->
+      <id root="2.16.840.1.113883.4.6" />
+
+      <!-- Because this author is a person, we add what kind of person they are -->
+      <code code="133V00000X" codeSystem="2.16.840.1.113883.6.101" codeSystemName="Healthcare Provider Taxonomy (HIPAA)"
+        displayName="Dietician, Registered" />
+      <addr>
+        <streetAddressLine>1004 Diet Drive </streetAddressLine>
+        <city>Portland</city>
+        <state>OR</state>
+        <postalCode>99123</postalCode>
+        <country>US</country>
+      </addr>
+      <telecom use="WP" value="tel:+1(555)555-1004" />
+      <assignedPerson>
+        <name>
+          <given>Registered</given>
+          <family>Dietician</family>
+          <suffix>RDN</suffix>
+        </name>
+      </assignedPerson>
+    </assignedAuthor>
+  </author>
+  <!--
+        ********************************************************
+        dataEnterer
+        ********************************************************
+    -->
+  <dataEnterer>
+    <assignedEntity>
+      <id extension="333777777" root="2.16.840.1.113883.4.6" />
+      <addr>
+        <streetAddressLine>1007 Diet Drive</streetAddressLine>
+        <city>Portland</city>
+        <state>OR</state>
+        <postalCode>99123</postalCode>
+        <country>US</country>
+      </addr>
+      <telecom use="WP" value="tel:+1(555)555-1050" />
+      <assignedPerson>
+        <name>
+          <given>Ellen</given>
+          <family>Enter</family>
+        </name>
+      </assignedPerson>
+    </assignedEntity>
+  </dataEnterer>
+  <!--
+        ********************************************************
+        informant
+        ********************************************************
+    -->
+  <informant>
+    <assignedEntity>
+      <id extension="888888888" root="2.16.840.1.113883.19.5" />
+      <addr>
+        <streetAddressLine>1007 Diet Drive</streetAddressLine>
+        <city>Portland</city>
+        <state>OR</state>
+        <postalCode>99123</postalCode>
+        <country>US</country>
+      </addr>
+      <telecom use="WP" value="tel:+1(555)555-1003" />
+      <assignedPerson>
+        <name>
+          <given>Harold</given>
+          <family>Foodie</family>
+          <suffix qualifier="AC">CPh</suffix>
+        </name>
+      </assignedPerson>
+    </assignedEntity>
+  </informant>
+  <!--
+        ********************************************************
+        custodian
+        ********************************************************
+    -->
+  <custodian>
+    <assignedCustodian>
+      <representedCustodianOrganization>
+        <id extension="321CX" root="2.16.840.1.113883.4.6" />
+        <name>Greater Area Nutrition Care HIE</name>
+        <telecom use="WP" value="tel:+1(555)555-1009" />
+        <addr use="WP">
+          <streetAddressLine>1009 Diet Drive </streetAddressLine>
+          <city>Portland</city>
+          <state>OR</state>
+          <postalCode>99123</postalCode>
+          <country>US</country>
+        </addr>
+      </representedCustodianOrganization>
+    </assignedCustodian>
+  </custodian>
+  <!--
+        ********************************************************
+        informationRecipient
+        ********************************************************
+    -->
+  <informationRecipient>
+    <intendedRecipient>
+      <!-- Receiving Person Provider Id -->
+      <id root="a1cd2b74-c6de-44ee-b552-3adacb7983cc" />
+      <!-- Receiving Medicare/Medicaid Provider Id-->
+      <id root="c72f64c2-b1db-444b-bbff-4d2e1d6bd659" />
+      <!-- Receiving Person ID-->
+      <id root="fa883fee-b255-4465-8fb5-1d8135e39896" />
+      <!-- Receiving Person Address-->
+      <addr>
+        <streetAddressLine>100 Better Health Rd.</streetAddressLine>
+        <city>Ann Arbor</city>
+        <state>MI</state>
+        <postalCode>97857</postalCode>
+        <country>US</country>
+      </addr>
+      <informationRecipient>
+        <!-- Receiving Person Name-->
+        <name>
+          <given>Nutrition</given>
+          <family>Coordinator</family>
+          <suffix>RDN</suffix>
+        </name>
+      </informationRecipient>
+      <receivedOrganization>
+        <!-- Receiving Organization Id-->
+        <id root="c4c416a7-aeeb-4dcc-9662-ab836ff4d265" />
+        <!-- Receiving Organization Provider ID (NPI) -->
+        <id root="ab47f3c4-1267-4b9e-9a29-e966b5a861c8" />
+        <!-- Receiving Organization Name -->
+        <name>Organization of Choice</name>
+        <!-- Receiving Organization Address -->
+        <addr>
+          <streetAddressLine>100 Better Health Rd.</streetAddressLine>
+          <city>Ann Arbor</city>
+          <state>MI</state>
+          <postalCode>97857</postalCode>
+          <country>US</country>
+        </addr>
+        <!-- Receiving Care Setting Type Description: displayName.  Receiving Care Setting Type Code: code -->
+        <standardIndustryClassCode displayName="Health Maintenance Organization" code="302R00000X" codeSystem="2.16.840.1.114222.4.11.1066"
+          codeSystemName="Healthcare Provider Taxonomy (HIPAA)" />
+      </receivedOrganization>
+    </intendedRecipient>
+  </informationRecipient>
+  <!--
+        ********************************************************
+        legalAuthenticator
+        ********************************************************
+    -->
+  <legalAuthenticator>
+    <time value="20161201" />
+    <signatureCode code="S" />
+    <sdtc:signatureText mediaType="text/xml" representation="B64"
+      >omSJUEdmde9j44zmMiromSJUEdmde9j44zmMirdMDSsWdIJdksIJR3373jeu83
+            6edjzMMIjdMDSsWdIJdksIJR3373jeu83MNYD83jmMdomSJUEdmde9j44zmMir ...
+            MNYD83jmMdomSJUEdmde9j44zmMir6edjzMMIjdMDSsWdIJdksIJR3373jeu83
+            4zmMir6edjzMMIjdMDSsWdIJdksIJR3373jeu83==</sdtc:signatureText>
+    <assignedEntity>
+      <id root="20cf14fb-b65c-4c8c-a54d-b0cca834c18d" />
+      <code code="133N00000X" codeSystem="2.16.840.1.113883.6.101" displayName="Nutritionist" codeSystemName="Health Care Provider Taxonomy" />
+      <addr>
+        <streetAddressLine>1004 Diet Drive </streetAddressLine>
+        <city>Portland</city>
+        <state>OR</state>
+        <postalCode>99123</postalCode>
+        <country>US</country>
+      </addr>
+      <telecom use="WP" value="tel:+1(555)555-1004" />
+      <assignedPerson>
+        <name>
+          <given>Nutritionist</given>
+          <family>Registered</family>
+        </name>
+      </assignedPerson>
+      <representedOrganization>
+        <!-- the orgnaization id and name -->
+        <id root="2.16.840.1.113883.19.5" />
+        <name>Greater Area Care</name>
+      </representedOrganization>
+    </assignedEntity>
+  </legalAuthenticator>
+  <!--
+        *******************************************************************************************
+        authenticator: This authenticator represents patient agreement or sign-off of the Care Plan
+        *******************************************************************************************
+    -->
+  <authenticator>
+    <time value="20161201" />
+    <signatureCode code="S" />
+    <sdtc:signatureText mediaType="text/xml" representation="B64"
+      >omSJUEdmde9j44zmMiromSJUEdmde9j44zmMirdMDSsWdIJdksIJR3373jeu83
+            6edjzMMIjdMDSsWdIJdksIJR3373jeu83MNYD83jmMdomSJUEdmde9j44zmMir ...
+            MNYD83jmMdomSJUEdmde9j44zmMir6edjzMMIjdMDSsWdIJdksIJR3373jeu83
+            4zmMir6edjzMMIjdMDSsWdIJdksIJR3373jeu83==</sdtc:signatureText>
+    <assignedEntity>
+      <id extension="444222222" root="2.16.840.1.113883.4.1" />
+      <code code="ONESELF" displayName="Self" codeSystem="2.16.840.1.113883.5.111" codeSystemName="RoleCode" />
+      <addr use="HP">
+        <!-- HP is "primary home" from codeSystem 2.16.840.1.113883.5.1119 -->
+        <streetAddressLine>2222 Home Street</streetAddressLine>
+        <city>Beaverton</city>
+        <state>OR</state>
+        <postalCode>97867</postalCode>
+        <country>US</country>
+        <!-- US is "United States" from ISO 3166-1 Country Codes: 1.0.3166.1 -->
+      </addr>
+      <telecom value="tel:+1(555)555-2003" use="HP" />
+      <assignedPerson>
+        <name use="L">
+          <given>Eve</given>
+          <family qualifier="SP">Everywoman</family>
+        </name>
+      </assignedPerson>
+    </assignedEntity>
+  </authenticator>
+  <!--
+        *******************************************************************************************
+        participant: This participant represents the person who reviewed the Care Plan. 
+        *******************************************************************************************
+    -->
+  <!-- If the date in the time element is in the past, then this review has already taken place. 
+         If the date in the time element is in the future, then this is the date of the next scheduled review. -->
+  <!-- This example shows a Care Plan Review that has already taken place -->
+  <participant typeCode="VRF">
+    <functionCode code="425268008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Review of Care Plan" />
+    <time value="20161130" />
+    <associatedEntity classCode="ASSIGNED">
+      <id root="20cf14fb-b65c-4c8c-a54d-b0cca834c18a" />
+      <!-- US Realm Header requires either an associatedPerson or scopingOrganization, but does not require them to be populated -->
+      <associatedPerson nullFlavor="NI" />
+    </associatedEntity>
+  </participant>
+  <!--
+        *******************************************************************************************
+        participant: This participant represents the person who reviewed the Care Plan. 
+        *******************************************************************************************
+    -->
+  <!-- If the date in the time element is in the past, then this review has already taken place. 
+        If the date in the time element is in the future,  then this is the date of the next scheduled review. -->
+  <!-- This example shows a Scheduled Care Plan Review that is in the future -->
+  <participant typeCode="VRF">
+    <functionCode code="425268008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Review of Care Plan" />
+    <time value="20161215" />
+    <associatedEntity classCode="ASSIGNED">
+      <id root="2ebcb657-9778-497c-a620-300ff8e11743" />
+      <code code="SELF" displayName="self" codeSystem="2.16.840.1.113883.5.111" codeSystemName="Role Code" />
+      <!-- Note: US Realm Header requires either an associatedPerson or scopingOrganization, but does not require them to be populated -->
+      <associatedPerson nullFlavor="NI" />
+    </associatedEntity>
+  </participant>
+  <!--
+        ****************************************************************************
+        participant: This participant identifies individuals who support the patient
+                     such as a relative or caregiver
+        ****************************************************************************
+    -->
+  <participant typeCode="IND">
+    <!-- Emergency Contact  -->
+    <associatedEntity classCode="ECON">
+      <addr>
+        <streetAddressLine>17 Daws Rd.</streetAddressLine>
+        <city>Ann Arbor</city>
+        <state>MI</state>
+        <postalCode>97857</postalCode>
+        <country>US</country>
+      </addr>
+      <telecom value="tel:(999)555-1212" use="WP" />
+      <associatedPerson>
+        <name>
+          <prefix>Mrs.</prefix>
+          <given>Martha</given>
+          <family>Jones</family>
+        </name>
+      </associatedPerson>
+    </associatedEntity>
+  </participant>
+  <!--
+        ****************************************************************************
+        participant: This participant identifies individuals who support the patient
+                     such as a relative or caregiver
+        ****************************************************************************
+    -->
+  <participant typeCode="IND">
+    <!-- Caregiver -->
+    <associatedEntity classCode="CAREGIVER">
+      <addr>
+        <streetAddressLine>17 Daws Rd.</streetAddressLine>
+        <city>Ann Arbor</city>
+        <state>MI</state>
+        <postalCode>97857</postalCode>
+        <country>US</country>
+      </addr>
+      <telecom value="tel:(999)555-1212" use="WP" />
+      <associatedPerson>
+        <name>
+          <prefix>Mrs.</prefix>
+          <given>Martha</given>
+          <family>Jones</family>
+        </name>
+      </associatedPerson>
+    </associatedEntity>
+  </participant>
+  <documentationOf>
+    <!--
+         ********************************************************
+         serviceEvent
+         ********************************************************
+     -->
+    <serviceEvent classCode="PCPR">
+      <code code="428921000124100" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED" displayName="Consultation for transition of care" />
+      <effectiveTime>
+        <low value="20161101" />
+        <high value="20161201" />
+      </effectiveTime>
+      <!--
+           ********************************************************
+           performer:
+           The performer(s) represents the healthcare providers involved in the current or historical care of the patient.
+           The patient’s key healthcare providers would be listed here which would include the primary physician and any 
+           active consulting physicians, therapists, counselors, and care team members.
+           ********************************************************
+       -->
+      <performer typeCode="PRF">
+        <time value="201612011115-0800" />
+        <assignedEntity>
+          <id extension="5555555555" root="2.16.840.1.113883.4.6" />
+          <code code="133V00000X" displayName="Dietitian, Registered" codeSystem="2.16.840.1.113883.6.101"
+            codeSystemName="Healthcare Provider Taxonomy (HIPAA)" />
+          <addr>
+            <streetAddressLine>1004 Diet Drive </streetAddressLine>
+            <city>Portland</city>
+            <state>OR</state>
+            <postalCode>99123</postalCode>
+            <country>US</country>
+          </addr>
+          <telecom use="WP" value="tel:+1(555)555 -1004" />
+          <assignedPerson>
+            <name>
+              <given>Claude</given>
+              <given qualifier="CL">Registered</given>
+              <family>Dietitian</family>
+              <suffix qualifier="AC">RDN</suffix>
+            </name>
+          </assignedPerson>
+          <representedOrganization>
+
+            <standardIndustryClassCode code="22232009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED"
+              displayName="Hospital (environment)" />
+          </representedOrganization>
+        </assignedEntity>
+      </performer>
+    </serviceEvent>
+  </documentationOf>
+  <!-- The Care Plan is continually evolving and dynamic. The Care Plan CDA instance 
+     is NOT dynamic. Each time a Care Plan CDA is generated it represents a snapshot 
+     in time of the Care Plan at that moment. Whenever a care provider or patient 
+     generates a Care Plan, it should be noted through relatedDocument 
+     whether the current Care Plan replaces or appends another Care Plan. 
+     The relatedDocumentTypeCode indicates whether the current document is 
+     an addendum to the ParentDocument (APND (append)) or the current document 
+     is a replacement of the ParentDocument (RPLC (replace)). -->
+  <!-- This document is the second in a set - relatedDocument
+      describes the parent document-->
+  <!-- Related Document: This document is the second in a set - relatedDocument describes the parent document-->
+  <relatedDocument typeCode="RPLC">
+    <parentDocument>
+      <id root="223769be-f6ee-4b04-a0ce-b56ae998c880" />
+      <code code="80791-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Nutrition and dietetics Plan of care note" />
+      <setId root="004bb033-b948-4f4c-b5bf-a8dbd7d8dd41" />
+      <versionNumber value="1" />
+    </parentDocument>
+  </relatedDocument>
+  <componentOf>
+    <!--
+         ********************************************************
+         encompassingEncounter
+         ********************************************************
+     -->
+    <encompassingEncounter>
+      <id extension="9937012" root="2.16.840.1.113883.19" />
+      <code codeSystem="2.16.840.1.113883.6.96" code="11429006" displayName="Consultation" codeSystemName="SNOMED">
+        <translation code="390906007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED" displayName="Follow up visit" />
+      </code>
+      <!-- Captures that this is an inpatient encounter -->
+      <effectiveTime>
+        <low value="201612010920" />
+        <high value="201612011020" />
+      </effectiveTime>
+      <responsibleParty>
+        <assignedEntity>
+
+          <id extension="6666666666666" root="2.16.840.1.113883.4.6" />
+          <code code="133V00000X" displayName="Dietitian, Registered" codeSystem="2.16.840.1.113883.6.101"
+            codeSystemName="Healthcare Provider Taxonomy (HIPAA)" />
+          <addr>
+            <streetAddressLine>2100 North Ave</streetAddressLine>
+            <city>Burlington</city>
+            <state>MA</state>
+            <postalCode>02368</postalCode>
+            <country>US</country>
+          </addr>
+          <telecom use="WP" value="tel:+1(555)555-1003" />
+          <telecom use="WP" value="fax:+1(555)555-1234" />
+          <telecom use="WP" value="mailto:mail@provider_domain.com" />
+          <assignedPerson>
+            <name>
+              <given>Michael</given>
+              <family>Coletta</family>
+              <suffix qualifier="AC">M.D.</suffix>
+            </name>
+          </assignedPerson>
+          <representedOrganization>
+            <id extension="777777" root="2.16.840.1.113883.4.6" />
+            <name>Mass Nutrition</name>
+            <addr>
+              <streetAddressLine>2100 North Ave</streetAddressLine>
+              <city>Burlington</city>
+              <state>MA</state>
+              <postalCode>02368</postalCode>
+              <country>US</country>
+            </addr>
+          </representedOrganization>
+        </assignedEntity>
+      </responsibleParty>
+      <location>
+        <healthCareFacility>
+          <id root="2.16.840.1.113883.4.6" extension="NPI-Example" />
+        </healthCareFacility>
+      </location>
+    </encompassingEncounter>
+  </componentOf>
+  <component>
+    <!--
+         ********************************************************
+         structuredBody
+         ********************************************************
+     -->
+    <structuredBody>
+      <!--
+             ********************************************************
+             Health Concerns Section (Nutrition)
+             ********************************************************
+            -->
+      <component>
+        <section>
+          <!-- [C-CDA R2.1] Health Concerns Section -->
+          <templateId root="2.16.840.1.113883.10.20.22.2.58" extension="2015-08-01" />
+          <!-- [C-CDA SUPL Nutrition R1] Health Concerns Section (Nutrition) -->
+          <templateId root="2.16.840.1.113883.10.20.22.2.67" extension="2017-12-01" />
+          <code code="75310-3" displayName="Health Concerns Document" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
+          <title>Health Concerns Section</title>
+          <text>
+            <table border="1">
+              <tbody>
+                <tr>
+                  <th>Nutrition Diagnosis</th>
+                </tr>
+                <tr>
+                  <td ID="excessive_calories">Excessive Caloric Intake</td>
+                  <td>
+                    <list styleCode="none">
+                      <item>
+                        <table>
+                          <thead>
+                            <tr>
+                              <th>Observation</th>
+                              <th>Value</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>Etiology</td>
+                              <td>unchanged dietary intake and restricted mobility while fracture heals</td>
+                            </tr>
+                            <tr>
+                              <td>Supporting Sign and Symptom</td>
+                              <td><linkHtml href="#id_ascites">Ascites Present</linkHtml></td>
+                            </tr>
+                            <tr>
+                              <td>Supporting Sign and Symptom</td>
+                              <td><linkHtml href="#id_cholesterol">serum cholesterol level of 230 mg/dL</linkHtml></td>
+                            </tr>
+                            <tr>
+                              <td>Supporting Sign and Symptom</td>
+                              <td><linkHtml href="#id_diet">10 meals/week hamburgers/sandwiches and fries</linkHtml></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </item>
+                    </list>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+
+          <entry>
+            <act classCode="ACT" moodCode="EVN">
+              <!-- [C-CDA R2.1] Health Concern Act (V3) -->
+              <templateId root="2.16.840.1.113883.10.20.22.4.132" extension="2015-08-01" />
+              <!-- [C-CDA SUPL Nutrition R1] Health Concern Act (Nutrition) -->
+              <templateId root="2.16.840.1.113883.10.20.22.4.239" extension="2017-12-01" />
+              <id root="9df89b9d-8a4b-485c-87db-1598a5fc2aed" />
+              <code code="75310-3" displayName="Health Concern" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
+              <statusCode code="completed" />
+              <effectiveTime>
+                <low value="20160522" />
+              </effectiveTime>
+              <entryRelationship typeCode="COMP">
+                <observation classCode="OBS" moodCode="EVN">
+                  <!-- [C-CDA R2.1] Problem Observation (V3) -->
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4" extension="2015-08-01" />
+                  <!-- [C-CDA SUPL Nutrition R1] Nutrition Diagnosis (Nutrition) -->
+                  <templateId root="2.16.840.1.113883.10.20.22.4.237" extension="2017-12-01" />
+                  <id root="54da311f-0599-4418-947e-e72889e2fa95" />
+                  <code code="75305-3" displayName="Nutrition Status" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
+                  <statusCode code="completed" />
+                  <effectiveTime>
+                    <low value="20170224" />
+                  </effectiveTime>
+                  <value xsi:type="CD" code="430182009" displayName="Excessive dietary caloric intake" codeSystem="2.16.840.1.113883.6.96"
+                    codeSystemName="SNOMED CT" />
+
+                  <!-- Etiology of nutrition diagnosis - recorded as plain text -->
+                  <entryRelationship typeCode="CAUS" inversionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <!-- [C-CDA SUPL Nutrition R1] Diagnosis Etiology (Nutrition) -->
+                      <templateId root="2.16.840.1.113883.10.20.22.4.240" extension="2017-12-01" />
+                      <id root="edcc1c4e-59f3-4484-b391-6fb50b86d12b" />
+                      <code code="75306-1" displayName="Nutrition status etiology" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
+                      <statusCode code="completed" />
+                      <value xsi:type="CD" nullFlavor="OTH">
+                        <originalText>unchanged dietary intake and restricted mobility while fracture heals</originalText>
+                      </value>
+                    </observation>
+                  </entryRelationship>
+
+                  <!-- Supporting signs and symptoms for diagnosis + etiology -->
+                  <!-- Supporting Sign and Symptom 1: Ascites Present -->
+                  <entryRelationship typeCode="SPRT">
+                    <act classCode="ACT" moodCode="EVN">
+                      <!-- [C-CDA R2.0] Entry Reference -->
+                      <templateId root="2.16.840.1.113883.10.20.22.4.122" />
+                      <!-- This value has the same GUID found in the ID element of the Ascites problem observation, creating the link -->
+                      <id root="cf6d6c28-b323-4140-862e-0470e3ebdac2" />
+                      <code nullFlavor="NP" />
+                      <statusCode code="completed" />
+                    </act>
+                  </entryRelationship>
+                  <!-- Supporting sign and symptom 2: Serum cholesterol level -->
+                  <entryRelationship typeCode="SPRT">
+                    <act classCode="ACT" moodCode="EVN">
+                      <!-- [C-CDA R2.0] Entry Reference -->
+                      <templateId root="2.16.840.1.113883.10.20.22.4.122" />
+                      <!-- This value has the same GUID found in the ID elment of the serum cholesterol result observation, creating the link -->
+                      <id root="d0885595-b93e-4e98-9130-ed1839fc4686" />
+                      <code nullFlavor="NP" />
+                      <statusCode code="completed" />
+                    </act>
+                  </entryRelationship>
+                  <!-- Supporting sign and symptom 3: 10 meals/week hamburgers/sandwiches and fries -->
+                  <entryRelationship typeCode="SPRT">
+                    <act classCode="ACT" moodCode="EVN">
+                      <!-- [C-CDA R2.0] Entry Reference -->
+                      <templateId root="2.16.840.1.113883.10.20.22.4.122" />
+                      <!-- This value has the same GUID found in the ID element of the diet problem observation, creating the link -->
+                      <id root="cefcf940-9063-45ed-8d76-c63ba59a44ad" />
+                      <code nullFlavor="NP" />
+                      <statusCode code="completed" />
+                    </act>
+                  </entryRelationship>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+        </section>
+      </component>
+      <!--
+             ********************************************************
+             Goals Section
+             ********************************************************
+      -->
+      <component>
+        <section>
+          <!-- [C-CDA R2.0] Goals Section -->
+          <templateId root="2.16.840.1.113883.10.20.22.2.60" />
+          <code code="61146-7" displayName="Goals" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
+          <title>Goals Section</title>
+          <text>
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>Goal</th>
+                  <th>Referencing</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td ID="goal_reduce">Reduce Calorie intake to 1900 calories/day</td>
+                  <td><linkHtml href="#excessive_calories">Nutrition diagnosis of excessive Caloric Intake</linkHtml></td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+
+          <!-- Example with plain text goal -->
+          <entry typeCode="DRIV">
+            <observation classCode="OBS" moodCode="GOL">
+              <!-- [C-CDA R2.0] Goal Observation -->
+              <templateId root="2.16.840.1.113883.10.20.22.4.121" />
+              <id root="fa8bec31-4c25-47c9-ab9c-984e20f85d86" />
+              <code nullFlavor="OTH">
+                <originalText>Goal to reduce caloric intake to 1900 calories/day</originalText>
+              </code>
+              <statusCode code="active" />
+              <!-- Reference to nutrition diagnosis of excessive caloric intake in the Health Concerns Section -->
+              <entryRelationship typeCode="REFR">
+                <act classCode="ACT" moodCode="EVN">
+                  <!-- [C-CDA R2.0] Entry Reference -->
+                  <templateId root="2.16.840.1.113883.10.20.22.4.122" />
+                  <!-- This ID Matches the GUID for the ID in the existing entry for Constipation  -->
+                  <id root="54da311f-0599-4418-947e-e72889e2fa95" />
+                  <code nullFlavor="NP" />
+                  <text>Reference to excessive caloric intake in health concerns section</text>
+                  <statusCode code="completed" />
+                </act>
+              </entryRelationship>
+            </observation>
+          </entry>
+        </section>
+      </component>
+      <!--
+             ********************************************************
+             Interventions Section (Nutrition)
+             ********************************************************
+        -->
+      <component>
+        <section>
+          <!-- [C-CDA R2.1] Interventions Section (V3) -->
+          <templateId root="2.16.840.1.113883.10.20.21.2.3" extension="2015-08-01" />
+          <!-- [C-CDA SUPL Nutrition R1] Interventions Section (Nutrition) -->
+          <templateId root="2.16.840.1.113883.10.20.22.2.69" extension="2017-12-01" />
+          <code code="62387-6" displayName="Interventions Provided" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
+          <title>Interventions Section</title>
+          <text>
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>Planned Interventions</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <list styleCode="none">
+                      <item>
+                        <table>
+                          <thead>
+                            <tr>
+                              <th>Type</th>
+                              <th>Details</th>
+                              <th>Date</th>
+                              <th>Restricted Items</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td ID="nut_pres">Nutrition Statement/Prescription</td>
+                              <td>Ketogenic diet</td>
+                              <td>2017-08-03</td>
+                              <td />
+                            </tr>
+                            <tr>
+                              <td>Nutrition Order</td>
+                              <td>Order for protein supplement</td>
+                              <td>2017-08-04</td>
+                              <td />
+                            </tr>
+                            <tr>
+                              <td>Nutrition Order: Enteral</td>
+                              <td><paragraph>Adult diabetic specialty formula administered through Nasogastric route</paragraph><list>
+                                  <item>Adult diabetic specialty formula (product)</item>
+                                  <item>Route: nasogastric</item>
+                                  <item>Product: Adult diabetic specialty formula</item>
+                                  <item>Total Formula Amount: 320 g</item>
+                                </list>
+                                <paragraph>Feeding Instructions</paragraph>
+                                <list>
+                                  <item>Frequency: 4 times/day, Every 6 hours</item>
+                                  <item>Feeding Amount: 80 g</item>
+                                </list></td>
+                              <td>2017-08-03 to 2017-08-04</td>
+                              <td />
+                            </tr>
+                            <tr>
+                              <td>Nutrition Order: Enteral</td>
+                              <td><paragraph>Enteral Administration through Nasogastric route</paragraph><list>
+                                  <item>80g Protein + Consistent Carb</item>
+                                  <item>2g Sodium</item>
+                                  <item>2g Potassium</item>
+                                  <item>900mg Phosphorus</item>
+                                  <item>1500mL Fluid Restricted</item>
+                                </list></td>
+                              <td>2017-08-03 to 2017-09-22</td>
+                              <td>Red meat</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </item>
+                    </list>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>Interventions Performed</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <list styleCode="none">
+                      <item>
+                        <table>
+                          <thead>
+                            <tr>
+                              <th>Type</th>
+                              <th>Details</th>
+                              <th>Date</th>
+                              <th>Referenced Goal</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>Nutrition Recommendation</td>
+                              <td>Suggest supplemental vitamin D as medically appropriate per lab results.</td>
+                              <td>2017-08-03</td>
+                              <td><linkHtml href="#goal_reduce">Goal to reduce caloric intake</linkHtml></td>
+                            </tr>
+                            <tr>
+                              <td>Nutrition Referral</td>
+                              <td>Referred to gastroenterologist</td>
+                              <td>2017-08-03</td>
+                              <td><linkHtml href="#goal_reduce">Goal to reduce caloric intake</linkHtml></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </item>
+                    </list>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+
+
+          <!-- Planned Intervention: Nutrition Prescription/Statement: Ketogenic Diet -->
+          <entry typeCode="COMP">
+            <act classCode="ACT" moodCode="INT">
+              <!-- [C-CDA R2.1] Planned Intervention Act (V2) -->
+              <templateId root="2.16.840.1.113883.10.20.22.4.146" extension="2015-08-01" />
+              <!-- [C-CDA SUPL Nutrition R1] Planned Intervention Act (Nutrition) -->
+              <templateId root="2.16.840.1.113883.10.22.4.243" extension="2017-12-01" />
+              <id root="321b44bd-dee6-49e0-a55f-41d038f1f2a6" />
+              <code code="362956003" displayName="procedure/intervention" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" />
+              <statusCode code="active" />
+
+              <entryRelationship typeCode="REFR">
+                <act classCode="ACT" moodCode="INT">
+                  <!-- [C-CDA SUPL Nutrition] Nutrition Recommendation (V2) -->
+                  <templateId root="2.16.840.1.113883.10.20.22.4.130" extension="2017-12-01" />
+                  <!-- [C-CDA SUPL Nutrition] Diet Statement (Nutrition) -->
+                  <templateId root="2.16.840.1.113883.10.20.22.4.244" extension="2017-12-01" />
+                  <code code="182922004" displayName="Dietary Regime" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" />
+                  <statusCode code="active" />
+
+                  <entryRelationship typeCode="REFR">
+                    <act classCode="ACT" moodCode="INT">
+                      <!-- [C-CDA R2.0] Planned Act (V2) -->
+                      <templateId root="2.16.840.1.113883.10.20.22.4.39" extension="2014-06-09" />
+                      <id root="fc216d82-6da1-456e-97a8-e005bc48c8ab" />
+                      <code code="226108007" displayName="Ketogenic Diet" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" />
+                      <statusCode code="active" />
+                      <effectiveTime value="20170803" />
+                    </act>
+                  </entryRelationship>
+
+                  <!-- Reference the goal for this intervention -->
+                  <entryRelationship typeCode="RSON">
+                    <act classCode="ACT" moodCode="EVN">
+                      <!-- [C-CDA R2] Entry Reference -->
+                      <templateId root="2.16.840.1.113883.10.20.22.4.122" />
+                      <!-- Id pointing to the goal -->
+                      <id root="fa8bec31-4c25-47c9-ab9c-984e20f85d86" />
+                      <code nullFlavor="NP" />
+                      <statusCode code="completed" />
+                    </act>
+                  </entryRelationship>
+                </act>
+              </entryRelationship>
+
+              <!-- Reference the goal for this intervention -->
+              <entryRelationship typeCode="RSON">
+                <act classCode="ACT" moodCode="EVN">
+                  <!-- [C-CDA R2] Entry Reference -->
+                  <templateId root="2.16.840.1.113883.10.20.22.4.122" />
+                  <!-- Id pointing to the goal -->
+                  <id root="fa8bec31-4c25-47c9-ab9c-984e20f85d86" />
+                  <code nullFlavor="NP" />
+                  <statusCode code="completed" />
+                </act>
+              </entryRelationship>
+
+            </act>
+          </entry>
+
+          <!-- Planned Intervention: Nutrition Order: Simple: Protein Supplement plus decreased carbohydrate diet -->
+          <entry typeCode="COMP">
+            <act classCode="ACT" moodCode="INT">
+              <!-- [C-CDA R2.1] Planned Intervention Act (V2) -->
+              <templateId root="2.16.840.1.113883.10.20.22.4.146" extension="2015-08-01" />
+              <!-- [C-CDA SUPL Nutrition R1] Planned Intervention Act (Nutrition) -->
+              <templateId root="2.16.840.1.113883.10.22.4.243" extension="2017-12-01" />
+              <id root="321b44bd-dee6-49e0-a55f-41d038f1f2a6" />
+              <code code="362956003" displayName="procedure/intervention" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" />
+              <statusCode code="active" />
+              <entryRelationship typeCode="REFR">
+                <supply classCode="SPLY" moodCode="RQO">
+                  <!-- [C-CDA SUPL Nutrition R1] Order (Nutrition) -->
+                  <templateId root="2.16.840.1.113883.10.20.22.4.249" extension="2017-12-01" />
+                  <id root="224ce28d-1187-4662-91f0-07f7b7a142bd" />
+                  <code code="DIET" displayName="Diet" codeSystem="2.16.840.1.113883.5.4" codeSystemName="HL7ActCode" />
+                  <text>Protein supplement plus low carb diet</text>
+                  <entryRelationship typeCode="COMP">
+                    <supply classCode="SPLY" moodCode="RQO">
+                      <!-- [C-CDA SUPL Nutrition R1] Order Item (Nutrition) -->
+                      <templateId root="2.16.840.1.113883.10.20.22.4.254" extension="2017-12-01" />
+                      <id root="224ce28d-1187-4662-91f0-07f7b7a142ba" />
+                      <code code="437461000124104" displayName="Increased protein diet" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" />
+                      <statusCode code="active" />
+                      <effectiveTime value="20171201" />
+                    </supply>
+                  </entryRelationship>
+                  <entryRelationship typeCode="COMP">
+                    <supply classCode="SPLY" moodCode="RQO">
+                      <!-- [C-CDA SUPL Nutrition R1] Order Item (Nutrition) -->
+                      <templateId root="2.16.840.1.113883.10.20.22.4.254" extension="2017-12-01" />
+                      <id root="224ce28d-1187-4662-91f0-07f7b7a142bb" />
+                      <code code="436691000124108" displayName="Decreased carbohydrate diet (regime/therapy)" codeSystem="2.16.840.1.113883.6.96"
+                        codeSystemName="SNOMED CT" />
+                      <statusCode code="active" />
+                      <effectiveTime value="20171201" />
+                    </supply>
+                  </entryRelationship>
+                </supply>
+              </entryRelationship>
+
+              <!-- Reference the goal for this intervention -->
+              <entryRelationship typeCode="RSON">
+                <act classCode="ACT" moodCode="EVN">
+                  <!-- [C-CDA R2] Entry Reference -->
+                  <templateId root="2.16.840.1.113883.10.20.22.4.122" />
+                  <!-- Id pointing to the goal -->
+                  <id root="fa8bec31-4c25-47c9-ab9c-984e20f85d86" />
+                  <code nullFlavor="NP" />
+                  <statusCode code="completed" />
+                </act>
+              </entryRelationship>
+            </act>
+          </entry>
+
+          <!-- Planned Intervention: Nutrition Order: Complex: Order New Diet with quantitative, nutrient-based modifications -->
+          <entry typeCode="COMP">
+            <act classCode="ACT" moodCode="INT">
+              <!-- [C-CDA R2.1] Planned Intervention Act (V2) -->
+              <templateId root="2.16.840.1.113883.10.20.22.4.146" extension="2015-08-01" />
+              <!-- [C-CDA SUPL Nutrition R1] Planned Intervention Act (Nutrition) -->
+              <templateId root="2.16.840.1.113883.10.22.4.243" extension="2017-12-01" />
+              <id root="49426d48-4796-42d8-a9d3-f014da94faf6" />
+              <code code="362956003" displayName="procedure/intervention" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" />
+              <statusCode code="active" />
+              <entryRelationship typeCode="REFR">
+                <supply classCode="SPLY" moodCode="RQO">
+                  <!-- [C-CDA SUPL Nutrition R1] Order (Nutrition) -->
+                  <templateId root="2.16.840.1.113883.10.20.22.4.249" extension="2017-12-01" />
+                  <id root="ef400b5f-b9a4-40c7-a0d2-6fcf9e21bf1c" />
+                  <code code="DIET" codeSystem="2.16.840.1.113883.5.4" codeSystemName="HL7ActCode" />
+                  <text>80 g Protein + Consistent Carb + 2 g Sodium + 2 g Potassium + 800–1000 mg Phosphorus + 1500 mL Fluid Restricted</text>
+
+                  <!-- Order Item 1:  -->
+                  <entryRelationship typeCode="COMP">
+                    <supply classCode="SPLY" moodCode="RQO">
+                      <!-- [C-CDA SUPL Nutrition R1] Order Item (Nutrition) -->
+                      <templateId root="2.16.840.1.113883.10.20.22.4.254" extension="2017-12-01" />
+                      <code code="435631000124104" displayName="Vitamin supplement therapy (regime/therapy" codeSystem="2.16.840.1.113883.6.96"
+                        codeSystemName="SNOMED CT" />
+                      <statusCode code="active" />
+                      <!-- This effective time means: Supply Every 6 hours-->
+                      <effectiveTime xsi:type="PIVL_TS" operator="A">
+                        <period xsi:type="PQ" value="6" unit="h" />
+                      </effectiveTime>
+                      <!-- This effective time represents the time period that the order takes place -->
+                      <effectiveTime xsi:type="IVL_TS">
+                        <low value="20170803" />
+                        <high value="20170922" />
+                      </effectiveTime>
+                      <quantity value="80" unit="g" />
+                      <product>
+                        <manufacturedProduct classCode="MANU">
+                          <!-- [C-CDA SUPL Nutrition R1] Diet Item (Nutrition) -->
+                          <templateId root="2.16.840.1.113883.10.20.22.4.259" extension="2017-12-01" />
+                          <manufacturedMaterial>
+                            <code code="88878007" displayName="Protein" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"> </code>
+                          </manufacturedMaterial>
+                        </manufacturedProduct>
+                      </product>
+                    </supply>
+                  </entryRelationship>
+                </supply>
+              </entryRelationship>
+
+              <!-- Reference the goal for this intervention -->
+              <entryRelationship typeCode="RSON">
+                <act classCode="ACT" moodCode="EVN">
+                  <!-- [C-CDA R2] Entry Reference -->
+                  <templateId root="2.16.840.1.113883.10.20.22.4.122" />
+                  <!-- Id pointing to the goal -->
+                  <id root="fa8bec31-4c25-47c9-ab9c-984e20f85d86" />
+                  <code nullFlavor="NP" />
+                  <statusCode code="completed" />
+                </act>
+              </entryRelationship>
+            </act>
+          </entry>
+
+          <!-- Planned Intervention: Order enteral diet via nasogastric tube -->
+          <entry typeCode="COMP">
+            <act classCode="ACT" moodCode="INT">
+              <!-- [C-CDA R2.1] Planned Intervention Act (V2) -->
+              <templateId root="2.16.840.1.113883.10.20.22.4.146" extension="2015-08-01" />
+              <!-- [C-CDA SUPL Nutrition R1] Planned Intervention Act (Nutrition) -->
+              <templateId root="2.16.840.1.113883.10.22.4.243" extension="2017-12-01" />
+              <id root="321b44bd-dee6-49e0-a55f-41d038f1f2a5" />
+              <code code="362956003" displayName="procedure/intervention" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" />
+              <statusCode code="active" />
+              <entryRelationship typeCode="REFR">
+                <supply classCode="SPLY" moodCode="RQO">
+                  <!-- [C-CDA SUPL Nutrition R1] Order (Nutrition) -->
+                  <templateId root="2.16.840.1.113883.10.20.22.4.249" extension="2017-12-01" />
+                  <id root="90695822-3fe5-4149-9c60-2a9a20d24ce5" />
+                  <code code="DIET" displayName="Diet" codeSystem="2.16.840.1.113883.5.4" codeSystemName="HL7ActCode" />
+                  <text>Adult diabetic specialty formula administered through Nasogastric route</text>
+                  <statusCode code="active" />
+                  <!-- Order Item 1: High energy enteral formula -->
+                  <entryRelationship typeCode="COMP">
+                    <supply classCode="SPLY" moodCode="RQO">
+                      <!-- [C-CDA SUPL Nutrition R1] Order Item (Nutrition)  -->
+                      <templateId root="2.16.840.1.113883.10.20.22.4.254" extension="2017-12-01" />
+                      <!-- [C-CDA SUPL Nutrition R1] Enteral Order Item (Nutrition)  -->
+                      <templateId root="2.16.840.1.113883.10.20.22.4.260" extension="2017-12-01" />
+                      <id root="013be2d1-4e66-4842-a69f-29c5b40917ff" />
+                      <code code="FORMULA" displayName="formula diet" codeSystem="2.16.840.1.113883.5.4" codeSystemName="HL7ActCode" />
+                      <statusCode code="active" />
+                      <!-- This effective time means: Supply Every 6 hours-->
+                      <effectiveTime xsi:type="PIVL_TS" operator="A">
+                        <period xsi:type="PQ" value="6" unit="h" />
+                      </effectiveTime>
+                      <!-- This effective time represents the time period that the supply is to take place -->
+                      <effectiveTime xsi:type="IVL_TS">
+                        <low value="20170803" />
+                        <high value="20170804" />
+                      </effectiveTime>
+                      <!-- The total amount of formula to supply. (1 day supply x 80g per feeding x every 6 hours (4 x day) -->
+                      <quantity value="320" unit="g" />
+                      <product>
+                        <manufacturedProduct classCode="MANU">
+                          <!-- [C-CDA SUPL Nutrition R1] Diet Item (Nutrition) -->
+                          <templateId root="2.16.840.1.113883.10.20.22.4.259" extension="2017-12-01" />
+                          <manufacturedMaterial>
+                            <code code="443051000124104" displayName="Adult diabetic specialty formula (product)" codeSystem="2.16.840.1.113883.6.96"
+                              codeSystemName="SNOMED CT"> </code>
+                          </manufacturedMaterial>
+                        </manufacturedProduct>
+                      </product>
+                      <entryRelationship typeCode="COMP">
+                        <!-- Administration information for enteral formula -->
+                        <substanceAdministration classCode="SBADM" moodCode="RQO">
+                          <!-- [C-CDA SUPL Nutrition R1] Enteral Order Administration (Nutrition)  -->
+                          <templateId root="2.16.840.1.113883.10.20.22.4.255" extension="2017-12-01" />
+                          <routeCode code="127492001" displayName="Nasogastric route" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" />
+                          <!-- The amount of formula to provide per feeding -->
+                          <doseQuantity value="80" unit="g" />
+                          <!-- consumable data element is required by CDA but not needed by the Nutrition Order use case, and as such a nullFlavor is used -->
+                          <consumable>
+                            <manufacturedProduct classCode="MANU">
+                              <manufacturedMaterial nullFlavor="NA" />
+                            </manufacturedProduct>
+                          </consumable>
+                        </substanceAdministration>
+                      </entryRelationship>
+                    </supply>
+                  </entryRelationship>
+                </supply>
+              </entryRelationship>
+
+              <!-- Reference the goal for this intervention -->
+              <entryRelationship typeCode="RSON">
+                <act classCode="ACT" moodCode="EVN">
+                  <!-- [C-CDA R2] Entry Reference -->
+                  <templateId root="2.16.840.1.113883.10.20.22.4.122" />
+                  <!-- Id pointing to the goal -->
+                  <id root="fa8bec31-4c25-47c9-ab9c-984e20f85d86" />
+                  <code nullFlavor="NP" />
+                  <statusCode code="completed" />
+                </act>
+              </entryRelationship>
+            </act>
+          </entry>
+
+
+          <!--  Intervention Performed: Nutrition Recommendation: Suggest Supplemental Vitamin D -->
+          <entry typeCode="COMP">
+            <act classCode="ACT" moodCode="EVN">
+              <!-- [C-CDA R2.1] Intervention Act (V2) -->
+              <templateId root="2.16.840.1.113883.10.20.22.4.131" extension="2015-08-01" />
+              <!-- [C-CDA SUPL Nutrition R1] Intervention Act (Nutrition) -->
+              <templateId root="2.16.840.1.113883.10.20.22.4.247" extension="2017-12-01" />
+              <id root="321b44bd-dee6-49e0-a55f-41d038f1f2a6" />
+              <code code="362956003" displayName="procedure/intervention" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" />
+              <statusCode code="completed" />
+              <entryRelationship typeCode="REFR">
+                <act classCode="ACT" moodCode="EVN">
+                  <!-- [C-CDA SUPL Nutrition R1] Recommendation Performed (Nutrition) -->
+                  <templateId root="2.16.840.1.113883.10.20.22.4.248" extension="2017-12-01" />
+                  <code code="61310001" displayName="nutrition education (procedure)" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" />
+                  <statusCode code="completed" />
+                  <effectiveTime value="20170223" />
+
+                  <entryRelationship typeCode="REFR">
+                    <encounter classCode="ENC" moodCode="EVN">
+                      <!-- [C-CDA R2.0] Instruction -->
+                      <templateId root="2.16.840.1.113883.10.20.22.4.20" extension="2014-06-09" />
+                      <code code="11816003" displayName="Diet Education" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" />
+                      <effectiveTime value="20171201" />
+                    </encounter>
+                  </entryRelationship>
+                </act>
+              </entryRelationship>
+            </act>
+          </entry>
+
+
+          <!-- Intervention Performed: Supplied enteral diet via nasogastric tube -->
+          <entry typeCode="COMP">
+            <act classCode="ACT" moodCode="EVN">
+              <!-- [C-CDA R2.1] Intervention Act (V2) -->
+              <templateId root="2.16.840.1.113883.10.20.22.4.131" extension="2015-08-01" />
+              <!-- [C-CDA SUPL Nutrition R1] Intervention Act (Nutrition) -->
+              <templateId root="2.16.840.1.113883.10.20.22.4.247" extension="2017-12-01" />
+              <id root="321b44bd-dee6-49e0-a55f-41d038f1f2a6" />
+              <code code="362956003" displayName="procedure/intervention" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" />
+              <statusCode code="completed" />
+              <entryRelationship typeCode="REFR">
+                <supply classCode="SPLY" moodCode="EVN">
+                  <!-- [C-CDA SUPL Nutrition R1] Order Supplied (Nutrition) -->
+                  <templateId root="2.16.840.1.113883.10.20.22.4.256" extension="2017-12-01" />
+                  <id root="90695822-3fe5-4149-9c60-2a9a20d24ce6" />
+                  <code code="DIET" displayName="Diet" codeSystem="2.16.840.1.113883.5.4" codeSystemName="HL7ActCode" />
+                  <text>80 g Protein + Consistent Carb + 2 g Sodium + 2 g Potassium + 800–1000 mg Phosphorus + 1500 mL Fluid Restricted</text>
+                  <statusCode code="completed" />
+
+                  <!-- Order Item 1: 80 g Protein -->
+                  <entryRelationship typeCode="COMP">
+                    <supply classCode="SPLY" moodCode="EVN">
+                      <!-- [C-CDA SUPL Nutrition R1] Order Item Supplied (Nutrition)  -->
+                      <templateId root="2.16.840.1.113883.10.20.22.4.257" extension="2017-12-01" />
+                      <!-- [C-CDA SUPL Nutrition R1] Enteral Order Item Supplied (Nutrition)  -->
+                      <templateId root="2.16.840.1.113883.10.20.22.4.261" extension="2017-12-01" />
+                      <id root="013be2d1-4e66-4842-a69f-29c5b40917fe" />
+                      <code code="FORMULA" displayName="Protein modified diet" codeSystem="2.16.840.1.113883.5.4" codeSystemName="HL7 Act Code" />
+                      <statusCode code="active" />
+                      <!-- This effective time means: Supply Every 6 hours-->
+                      <effectiveTime xsi:type="PIVL_TS" operator="A">
+                        <period xsi:type="PQ" value="6" unit="h" />
+                      </effectiveTime>
+                      <!-- This effective time represents the time period that the supply took place -->
+                      <effectiveTime xsi:type="IVL_TS">
+                        <low value="20170803" />
+                        <high value="20170922" />
+                      </effectiveTime>
+                      <!-- The amount of formula to provide. (50 days supply x 80g per feeding x every 6 hours (4 x day) -->
+                      <quantity value="16" unit="kg" />
+                      <product>
+                        <manufacturedProduct classCode="MANU">
+                          <!-- [C-CDA SUPL Nutrition R1] Diet Item (Nutrition) -->
+                          <templateId root="2.16.840.1.113883.10.20.22.4.259" extension="2017-12-01" />
+                          <manufacturedMaterial>
+                            <code code="88878007" displayName="Protein" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"> </code>
+                          </manufacturedMaterial>
+                        </manufacturedProduct>
+                      </product>
+                      <entryRelationship typeCode="COMP">
+                        <substanceAdministration classCode="SBADM" moodCode="EVN">
+                          <!-- [C-CDA SUPL Nutrition R1] Enteral Order Administration Performed (Nutrition)  -->
+                          <templateId root="2.16.840.1.113883.10.20.22.4.258" extension="2017-12-01" />
+                          <text>Nasogastric administration</text>
+                          <routeCode code="127492001" displayName="Nasogastric route" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" />
+                          <!-- The amount of formula to provide per feeding -->
+                          <doseQuantity value="80" unit="g" />
+                          <!-- consumable data element is required by CDA but not needed in the Nutrition Order use case, and as such a nullFlavor is used -->
+                          <consumable>
+                            <manufacturedProduct classCode="MANU">
+                              <manufacturedMaterial nullFlavor="NA" />
+                            </manufacturedProduct>
+                          </consumable>
+                        </substanceAdministration>
+                      </entryRelationship>
+                    </supply>
+                  </entryRelationship>
+                  <!-- Order Item 2: Consistent Carb -->
+                  <entryRelationship typeCode="COMP">
+                    <supply classCode="SPLY" moodCode="EVN">
+                      <!-- [C-CDA SUPL Nutrition R1] Order Item Supplied (Nutrition)  -->
+                      <templateId root="2.16.840.1.113883.10.20.22.4.257" extension="2017-12-01" />
+                      <id root="7ae14a9d-8c6a-48d9-93af-287ad126209f" />
+                      <code code="FORMULA" displayName="formula diet" codeSystem="2.16.840.1.113883.5.4" codeSystemName="HL7ActCode" />
+                      <statusCode code="active" />
+                      <!-- This effective time means: Supply Every 6 hours-->
+                      <effectiveTime xsi:type="PIVL_TS" operator="A">
+                        <period xsi:type="PQ" value="6" unit="h" />
+                      </effectiveTime>
+                      <!-- This effective time represents the time period that the order takes place -->
+                      <effectiveTime xsi:type="IVL_TS">
+                        <low value="20170803" />
+                        <high value="20170922" />
+                      </effectiveTime>
+                      <product>
+                        <manufacturedProduct classCode="MANU">
+                          <!-- [C-CDA SUPL Nutrition R1] Diet Item (Nutrition) -->
+                          <templateId root="2.16.840.1.113883.10.20.22.4.259" extension="2017-12-01" />
+                          <manufacturedMaterial>
+                            <code code="2331003" displayName="Carbohydrate" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
+                              <originalText>Consistent Carbohydrate</originalText>
+                            </code>
+                          </manufacturedMaterial>
+                        </manufacturedProduct>
+                      </product>
+                    </supply>
+                  </entryRelationship>
+
+                  <!-- Order Item 3: 2 g Sodium -->
+                  <entryRelationship typeCode="COMP">
+                    <supply classCode="SPLY" moodCode="EVN">
+                      <!-- [C-CDA SUPL Nutrition R1] Order Item Supplied (Nutrition)  -->
+                      <templateId root="2.16.840.1.113883.10.20.22.4.257" extension="2017-12-01" />
+                      <id root="9c81578a-b68b-416d-99e0-24ade00d4193" />
+                      <code code="FORMULA" displayName="formula diet" codeSystem="2.16.840.1.113883.5.4" codeSystemName="HL7ActCode" />
+                      <statusCode code="active" />
+                      <!-- This effective time means: Supply Every 6 hours-->
+                      <effectiveTime xsi:type="PIVL_TS" operator="A">
+                        <period xsi:type="PQ" value="6" unit="h" />
+                      </effectiveTime>
+                      <!-- This effective time represents the time period that the order takes place -->
+                      <effectiveTime xsi:type="IVL_TS">
+                        <low value="20170803" />
+                        <high value="20170922" />
+                      </effectiveTime>
+
+                      <quantity value="2" unit="g" />
+                      <product>
+                        <manufacturedProduct classCode="MANU">
+                          <!-- [C-CDA SUPL Nutrition R1] Diet Item (Nutrition) -->
+                          <templateId root="2.16.840.1.113883.10.20.22.4.259" extension="2017-12-01" />
+                          <manufacturedMaterial>
+                            <code code="39972003" displayName="Sodium" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
+                              <originalText>Sodium</originalText>
+                            </code>
+                          </manufacturedMaterial>
+                        </manufacturedProduct>
+                      </product>
+
+                    </supply>
+                  </entryRelationship>
+
+                  <!-- Order Item 4: 2 g Potassium -->
+                  <entryRelationship typeCode="COMP">
+                    <supply classCode="SPLY" moodCode="EVN">
+                      <!-- [C-CDA SUPL Nutrition R1] Order Item Supplied (Nutrition)  -->
+                      <templateId root="2.16.840.1.113883.10.20.22.4.257" extension="2017-12-01" />
+                      <id root="1559410d-6309-499f-86d7-727625edc962" />
+                      <code code="FORMULA" displayName="formula diet" codeSystem="2.16.840.1.113883.5.4" codeSystemName="HL7ActCode" />
+                      <statusCode code="active" />
+                      <!-- This effective time means: Supply Every 6 hours-->
+                      <effectiveTime xsi:type="PIVL_TS" operator="A">
+                        <period xsi:type="PQ" value="6" unit="h" />
+                      </effectiveTime>
+                      <!-- This effective time represents the time period that the order takes place -->
+                      <effectiveTime xsi:type="IVL_TS">
+                        <low value="20170803" />
+                        <high value="20170922" />
+                      </effectiveTime>
+                      <quantity value="2" unit="g" />
+                      <product>
+                        <manufacturedProduct classCode="MANU">
+                          <!-- [C-CDA SUPL Nutrition R1] Diet Item (Nutrition) -->
+                          <templateId root="2.16.840.1.113883.10.20.22.4.259" extension="2017-12-01" />
+                          <manufacturedMaterial>
+                            <code code="88480006" displayName="Potassium" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"> </code>
+                          </manufacturedMaterial>
+                        </manufacturedProduct>
+                      </product>
+                    </supply>
+                  </entryRelationship>
+
+                  <!-- Order Item 5: 800-1000 mg Phosphorus -->
+                  <entryRelationship typeCode="COMP">
+                    <supply classCode="SPLY" moodCode="EVN">
+                      <!-- [C-CDA SUPL Nutrition R1] Order Item Supplied (Nutrition)  -->
+                      <templateId root="2.16.840.1.113883.10.20.22.4.257" extension="2017-12-01" />
+                      <id root="92545ea6-1d42-4328-aa46-c006464bdaca" />
+                      <code code="FORMULA" displayName="formula diet" codeSystem="2.16.840.1.113883.5.4" codeSystemName="HL7ActCode" />
+                      <statusCode code="active" />
+                      <!-- This effective time means: Supply Every 6 hours-->
+                      <effectiveTime xsi:type="PIVL_TS" operator="A">
+                        <period xsi:type="PQ" value="6" unit="h" />
+                      </effectiveTime>
+                      <!-- This effective time represents the time period that the order takes place -->
+                      <effectiveTime xsi:type="IVL_TS">
+                        <low value="20170803" />
+                        <high value="20170922" />
+                      </effectiveTime>
+                      <quantity value="900" unit="mg" />
+                      <product>
+                        <manufacturedProduct classCode="MANU">
+                          <!-- [C-CDA SUPL Nutrition R1] Diet Item (Nutrition) -->
+                          <templateId root="2.16.840.1.113883.10.20.22.4.259" extension="2017-12-01" />
+                          <manufacturedMaterial>
+                            <code code="30820000" displayName="Phosphorus" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"> </code>
+                          </manufacturedMaterial>
+                        </manufacturedProduct>
+                      </product>
+                    </supply>
+                  </entryRelationship>
+
+                  <!-- Order Item 6: 1500mL Fluid Restricted -->
+                  <entryRelationship typeCode="COMP">
+                    <supply classCode="SPLY" moodCode="EVN">
+                      <!-- [C-CDA SUPL Nutrition R1] Order Item Supplied (Nutrition)  -->
+                      <templateId root="2.16.840.1.113883.10.20.22.4.257" extension="2017-12-01" />
+                      <id root="1f2f9919-6708-4e85-aa6f-3494064962c4" />
+                      <code code="FORMULA" displayName="formula diet" codeSystem="2.16.840.1.113883.5.4" codeSystemName="HL7ActCode" />
+                      <statusCode code="active" />
+                      <!-- This effective time means: Supply Every 6 hours-->
+                      <effectiveTime xsi:type="PIVL_TS" operator="A">
+                        <period xsi:type="PQ" value="6" unit="h" />
+                      </effectiveTime>
+                      <!-- This effective time represents the time period that the order takes place -->
+                      <effectiveTime xsi:type="IVL_TS">
+                        <low value="20170803" />
+                        <high value="20170922" />
+                      </effectiveTime>
+                      <quantity value="1500" unit="ml" />
+                      <product>
+                        <manufacturedProduct classCode="MANU">
+                          <!-- [C-CDA SUPL Nutrition R1] Diet Item (Nutrition) -->
+                          <templateId root="2.16.840.1.113883.10.20.22.4.259" extension="2017-12-01" />
+                          <manufacturedMaterial>
+                            <code code="33463005" displayName="Liquid Substance" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
+                              <originalText>1500 mL Fluid Restricted</originalText>
+                            </code>
+                          </manufacturedMaterial>
+                        </manufacturedProduct>
+                      </product>
+                    </supply>
+                  </entryRelationship>
+                </supply>
+              </entryRelationship>
+
+              <!-- Reference the goal for this intervention -->
+              <entryRelationship typeCode="RSON">
+                <act classCode="ACT" moodCode="EVN">
+                  <!-- [C-CDA R2] Entry Reference -->
+                  <templateId root="2.16.840.1.113883.10.20.22.4.122" />
+                  <!-- Id pointing to the goal -->
+                  <id root="fa8bec31-4c25-47c9-ab9c-984e20f85d86" />
+                  <code nullFlavor="NP" />
+                  <statusCode code="completed" />
+                </act>
+              </entryRelationship>
+            </act>
+          </entry>
+
+          <!-- Example of coordination of care: Referred to gastroenterologist -->
+          <entry typeCode="COMP">
+            <act classCode="ACT" moodCode="EVN">
+              <!-- [C-CDA R2.1] Intervention Act (V2) -->
+              <templateId root="2.16.840.1.113883.10.20.22.4.131" extension="2015-08-01" />
+              <!-- [C-CDA SUPL Nutrition R1] Intervention Act (Nutrition) -->
+              <templateId root="2.16.840.1.113883.10.20.22.4.247" extension="2017-12-01" />
+              <id root="0c234724-7d5a-45b8-8c09-9635648ab37a" />
+              <code code="362956003" displayName="procdure/intervention" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" />
+              <statusCode code="completed" />
+              <effectiveTime value="20170803" />
+
+              <entryRelationship typeCode="REFR">
+                <act classCode="ACT" moodCode="EVN">
+                  <!-- [C-CDA R2] Handoff communication participants -->
+                  <templateId root="2.16.840.1.113883.10.20.22.4.141" />
+                  <code code="432138007" displayName="handoff communication" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" />
+                  <statusCode code="completed" />
+                  <effectiveTime value="20170803" />
+                  <author>
+                    <!-- [C-CDA R2.0] Author Participation -->
+                    <templateId root="2.16.840.1.113883.10.20.22.4.119" />
+                    <time value="0830" />
+                    <assignedAuthor>
+                      <!-- This references the ID of the same author of the care plan -->
+                      <id root="ec399842-7c0d-4cfc-ada3-f11a799d0460" />
+                    </assignedAuthor>
+                  </author>
+
+                  <participant typeCode="IRCP">
+                    <participantRole>
+                      <id root="3ffd8331-aa76-4a55-b9f6-e0d7c1a178ed" />
+                      <code code="207RG0100X" displayName="Gastroenterology" codeSystem="2.16.840.1.113883.11.19465"
+                        codeSystemName="nuccProviderCodes" />
+                      <addr use="HP">
+                        <streetAddressLine>888 Hospital Street</streetAddressLine>
+                        <city>Beaverton</city>
+                        <state>OR</state>
+                        <postalCode>97867</postalCode>
+                        <!-- US is "United States" from ISO 3166-1 Country Codes: 1.0.3166.1 -->
+                        <country>US</country>
+                      </addr>
+                    </participantRole>
+                  </participant>
+                </act>
+              </entryRelationship>
+            </act>
+          </entry>
+        </section>
+      </component>
+      <!--
+           ********************************************************
+           Health Status Evaluations/Outcomes Section (Nutrition)
+           ********************************************************
+      -->
+      <component>
+        <section>
+          <!-- [CCDA R2.0] Health Status Evaluations and Outcomes Section -->
+          <templateId root="2.16.840.1.113883.10.20.22.2.61" />
+          <!-- [C-CDA SUPL Nutrition R1] Health Status Evaluations and Outcomes Section (Nutrition) -->
+          <templateId root="2.16.840.1.113883.10.20.22.2.68" extension="2017-12-01" />
+          <code code="11383-7" displayName="Patient Problem Outcome" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
+          <title>Health Status Evaluations/Outcomes Section</title>
+          <text>
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>Date</th>
+                  <th>Observation</th>
+                  <th>Supporting Evidence</th>
+                  <th>Progress towards goal</th>
+                  <th>Related Goal</th>
+                  <th>Associated Intervention</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>2017-08-03</td>
+                  <td>Estimated fat intake currently 200% of nutrition prescription</td>
+                  <td>10 meals/week with hamburgers and fries</td>
+                  <td>No progress towards goal</td>
+                  <td>
+                    <list>
+                      <item><linkHtml href="#goal_reduce">Goal to reduce caloric intake</linkHtml></item>
+
+                    </list>
+                  </td>
+                  <td><list>
+                      <item><linkHtml href="#nut_pres">Prescription to mediterranean Diet</linkHtml></item>
+                    </list></td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+
+          <entry>
+            <observation classCode="OBS" moodCode="EVN">
+              <!-- [C-CDA R2.0] Outcome Observation -->
+              <templateId root="2.16.840.1.113883.10.20.22.4.144" />
+              <!-- [C-CDA SUPL Nutrition R1] Evaluation and Outcome (Nutrition) -->
+              <templateId root="2.16.840.1.113883.10.20.22.4.250" extension="2017-12-01" />
+              <id root="789160d1-3b0b-45a6-8537-41b6239aad9a" />
+              <code code="78481-9" displayName="Nutrition and Dietetics Progress Note" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
+              <!-- Referencing the Goal which this outcome measures against -->
+              <entryRelationship typeCode="GEVL">
+                <act classCode="ACT" moodCode="EVN">
+                  <!-- [C-CDA R2.0] Entry Reference -->
+                  <templateId root="2.16.840.1.113883.10.20.22.4.122" />
+                  <!-- Note: This ID ties back to the ID found in the goal observation -->
+                  <id root="fa8bec31-4c25-47c9-ab9c-984e20f85d86" />
+                  <code nullFlavor="NP" />
+                  <statusCode code="completed" />
+                </act>
+              </entryRelationship>
+
+              <!-- Referencing the intervention of nutrition education  -->
+              <entryRelationship typeCode="RSON">
+                <act classCode="ACT" moodCode="EVN">
+                  <!-- [C-CDA R2.0] Entry Reference -->
+                  <templateId root="2.16.840.1.113883.10.20.22.4.122" />
+                  <!-- Note: This ID ties back to the ID found in the planned intervention -->
+                  <id root="321b44bd-dee6-49e0-a55f-41d038f1f2a6" />
+                  <code nullFlavor="NP" />
+                  <statusCode code="completed" />
+                </act>
+              </entryRelationship>
+
+              <!-- With Supporting observation as part of nutrition monitoring and evaluations -->
+              <entryRelationship typeCode="SPRT">
+                <organizer classCode="CLUSTER" moodCode="EVN">
+                  <!-- [C-CDA SUPL Nutrition R1] Assessment Organizer -->
+                  <templateId root="2.16.840.1.113883.10.20.22.4.238" extension="2017-12-01" />
+                  <!-- [C-CDA SUPL Nutrition R1] Food/Nutrition Related History Organizer (Nutrition) -->
+                  <templateId root="2.16.840.1.113883.10.20.22.4.231" extension="2018-01-0" />
+                  <id root="9fdc76aa-fc7f-4bc2-af43-8358475d9f02" />
+                  <code code="XXXX-temp-LOINC" codeSystem="2.16.840.1.113883.6.1" />
+                  <statusCode code="completed" />
+                  <component>
+                    <!-- 10 meals/week of hamburgers/sandwiches and fries as a nutrition assessment -->
+                    <observation classCode="OBS" moodCode="EVN">
+                      <!-- [C-CDA R2.0] Nutrition Assessment -->
+                      <templateId root="2.16.840.1.113883.10.20.22.4.138" />
+                      <id root="cefcf940-9063-45ed-8d76-c63ba59a44ad" />
+                      <code code="75303-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Nutrition Assessment"> </code>
+                      <statusCode code="completed" />
+                      <effectiveTime>
+                        <low value="20160521" />
+                      </effectiveTime>
+                      <value xsi:type="CD" nullFlavor="OTH">
+                        <originalText>10 meals/week of hamburgers/sandwiches and fries</originalText>
+                      </value>
+                    </observation>
+                  </component>
+                </organizer>
+              </entryRelationship>
+              <entryRelationship typeCode="SPRT" inversionInd="true">
+                <!-- [C-CDA R2.0] Progress Toward Goal Observation -->
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.110" />
+                  <id root="2afcf057-aae4-47cf-bfee-b7498e300424" />
+                  <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4" />
+                  <statusCode code="completed" />
+                  <value xsi:type="CD" code="706906006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT"
+                    displayName="No progress toward goal" />
+                </observation>
+              </entryRelationship>
+            </observation>
+          </entry>
+        </section>
+      </component>
+    </structuredBody>
+  </component>
+</ClinicalDocument>

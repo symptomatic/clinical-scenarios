@@ -1,0 +1,797 @@
+<?xml-stylesheet type="text/xsl" href="CDA.xsl"?>
+<ClinicalDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="urn:hl7-org:v3 ../../00%20Resources/02%20HL7%20CDA%20R2%20Schema%20with%20extentions/20190414_CDA_SDTC_Schema/infrastructure/cda/CDA_SDTC.xsd"
+ xmlns="urn:hl7-org:v3" xmlns:sdtc="urn:hl7-org:sdtc">
+    <realmCode code="US"/>
+    <typeId root="2.16.840.1.113883.1.3" extension="POCD_HD000040"/>
+    <templateId root="2.16.840.1.113883.10.20.22.1.15" extension="2015-08-01"/>
+    <templateId root="2.16.840.1.113883.10.20.22.1.15"/>
+    <templateId root="2.16.840.1.113883.10.20.22.1.1" extension="2015-08-01"/>
+    <templateId root="2.16.840.1.113883.10.20.22.1.1"/>
+    <templateId root="1.3.6.1.4.1.19376.1.5.3.1.5.5.1"/>
+    <templateId root="1.3.6.1.4.1.19376.1.5.3.1.5.5.2"/>
+    <id root="1.3.6.1.4.1.22812.4.222.334.1" extension="201808010952453945"/>
+    <code code="52521-2" codeSystem="2.16.840.1.113883.6.1"/>
+    <title>Beginner Level</title>
+    <effectiveTime value="20180801095245-0400"/>
+    <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25"/>
+    <languageCode code="en-US"/>
+    <recordTarget>
+        <patientRole>
+            <id extension="BATMAN" root="1.3.6.1.4.1.22812.4.222.334"/>
+            <addr use="H">
+                <streetAddressLine>Unknown</streetAddressLine>
+                <city nullFlavor="UNK"/>
+            </addr>
+            <telecom nullFlavor="NI"/>
+            <patient>
+                <name use="L">
+                    <family>Wayne</family>
+                    <given>Bruce</given>
+                </name>
+                <administrativeGenderCode code="M" codeSystem="2.16.840.1.113883.5.1"/>
+                <birthTime value="19701011"/>
+                <raceCode nullFlavor="NI"/>
+                <ethnicGroupCode nullFlavor="NI"/>
+
+                <languageCommunication>
+                    <languageCode code="und"/>
+                    <preferenceInd value="true"/>
+                </languageCommunication>
+            </patient>
+            <providerOrganization>
+                <id extension="334" root="1.3.6.1.4.1.22812.4.222.334"/>
+                <name>QA Lab - Main Location</name>
+                <telecom use="WP" value="tel:+1-(919)854-1111;ext=25252"/>
+                <addr>
+                    <streetAddressLine>Beta 4 Interface TEst</streetAddressLine>
+                    <city>Cary</city>
+                    <state>NC</state>
+                    <postalCode>27511</postalCode>
+                    <country>US</country>
+                </addr>
+            </providerOrganization>
+        </patientRole>
+    </recordTarget>
+    <author>
+        <time value="20180801095245-0400"/>
+        <assignedAuthor>
+            <id extension="68" root="1.3.6.1.4.1.22812.4.222.334"/>
+            <id extension="7892456337" root="2.16.840.1.113883.4.6"/>
+
+            <code code="260000000X" codeSystem="2.16.840.1.113883.6.101"/>
+            <addr>
+                <streetAddressLine>5555 Waverly Way</streetAddressLine>
+                <city>Cary</city>
+                <state>NC</state>
+                <postalCode>27511</postalCode>
+                <country>US</country>
+            </addr>
+            <telecom nullFlavor="NI"/>
+            <assignedPerson>
+                <name>
+                    <family>Manning</family>
+                    <given>Terry</given>
+                    <given>A</given>
+                    <suffix>MD</suffix>
+                </name>
+            </assignedPerson>
+        </assignedAuthor>
+    </author>
+    <author>
+        <time value="20180801095245-0400"/>
+        <assignedAuthor>
+            <id extension="334" root="1.3.6.1.4.1.22812.4.222.334.3.3"/>
+            <addr>
+                <streetAddressLine>Beta 4 Interface TEst</streetAddressLine>
+                <city>Cary</city>
+                <state>NC</state>
+                <postalCode>27511</postalCode>
+                <country>US</country>
+            </addr>
+            <telecom use="WP" value="tel:+1-(919)854-1111;ext=25252"/>
+            <assignedAuthoringDevice>
+                <manufacturerModelName>Professional EHR 299.0.0.1215</manufacturerModelName>
+                <softwareName>Professional EHR 299.0.0.1215</softwareName>
+            </assignedAuthoringDevice>
+            <representedOrganization>
+                <id extension="334" root="1.3.6.1.4.1.22812.4.222.334"/>
+                <name>QA Lab - Main Location</name>
+                <telecom use="WP" value="tel:+1-(919)854-1111;ext=25252"/>
+                <addr>
+                    <streetAddressLine>Beta 4 Interface TEst</streetAddressLine>
+                    <city>Cary</city>
+                    <state>NC</state>
+                    <postalCode>27511</postalCode>
+                    <country>US</country>
+                </addr>
+            </representedOrganization>
+        </assignedAuthor>
+    </author>
+    <custodian>
+        <assignedCustodian>
+            <representedCustodianOrganization>
+                <id extension="334" root="1.3.6.1.4.1.22812.4.222.334"/>
+                <name>QA Lab - Main Location</name>
+                <telecom use="WP" value="tel:+1-(919)854-1111;ext=25252"/>
+                <addr>
+                    <streetAddressLine>Beta 4 Interface TEst</streetAddressLine>
+                    <city>Cary</city>
+                    <state>NC</state>
+                    <postalCode>27511</postalCode>
+                    <country>US</country>
+                </addr>
+            </representedCustodianOrganization>
+        </assignedCustodian>
+    </custodian>
+    <informationRecipient>
+        <intendedRecipient>
+            <id root="1.3.6.1.4.1.22812.4.222.334.3.1" extension="334"/>
+            <addr>
+                <streetAddressLine>Beta 4 Interface TEst</streetAddressLine>
+                <city>Cary</city>
+                <state>NC</state>
+                <postalCode>27511</postalCode>
+                <country>US</country>
+            </addr>
+            <telecom use="WP" value="tel:+1-(919)854-1111;ext=25252"/>
+            <receivedOrganization>
+                <id nullFlavor="NI"/>
+                <name>QA Lab - Main Location</name>
+                <telecom use="WP" value="tel:+1-(919)854-1111;ext=25252"/>
+                <addr>
+                    <streetAddressLine>Beta 4 Interface TEst</streetAddressLine>
+                    <city>Cary</city>
+                    <state>NC</state>
+                    <postalCode>27511</postalCode>
+                    <country>US</country>
+                </addr>
+            </receivedOrganization>
+        </intendedRecipient>
+    </informationRecipient>
+    <legalAuthenticator>
+        <time value="20180801095245-0400"/>
+        <signatureCode code="S"/>
+        <assignedEntity>
+            <id root="1.3.6.1.4.1.22812.4.222.334" extension="1"/>
+
+            <code code="260000000X" codeSystem="2.16.840.1.113883.6.101"/>
+            <addr>
+                <streetAddressLine>5501 Dillard Drive</streetAddressLine>
+                <city>Cary</city>
+                <state>NC</state>
+                <postalCode>27609</postalCode>
+                <country>US</country>
+            </addr>
+            <telecom nullFlavor="NI"/>
+            <assignedPerson>
+                <name>
+                    <family>Manager</family>
+                    <given>System</given>
+                </name>
+
+            </assignedPerson>
+        </assignedEntity>
+    </legalAuthenticator>
+    <authenticator>
+        <time value="20180801095245-0400"/>
+        <signatureCode code="S"/>
+        <assignedEntity>
+            <id root="1.3.6.1.4.1.22812.4.222.334" extension="1"/>
+
+            <code code="ONESELF" codeSystem="2.16.840.1.113883.5.111"/>
+            <addr>
+                <streetAddressLine>5501 Dillard Drive</streetAddressLine>
+                <city>Cary</city>
+                <state>NC</state>
+                <postalCode>27609</postalCode>
+                <country>US</country>
+            </addr>
+            <telecom nullFlavor="NI"/>
+            <assignedPerson>
+                <name>
+                    <family>Manager</family>
+                    <given>System</given>
+                </name>
+
+            </assignedPerson>
+        </assignedEntity>
+    </authenticator>
+    <documentationOf>
+        <serviceEvent classCode="PCPR">
+            <id root="1.3.6.1.4.1.22812.4.222.334.3.8" extension="100411330"/>
+            <effectiveTime xsi:type="IVL_TS">
+                <low value="20180628090000-0400"/>
+                <high nullFlavor="NI"/>
+            </effectiveTime>
+            <performer typeCode="PRF">
+                <assignedEntity>
+                    <id extension="1" root="1.3.6.1.4.1.22812.4.222.334"/>
+
+                    <code code="260000000X" codeSystem="2.16.840.1.113883.6.101"/>
+                    <addr>
+                        <streetAddressLine>5501 Dillard Drive</streetAddressLine>
+                        <city>Cary</city>
+                        <state>NC</state>
+                        <postalCode>27609</postalCode>
+                        <country>US</country>
+                    </addr>
+                    <assignedPerson>
+                        <name>
+                            <family>Manager</family>
+                            <given>System</given>
+                        </name>
+
+                    </assignedPerson>
+                </assignedEntity>
+            </performer>
+        </serviceEvent>
+    </documentationOf>
+    <componentOf>
+        <encompassingEncounter>
+            <id root="1.3.6.1.4.1.22812.4.222.334" extension="100411330"/>
+            <effectiveTime xsi:type="IVL_TS">
+                <low value="20180628090000-0400"/>
+                <high value="20180801095245-0400"/>
+            </effectiveTime>
+        </encompassingEncounter>
+    </componentOf>
+    <component>
+        <structuredBody>
+            <!--  MAY	Social History Section (V2)	29762-2	Social Hx -->
+            <!-- MISSING -->
+            <!--  SHALL	Health Concerns Section (V2)	75310-3	Health concern Doc -->
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.58" extension="2015-08-01"/>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.58"/>
+                    
+                    <code code="75310-3" displayName="Health concern Doc"
+                        codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+                    <title>Health Concerns</title>
+                    <text>
+                        <table>
+                            <caption>Health Status</caption>
+                            <colgroup>
+                                <col width="40%"/>
+                                <col width="20%"/>
+                                <col width="40%"/>
+                            </colgroup>
+                            <tbody>
+                                <tr ID="_7dd0babf-0300-4bb6-b936-0f92ad977df1">
+                                    <td>
+                                        <content ID="_ac87cb62-c3ce-4094-ae6a-00f3ac139ad0"
+                                            >Chronically ill</content>
+                                    </td>
+                                    <td>
+                                        <content styleCode="xSecondary">18-May-2018</content>
+                                    </td>
+                                    <td/>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table>
+                            <caption>Concerns</caption>
+                            <colgroup>
+                                <col width="40%"/>
+                                <col width="20%"/>
+                                <col width="40%"/>
+                            </colgroup>
+                            <tbody styleCode="xRowGroup" ID="_c160e2eb-ef19-4a7b-a44d-029afbc6fb2e">
+                                <tr>
+                                    <td>
+                                        <content> </content>
+                                        <content ID="_e2cedfb2-01e3-46d6-99bb-541dd15a340c">High
+                                            blood cholesterol</content>
+                                    </td>
+                                    <td>
+                                        <content styleCode="xLabel">Start: </content>
+                                        <content>1-Aug-2018</content>
+                                        <br/>
+                                        
+                                    </td>
+                                    <td>
+                                        <content styleCode="xLabel">Status: </content>
+                                        <content>Active</content>
+                                        <br/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3">
+                                        <content styleCode="Italics">Related To: </content>
+                                    </td>
+                                </tr>
+                                <tr ID="_de1ab32d-dd06-40c0-b7c2-5fed94e4ecd6">
+                                    <td>
+                                        <content styleCode="xIndent"> •</content>
+                                        <content ID="_90e548fb-d3ab-408f-b01f-a9505a72a6ca"
+                                            styleCode="xSecondary xContentWrapping">High blood
+                                            cholesterol</content>
+                                    </td>
+                                    <td> </td>
+                                    <td>
+                                        <content styleCode="xLabel xSecondary">Status: </content>
+                                        <content styleCode="xSecondary">Active</content>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            
+                        </table>
+                        
+                    </text>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.5" extension="2014-06-09"/>
+                            <templateId root="2.16.840.1.113883.10.20.22.4.5"/>
+                            <id root="1.3.6.1.4.1.22812.4.222.334.4.15" extension="HlthStat67544"/>
+                            <code code="11323-3" codeSystem="2.16.840.1.113883.6.1"/>
+                            <text>
+                                <reference value="#_7dd0babf-0300-4bb6-b936-0f92ad977df1"/>
+                            </text>
+                            <statusCode code="completed"/>
+                            <effectiveTime value="20180518"/>
+                            
+                            <value xsi:type="CD" code="161901003"
+                                codeSystem="2.16.840.1.113883.6.96">
+                                <originalText>
+                                    <reference value="#_ac87cb62-c3ce-4094-ae6a-00f3ac139ad0"/>
+                                </originalText>
+                            </value>
+                        </observation>
+                        
+                    </entry>
+                    <entry>
+                        <act classCode="ACT" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.132"
+                                extension="2015-08-01"/>
+                            <templateId root="2.16.840.1.113883.10.20.22.4.132"/>
+                            <id root="1.3.6.1.4.1.22812.4.222.334.4.32" extension="1148128"/>
+                            <code code="75310-3" codeSystem="2.16.840.1.113883.6.1">
+                                <originalText>
+                                    <reference value="#_e2cedfb2-01e3-46d6-99bb-541dd15a340c"/>
+                                </originalText>
+                            </code>
+                            <text>
+                                <reference value="#_c160e2eb-ef19-4a7b-a44d-029afbc6fb2e"/>
+                            </text>
+                            <statusCode code="active"/>
+                            <effectiveTime xsi:type="IVL_TS">
+                                <low value="20180801"/>
+                                <high nullFlavor="NI"/>
+                            </effectiveTime>
+                            <author>
+                                <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                                <time value="20180801095235-0400"/>
+                                <assignedAuthor>
+                                    <id extension="68" root="1.3.6.1.4.1.22812.4.222.334"/>
+                                    <id extension="7892456337" root="2.16.840.1.113883.4.6"/>
+                                    
+                                    <code code="260000000X" codeSystem="2.16.840.1.113883.6.101"/>
+                                </assignedAuthor>
+                            </author>
+                            <entryRelationship typeCode="REFR">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.4"
+                                        extension="2015-08-01"/>
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                                    <id extension="1148128"
+                                        root="1.3.6.1.4.1.22812.4.222.334.4.1.2.1"/>
+                                    <id extension="10245184"
+                                        root="1.3.6.1.4.1.22812.4.222.334.4.1.2.1"/>
+                                    
+                                    <code code="75326-9" codeSystem="2.16.840.1.113883.6.1">
+                                        <translation code="55607006"
+                                            codeSystem="2.16.840.1.113883.6.96"/>
+                                    </code>
+                                    <text>
+                                        <reference value="#_de1ab32d-dd06-40c0-b7c2-5fed94e4ecd6"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime xsi:type="IVL_TS">
+                                        <low nullFlavor="NI"/>
+                                    </effectiveTime>
+                                    
+                                    <value xsi:type="CD" code="13644009"
+                                        codeSystem="2.16.840.1.113883.6.96">
+                                        <originalText>
+                                            <reference
+                                                value="#_90e548fb-d3ab-408f-b01f-a9505a72a6ca"/>
+                                        </originalText>
+                                        <translation code="370532"
+                                            codeSystem="2.16.840.1.113883.3.247.1.1"/>
+                                        <translation code="E78.00"
+                                            codeSystem="2.16.840.1.113883.6.90"/>
+                                        <translation code="272.0"
+                                            codeSystem="2.16.840.1.113883.6.103"/>
+                                    </value>
+                                    
+                                    <performer typeCode="PRF">
+                                        <assignedEntity>
+                                            <id extension="1" root="1.3.6.1.4.1.22812.4.222.334"/>
+                                            
+                                            <code code="260000000X"
+                                                codeSystem="2.16.840.1.113883.6.101"/>
+                                            <addr>
+                                                <streetAddressLine>5501 Dillard
+                                                    Drive</streetAddressLine>
+                                                <city>Cary</city>
+                                                <state>NC</state>
+                                                <postalCode>27609</postalCode>
+                                                <country>US</country>
+                                            </addr>
+                                            <assignedPerson>
+                                                <name>
+                                                    <family>Manager</family>
+                                                    <given>System</given>
+                                                </name>
+                                                
+                                            </assignedPerson>
+                                        </assignedEntity>
+                                    </performer>
+                                    <author>
+                                        <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                                        <time value="20180626142621-0400"/>
+                                        <assignedAuthor>
+                                            <id extension="1" root="1.3.6.1.4.1.22812.4.222.334"/>
+                                            
+                                            <code code="260000000X"
+                                                codeSystem="2.16.840.1.113883.6.101"/>
+                                            <addr>
+                                                <streetAddressLine>5501 Dillard
+                                                    Drive</streetAddressLine>
+                                                <city>Cary</city>
+                                                <state>NC</state>
+                                                <postalCode>27609</postalCode>
+                                                <country>US</country>
+                                            </addr>
+                                            <telecom nullFlavor="UNK"/>
+                                            <assignedPerson>
+                                                <name>
+                                                    <family>Manager</family>
+                                                    <given>System</given>
+                                                </name>
+                                            </assignedPerson>
+                                        </assignedAuthor>
+                                    </author>
+                                    <entryRelationship typeCode="REFR">
+                                        <observation classCode="OBS" moodCode="EVN">
+                                            <templateId root="2.16.840.1.113883.10.20.22.4.6"/>
+                                            <code code="33999-4" codeSystem="2.16.840.1.113883.6.1"/>
+                                            <statusCode code="completed"/>
+                                            
+                                            <value xsi:type="CD" code="55561003"
+                                                codeSystem="2.16.840.1.113883.6.96">
+                                                <originalText>Active</originalText>
+                                            </value>
+                                            
+                                        </observation>
+                                        
+                                    </entryRelationship>
+                                </observation>
+                            </entryRelationship>
+                        </act>
+                        
+                    </entry>
+                </section>
+            </component>
+            <!--  SHOULD	Health Status Evaluations and Outcomes Section	11383-7	Patient problem outcome -->
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.61"/>
+                    
+                    <code code="11383-7" displayName="Patient problem outcome" 
+                        codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+                    <title>Health Status Evaluations and Outcomes</title>
+                    <text>
+                        <table>
+                            <tbody styleCode="xRowGroup" ID="_c9b1ce77-e503-41e6-a148-45081df8558a">
+                                <tr>
+                                    <td colspan="3"> </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3">
+                                        <content styleCode="Italics">Related Goal: </content>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3">
+                                        <content styleCode="xIndent"> •</content>
+                                        <content styleCode="xContentWrapping"
+                                            ID="_115ba9de-7af9-464c-8b8b-5ab119b9b565">Decrease your
+                                            cholesterol (Started) </content>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3">
+                                        <content styleCode="Italics">Progress: </content>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <content styleCode="xIndent"> •</content>
+                                        <content styleCode="xContentWrapping"
+                                            ID="_91fe60a5-a09a-4bfb-aa0c-23f5533aa630">Goal not
+                                            achieved</content>
+                                    </td>
+                                    <td> </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry>
+                        <observation classCode="OBS" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.144"/>
+                            <id root="1.3.6.1.4.1.22812.4.222.334.4.24" extension="OUTCOME_100"/>
+                            
+                            <code nullFlavor="NI"/>
+                            <text>
+                                <reference value="#_c9b1ce77-e503-41e6-a148-45081df8558a"/>
+                            </text>
+                            <value xsi:type="ST" nullFlavor="NI"/>
+                            <entryRelationship typeCode="GEVL">
+                                <act classCode="ACT" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.122"/>
+                                    <id root="1.3.6.1.4.1.22812.4.222.334.4.34" extension="1074100"/>
+                                    <code nullFlavor="NP"/>
+                                    <text>
+                                        <reference value="#_115ba9de-7af9-464c-8b8b-5ab119b9b565"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                </act>
+                                
+                            </entryRelationship>
+                            <entryRelationship typeCode="SPRT" inversionInd="true">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.110"/>
+                                    <id root="1.3.6.1.4.1.22812.4.222.334.4.42"
+                                        extension="PROGRESS_100"/>
+                                    <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"/>
+                                    <statusCode code="completed"/>
+                                    
+                                    <value xsi:type="CD" code="390801001"
+                                        codeSystem="2.16.840.1.113883.6.96">
+                                        <originalText>
+                                            <reference
+                                                value="#_91fe60a5-a09a-4bfb-aa0c-23f5533aa630"/>
+                                        </originalText>
+                                    </value>
+                                </observation>
+                                
+                            </entryRelationship>
+                        </observation>
+                        
+                    </entry>
+                </section>
+            </component>
+            <!--  SHALL	Goals Section	61146-7	Goals -->
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.20.22.2.60"/>
+                    
+                    <code code="61146-7" displayName="Goals" 
+                        codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+                    <title>Goals</title>
+                    <text>
+                        <table>
+                            <colgroup>
+                                <col width="40%"/>
+                                <col width="20%"/>
+                                <col width="40%"/>
+                            </colgroup>
+                            <tbody styleCode="xRowGroup" ID="_6476b3b6-3646-47f2-bc8b-c1edcc00813b">
+                                <tr>
+                                    <td>
+                                        <content ID="_bbbd450e-fa9f-4777-975c-d33b6b539adc">Decrease
+                                            your cholesterol (Started)</content>
+                                    </td>
+                                    <td>
+                                        <content styleCode="xLabel xSecondary">Goal Set: </content>
+                                        <content styleCode="xSecondary">1-Aug-2018 </content>
+                                    </td>
+                                    <td>
+                                        <content styleCode="xSecondary">Provider Goal</content>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3">
+                                        <content styleCode="xLabel">Related To:</content>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3">
+                                        <content styleCode="xIndent"> •</content>
+                                        <content styleCode="xContentWrapping">
+                                            <content styleCode="xSecondary">High blood
+                                                cholesterol</content>
+                                        </content>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry>
+                        <observation classCode="OBS" moodCode="GOL">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.121"/>
+                            <id root="1.3.6.1.4.1.22812.4.222.334.4.34" extension="1074100"/>
+                            
+                            <code nullFlavor="UNK">
+                                <originalText>
+                                    <reference value="#_bbbd450e-fa9f-4777-975c-d33b6b539adc"/>
+                                </originalText>
+                            </code>
+                            <text>
+                                <reference value="#_6476b3b6-3646-47f2-bc8b-c1edcc00813b"/>
+                            </text>
+                            <statusCode code="active"/>
+                            <effectiveTime xsi:type="IVL_TS">
+                                <low value="20180801"/>
+                                <high nullFlavor="NI"/>
+                            </effectiveTime>
+                            <author>
+                                <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                                <time value="20180801095235-0400"/>
+                                <assignedAuthor>
+                                    <id extension="68" root="1.3.6.1.4.1.22812.4.222.334"/>
+                                    <id extension="7892456337" root="2.16.840.1.113883.4.6"/>
+                                    
+                                    <code code="260000000X" codeSystem="2.16.840.1.113883.6.101"/>
+                                </assignedAuthor>
+                            </author>
+                            <entryRelationship typeCode="REFR">
+                                <act classCode="ACT" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.122"/>
+                                    <id root="1.3.6.1.4.1.22812.4.222.334.4.32" extension="1148128"/>
+                                    <code nullFlavor="NP"/>
+                                    <statusCode code="completed"/>
+                                </act>
+                                
+                            </entryRelationship>
+                        </observation>
+                        
+                    </entry>
+                </section>
+            </component>
+            <!--  SHOULD	Interventions Section (V2)	62387-6	Interventions -->
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.20.21.2.3" extension="2015-08-01"/>
+                    <templateId root="2.16.840.1.113883.10.20.21.2.3"/>
+                    
+                    <code code="62387-6" displayName="Interventions"
+                        codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+                    <title>Interventions</title>
+                    <text>
+                        <table>
+                            <colgroup>
+                                <col width="40%"/>
+                                <col width="20%"/>
+                                <col width="40%"/>
+                            </colgroup>
+                            <tbody styleCode="xRowGroup">
+                                <tr>
+                                    <td colspan="3">
+                                        <content styleCode="xContentWrapping">
+                                            <content styleCode="xLabel">Intervention For: </content>
+                                            <content>Decrease your cholesterol (Started)</content>
+                                        </content>
+                                    </td>
+                                </tr>
+                                <tr ID="_5e5ca204-df1a-44d6-8bd5-30c5558919f8">
+                                    <td>
+                                        <content styleCode="xIndent"> •</content>
+                                        <content styleCode="xContentWrapping">
+                                            <content ID="_0925e105-cca8-417c-9c18-dd46add009e5"
+                                                >Exercise 3 times per week (Started)</content>
+                                        </content>
+                                    </td>
+                                    <td>
+                                        <content styleCode="xLabel xSecondary">Start: </content>
+                                        <content styleCode="xSecondary">1-Aug-2018</content>
+                                        <br/>
+                                    </td>
+                                    <td>
+                                        <content styleCode="xLabel">Instruction Type: </content>
+                                        <content ID="_d62e5f68-3d12-406c-aaaf-cf18b261ee82">Patient
+                                            Education</content>
+                                    </td>
+                                </tr>
+                                
+                                <tr ID="_37379b67-3e3f-4b09-b1c9-c0695425e528">
+                                    <td>
+                                        <content styleCode="xIndent"> •</content>
+                                        <content styleCode="xContentWrapping">
+                                            <content ID="_76bac71c-4c10-4504-8410-bbefa926b0c3"
+                                                >Maintain a food diary (Started)</content>
+                                        </content>
+                                    </td>
+                                    <td>
+                                        <content styleCode="xLabel xSecondary">Start: </content>
+                                        <content styleCode="xSecondary">1-Aug-2018</content>
+                                        <br/>
+                                    </td>
+                                    <td>
+                                        <content styleCode="xLabel">Instruction Type: </content>
+                                        <content ID="_14cffd42-2b9d-4e79-bf15-6d172d43b84d">Patient
+                                            Education</content>
+                                    </td>
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry>
+                        <act classCode="ACT" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.20.22.4.131"
+                                extension="2015-08-01"/>
+                            <templateId root="2.16.840.1.113883.10.20.22.4.131"/>
+                            <id nullFlavor="NI"/>
+                            <code code="362956003" codeSystem="2.16.840.1.113883.6.96"/>
+                            <statusCode code="completed"/>
+                            <entryRelationship typeCode="REFR">
+                                <act classCode="ACT" moodCode="INT">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.20"
+                                        extension="2014-06-09"/>
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                                    <id root="1.3.6.1.4.1.22812.4.222.334.4.14" extension="1150188"/>
+                                    
+                                    <code code="311401005" codeSystem="2.16.840.1.113883.6.96">
+                                        <originalText>
+                                            <reference
+                                                value="#_d62e5f68-3d12-406c-aaaf-cf18b261ee82"/>
+                                        </originalText>
+                                    </code>
+                                    <text>
+                                        <reference value="#_5e5ca204-df1a-44d6-8bd5-30c5558919f8"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime xsi:type="IVL_TS">
+                                        <low value="20180801"/>
+                                    </effectiveTime>
+                                </act>
+                                
+                            </entryRelationship>
+                            <entryRelationship typeCode="REFR">
+                                <act classCode="ACT" moodCode="INT">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.20"
+                                        extension="2014-06-09"/>
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                                    <id root="1.3.6.1.4.1.22812.4.222.334.4.14" extension="1150189"/>
+                                    
+                                    <code code="311401005" codeSystem="2.16.840.1.113883.6.96">
+                                        <originalText>
+                                            <reference
+                                                value="#_14cffd42-2b9d-4e79-bf15-6d172d43b84d"/>
+                                        </originalText>
+                                    </code>
+                                    <text>
+                                        <reference value="#_37379b67-3e3f-4b09-b1c9-c0695425e528"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime xsi:type="IVL_TS">
+                                        <low value="20180801"/>
+                                    </effectiveTime>
+                                </act>
+                                
+                            </entryRelationship>
+                            <entryRelationship typeCode="RSON">
+                                <act classCode="ACT" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.20.22.4.122"/>
+                                    <id root="1.3.6.1.4.1.22812.4.222.334.4.34" extension="1074100"/>
+                                    <code nullFlavor="NP"/>
+                                    <statusCode code="completed"/>
+                                </act>
+                                
+                            </entryRelationship>
+                        </act>
+                        
+                    </entry>
+                </section>
+            </component>
+
+            
+            
+            
+            
+        </structuredBody>
+    </component>
+</ClinicalDocument>

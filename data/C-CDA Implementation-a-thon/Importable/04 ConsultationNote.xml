@@ -1,0 +1,926 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="CDA.xsl"?>
+<!--
+ N O T I C E   O F  S Y N T H E T I C    D A T A 
+ C-CDA Document Type:       Consultation Note
+ Creator:                   Lisa Nelson, MaxMD 
+ Updated:                   April 12, 2019
+ Project:                   HL7 Da Vinci CDex
+ 
+ ********************************************************
+ Disclaimer: This sample file contains representative data elements to poulate a C-CDA information exchange document. 
+ The file depicts a fictional character's health data. Any resemblance to a real person is coincidental. 
+ To illustrate as many data elements as possible, the clinical scenario may not be plausible. 
+ The data in this sample file is not intended to represent real patients, people or clinical events. 
+ ********************************************************
+ -->
+<ClinicalDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="urn:hl7-org:v3 ../00%20Resources/02%20HL7%20CDA%20R2%20Schema%20with%20extentions/20190414_CDA_SDTC_Schema/infrastructure/cda/CDA_SDTC.xsd"
+ xmlns="urn:hl7-org:v3">
+  <realmCode code="US"/>
+  <typeId root="2.16.840.1.113883.1.3" extension="POCD_HD000040"/>
+  <templateId root="2.16.840.1.113883.10.20.22.1.4" extension="2015-08-01"/>
+  <id root="86fc7731-ce04-4fca-a588-a2a111ecda9d" extension="1a2fa2b6-8c8d-443f-b8d9-740675b1ddbd"/>
+  <code code="34879-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+    displayName="Endocrinology Consult Note"/>
+  <title>Endocrinology Consultation Note</title>
+  <effectiveTime value="20180415090000-0500"/>
+  <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25"/>
+  <languageCode code="en-US"/>
+  <versionNumber value="1"/>
+  <recordTarget>
+    <patientRole>
+      <id root="2.16.840.1.113883.3.4988" extension="M20190410134857.7"/>
+      <id root="1.3.6.1.4.1.41179.2.4" extension="Ted.Leven@direct.MyPHD.us"/>
+      <addr><streetAddressLine>123 State
+          Street</streetAddressLine><city>Chicago</city><state>IL</state><postalCode>60601</postalCode><country>US</country></addr>
+      <telecom value="tel:312 999 4321" use="HP"/>
+      <telecom value="tel:312 123 1234" use="MC"/>
+      <telecom value="mailto:TedLeven400@gmail.com"/>
+      <telecom value="mailto:Ted.Leven@direct.MyPHD.us" use="HP"/>
+      <patient>
+        <name><given>Theodore</given><family>Leven</family></name>
+        <administrativeGenderCode code="M" codeSystem="2.16.840.1.113883.5.1"
+          codeSystemName="AdministrativeGender" displayName="Male"/>
+        <birthTime value="19420322"/>
+        <maritalStatusCode code="W" codeSystem="2.16.840.1.113883.5.2"
+          codeSystemName="MaritalStatus" displayName="Widowed"/>
+        <religiousAffiliationCode code="1013" codeSystem="2.16.840.1.113883.5.1076"
+          codeSystemName="ReligiousAffiliation" displayName="Christian (non-Catholic, non-specific)"/>
+      </patient>
+    </patientRole>
+  </recordTarget>
+  <author>
+    <time value="20180415090000-0500"/>
+    <assignedAuthor>
+      <id root="2.16.840.1.113883.4.6" extension="234567891" assigningAuthorityName="NPI"/>
+      <id root="1.3.6.1.4.1.41179.2.1" extension="Dr.Endo@direct.EndocrinologyGrp.com"/>
+      <addr><streetAddressLine>123 Healthcare
+          Ave.</streetAddressLine><city>Chicago</city><state>IL</state><postalCode>60602</postalCode><country>US</country></addr>
+      <telecom value="tel:312 222 1234" use="WP"/>
+      <assignedPerson>
+        <name><given>Elinor</given><family>Endo</family></name>
+      </assignedPerson>
+      <representedOrganization>
+        <name>Endocrinology Group of Chicago</name>
+        <addr><streetAddressLine>123 Healthcare
+            Ave.</streetAddressLine><city>Chicago</city><state>IL</state><postalCode>60643</postalCode><country>US</country></addr>
+      </representedOrganization>
+    </assignedAuthor>
+  </author>
+  <author>
+    <time value="20180415090000-0500"/>
+    <assignedAuthor>
+      <id root="a23fffac-c5a3-4a67-8f3e-4cd6ead8de60" extension="MaxMD C-CDA Creator"/>
+      <addr><streetAddressLine>2200 Fletcher Ave.</streetAddressLine><streetAddressLine>Suite
+          506</streetAddressLine><city>Fort
+          Lee</city><state>NJ</state><postalCode>07024</postalCode><country>US</country></addr>
+      <telecom value="tel:201 963 0005" use="WP"/>
+      <telecom value="mailto:syntheticDataMaker@max.md" use="HP"/>
+      <assignedAuthoringDevice>
+        <manufacturerModelName>MaxMD FHIR Connectathon21</manufacturerModelName>
+        <softwareName>MaxMD C-CDA Creator</softwareName>
+      </assignedAuthoringDevice>
+    </assignedAuthor>
+  </author>
+  <custodian>
+    <assignedCustodian>
+      <representedCustodianOrganization>
+        <id root="1.3.6.1.4.1.41179.2.1" extension="Office@direct.EndocrinologyGrp.com"/>
+        <name>Endocrinology Group of Chicago</name>
+        <telecom value="tel:312 222 1234" use="WP"/>
+        <addr><streetAddressLine>123 Healthcare
+            Ave.</streetAddressLine><city>Chicago</city><state>IL</state><postalCode>60602</postalCode><country>US</country></addr>
+      </representedCustodianOrganization>
+    </assignedCustodian>
+  </custodian>
+  <!-- A Consultation Note SHOULD includes an InFulfillmenOf section in the header. 
+    This is used to close the loop when a visit with a practitioner is initiated by a Referal. See IHE Referral/Order Linking Profile. 
+    It the consultation was not initiated as the result of an order/referral, then this section can be omitted.
+ -->
+  <inFulfillmentOf typeCode="FLFS">
+    <templateId root="1.3.6.1.4.1.19376.1.5.3.1.2.8"/>
+    <order>
+      <!-- This id identifies the corresponding Order/Referral request. -->
+      <!-- This id will be the id of a planned encounter, a planned procedure, or a planned act.  It may reference other planned activities if relevant. -->
+      <!-- Assume this was the id used by the EPIC ORDER PLACER -->
+      <id assigningAuthorityName="EPIC" extension="31530" root="1.2.840.114350.1.13.6289.1.7.3.698084.8"/>
+    </order>
+  </inFulfillmentOf>
+  <componentOf>
+    <encompassingEncounter>
+      <id root="86fc7731-ce04-4fca-a588-a2a111ecda9d" extension="bcd9da3b-b6dc-4bf5-9dca-5cc44a07d4ab"/>
+      <effectiveTime value="20180415090000-0500">
+        <!-- <low value=""/>-->
+        <high value="20180415090000-0500"/>
+      </effectiveTime>
+      <responsibleParty>
+        <assignedEntity>
+          <id root="2.16.840.1.113883.4.6" extension="234567891" assigningAuthorityName="NPI"/>
+          <id root="1.3.6.1.4.1.41179.2.1" extension="Dr.Endo@direct.EndocrinologyGrp.com"/>
+          <addr><streetAddressLine>123 Healthcare
+            Ave.</streetAddressLine><city>Chicago</city><state>IL</state><postalCode>60602</postalCode><country>US</country></addr>
+          <telecom value="tel:312 222 1234" use="WP"/>
+          <assignedPerson>
+            <name><given>Elinor</given><family>Endo</family></name>
+          </assignedPerson>
+          <representedOrganization>
+            <name>Endocrinology Group of Chicago</name>
+            <addr><streetAddressLine>123 Healthcare
+              Ave.</streetAddressLine><city>Chicago</city><state>IL</state><postalCode>60643</postalCode><country>US</country></addr>
+          </representedOrganization>
+        </assignedEntity>
+      </responsibleParty>
+    </encompassingEncounter>
+  </componentOf>
+  <component>
+    <structuredBody>
+      <!-- Subjective Information -->
+      <!-- Chief Complaint Section	10154-3	Chief complaint Reported -->
+      <component>
+        <section>
+          <templateId root="1.3.6.1.4.1.19376.1.5.3.1.1.13.2.1"/>
+          <code code="10154-3" displayName="Chief complaint Reported" 
+            codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Chief Complaint Section</title>
+          <text><content>Follow Up visit</content></text>
+        </section>
+      </component>
+      <!-- SHALL	Reason for Visit Section	29299-5	Reason for visit -->
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.12"/>
+          <code code="29299-5" displayName="Reason for visit"
+            codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Reason for Visit Section</title>
+          <text><content>Diabetes Management</content></text>
+        </section>
+      </component>
+      <!-- Chief Complaint and Reason for Visit Section	46239-0	Chief complaint+Reason for visit -->
+<!-- DONT USE MERGED SECTIONS -->
+      <!--  SHALL	Problem Section (entries required) (V2)	11450-4	Problem list Reported -->
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.5.1" extension="2015-08-01"/>
+          <code code="11450-4" displayName="Problem list Reported" 
+            codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Problem History Section (entries optional)</title>
+          <text>
+            <content ID="Problem_1">Type 2 Diabetes Mellitus, Active, diagnosed in 2006</content><br/>
+            <content ID="Problem_2">Osteoarthritis diagnosed in 2010</content>
+            <br/>
+            <content ID="Problem_3">Peripheral Artery Disease diagnosed in 2013</content><br/>
+            <content ID="Problem_4">Amputated Left Foot 2013</content>
+          </text>
+          <entry>
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.3" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.3" extension="2015-08-01"/>
+              <id root="102ca2e9-884c-4523-a2b4-1b6c3469c397"/>
+              <code code="CONC" codeSystem="2.16.840.1.113883.5.6"/>
+              <!-- Since this is an active problem, the concern status is active. -->
+              <!-- While clinicians can track resolved problems, generally active problems will have active concern status and resolved concerns will be completed -->
+              <statusCode code="active"/>
+              <effectiveTime>
+                <!-- This equates to the time the concern was authored in the patient's chart. This may frequently be an EHR timestamp-->
+                <low value="20180415090000-0500"/>
+              </effectiveTime>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4" extension="2015-08-01"/>
+                  <id extension="1" root="1.3.6.1.4.1.22812.4.111.0.4.1.2.1"/>
+                  <code code="55607006" displayName="Problem"
+                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
+                    <translation code="75326-9" codeSystem="2.16.840.1.113883.6.1"
+                      codeSystemName="LOINC" displayName="Problem"/>
+                  </code>
+                  <text>
+                    <reference value="#Problem_1"/>
+                  </text>
+                  <statusCode code="completed"/>
+                  <effectiveTime>
+                    <!-- This represents the date of biological onset. -->
+                    <low value="2006"/>
+                  </effectiveTime>
+                  <!-- This is a SNOMED code as the primary vocabulary for problem lists-->
+                  <value xsi:type="CD" code="44054006" codeSystem="2.16.840.1.113883.6.96"
+                    codeSystemName="SNOMED CT" displayName="Type 2 Diabetes Mellitus"/>
+                  <author>
+                    <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                    <time value="20180415090000-0500"/>
+                    <assignedAuthor>
+                      <id root="2.16.840.1.113883.4.6" extension="234567891" assigningAuthorityName="NPI"/>
+                    </assignedAuthor>
+                  </author>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+          <entry>
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.3" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.3" extension="2015-08-01"/>
+              <id root="102ca2e9-884c-4523-a2b4-1b6c3469c397"/>
+              <code code="CONC" codeSystem="2.16.840.1.113883.5.6"/>
+              <!-- Since this is an active problem, the concern status is active. -->
+              <!-- While clinicians can track resolved problems, generally active problems will have active concern status and resolved concerns will be completed -->
+              <statusCode code="active"/>
+              <effectiveTime>
+                <!-- This equates to the time the concern was authored in the patient's chart. This may frequently be an EHR timestamp-->
+                <low value="20180415090000-0500"/>
+              </effectiveTime>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4" extension="2015-08-01"/>
+                  <id extension="2" root="1.3.6.1.4.1.22812.4.111.0.4.1.2.1"/>
+                  <code code="55607006" displayName="Problem"
+                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
+                    <translation code="75326-9" codeSystem="2.16.840.1.113883.6.1"
+                      codeSystemName="LOINC" displayName="Problem"/>
+                  </code>
+                  <text>
+                    <reference value="#Problem_2"/>
+                  </text>
+                  <statusCode code="completed"/>
+                  <effectiveTime>
+                    <!-- This represents the date of biological onset. -->
+                    <low value="2010"/>
+                  </effectiveTime>
+                  <!-- This is a SNOMED code as the primary vocabulary for problem lists-->
+                  <value xsi:type="CD" code="396275006" codeSystem="2.16.840.1.113883.6.96"
+                    codeSystemName="SNOMED CT" displayName="Osteoarthritis"/>
+                  <author>
+                    <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                    <time value="20180415090000-0500"/>
+                    <assignedAuthor>
+                      <id root="2.16.840.1.113883.4.6" extension="234567891" assigningAuthorityName="NPI"/>
+                    </assignedAuthor>
+                  </author>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+          <entry>
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.3" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.3" extension="2015-08-01"/>
+              <id root="102ca2e9-884c-4523-a2b4-1b6c3469c397"/>
+              <code code="CONC" codeSystem="2.16.840.1.113883.5.6"/>
+              <!-- Since this is an active problem, the concern status is active. -->
+              <!-- While clinicians can track resolved problems, generally active problems will have active concern status and resolved concerns will be completed -->
+              <statusCode code="active"/>
+              <effectiveTime>
+                <!-- This equates to the time the concern was authored in the patient's chart. This may frequently be an EHR timestamp-->
+                <low value="20180415090000-0500"/>
+              </effectiveTime>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4" extension="2015-08-01"/>
+                  <id extension="3" root="1.3.6.1.4.1.22812.4.111.0.4.1.2.1"/>
+                  <code code="55607006" displayName="Problem"
+                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
+                    <translation code="75326-9" codeSystem="2.16.840.1.113883.6.1"
+                      codeSystemName="LOINC" displayName="Problem"/>
+                  </code>
+                  <text>
+                    <reference value="#Problem_3"/>
+                  </text>
+                  <statusCode code="completed"/>
+                  <effectiveTime>
+                    <!-- This represents the date of biological onset. -->
+                    <low value="2013"/>
+                  </effectiveTime>
+                  <!-- This is a SNOMED code as the primary vocabulary for problem lists-->
+                  <value xsi:type="CD" code="399957001" codeSystem="2.16.840.1.113883.6.96"
+                    codeSystemName="SNOMED CT" displayName="Osteoarthritis"/>
+                  <author>
+                    <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                    <time value="20180415090000-0500"/>
+                    <assignedAuthor>
+                      <id root="2.16.840.1.113883.4.6" extension="234567891" assigningAuthorityName="NPI"/>
+                    </assignedAuthor>
+                  </author>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+          <entry>
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.3" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.3" extension="2015-08-01"/>
+              <id root="102ca2e9-884c-4523-a2b4-1b6c3469c397"/>
+              <code code="CONC" codeSystem="2.16.840.1.113883.5.6"/>
+              <!-- Since this is an active problem, the concern status is active. -->
+              <!-- While clinicians can track resolved problems, generally active problems will have active concern status and resolved concerns will be completed -->
+              <statusCode code="active"/>
+              <effectiveTime>
+                <!-- This equates to the time the concern was authored in the patient's chart. This may frequently be an EHR timestamp-->
+                <low value="20180415090000-0500"/>
+              </effectiveTime>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4" extension="2015-08-01"/>
+                  <id extension="4" root="1.3.6.1.4.1.22812.4.111.0.4.1.2.1"/>
+                  <code code="55607006" displayName="Problem"
+                    codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT">
+                    <translation code="299653001" codeSystem="2.16.840.1.113883.6.1"
+                      codeSystemName="LOINC" displayName="Problem"/>
+                  </code>
+                  <text>
+                    <reference value="#Problem_4"/>
+                  </text>
+                  <statusCode code="completed"/>
+                  <effectiveTime>
+                    <!-- This represents the date of biological onset. -->
+                    <low value="2013"/>
+                  </effectiveTime>
+                  <!-- This is a SNOMED code as the primary vocabulary for problem lists-->
+                  <value xsi:type="CD" code="38341003" codeSystem="2.16.840.1.113883.6.96"
+                    codeSystemName="SNOMED CT" displayName="Hypertensive disorder, systemic arterial (disorder)"/>
+                  <author>
+                    <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                    <time value="20180415090000-0500"/>
+                    <assignedAuthor>
+                      <id root="2.16.840.1.113883.4.6" extension="234567891" assigningAuthorityName="NPI"/>
+                    </assignedAuthor>
+                  </author>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+        </section>
+      </component>
+      <!--  History of Present Illness Section	10164-2	Hx of Pres illness -->
+      <component>
+        <section>
+          <templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.4"/>
+          <code code="10164-2" displayName="Hx of Pres illness" 
+            codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>History of Present Illness Section</title>
+          <text>
+            <content>Ted Leven is a 75 year old man with type 2 diabetes and peripheral artery
+              disease s/p amputation of left foot 5 years ago who is here for follow up for diabetes
+              management. Ted has had diabetes for 12 years and was originally on oral medications
+              but switched to insulin 4 years ago. His regimen is Lantus 14 units/day. He denies any
+              hypoglycemic episodes and checks his blood sugar daily. He said his most recent HbA1c
+              was checked at his PCP’s office last month. Ted denies polydipsia and polyuria. Ted
+              reports no change in vision, but has not seen ophthalmologist in 2 years.</content>
+          </text>
+        </section>
+      </component>
+      <!--  SHALL	History of Past Illness Section (V2)	11348-0	Hx of Past illness -->
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.20" extension="2015-08-01"/>
+          <code code="11348-0" displayName="Hx of Past illness" 
+            codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Past Medical History</title>
+          <text><content>
+            What is the patient's past medical history at this point in
+            time?
+          </content></text>
+        </section>
+      </component>
+      <!-- SHALL	Allergies and Intolerances Section (entries required) (V2)	48765-2	Allergies and adverse reactions Document -->
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.6" extension="2015-08-01"/>
+          <code code="48765-2" displayName="Allergies and adverse reactions Document" 
+            codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Allergies and Intolerances History Section</title>
+          <text><content>No known Allergies</content></text>
+        </section>
+      </component>
+      <!-- SHOULD	Medications Section (entries required) (V2)	10160-0	Hx of Medication use -->
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.1"/>
+          <code code="10160-0" displayName="Hx of Medication use"
+            codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Medication History Section</title>
+          <text>
+            <content>Atorvastatin 20mg PO daily for peripheral artery disease</content><br/>
+            <content ID="Medication_1">Lantus 14 units subcutaneous injection daily for diabetes</content><br/>
+            <content>Lisinopril 10mg PO daily for peripheral artery disease and diabetes</content><br/>
+            <content>Aspirin 81mg PO daily for peripheral artery disease</content><br/>
+            <content>Tylenol 650mg PO Q8hr as needed for arthritis pain</content><br/>
+          </text>
+          <entry>
+            <substanceAdministration classCode="SBADM" moodCode="EVN">
+              <!-- Medication Activity (V2) -->
+              <templateId root="2.16.840.1.113883.10.20.22.4.16" extension="2014-06-09"/>			
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id extension="123" root="1.3.6.1.4.1.22812.3.99930.3.4.9"/>
+              <text>
+                <reference value="#Medication_1"/>
+              </text>
+              <statusCode code="active"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low value="20150310"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <!-- I know the dosage is wrong. -->
+              <effectiveTime xsi:type="PIVL_TS" institutionSpecified="true" operator="A">
+                <period value="6" unit="h"/>
+              </effectiveTime>
+              <doseQuantity value="1"/>
+              <consumable typeCode="CSM">
+                <manufacturedProduct classCode="MANU">
+                  <!-- Medication Information (V2) -->
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23" extension="2014-06-09"/>
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code code="316151" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm" displayName="Lisinopril  10 MG (RxNorm)">
+                      <originalText>
+                        <reference value="#MedicationName_123"/>
+                      </originalText>
+                    </code>
+                    <name>Lisinopril</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              
+            </substanceAdministration>
+          </entry>
+        </section>
+      </component>
+      <!-- MAY	Immunizations Section (entries optional) (V2)	11369-6	Hx of Immunization -->
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.2" extension="2015-08-01"/>
+          <code code="11369-6" displayName="Hx of Immunization"
+            codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Immunizations History Section (entries optional)</title>
+          <text>
+            <content>Influenza vaccine administered 10/2017</content>
+            <content>Tdap vaccine administered 2009</content>
+          </text>
+        </section>
+      </component>
+      <!-- MAY	Social History Section (V2)	29762-2	Social Hx -->
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.17" extension="2015-08-01"/>
+          <code code="29762-2" displayName="Social Hx"
+            codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Social History Section</title>
+          <text>
+            <content>Widowed in 2017, Lives alone, but son lives in same area. Goes to senior center
+              during the day to keep busy.</content><br/>
+            <content>Smoking history: previous history of smoking ½ pack per day. Started smoking in 1960 quit in
+              2010</content><br/>
+            <list>
+              <caption>Smoking Status</caption>
+              <item ID="SmokingStatus">
+                <content>Former Smoker</content>
+                <content>Started: 1960</content>
+                <content>Stopped: 2010</content>
+                <content>Recorded April 15, 2018 9:00am</content>
+              </item>
+            </list>
+            <content>Alcohol Use: 1-2 beers per week</content><br/>
+            <content>Drug Use: No history of drug use</content><br/>
+          </text>
+          <entry>
+            <observation classCode="OBS" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.78"/>
+              <templateId root="2.16.840.1.113883.10.20.22.4.78"  extension="2014-06-09"/>
+              <id extension="123456789" root="2.16.840.1.113883.19" />
+              <code code="72166-2" codeSystem="2.16.840.1.113883.6.1" displayName="Tobacco smoking status NHIS"/>
+              <text>
+                <reference value="#SmokingStatus" />
+              </text>
+              <statusCode code="completed"/>
+              <effectiveTime value="20180415"/>
+              <!--Note: This template represents a “snapshot in time” observation, simply reflecting what the patient’s 
+					current smoking status is at the time of the observation. As a result, the effectiveTime is constrained 
+					to just a time stamp, and will approximately correspond with the author/time. -->
+              <!-- The use of a specfic SNOMED code for unknown smoker is an encouraged variation from C-CDA practices in other sections -->
+              
+              <value xsi:type="CD" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" code="8517006" displayName="Former smoker"/>
+              <author>
+                <templateId root="2.16.840.1.113883.10.20.22.4.119"/>
+                <time value="20180415090000-0500"/>
+                <assignedAuthor>
+                  <id root="2.16.840.1.113883.4.6" extension="234567891" assigningAuthorityName="NPI"/>
+                  <!-- Root means NPI number. -->
+                </assignedAuthor>
+              </author>
+            </observation>
+          </entry>
+        </section>
+      </component>
+      <!-- MAY	Family History Section (V2)	10157-6	Family member diseases Hx -->
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.15" extension="2015-08-01"/>
+          <code code="10157-6" displayName="Family member diseases Hx" 
+            codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Family History Section</title>
+          <text><content>Negative for diabetes</content></text>
+        </section>
+      </component>
+      <!-- MAY	Procedures Section (entries optional) (V2)	47519-4	Procedures Hx Doc -->
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.7"/>
+          <templateId root="2.16.840.1.113883.10.20.22.2.7.1"/>
+          <code code="47519-4" displayName="Procedures Hx Doc"
+            codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Procedures History Section</title>
+          <text><content ID="ProcedureDesc1">Left foot amputation 2013</content></text>
+          <entry typeCode="DRIV">
+            <!-- Procedures should be used for care that directly changes the patient's physical state.-->
+            <procedure moodCode="EVN" classCode="PROC">
+              <templateId root="2.16.840.1.113883.10.20.22.4.14" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.14" extension="2014-06-09"/>
+              <id root="64af26d5-88ef-4169-ba16-c6ef16a1824f"/>
+              <code code="46786008" codeSystem="2.16.840.1.113883.6.96"
+                displayName="Fitting of prosthesis or prosthetic device of leg below knee (procedure)" codeSystemName="SNOMED-CT">
+                <originalText>
+                  <reference value="#ProcedureDesc1"/>
+                </originalText>
+                <!--<translation codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" code=""
+                  displayName=""/>
+                <translation codeSystem="2.16.840.1.113883.6.4" codeSystemName="ICD-10-PCS"
+                  code=""
+                  displayName=""/>
+                <translation codeSystem="2.16.840.1.113883.6.104" codeSystemName="ICD-9-CM"
+                  code="" displayName=""/>-->
+              </code>
+              <text>
+                <reference value="#Procedure1"/>
+              </text>
+              <statusCode code="completed"/>
+              <!-- Effective times can be either a value or interval. For procedures with start and stop times, an interval would be more appropriate -->
+              <effectiveTime xsi:type="IVL_TS">
+                <!--<low value=""/>-->
+                <high value="20130203"/>
+              </effectiveTime>
+              <!-- methodCode indicates how the procedure was performed. It cannot conflict with the code used for procedure-->
+              <methodCode/>
+              <!-- targetSiteCode indicates the body site addressed by procedure and must be from value set 2.16.840.1.113883.3.88.12.3221.8.9-->
+              <targetSiteCode code="239919000" codeSystem="2.16.840.1.113883.6.96"
+                displayName="Entire Left Foot" codeSystemName="SNOMED-CT"/>
+            </procedure>
+          </entry>
+        </section>
+      </component>
+      <!-- Review of Systems Section	10187-3	Review of systems -->
+      <component>
+        <section>
+          <templateId root="1.3.6.1.4.1.19376.1.5.3.1.3.18"/>
+          <code code="10187-3" displayName="Review of systems"
+            codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Review of Systems Section</title>
+          <text><content>Denies fever, chills, sweats, nausea, vomiting, diarrhea, constipation,
+            abdominal pain, chest pain, shortness of breath, difficulty breathing, dyspnea on
+            exertion or change in exercise tolerance. He is not having painful urination or blood
+            in the urine. He does not reporting polyuria, polydipsia or polyphagia. Reports no
+            issues with Left lower extremity stump.</content></text>
+        </section>
+      </component>
+      <!-- MAY	Vital Signs Section (entries required) (V2)	8716-3	Vital signs -->
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.4" extension="2015-08-01"/>
+          <code code="8716-3" displayName="Vital signs"
+            codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Vital Signs Section</title>
+          <text>
+            <content> 9/25/2017 
+              <content>Weight: 170 lbs</content><br/>
+              <content >Height: 5ft10inches</content><br/>
+              <content>Blood Pressure:125/65</content><br/>
+              <content>BMI: 24</content><br/>
+            </content>
+            <content> 4/15/2018 
+              <content ID="VitalSign_2"><content ID="VitalSign_2_O">Weight</content>: 181 lbs</content><br/>
+              <content ID="VitalSign_1"><content ID="VitalSign_1_O">Height</content>: 5ft10inches</content><br/>
+              <content>Blood Pressure:125/70</content><br/>
+              <content ID="VitalSign_3"><content ID="VitalSign_3_O">BMI</content>: 26</content><br/>
+            </content>
+          </text>
+          <!-- Coded Vital Signs -->
+          <entry>
+            <organizer classCode="CLUSTER" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.26" extension="2015-08-01" />
+              <templateId root="2.16.840.1.113883.10.20.22.4.26" />
+              <id root="22A2B9C8-22DE-45A7-BD84-D98C75F3472F" extension="1" />
+              <code code="46680005" codeSystem="2.16.840.1.113883.6.96">
+                <translation code="74728-7" codeSystem="2.16.840.1.113883.6.1" />
+              </code>
+              <statusCode code="completed" />
+              <effectiveTime value="20150622100000+0000" />
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27" extension="2014-06-09" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27" />
+                  <id root="1.3.6.1.4.1.22812.20.1.1.4.6" extension="1" />
+                  <code code="8302-2" codeSystem="2.16.840.1.113883.6.1">
+                    <originalText>
+                      <reference value="#VitalSign_1_O" />
+                    </originalText>
+                  </code>
+                  <text>
+                    <reference value="#VitalSign_1" />
+                  </text>
+                  <statusCode code="completed" />
+                  <effectiveTime value="201804150900" />
+                  <value xsi:type="PQ" value="177.8" unit="cm" />
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27" extension="2014-06-09" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27" />
+                  <id root="1.3.6.1.4.1.22812.20.1.1.4.6" extension="2" />
+                  <code code="29463-7" codeSystem="2.16.840.1.113883.6.1">
+                    <originalText>
+                      <reference value="#VitalSign_2_O" />
+                    </originalText>
+                  </code>
+                  <text>
+                    <reference value="#VitalSign_2" />
+                  </text>
+                  <statusCode code="completed" />
+                  <effectiveTime value="201804150900" />
+                  <value xsi:type="PQ" value="77.11" unit="kg" />
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27" extension="2014-06-09" />
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27" />
+                  <id root="1.3.6.1.4.1.22812.20.1.1.4.6" extension="3" />
+                  <code code="39156-5" codeSystem="2.16.840.1.113883.6.1">
+                    <originalText>
+                      <reference value="#VitalSign_3_O" />
+                    </originalText>
+                  </code>
+                  <text>
+                    <reference value="#VitalSign_3" />
+                  </text>
+                  <statusCode code="completed" />
+                  <effectiveTime value="201804150900" />
+                  <value xsi:type="PQ" value="26" unit="kg/m2"/>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+        </section>
+      </component>
+      <!--   SHALL	Physical Exam Section (V2)	29545-1	Phys find -->
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.2.10" extension="2015-08-01"/>
+          <code code="29545-1" displayName="Phys find" 
+            codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Physical Exam Section</title>
+          <text><content>
+            <content>General: Elderly male in no acute distress</content><br/>
+            <content>HEENT: Normal cephalic, atraumatic, EOMI, conjunctiva clear. Sclera
+              non-icteric. PERRLA. Fundi not well visualized due to possible presence of
+              cataracts. Tympanic membranes intact and clear. Nasal mucosa moist and pink. No
+              discharge. No sinus tenderness. No lesions, erythema or exudate in throat</content><br/>
+            <content>NECK: Supple. Full ROM. No LAD.</content>
+            <br/>
+            <content>CARDIAC: RRR. No murmurs, rubs, or gallops.</content><br/>
+            <content>RESPIRATORY: CTA.</content><br/>
+            <content>ABDOMEN: Soft, nontender. No HSM and no masses.</content><br/>
+            <content>NEURO: Significant for lower extremity numbness throughout. Microfilament
+              test shows more than 3 regions without sensation bilaterally. Awake, Alert and
+              oriented x3</content><br/>
+            <content>SKIN: Bottoms of right foot appear calloused and dry. Skin is intact on left
+              stump</content><br/>
+          </content></text>
+        </section>
+      </component>
+      <!--   General Status Section	10210-3	Phys find General status -->
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.2.5"/>
+          <code code="10210-3" displayName="Phys find General status"
+            codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>General Status Section</title>
+          <text><content>What was the practitioner's assessment of the general health status of the
+            patient?</content></text>
+        </section>
+      </component>
+      <!--  MAY	Mental Status Section	10190-7	Mental status -->
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.56" extension="2015-08-01"/>
+          <code code="10190-7" displayName="Mental status" 
+            codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Mental Status Section</title>
+          <text><content>What is the mental status of the patient?</content></text>
+        </section>
+      </component>
+      <!--   MAY	Nutrition Section	61144-2	Diet and nutrition Narrative -->
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.57"/>
+          <code code="61144-2" displayName="Diet and nutrition Narrative"
+            codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Nutrition Section</title>
+          <text><content>What is the nutritional status of the patient?</content></text>
+        </section>
+      </component>
+      <!-- MAY	Functional Status Section (V2)	47420-5	Functional status note -->
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.14"/>
+          <code code="47420-5" displayName="Functional status note"
+            codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Functional Status Section</title>
+          <text><content>What is the functional status of the patient?</content></text>
+        </section>
+      </component>
+      <!--  MAY	Medical Equipment Section (V2)	46264-8	History of medical device use -->
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.23"/>
+          <code code="46264-8" displayName="History of medical device use" 
+            codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Medical Equipment Section</title>
+          <text>
+            <content>Crutches</content>; <content>Wheelchair</content>; <content>Prosthetic Left
+              Leg</content>. </text>
+        </section>
+      </component>
+      <!-- SHOULD	Results Section (entries required) (V2)	30954-2	Relevant Dx tests/lab data -->
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.3.1" extension="2015-08-01"/>
+          <code code="30954-2" displayName="Relevant Dx tests/lab data"
+            codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Test Results History Section (entries required)</title>
+          <text>
+            <content>3/5/2018 <br/>
+              <content>Hemoglobin A1c 7.2</content><br/>
+            </content>
+            <content>9/20/2017<br/>
+              <content>Hemoglobin A1c 7.0</content><br/>
+            </content>
+            <content>3/10/2018<br/>
+              <content>Cholesterol 196</content><br/>
+              <content>triglycerides 114</content><br/>
+              <content>HDL 40</content><br/>
+              <content>LDL 136</content><br/>
+              <content>Spot microalbumin 9.2 micrograms of protein</content><br/>
+            </content>
+          </text>
+        </section>
+      </component>
+      <!--  MAY	Assessment Section	51848-0	Eval note -->
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.9"/>
+          <code code="51848-0" displayName="Eval note"
+            codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Assessment Section</title>
+          <text>
+            <list listType="ordered">
+              <item>Type 2 Diabetes Mellitus in good control with HbA1c pf 7.2 on lantus</item>
+              <item>Peripheral artery Disease</item>
+            </list>
+          </text>
+        </section>
+      </component>
+      <!-- MAY	Advance Directives Section (entries optional) (V2)	42348-3	Advance directives -->
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.21" extension="2017-05-01"/>
+          <code code="42348-3" displayName="Advance directives"
+            codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Advance Directives Section</title>
+          <text><content>Does the patient have Advance Directives?</content>
+            <br/><content>Who is the patient's Healthcare Proxy? </content><br/><content>Where are
+              the patient's Advance Directives kept? <br/></content></text>
+        </section>
+      </component>
+      <!-- MAY	Plan of Treatment Section (V2)	18776-5	Plan of care note -->
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.10"/>
+          <code code="18776-5" displayName="Plan of care note" 
+            codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Plan of Treatment Section</title>
+          <text>
+            <list>
+              <item>Diabetes mellitus - Continue current dose of Lantus and Lisinopril. </item>
+              <item>Refer to
+                nutritionist since weight is increasing.</item> 
+              <item>Refer to ophthalmology since 2 years since
+                last eye exam.</item> 
+              <item>Follow up in 6 months</item> 
+            </list>
+          </text>
+        </section>
+      </component>
+      <!-- MAY	Assessment and Plan Section (V2)	51847-2	Eval+Plan note -->
+<!-- MISSING -->
+      
+      
+     
+      
+      
+      
+      
+      
+      <!--<component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.60"/>
+          <code code="61146-7" codeSystem="2.16.840.1.113883.6.1"/>
+          <title>Goals Section</title>
+          <text>
+            <content>What are the patient's present goals for addressing these problems and
+              concerns?</content>
+          </text>
+        </section>
+      </component>-->
+      <!-- Objective Information -->
+     
+      
+     
+      
+      
+      
+     
+      
+      
+     
+     
+     
+      <!-- Assessment Information - documentation of the clinical judgement applied to the subjective and objective information that has been considered/gathered -->
+     
+      
+      
+      
+      
+      <!-- Plan Information -->
+      
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.45" extension="2014-06-09"/>
+          <code code="69730-0" codeSystem="2.16.840.1.113883.6.1"/>
+          <title>Instructions Section (V2)</title>
+          <text><content>Printed diabetic diet and weight loss patient instructions</content></text>
+        </section>
+      </component>
+      <!-- Interventions performed during this encounter. -->
+      
+      <!--<component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.18" extension="2015-08-01"/>
+          <code code="48768-6" codeSystem="2.16.840.1.113883.6.1"/>
+          <title>Payers Section</title>
+          <text><content>What Payer Information Needs to be included for the patient for this
+              visit?</content></text>
+        </section>
+      </component>-->
+      <!-- <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.4.33" extension="2015-08-01"/>
+          <code code="11535-2" codeSystem="2.16.840.1.113883.6.1"/>
+          <title>Discharge Diagnosis Section</title>
+          <text><content>What is the Discharge diagnosis?</content></text>
+        </section>
+      </component>-->
+   
+      <!--<component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.21.2.3" extension="2015-08-01"/>
+          <code code="62387-6" codeSystem="2.16.840.1.113883.6.1"/>
+          <title>Interventions Perfomred Section</title>
+          <text>
+            <content>What interventions were performed? (Include interventions performed during this
+              encounter.)</content><br/><br/><br/>
+          </text>
+        </section>
+      </component>-->
+      
+      <!--<component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.58" extension="2015-08-01"/>
+          <code code="75310-3" displayName="Health concern Doc"
+          codeSystem="2.16.840.1.113883.6.1"/>
+          
+          <title>Health Concerns Section</title>
+          <text><content>What are the previous concerns (existed prior to this encounter?</content><br/><br/><br/>
+            <content>What are the new concerns (added during this encounter)?</content><br/><br/><br/>
+            <content>What concerns have been removed (removed/completed during this
+              encounter?</content><br/><br/><br/>
+          </text>
+        </section>
+      </component>-->
+      
+      
+    </structuredBody>
+  </component>
+</ClinicalDocument>
